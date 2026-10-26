@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Record · Sabha Brief</title>
+<meta name="description" content="Every sitting of Sri Lanka's Parliament, decision by decision, from official records.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Record · Sabha Brief">
+<meta property="og:description" content="Every sitting of Sri Lanka's Parliament, decision by decision, from official records.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html" data-p="today">Today</a>
+      <a href="record.html" data-p="record">Record</a>
+      <a href="bills.html" data-p="bills">Bills</a>
+      <a href="gazette.html" data-p="gazette">Gazette</a>
+      <a href="laws.html" data-p="laws">Laws</a>
+      <a href="alerts.html" data-p="alerts">Get alerts</a>
+      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+    </nav>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<main class="wrap" data-page="record">
+  <header class="ph">
+    <p class="kicker">The record</p>
+    <h1>Every sitting, decision by decision</h1>
+    <p class="dek">Choose a day on the calendar. Each decision is filed under one of four tracks and linked to Parliament's own record.</p>
+  </header>
+
+  <section class="rec" aria-label="Record by day">
+    <aside class="cal-col">
+      <div id="cal"><p class="empty">Loading the calendar.</p></div>
+      <ul class="legend">
+        <li><span class="lg-ramp" aria-hidden="true"><i></i><i></i><i></i></span>Sitting day: darker means more decisions</li>
+        <li><span class="lg-i ns" aria-hidden="true"></span>Decision on a day without a sitting</li>
+        <li><span class="lg-i ag" aria-hidden="true"></span>On the Order Paper, not yet recorded</li>
+      </ul>
+    </aside>
+    <article class="day" id="day" aria-live="polite"></article>
+  </section>
+
+  <section aria-labelledby="src-h">
+    <div class="sec-h"><h2 id="src-h">How current each source is</h2><p>Votes and amounts usually arrive with the Hansard, one to three weeks after a sitting. Items wait for it and are completed later.</p></div>
+    <div id="clock"></div>
+  </section>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+        <li><a href="https://www.parliament.lk/en/business-of-parliament/hansards" target="_blank" rel="noopener">Hansard</a></li>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener">Bills as published</a></li>
+        <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener">Acts</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+SB.load("daily.json","library.json").then(([daily,lib])=>{
+  SB.fresh(daily.updated);
+  SB.safe("clock",()=>SB.clock("clock",daily.sources));
+  const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
+  const days=(daily.days||[]).slice().sort((a,b)=>a.date<b.date?1:-1);
+  let selIdx=0,trackF="all";
+  const hd=(location.hash||"").replace(/^#d/,"");
+  const hi=days.findIndex(d=>d.date===hd);
+  selIdx=hi>=0?hi:Math.max(0,days.findIndex(d=>d.status==="record"));
+
+  function renderCal(){
+    const by={};days.forEach(d=>by[d.date]=d);
+    const months=[...new Set(days.map(d=>d.date.slice(0,7)))].sort().reverse().slice(0,2);
+    const sel=days[selIdx]?days[selIdx].date:"";
+    $("cal").innerHTML=months.map(ym=>{
+      const [y,m]=ym.split("-").map(Number);
+      const lead=(new Date(Date.UTC(y,m-1,1)).getUTCDay()+6)%7;
+      const n=new Date(Date.UTC(y,m,0)).getUTCDate();
+      let cells="";
+      for(let i=0;i<lead;i++)cells+=`<span class="c" aria-hidden="true"></span>`;
+      for(let dd=1;dd<=n;dd++){
+        const iso=ym+"-"+String(dd).padStart(2,"0"),e=by[iso],cls=["c"];
+        if(iso===SB.today)cls.push("now");
+        if(e){
+          const k=(e.items||[]).length;
+          if(e.status==="agenda")cls.push("ag");else if(e.hours==="No sitting")cls.push("ns");else cls.push(k>=7?"l3":k>=4?"l2":"l1");
+          if(iso===sel)cls.push("sel");
+          const lab=SB.long(iso)+": "+(e.status==="agenda"?"on the Order Paper":k+(k===1?" decision":" decisions"));
+          cells+=`<button type="button" class="${cls.join(" ")}" data-d="${iso}" aria-label="${esc(lab)}" aria-pressed="${iso===sel}">${dd}</button>`;
+        }else cells+=`<span class="${cls.join(" ")}">${dd}</span>`;
+      }
+      return `<div class="month"><h2>${esc(SB.F(ym+"-01",{month:"long",year:"numeric"}))}</h2><div class="dow" aria-hidden="true">${["M","T","W","T","F","S","S"].map(x=>`<span>${x}</span>`).join("")}</div><div class="grid">${cells}</div></div>`;
+    }).join("");
+  }
+
+  const billLabel=(id,many)=>{
+    if(!many)return "Bill details";
+    const t=(lb[id]||{}).t||"";const tail=t.split(", ").pop();
+    return /^Bill\b/.test(tail)?tail+" details":"Details: "+t;
+  };
+  function itemHTML(it){
+    const t=SB.tr(it.track);
+    const conf=(it.conf||[]).map(k=>`<span class="sb">${esc(SB.SRC[k]||k)}</span>`).join("");
+    const wait=(it.await||[]).map(k=>`<span class="sb wait">${esc(SB.SRC[k]||k)} awaited</span>`).join("");
+    const prov=(conf||wait||it.next)?`<div class="prov">${conf}${wait}${it.next?`<span class="next">Next: ${esc(it.next)}</span>`:""}</div>`:"";
+    const pts=(it.points||[]).length?`<ul>${it.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:"";
+    const bills=it.bills||[];
+    const links=bills.map(id=>`<a href="bills.html#b${esc(id)}">${esc(billLabel(id,bills.length>1))}</a>`).join("");
+    const src=SB.srcLinks(it.src);
+    return `<li class="item t-${t}">
+      <div class="item-m"><span class="item-k">${esc(SB.TRACKS[t])}</span>${it.status?`<span class="st">${esc(it.status)}</span>`:""}</div>
+      <h3 class="item-t">${esc(it.title)}</h3>
+      ${it.what?`<p class="item-w">${esc(it.what)}</p>`:""}
+      ${SB.figs(it.figs,t)}${SB.voteBar(it.votes)}
+      ${prov}
+      ${links?`<p class="item-links">${links}</p>`:""}
+      ${(pts||src)?`<details class="more-d"><summary>Details and sources</summary>${pts}${src}</details>`:""}
+    </li>`;
+  }
+
+  function renderDay(){
+    const d=days[selIdx];
+    if(!d){$("day").innerHTML=`<p class="empty">No days recorded yet.</p>`;return;}
+    const its=d.items||[];
+    const counts=Object.keys(SB.TRACKS).map(k=>[k,its.filter(i=>i.track===k).length]).filter(x=>x[1]);
+    if(trackF!=="all"&&!counts.some(x=>x[0]===trackF))trackF="all";
+    const shown=its.filter(i=>trackF==="all"||i.track===trackF);
+    const meta=[d.status==="agenda"?"On the Order Paper":"",SB.long(d.date),d.chair?d.chair+" in the Chair":"",d.hours].filter(Boolean).join(" · ");
+    $("day").innerHTML=`<header class="day-h">
+        <p class="kicker">${esc(meta)}</p>
+        <h2 class="day-t">${esc(d.headline)}</h2>
+        ${d.summary?`<p class="dek">${esc(d.summary)}</p>`:""}
+        <div class="day-tools">
+          <div class="filters" role="group" aria-label="Filter by track"><button type="button" class="fl" data-k="all" aria-pressed="${trackF==="all"}">All ${its.length}</button>${counts.map(([k,n])=>`<button type="button" class="fl t-${k}" data-k="${k}" aria-pressed="${trackF===k}"><i aria-hidden="true"></i>${esc(SB.TRACKS[k])} ${n}</button>`).join("")}</div>
+          <div class="copy"><button class="btn" id="shareBtn" type="button">Copy summary</button><small class="note-s" id="shareNote" role="status"></small></div>
+        </div>
+      </header>
+      <p class="key"><span class="sb">Confirmed by this source</span><span class="sb wait">Source still awaited</span></p>
+      <ol class="items">${shown.map(itemHTML).join("")}</ol>`;
+    $("shareBtn").addEventListener("click",()=>share(d));
+  }
+
+  function share(d){
+    const head=d.status==="agenda"?"On Parliament's Order Paper, "+SB.long(d.date):"What Parliament decided, "+SB.long(d.date);
+    const lines=(d.items||[]).map(i=>"- "+i.title+(i.status?" ("+i.status+")":""));
+    const text=["Sabha Brief · "+head,"",d.headline,"",...lines,"","From Parliament's official records."].join("\n");
+    const note=$("shareNote");
+    const fallback=()=>{note.textContent="Select the text below and copy it.";let ta=$("shareText");if(!ta){ta=document.createElement("textarea");ta.id="shareText";ta.className="copy-ta";ta.readOnly=true;note.after(ta);}ta.value=text;ta.focus();ta.select();};
+    try{navigator.clipboard.writeText(text).then(()=>{note.textContent="Copied.";},fallback);}catch(e){fallback();}
+  }
+
+  SB.safe("cal",()=>{
+    renderCal();renderDay();
+    $("cal").addEventListener("click",e=>{
+      const b=e.target.closest("button.c");if(!b)return;
+      const i=days.findIndex(d=>d.date===b.dataset.d);if(i<0)return;
+      selIdx=i;trackF="all";renderCal();renderDay();
+      if(window.matchMedia&&window.matchMedia("(max-width:900px)").matches){
+        $("day").scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+      }
+    });
+    $("day").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;trackF=b.dataset.k;renderDay();});
+    if(hi>=0&&window.matchMedia&&window.matchMedia("(max-width:900px)").matches)$("day").scrollIntoView({block:"start"});
+    window.addEventListener("hashchange",()=>{
+      const i=days.findIndex(d=>d.date===(location.hash||"").replace(/^#d/,""));
+      if(i<0)return;selIdx=i;trackF="all";renderCal();renderDay();$("day").scrollIntoView({block:"start"});
+    });
+  });
+}).catch(()=>{["cal","day","clock"].forEach(id=>SB.fail(id));});
+})();
+</script>
+</body>
+</html>

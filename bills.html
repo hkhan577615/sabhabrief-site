@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bills · Sabha Brief</title>
+<meta name="description" content="Where every government bill in Sri Lanka's Parliament stands, and what the bills close to law would change.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Bills · Sabha Brief">
+<meta property="og:description" content="Where every government bill in Sri Lanka's Parliament stands, and what the bills close to law would change.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html" data-p="today">Today</a>
+      <a href="record.html" data-p="record">Record</a>
+      <a href="bills.html" data-p="bills">Bills</a>
+      <a href="gazette.html" data-p="gazette">Gazette</a>
+      <a href="laws.html" data-p="laws">Laws</a>
+      <a href="alerts.html" data-p="alerts">Get alerts</a>
+      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+    </nav>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<main class="wrap" data-page="bills">
+  <header class="ph">
+    <p class="kicker">Bills</p>
+    <h1>From Gazette to law</h1>
+    <p class="dek">Where every government bill stands. Bills near a final vote, and those already passed, show what they change, taken from the bill or Act text.</p>
+  </header>
+
+  <section aria-label="Bills by stage">
+    <div class="path" id="pipe" role="group" aria-label="Filter by stage"></div>
+    <div id="stages"><p class="empty">Loading bills.</p></div>
+    <p class="cap">What each bill changes is drawn from the text published by Parliament or the Government Printer. The official text is what counts.</p>
+  </section>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+        <li><a href="https://www.parliament.lk/en/business-of-parliament/hansards" target="_blank" rel="noopener">Hansard</a></li>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener">Bills as published</a></li>
+        <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener">Acts</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+SB.load("daily.json","library.json").then(([daily,lib])=>{
+  SB.fresh(daily.updated);
+  const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
+  const pipe=(daily.pipeline||[]).filter(p=>lb[p.id]);
+  const hashId=(location.hash||"").replace(/^#b/,"");
+  let stageF=null;
+  function billHTML(p){
+    const b=lb[p.id],im=b.impl;
+    const open=(p.id===hashId||p.watch)?" open":"";
+    const body=im?SB.implHTML(im,{changesLabel:im.kind==="would"?"What it would do":"What changes"})
+      :`<div class="impl"><p class="sum">${esc(b.about)}</p><p class="note">What it changes is added when the bill reaches its second reading.</p>${SB.srcLinks(b.src)}</div>`;
+    const lawLink=(p.st|0)===4?`<p><a class="arrow" href="laws.html#a${esc(p.id)}">See it among this year's laws</a></p>`:"";
+    return `<li class="bl" id="b${esc(p.id)}"><details${open}><summary><span class="bn">${esc(b.t)}</span><span class="pm" aria-hidden="true"></span><span class="bmeta"><span>${esc(b.a)}</span>${p.chg?`<span>Moved ${esc(SB.dm(p.chg))}</span>`:""}${p.watch?`<span class="flag">Close to law</span>`:""}</span></summary>
+      <div class="bd">${SB.stageBar(p.st)}<p class="dtl">${esc(p.label)}${p.dt?" · "+esc(p.dt):""}</p>${body}${lawLink}</div></details></li>`;
+  }
+  function render(){
+    const by=SB.STAGES.map((_,i)=>pipe.filter(p=>(p.st|0)===i));
+    $("pipe").innerHTML=SB.STAGES.map((s,i)=>`<button type="button" class="ps s${i}" data-s="${i}" aria-pressed="${stageF===i}"><small>Stage ${i+1}</small><b>${by[i].length}</b><span>${esc(s)}</span></button>`).join("");
+    const order=stageF===null?[3,2,1,0,4]:[stageF];
+    $("stages").innerHTML=order.filter(i=>by[i].length).map(i=>`<section class="sg s${i}"><h2 class="sg-h">${esc(SB.STAGES[i])}<small>${by[i].length} ${by[i].length===1?"bill":"bills"}</small></h2><ul class="bls">${by[i].slice().sort((a,b)=>(b.chg||"")<(a.chg||"")?-1:1).map(billHTML).join("")}</ul></section>`).join("")||`<p class="empty">No bills at this stage.</p>`;
+  }
+  SB.safe("stages",()=>{
+    render();
+    $("pipe").addEventListener("click",e=>{const b=e.target.closest(".ps");if(!b)return;const s=+b.dataset.s;stageF=stageF===s?null:s;render();});
+    const go=id=>{const el=document.getElementById("b"+id);if(!el)return false;const d=el.querySelector("details");if(d)d.open=true;el.scrollIntoView({block:"start"});return true;};
+    if(hashId)go(hashId);
+    window.addEventListener("hashchange",()=>{
+      const id=(location.hash||"").replace(/^#b/,"");
+      if(id&&!go(id)&&stageF!==null){stageF=null;render();go(id);}
+    });
+  });
+}).catch(()=>{SB.fail("stages");});
+})();
+</script>
+</body>
+</html>

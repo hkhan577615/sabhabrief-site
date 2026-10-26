@@ -1,0 +1,1609 @@
+{
+ "updated": "2026-10-25T21:45:00+05:30",
+ "status": {
+  "date": "2026-10-25",
+  "sitting": false,
+  "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
+ },
+ "brief": {
+  "day": {
+   "date": "2026-10-23",
+   "headline": "Rabies bill debated; vote later",
+   "stories": [
+    {
+     "track": "law",
+     "date": "2026-10-23",
+     "title": "Rabies and dog registration bill",
+     "v": "Rs. 2,000",
+     "l": "proposed late-registration penalty",
+     "line": "Second reading debated and adjourned. No vote yet.",
+     "src": {
+      "t": "Business of the House, 23 Oct",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+     }
+    },
+    {
+     "track": "record",
+     "date": "2026-10-23",
+     "title": "Poverty programme funding",
+     "v": "Rs. 25,000m",
+     "l": "allocated to Prajashakthi",
+     "line": "From a written answer. All 15,725 projects are due to finish by 31 December.",
+     "src": {
+      "t": "Parliament news, 23 Oct",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5492"
+     }
+    },
+    {
+     "track": "oversight",
+     "date": "2026-10-23",
+     "title": "Public Finance committee reports",
+     "v": "2",
+     "l": "annual reports for 2025 tabled",
+     "line": "Regional Development Bank and Jaya Container Terminals. Three public petitions referred.",
+     "src": {
+      "t": "Business of the House, 23 Oct",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+     }
+    }
+   ]
+  },
+  "week": {
+   "from": "2026-10-20",
+   "to": "2026-10-23",
+   "headline": "Drug-law bills pass; debt resolution approved",
+   "stories": [
+    {
+     "track": "law",
+     "date": "2026-10-22",
+     "title": "Two drug-law bills passed",
+     "v": "2 bills",
+     "l": "passed with amendments",
+     "line": "Seized drugs, methamphetamine, manufacturing and bail. Speaker's certificate next.",
+     "src": {
+      "t": "Business of the House, 22 Oct",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+     }
+    },
+    {
+     "track": "money",
+     "date": "2026-10-21",
+     "title": "Debt resolution and extra spending",
+     "v": "2",
+     "l": "money motions approved",
+     "line": "Includes Supplementary Estimate No. 06. Amounts follow in the Hansard.",
+     "src": {
+      "t": "Business of the House, 21 Oct",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+     }
+    },
+    {
+     "track": "oversight",
+     "date": "2026-10-20",
+     "title": "Container inquiry given more time",
+     "v": "323",
+     "l": "containers released without inspection",
+     "line": "The select committee's report is now due on 21 December.",
+     "src": {
+      "t": "Business of the House, 20 Oct",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "k": "bh",
+   "name": "Daily record",
+   "gives": "Business of the House and Parliament news: what was decided",
+   "latest": "2026-10-23",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house"
+  },
+  {
+   "k": "gazette",
+   "name": "Gazette",
+   "gives": "Bills, orders and regulations as published",
+   "latest": "2026-10-20",
+   "u": "https://documents.gov.lk/web/extra_gazettes"
+  },
+  {
+   "k": "act",
+   "name": "Acts",
+   "gives": "The final law and its number",
+   "latest": "2026-10-14",
+   "u": "https://documents.gov.lk/web/acts"
+  },
+  {
+   "k": "hansard",
+   "name": "Hansard",
+   "gives": "Votes, amounts and full answers",
+   "latest": "2026-10-09",
+   "u": "https://www.parliament.lk/en/business-of-parliament/hansards"
+  }
+ ],
+ "keyDates": [
+  {
+   "date": "2026-11-03",
+   "label": "Parliament sits again",
+   "track": "record"
+  },
+  {
+   "date": "2026-11-03",
+   "label": "Supplementary Estimate No. 07 presented",
+   "track": "money"
+  },
+  {
+   "date": "2026-11-04",
+   "label": "Vote: Supplementary Estimate No. 07, import rules",
+   "track": "money"
+  },
+  {
+   "date": "2026-11-12",
+   "label": "Budget Speech",
+   "track": "money"
+  },
+  {
+   "date": "2026-11-13",
+   "end": "2026-11-20",
+   "label": "Budget debate, second reading",
+   "track": "money"
+  },
+  {
+   "date": "2026-11-21",
+   "end": "2026-12-14",
+   "label": "Committee stage, ministry by ministry",
+   "track": "money"
+  },
+  {
+   "date": "2026-12-14",
+   "label": "Final Budget vote, 6 pm",
+   "track": "money"
+  },
+  {
+   "date": "2026-12-21",
+   "label": "Report due: 323 uninspected containers",
+   "track": "oversight"
+  }
+ ],
+ "keyDatesSrc": [
+  {
+   "t": "Parliament news: Budget timetable",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5001"
+  },
+  {
+   "t": "Business of the House, 20 Oct",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+  },
+  {
+   "t": "Business of the House, 23 Oct",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+  },
+  {
+   "t": "Business for November first sitting week",
+   "u": "https://www.parliament.lk/uploaded/news/nov-1st-bus.pdf"
+  }
+ ],
+ "pipeline": [
+  {
+   "id": "G6438",
+   "st": 2,
+   "label": "Second reading adjourned",
+   "chg": "2026-10-23",
+   "dt": "Presented 24 Sep · debate began 23 Oct · resumes later",
+   "watch": true
+  },
+  {
+   "id": "G6437",
+   "st": 3,
+   "label": "Passed with amendments",
+   "chg": "2026-10-22",
+   "dt": "Presented 8 Sep · passed 22 Oct · Speaker's certificate next",
+   "watch": true
+  },
+  {
+   "id": "G6439",
+   "st": 3,
+   "label": "Passed with amendments",
+   "chg": "2026-10-22",
+   "dt": "Presented 8 Sep · passed 22 Oct · Speaker's certificate next",
+   "watch": true
+  },
+  {
+   "id": "G6443",
+   "st": 1,
+   "label": "Budget process",
+   "chg": "2026-10-07",
+   "dt": "1st reading 7 Oct · Budget Speech 12 Nov · final vote 14 Dec",
+   "watch": true
+  },
+  {
+   "id": "G6445",
+   "st": 1,
+   "label": "1st reading",
+   "chg": "2026-10-20",
+   "dt": "Published 6 Oct · 1st reading 20 Oct"
+  },
+  {
+   "id": "G6444",
+   "st": 1,
+   "label": "1st reading",
+   "chg": "2026-10-20",
+   "dt": "Published 30 Sep · 1st reading 20 Oct"
+  },
+  {
+   "id": "G6447",
+   "st": 1,
+   "label": "1st reading",
+   "chg": "2026-10-21",
+   "dt": "Published 14 Oct · 1st reading 21 Oct"
+  },
+  {
+   "id": "G6441",
+   "st": 2,
+   "label": "Supreme Court petitions",
+   "chg": "2026-10-21",
+   "dt": "Presented 6 Oct · petitions announced 20 and 21 Oct"
+  },
+  {
+   "id": "G6440",
+   "st": 2,
+   "label": "Supreme Court petitions",
+   "chg": "2026-10-23",
+   "dt": "Published 6 Oct · petitions announced 7 to 23 Oct"
+  },
+  {
+   "id": "G6442",
+   "st": 2,
+   "label": "Supreme Court petition",
+   "chg": "2026-10-21",
+   "dt": "1st reading 7 Oct · petition announced 21 Oct"
+  },
+  {
+   "id": "GP-083-2026",
+   "st": 0,
+   "label": "Published",
+   "chg": "2026-10-16",
+   "dt": "Published 16 Oct"
+  },
+  {
+   "id": "GP-079-2026",
+   "st": 0,
+   "label": "Published",
+   "chg": "2026-10-13",
+   "dt": "Published 13 Oct"
+  },
+  {
+   "id": "G6431",
+   "st": 4,
+   "label": "Certified, Act number due",
+   "chg": "2026-10-19",
+   "dt": "Presented 19 Aug · passed 8 Oct · certified 19 Oct"
+  },
+  {
+   "id": "G6432",
+   "st": 4,
+   "label": "Act No. 24 of 2026",
+   "chg": "2026-10-06",
+   "dt": "Certified 6 Oct"
+  },
+  {
+   "id": "G6433",
+   "st": 4,
+   "label": "22nd Amendment",
+   "chg": "2026-09-25",
+   "dt": "1st reading 18 Aug · passed and certified 25 Sep"
+  },
+  {
+   "id": "G6435",
+   "st": 4,
+   "label": "Act No. 23 of 2026",
+   "chg": "2026-09-25",
+   "dt": "1st reading 18 Aug · certified 25 Sep"
+  },
+  {
+   "id": "G6436",
+   "st": 4,
+   "label": "Act No. 22 of 2026",
+   "chg": "2026-09-22",
+   "dt": "Presented 4 Aug · passed 9 Sep · certified 22 Sep"
+  },
+  {
+   "id": "G6434",
+   "st": 4,
+   "label": "Act No. 21 of 2026",
+   "chg": "2026-09-08",
+   "dt": "Certified 8 Sep"
+  }
+ ],
+ "gazettes": [
+  {
+   "no": "2384/27",
+   "g": "2024-05-16",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "SLT Campus renamed"
+  },
+  {
+   "no": "2446/36",
+   "g": "2025-07-22",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Textile and apparel degree, SLITA"
+  },
+  {
+   "no": "2450/40",
+   "g": "2025-08-21",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Honours degrees, SLIIT"
+  },
+  {
+   "no": "2454/39",
+   "g": "2025-09-17",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Acupuncture degree, KIU Campus"
+  },
+  {
+   "no": "2455/06",
+   "g": "2025-09-22",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Psychology degree, American College"
+  },
+  {
+   "no": "2458/13",
+   "g": "2025-10-13",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Esoft Metro Campus renamed"
+  },
+  {
+   "no": "2468/08",
+   "g": "2025-12-23",
+   "tabled": "2026-10-20",
+   "type": "Education",
+   "t": "Business analytics degree, SL Technology Campus"
+  },
+  {
+   "no": "2501/88",
+   "g": "2026-08-14",
+   "tabled": "2026-10-08",
+   "type": "Customs",
+   "t": "Customs duty order, section 10A"
+  },
+  {
+   "no": "2502/21",
+   "g": "2026-08-18",
+   "tabled": "2026-10-20",
+   "type": "Customs",
+   "t": "Customs import duty order"
+  }
+ ],
+ "gazetteSrc": [
+  {
+   "t": "Business of the House, 20 Oct",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+  },
+  {
+   "t": "Hansard, 8 Oct",
+   "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-10-23",
+   "status": "record",
+   "chair": "Speaker Jagath Wickramaratne",
+   "hours": "9.30 am to 5.59 pm",
+   "headline": "Rabies bill debated; vote later",
+   "summary": "The second reading debate was adjourned without a vote. The House next sits on 3 November.",
+   "items": [
+    {
+     "track": "law",
+     "title": "Rabies and dog registration bill",
+     "status": "Debate adjourned",
+     "bills": [
+      "G6438"
+     ],
+     "what": "Second reading debated and adjourned to a later date. No vote was taken.",
+     "figs": [
+      {
+       "v": "Rs. 2,000",
+       "l": "penalty if unregistered after 14 days"
+      },
+      {
+       "v": "Rs. 10,000",
+       "l": "maximum fine, e.g. abandoning a dog"
+      },
+      {
+       "v": "5 years",
+       "l": "between national dog censuses"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Debate resumes on a date still to be set",
+     "src": [
+      {
+       "t": "Business of the House, 23 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+      },
+      {
+       "t": "Bill text",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6438.pdf"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Anti-terrorism bill: another court petition",
+     "status": "In the Supreme Court",
+     "bills": [
+      "G6440"
+     ],
+     "what": "The Speaker announced a further petition against the Protection of the State from Terrorism Bill.",
+     "conf": [
+      "bh"
+     ],
+     "next": "Court determination",
+     "src": [
+      {
+       "t": "Business of the House, 23 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Public Finance committee report presented",
+     "status": "Presented",
+     "what": "Presented by Nimal Palihena, Member of the Committee, for its Chair.",
+     "figs": [
+      {
+       "v": "2",
+       "l": "annual reports for 2025 tabled"
+      },
+      {
+       "v": "3",
+       "l": "public petitions referred to committee"
+      }
+     ],
+     "points": [
+      "Annual reports for 2025: Regional Development Bank; Jaya Container Terminals Limited.",
+      "Petitions: one from Nilanthi Kottahachchi and two from R.M. Samantha Ranasinghe, referred to the Committee on Public Petitions."
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 23 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Poverty programme figures",
+     "status": "Written answer",
+     "what": "The Prajashakthi national poverty eradication programme, from a written answer published on 23 October.",
+     "figs": [
+      {
+       "v": "Rs. 25,000m",
+       "l": "allocated to Prajashakthi"
+      },
+      {
+       "v": "Rs. 23,000m",
+       "l": "for district-level projects"
+      },
+      {
+       "v": "15,725",
+       "l": "projects started"
+      },
+      {
+       "v": "31 Dec",
+       "l": "completion date for all projects"
+      }
+     ],
+     "points": [
+      "Minister of Rural Development, Social Security and Community Empowerment Upali Pannilage, answering Ajith Gihan.",
+      "Projects started: 15,316 livelihood, 273 education and 136 health."
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 23 Oct",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5492"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Raised: Asian Games, teachers, pasture lands",
+     "status": "Questions",
+     "what": "Urgent questions, two ministerial replies and an adjournment motion on tourism.",
+     "points": [
+      "K. Kader Masthan: exclusion of Fathima Shafiya from the 20th Asian Games in Japan.",
+      "Shanakiyan Rasamanickam: teacher recruitment, and Development Officers not absorbed into the Teachers' Service.",
+      "Minister of Agriculture, Livestock, Land and Irrigation K.D. Lal Kantha: pasture lands in Madavanai, replying to a question of 23 September.",
+      "Minister of Public Administration, Provincial Councils and Local Government A.H.M.H. Abayarathna: local authorities in the Northern and Eastern Provinces, replying to a question of 25 September.",
+      "Nishantha Perera: adjournment motion on Benthara, Karandeniya and Elpitiya as new tourism zones."
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 23 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "status": "record",
+   "chair": "Speaker Jagath Wickramaratne",
+   "hours": "9.30 am to 5.58 pm",
+   "headline": "Two drug-law bills passed",
+   "summary": "Both drug-law amendments passed with changes. Nine annual reports approved, four from 2015 to 2018.",
+   "items": [
+    {
+     "track": "law",
+     "title": "Poisons, Opium and Dangerous Drugs (Amendment) Bills",
+     "status": "Passed with amendments",
+     "bills": [
+      "G6437",
+      "G6439"
+     ],
+     "what": "Bill 79 covers how seized drugs are handled and destroyed. Bill 80 covers methamphetamine, manufacturing and bail.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard",
+      "act"
+     ],
+     "next": "Speaker's certificate",
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      },
+      {
+       "t": "Bill 79 text",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6437.pdf"
+      },
+      {
+       "t": "Bill 80 text",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6439.pdf"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Anti-terrorism bill: more court petitions",
+     "status": "In the Supreme Court",
+     "bills": [
+      "G6440"
+     ],
+     "what": "Further petitions against the Protection of the State from Terrorism Bill.",
+     "conf": [
+      "bh"
+     ],
+     "next": "Court determination",
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Nine annual reports approved",
+     "status": "Approved",
+     "figs": [
+      {
+       "v": "9",
+       "l": "reports approved"
+      },
+      {
+       "v": "2015",
+       "l": "oldest year covered"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Janatha Estates Development Board: 2015, 2016, 2017, 2018",
+      "National Institute of Labour Studies: 2022",
+      "National Institute of Occupational Safety and Health: 2022",
+      "Ranaviru Seva Authority: 2023",
+      "Kotelawala Defence University: 2022, 2023"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Committee report and three annual reports tabled",
+     "status": "Tabled",
+     "what": "The Governance, Justice and Civil Protection oversight committee reported.",
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "2024 annual reports: Official Languages Commission; Ceylon German Technical Training Institute; Institute of Human Resource Advancement, University of Colombo."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Figures given to the House",
+     "status": "Answers",
+     "figs": [
+      {
+       "v": "Rs. 655.8m",
+       "l": "rabies treatment and vaccines, 2025"
+      },
+      {
+       "v": "14",
+       "l": "rabies deaths after dog bites, 2025"
+      },
+      {
+       "v": "Rs. 51m",
+       "l": "rabies control budget, 2026"
+      },
+      {
+       "v": "5,788 km",
+       "l": "electric fencing on elephant corridors"
+      },
+      {
+       "v": "Rs. 618.9m",
+       "l": "spent on elephant fences, 2025"
+      },
+      {
+       "v": "10",
+       "l": "main pepper-growing districts"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Rabies: Minister of Health and Mass Media Nalinda Jayatissa.",
+      "Fences: Minister of Environment Dammika Patabendi.",
+      "Pepper: Deputy Minister of Agriculture and Livestock Namal Karunaratne."
+     ],
+     "src": [
+      {
+       "t": "Parliament news: rabies",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5485"
+      },
+      {
+       "t": "Parliament news: fences",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5487"
+      },
+      {
+       "t": "Parliament news: pepper",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5488"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Answers on reserves and El Niño",
+     "status": "Statements",
+     "what": "Replies to questions held over from August and September.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "points": [
+      "Official reserves: Anil Jayantha, Minister of Labour and Deputy Minister of Finance, replying to Ravi Karunanayake (asked 18 August).",
+      "El Niño and recovery after Cyclone Ditwah: Deputy Minister of Defence Aruna Jayasekera, replying to Sajith Premadasa."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Raised: 2026 Budget progress, Middle East conflict",
+     "status": "Questions",
+     "what": "Urgent questions, and an adjournment motion on a diplomatic reception.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "points": [
+      "Sajith Premadasa: progress of the 2026 Budget proposals.",
+      "Ravi Karunanayake: economic impact of the conflict involving the US, Israel and Iran.",
+      "Dilith Jayaweera: motion on the reception for Thailand's Deputy Prime Minister."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "status": "record",
+   "chair": "Speaker Jagath Wickramaratne",
+   "hours": "9.30 am to 5.32 pm",
+   "headline": "Borrowing resolution and extra spending approved",
+   "summary": "Amounts are not in the same-day record. They follow with the Hansard.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Debt resolution, Public Debt Management Act",
+     "status": "Approved",
+     "what": "Amount and terms not yet published.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      },
+      {
+       "t": "Public Debt Management Act, No. 33 of 2024",
+       "u": "https://www.parliament.lk/uploads/acts/gbills/english/6346.pdf"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Supplementary Estimate No. 06 of 2026",
+     "status": "Approved",
+     "what": "Extra spending for the Department of Development Finance (Head 243).",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      },
+      {
+       "t": "Forthcoming business",
+       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Trusts (Amendment) Bill",
+     "status": "1st reading",
+     "bills": [
+      "G6447"
+     ],
+     "what": "Amends the Trusts Ordinance (Chapter 87).",
+     "conf": [
+      "bh",
+      "gazette"
+     ],
+     "next": "14 days for court challenges",
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      },
+      {
+       "t": "Government Printer: bills",
+       "u": "https://documents.gov.lk/web/bills"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Court petitions on three bills",
+     "status": "In the Supreme Court",
+     "bills": [
+      "G6441",
+      "G6440",
+      "G6442"
+     ],
+     "what": "Sri Lanka Cricket, anti-terrorism and Immigration bills.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Public finance and debt reports",
+     "status": "Tabled",
+     "what": "Committee on Public Finance report and the debt office's 2025 performance report.",
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Also: the Environment, Agriculture and Resource Sustainability oversight committee report.",
+      "Follow-ups to Committee on Public Accounts findings: Ministry of Digital Economy, Ministry of Technology, Western Provincial Council."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Ten annual reports approved",
+     "status": "Approved",
+     "figs": [
+      {
+       "v": "10",
+       "l": "reports approved"
+      },
+      {
+       "v": "3 years",
+       "l": "of Export Development Board reports"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Sri Lanka Export Development Board: 2021, 2022, 2023",
+      "National Gem and Jewellery Authority: 2022, 2023",
+      "Gem and Jewellery Research and Training Institute: 2023",
+      "National Salt Ltd: 2021/22, 2022/23",
+      "BCC Lanka Ltd: 2021/22, 2022/23"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Prison numbers",
+     "status": "Answer",
+     "figs": [
+      {
+       "v": "10,611",
+       "l": "convicted prisoners"
+      },
+      {
+       "v": "28,408",
+       "l": "suspects held"
+      },
+      {
+       "v": "1,454",
+       "l": "jailed for unpaid fines"
+      },
+      {
+       "v": "207",
+       "l": "of them owe over Rs. 100,000"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Minister of Justice and National Integration Harshana Nanayakkara.",
+      "Largest age group: 30 to 40, with 3,423 prisoners."
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 22 Oct",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5486"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Raised: liquor licences, remembrance day, Sathurukondan inquiry",
+     "status": "Questions",
+     "what": "Urgent questions and ministerial statements.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "points": [
+      "Shanakiyan Rasamanickam: illegal liquor and new liquor licences.",
+      "Ramanathan Archchuna: Thileepan remembrance day.",
+      "Minister of Public Security Ananda Wijepala: the Sathurukondan killings inquiry, and ethnic harmony and national security."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 21 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "status": "record",
+   "chair": "Speaker Jagath Wickramaratne",
+   "hours": "9.30 am to 5.40 pm",
+   "headline": "Security bills presented; container inquiry extended",
+   "summary": "A customs duty order and seven education orders reached the House, one of them 887 days after it was gazetted.",
+   "items": [
+    {
+     "track": "law",
+     "title": "Organised Crimes and Foreign Terrorist Fighters bills",
+     "status": "1st reading",
+     "bills": [
+      "G6445",
+      "G6444"
+     ],
+     "what": "Give effect to a UN convention and UN Security Council Resolution 2178.",
+     "conf": [
+      "bh",
+      "gazette"
+     ],
+     "next": "14 days for court challenges",
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Customs import duty order, Gazette 2502/21",
+     "status": "Tabled",
+     "figs": [
+      {
+       "v": "63 days",
+       "l": "from Gazette to Parliament"
+      }
+     ],
+     "conf": [
+      "bh",
+      "gazette"
+     ],
+     "next": "Rates to be added from the Gazette",
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Seven higher-education orders",
+     "status": "Tabled",
+     "what": "New private degrees and two name changes.",
+     "figs": [
+      {
+       "v": "7",
+       "l": "orders tabled"
+      },
+      {
+       "v": "887 days",
+       "l": "oldest order's wait"
+      }
+     ],
+     "conf": [
+      "bh",
+      "gazette"
+     ],
+     "points": [
+      "Degrees: SLIIT, Sri Lanka Technology Campus, KIU Campus, The American College of Higher Education, Sri Lanka Institute of Textile and Apparel.",
+      "Renamed: SLT Campus; Esoft Metro Campus, now Esoft Uni."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Court petitions: Cricket and anti-terrorism bills",
+     "status": "In the Supreme Court",
+     "bills": [
+      "G6441",
+      "G6440"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Supplementary Estimate No. 06 presented",
+     "status": "Presented",
+     "what": "Approved the next day.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Inquiry into uninspected containers extended",
+     "status": "Extended",
+     "what": "Containers released from Colombo Port without the mandatory physical inspection.",
+     "figs": [
+      {
+       "v": "323",
+       "l": "containers"
+      },
+      {
+       "v": "21 Dec",
+       "l": "new report deadline"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "The select committee was set up by a resolution of 19 November 2025."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Anti-corruption oversight committee",
+     "status": "Appointed",
+     "what": "Oversees Parliament's part in the National Anti-Corruption Action Plan 2025 to 2029.",
+     "figs": [
+      {
+       "v": "13",
+       "l": "members"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor-General reports and papers",
+     "status": "Tabled",
+     "figs": [
+      {
+       "v": "19",
+       "l": "Auditor-General report parts"
+      },
+      {
+       "v": "24",
+       "l": "papers tabled"
+      },
+      {
+       "v": "3",
+       "l": "oversight committee reports"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "points": [
+      "Annual reports include Sri Lanka Insurance Corporation and its life and general companies (2025), ITN, the National Transport Commission and the Sri Lanka Cashew Corporation (2024).",
+      "Committee on Public Accounts follow-ups: Department for Registration of Persons; local authorities in the Central and Western provinces."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Statements: power outage, tusker Kavantissa",
+     "status": "Statements",
+     "what": "The island-wide outage of 17 October, and the death of a tusker.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "points": [
+      "Minister of Energy Anura Karunathilaka, replying to Ravi Karunanayake.",
+      "Minister of Environment Dammika Patabendi, replying to Sajith Premadasa.",
+      "Adjournment motion on the country's situation: Gayantha Karunathilleka.",
+      "The opposition asked for a debate on delays in filling Supreme Court and Court of Appeal vacancies."
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 20 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "status": "record",
+   "chair": "",
+   "hours": "No sitting",
+   "headline": "Anti-Corruption (Amendment) becomes law",
+   "summary": "",
+   "items": [
+    {
+     "track": "law",
+     "title": "Anti-Corruption (Amendment) certified",
+     "status": "Law",
+     "bills": [
+      "G6431"
+     ],
+     "what": "Signed by the Speaker. Act number not yet printed.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "act"
+     ],
+     "src": [
+      {
+       "t": "Parliament of Sri Lanka",
+       "u": "https://www.parliament.lk/en"
+      },
+      {
+       "t": "Bill details",
+       "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6431"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "status": "record",
+   "chair": "Deputy Speaker Rizvie Salih",
+   "hours": "From 9.30 am",
+   "headline": "Court rulings on the drug-law bills read out",
+   "summary": "",
+   "items": [
+    {
+     "track": "law",
+     "title": "Supreme Court determinations: drug-law bills",
+     "status": "Announced",
+     "bills": [
+      "G6437",
+      "G6439"
+     ],
+     "what": "Bill 79 needs two amendments to pass by simple majority; Bill 80 can pass as it stands.",
+     "conf": [
+      "bh",
+      "hansard"
+     ],
+     "next": "Both passed on 22 October",
+     "src": [
+      {
+       "t": "Hansard, 9 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24506_english_2026-10-09.pdf"
+      },
+      {
+       "t": "Business of the House, 9 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5460"
+      }
+     ],
+     "figs": [
+      {
+       "v": "2",
+       "l": "amendments required to Bill 79"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Annual reports tabled and referred",
+     "status": "Referred to committees",
+     "what": "Includes the Sri Lanka Fisheries Corporation annual report for 2020.",
+     "conf": [
+      "hansard"
+     ],
+     "points": [
+      "Fisheries Corporation report referred to the oversight committee on environment, agriculture and natural resources.",
+      "Public petitions referred to the Committee on Public Petitions."
+     ],
+     "src": [
+      {
+       "t": "Hansard, 9 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24506_english_2026-10-09.pdf"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Employment of persons with disabilities",
+     "status": "Answer",
+     "figs": [
+      {
+       "v": "86,700",
+       "l": "persons with disabilities employed"
+      },
+      {
+       "v": "Rs. 500m",
+       "l": "2026 Budget employment programme"
+      },
+      {
+       "v": "Rs. 15,000",
+       "l": "monthly wage subsidy cap, 24 months"
+      }
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "points": [
+      "Answer given by the Deputy Minister, Wasantha Piyathissa.",
+      "Subsidy covers 50% of salary."
+     ],
+     "src": [
+      {
+       "t": "Hansard, 9 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24506_english_2026-10-09.pdf"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Regional Development Bank branches and staff",
+     "status": "Answer",
+     "figs": [
+      {
+       "v": "271",
+       "l": "branches"
+      },
+      {
+       "v": "920,948",
+       "l": "customers at 31 August 2026"
+      },
+      {
+       "v": "303",
+       "l": "staff vacancies remaining"
+      }
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "points": [
+      "Answer given by the Deputy Minister, Nishantha Jayaweera.",
+      "Eight provincial offices to merge into four regional offices."
+     ],
+     "src": [
+      {
+       "t": "Hansard, 9 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24506_english_2026-10-09.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "status": "record",
+   "chair": "Deputy Speaker Rizvie Salih",
+   "hours": "From 9.30 am",
+   "headline": "Anti-Corruption (Amendment) Bill passed",
+   "summary": "",
+   "items": [
+    {
+     "track": "law",
+     "title": "Anti-Corruption (Amendment) Bill",
+     "status": "Passed with amendments",
+     "bills": [
+      "G6431"
+     ],
+     "what": "Second and third readings, without a division.",
+     "conf": [
+      "bh",
+      "hansard"
+     ],
+     "next": "Certified 19 October",
+     "src": [
+      {
+       "t": "Hansard, 8 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+      },
+      {
+       "t": "Business of the House, 8 Oct",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5453"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Customs duty order, Gazette 2501/88",
+     "status": "Tabled",
+     "what": "Section 10A order under the Customs Ordinance.",
+     "figs": [
+      {
+       "v": "55 days",
+       "l": "from Gazette to Parliament"
+      }
+     ],
+     "conf": [
+      "hansard",
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 8 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Anti-terrorism bill: another petition",
+     "status": "In the Supreme Court",
+     "bills": [
+      "G6440"
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 8 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor-General reports, including an EV audit",
+     "status": "Ordered to be printed",
+     "what": "Includes a special audit report on electric vehicle use.",
+     "conf": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 8 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Tourism spending",
+     "status": "Answer",
+     "figs": [
+      {
+       "v": "Rs. 424m",
+       "l": "spent on 46 tourism projects, 2025"
+      },
+      {
+       "v": "Rs. 930m",
+       "l": "allocated for 2026"
+      },
+      {
+       "v": "US$100m",
+       "l": "World Bank funding for northern tourism"
+      }
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "points": [
+      "Deputy Minister of Tourism Ruwan Ranasinghe, replying to Rajeevan Jeyachandramoorthy."
+     ],
+     "src": [
+      {
+       "t": "Hansard, 8 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "status": "record",
+   "chair": "Deputy Speaker Rizvie Salih",
+   "hours": "From 9.30 am",
+   "headline": "The 2027 Budget process begins",
+   "summary": "",
+   "items": [
+    {
+     "track": "money",
+     "title": "2027 Appropriation Bill",
+     "status": "1st reading",
+     "bills": [
+      "G6443"
+     ],
+     "what": "Government spending and borrowing for 2027.",
+     "figs": [
+      {
+       "v": "Rs. 4,992.8bn",
+       "l": "total voted spending"
+      },
+      {
+       "v": "Rs. 3,800bn",
+       "l": "borrowing limit"
+      },
+      {
+       "v": "12 Nov",
+       "l": "Budget Speech"
+      }
+     ],
+     "conf": [
+      "bh",
+      "hansard",
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 7 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24445_english_2026-10-07.pdf"
+      },
+      {
+       "t": "Bill text",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6443.pdf"
+      },
+      {
+       "t": "Parliament news: Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5001"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Immigration Bill",
+     "status": "1st reading",
+     "bills": [
+      "G6442"
+     ],
+     "what": "Would replace the 1948 immigration law and the 1971 passport law.",
+     "conf": [
+      "hansard",
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 7 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24445_english_2026-10-07.pdf"
+      },
+      {
+       "t": "Bill text",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6442.pdf"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Export Agriculture (Amendment) certified",
+     "status": "Law",
+     "bills": [
+      "G6432"
+     ],
+     "what": "Act No. 24 of 2026, certified 6 October.",
+     "conf": [
+      "hansard",
+      "act"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 7 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24445_english_2026-10-07.pdf"
+      },
+      {
+       "t": "Act details",
+       "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6432"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Diesel subsidy",
+     "status": "Statement",
+     "figs": [
+      {
+       "v": "Rs. 70",
+       "l": "subsidy per litre of diesel"
+      },
+      {
+       "v": "3 months",
+       "l": "period the minister gave"
+      }
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "points": [
+      "Minister of Energy Anura Karunathilaka, during questions."
+     ],
+     "src": [
+      {
+       "t": "Hansard, 7 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24445_english_2026-10-07.pdf"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Adjournment motion: paddy farmers",
+     "status": "Debated",
+     "conf": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 7 Oct",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24445_english_2026-10-07.pdf"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

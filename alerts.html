@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Get alerts · Sabha Brief</title>
+<meta name="description" content="Sector alerts when Sri Lanka's Parliament or the Gazette touches your work.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Get alerts · Sabha Brief">
+<meta property="og:description" content="Sector alerts when Sri Lanka's Parliament or the Gazette touches your work.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html" data-p="today">Today</a>
+      <a href="record.html" data-p="record">Record</a>
+      <a href="bills.html" data-p="bills">Bills</a>
+      <a href="gazette.html" data-p="gazette">Gazette</a>
+      <a href="laws.html" data-p="laws">Laws</a>
+      <a href="alerts.html" data-p="alerts">Get alerts</a>
+      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+    </nav>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<main class="wrap" data-page="alerts">
+  <header class="ph">
+    <p class="kicker">Get alerts</p>
+    <h1>Know when Parliament or the Gazette touches your work</h1>
+    <p class="dek">Tell us what you follow. We are testing alerts by sector, sent by email or WhatsApp, with one plain line on what changes and a link to the official text.</p>
+  </header>
+
+  <section class="al" aria-labelledby="f-h">
+    <form class="al-f" name="alerts" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="alerts">
+      <p class="hp"><label>Leave this empty <input name="bot-field" id="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <h2 id="f-h" class="sr">Sign up</h2>
+
+      <fieldset>
+        <legend>About you</legend>
+        <div class="row2">
+          <label class="fld">Name<input id="f-name" name="name" type="text" autocomplete="name" required></label>
+          <label class="fld">Email<input id="f-email" name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="row2">
+          <label class="fld">WhatsApp number <small>Optional</small><input id="f-wa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+94 7X XXX XXXX"></label>
+          <label class="fld">Organisation <small>Optional</small><input id="f-org" name="organisation" type="text" autocomplete="organization"></label>
+        </div>
+        <label class="fld">Which best describes you?
+          <select id="f-role" name="role" required>
+            <option value="">Choose one</option>
+            <option>Business: importer or exporter</option>
+            <option>Business: other</option>
+            <option>Company secretary or compliance</option>
+            <option>Law firm or lawyer</option>
+            <option>Bank, fund or investor</option>
+            <option>Media or journalist</option>
+            <option>Embassy or international organisation</option>
+            <option>NGO, think tank or researcher</option>
+            <option>Government or public sector</option>
+            <option>Student or teacher</option>
+            <option>Citizen</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What should we watch for you?</legend>
+        <p class="hint">Choose any that apply.</p>
+        <div class="chips">
+          <label><input type="checkbox" name="sectors" value="Customs and import duty"><span>Customs and import duty</span></label>
+          <label><input type="checkbox" name="sectors" value="Tax, VAT and levies"><span>Tax, VAT and levies</span></label>
+          <label><input type="checkbox" name="sectors" value="Banking and finance"><span>Banking and finance</span></label>
+          <label><input type="checkbox" name="sectors" value="Budget and public debt"><span>Budget and public debt</span></label>
+          <label><input type="checkbox" name="sectors" value="Exports and agriculture"><span>Exports and agriculture</span></label>
+          <label><input type="checkbox" name="sectors" value="Health and medicines"><span>Health and medicines</span></label>
+          <label><input type="checkbox" name="sectors" value="Energy and utilities"><span>Energy and utilities</span></label>
+          <label><input type="checkbox" name="sectors" value="Tourism"><span>Tourism</span></label>
+          <label><input type="checkbox" name="sectors" value="Labour and employment"><span>Labour and employment</span></label>
+          <label><input type="checkbox" name="sectors" value="Land, property and local councils"><span>Land, property and local councils</span></label>
+          <label><input type="checkbox" name="sectors" value="Education"><span>Education</span></label>
+          <label><input type="checkbox" name="sectors" value="Justice, security and rights"><span>Justice, security and rights</span></label>
+          <label><input type="checkbox" name="sectors" value="Elections and governance"><span>Elections and governance</span></label>
+          <label><input type="checkbox" name="sectors" value="Technology and telecoms"><span>Technology and telecoms</span></label>
+        </div>
+        <label class="fld">Anything specific? <small>Optional. A bill, a customs code, a council</small><input id="f-specific" name="specific" type="text"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How would you like it?</legend>
+        <div class="opts">
+          <label><input type="radio" name="product" value="Free weekly email" required><span><b>Free weekly email</b>What Parliament decided, every Friday.</span></label>
+          <label><input type="radio" name="product" value="Sector alerts"><span><b>Sector alerts</b>Within hours of a Gazette or vote that touches your sectors.</span></label>
+          <label><input type="radio" name="product" value="Institutional brief"><span><b>Weekly brief for institutions</b>Bills, tax orders and debt measures, with what is next.</span></label>
+        </div>
+        <div class="row2">
+          <label class="fld">Language
+            <select id="f-lang" name="language">
+              <option>English</option>
+              <option>Sinhala</option>
+              <option>Tamil</option>
+            </select>
+          </label>
+          <label class="fld">Would you pay for sector alerts?
+            <select id="f-pay" name="would_pay">
+              <option value="">Choose one</option>
+              <option>Yes, personally</option>
+              <option>Yes, my organisation would</option>
+              <option>Maybe, depending on price</option>
+              <option>No, only if free</option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+
+      <label class="consent"><input type="checkbox" id="f-consent" name="consent" value="yes" required><span>Contact me about Sabha Brief alerts. I can ask to be removed at any time.</span></label>
+      <button class="go" type="submit">Sign up</button>
+      <p class="fine">We store what you enter here only to send what you asked for and to decide which alerts to build. We never sell or share it. To be removed, reply to any message we send you.</p>
+    </form>
+
+    <aside class="al-side">
+      <h2>What an alert looks like</h2>
+      <div class="sample">
+        <p class="s-k">Sample · Customs and import duty</p>
+        <p class="s-t">Customs import duty order laid before Parliament</p>
+        <p class="s-b">Gazette 2502/21 of 18 August 2026 was tabled on 20 October. It was in force for 63 days before reaching the House.</p>
+        <p class="s-l">Official text: parliament.lk · documents.gov.lk</p>
+      </div>
+      <p class="fine">Every alert links to the official source. We use only parliament.lk, gov.lk sites and the Supreme Court.</p>
+    </aside>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+        <li><a href="https://www.parliament.lk/en/business-of-parliament/hansards" target="_blank" rel="noopener">Hansard</a></li>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener">Bills as published</a></li>
+        <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener">Acts</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>(function(){SB.load("daily.json").then(([d])=>SB.fresh(d.updated)).catch(()=>{});})();</script>
+</body>
+</html>

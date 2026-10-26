@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Laws · Sabha Brief</title>
+<meta name="description" content="Every Act made by Sri Lanka's Parliament in 2026 and what it changes.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Laws · Sabha Brief">
+<meta property="og:description" content="Every Act made by Sri Lanka's Parliament in 2026 and what it changes.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html" data-p="today">Today</a>
+      <a href="record.html" data-p="record">Record</a>
+      <a href="bills.html" data-p="bills">Bills</a>
+      <a href="gazette.html" data-p="gazette">Gazette</a>
+      <a href="laws.html" data-p="laws">Laws</a>
+      <a href="alerts.html" data-p="alerts">Get alerts</a>
+      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+    </nav>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<main class="wrap" data-page="laws">
+  <header class="ph">
+    <p class="kicker">Laws</p>
+    <h1>Laws made in 2026</h1>
+    <p class="dek">Every Act since August and what it changes, taken from the Act or bill text. A new entry appears when the Speaker certifies a bill.</p>
+  </header>
+
+  <section aria-labelledby="t-h">
+    <div class="sec-h"><h2 id="t-h">By month</h2><p>Act numbers run in order through the year. Choose an Act to read what it changes.</p></div>
+    <div class="acts" id="acts"><p class="empty">Loading Acts.</p></div>
+  </section>
+
+  <section aria-labelledby="w-h">
+    <div class="sec-h"><h2 id="w-h">What each Act changes</h2><p>Newest first.</p></div>
+    <div id="list"></div>
+    <p class="cap">Summaries are drawn from Acts and bills published by Parliament and the Government Printer. The official text is the law.</p>
+  </section>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+        <li><a href="https://www.parliament.lk/en/business-of-parliament/hansards" target="_blank" rel="noopener">Hansard</a></li>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener">Bills as published</a></li>
+        <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener">Acts</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+SB.load("library.json").then(([lib])=>{
+  if(lib.updated)SB.fresh(lib.updated,"Updated");
+  const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
+  const acts=(lib.acts||[]).slice().sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0);
+  const cls=x=>x.kind==="constitution"?"con":x.pending?"pend":"";
+  SB.safe("acts",()=>{
+    const months=[...new Set(acts.map(x=>x.d.slice(0,7)))];
+    $("acts").innerHTML=months.map(ym=>{
+      const list=acts.filter(x=>x.d.slice(0,7)===ym);
+      return `<div class="am"><h3 class="am-h">${esc(SB.F(ym+"-01",{month:"long"}))}<small>${list.length} ${list.length===1?"Act":"Acts"}</small></h3>${list.map(x=>{
+        const t=(lb[x.id]||{}).t||x.short;
+        return `<a class="ab ${cls(x)}" href="#a${esc(x.id)}" title="${esc(t+" · certified "+SB.dm(x.d))}"><b>${esc(x.tag)}</b><span>${esc(x.short)}</span></a>`;
+      }).join("")}</div>`;
+    }).join("");
+  });
+  SB.safe("list",()=>{
+    $("list").innerHTML=acts.slice().reverse().map(x=>{
+      const b=lb[x.id]||{};
+      const lbl=x.kind==="constitution"?"Amendment to the Constitution":x.pending?"Act number not yet printed":"Act No. "+x.tag+" of 2026";
+      return `<article class="act" id="a${esc(x.id)}"><div class="act-n ${cls(x)}" aria-hidden="true">${esc(x.tag)}</div><div class="act-b"><header class="act-h"><h3>${esc(b.t||x.short)}</h3><p>${esc(lbl)} · certified ${esc(SB.F(x.d,{day:"numeric",month:"long"}))}</p></header>${SB.implHTML(b.impl)}</div></article>`;
+    }).join("");
+    const h=(location.hash||"").slice(1);
+    if(h){const el=document.getElementById(h);if(el)el.scrollIntoView({block:"start"});}
+  });
+}).catch(()=>{["acts","list"].forEach(id=>SB.fail(id));});
+})();
+</script>
+</body>
+</html>
