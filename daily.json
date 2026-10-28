@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-25T21:45:00+05:30",
+ "updated": "2026-10-28T12:35:00+05:30",
  "status": {
-  "date": "2026-10-25",
+  "date": "2026-10-28",
   "sitting": false,
   "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
  },
@@ -104,14 +104,14 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-10-20",
+   "latest": "2026-10-26",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
    "k": "act",
    "name": "Acts",
    "gives": "The final law and its number",
-   "latest": "2026-10-14",
+   "latest": "2026-10-19",
    "u": "https://documents.gov.lk/web/acts"
   },
   {
@@ -127,6 +127,11 @@
    "date": "2026-11-03",
    "label": "Parliament sits again",
    "track": "record"
+  },
+  {
+   "date": "2026-11-03",
+   "label": "Debate: no-confidence motion on the Speaker",
+   "track": "oversight"
   },
   {
    "date": "2026-11-03",
@@ -182,6 +187,10 @@
   {
    "t": "Business for November first sitting week",
    "u": "https://www.parliament.lk/uploaded/news/nov-1st-bus.pdf"
+  },
+  {
+   "t": "Forthcoming business of the House",
+   "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
   }
  ],
  "pipeline": [
@@ -276,9 +285,9 @@
   {
    "id": "G6431",
    "st": 4,
-   "label": "Certified, Act number due",
+   "label": "Act No. 25 of 2026",
    "chg": "2026-10-19",
-   "dt": "Presented 19 Aug · passed 8 Oct · certified 19 Oct"
+   "dt": "Presented 19 Aug · passed 8 Oct · certified 19 Oct · Act No. 25 printed"
   },
   {
    "id": "G6432",
@@ -1203,17 +1212,19 @@
      "bills": [
       "G6431"
      ],
-     "what": "Signed by the Speaker. Act number not yet printed.",
+     "what": "Signed by the Speaker. Printed as Act No. 25 of 2026.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "act"
      ],
      "src": [
       {
-       "t": "Parliament of Sri Lanka",
-       "u": "https://www.parliament.lk/en"
+       "t": "Act No. 25 of 2026",
+       "u": "https://www.parliament.lk/uploads/acts/gbills/english/6431.pdf"
+      },
+      {
+       "t": "Acts, Department of Government Printing",
+       "u": "https://documents.gov.lk/web/acts"
       },
       {
        "t": "Bill details",
