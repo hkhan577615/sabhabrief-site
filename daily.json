@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:35:00+05:30",
+ "updated": "2026-10-28T21:45:00+05:30",
  "status": {
   "date": "2026-10-28",
   "sitting": false,
@@ -97,7 +97,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-10-23",
+   "latest": "2026-10-28",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -118,7 +118,7 @@
    "k": "hansard",
    "name": "Hansard",
    "gives": "Votes, amounts and full answers",
-   "latest": "2026-10-09",
+   "latest": "2026-10-20",
    "u": "https://www.parliament.lk/en/business-of-parliament/hansards"
   }
  ],
