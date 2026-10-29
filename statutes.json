@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-29",
- "coverage": "Built on 29 October 2026 from every page of the Parliament of Sri Lanka Acts listing (numbered Acts and Laws from 1948 to October 2026, Constitutional amendments, and the chapters of the Revised Legislative Enactments, whose original years the listing does not give and which are filed as Ordinances unless an official text names them as Acts) and from about nine-tenths of the Department of Government Printing Acts listing (1980 to 2026); LawNet and the Department of Labour website could not be reached, 277 amending Acts whose principal enactment is not in these listings are left out, and status is \"unknown\" unless an official text read for this index records a repeal or cites the Act as current law between 2021 and 2026.",
+ "coverage": "Built from every page of the Parliament of Sri Lanka Acts listing (numbered Acts and Laws from 1948 to October 2026, Constitutional amendments, and the chapters of the 1956 Revised Legislative Enactments, filed as Ordinances unless an official text names them as Acts) and from about nine-tenths of the Department of Government Printing Acts listing (1980 to 2026). Of 1913 entries, 215 are in force, 81 repealed and 1617 unknown. A law is marked repealed only where the repeal section of a later Act, read in its official text on parliament.lk or documents.gov.lk, repeals it outright; repeals that take effect only from a date still to be appointed by Order, or that remove only some sections, are left unknown. A law is marked in force where an amending Act passed since 2000 names it as the principal enactment, or the Parliament listing records an amendment since 2000, and no Act in this index repeals it; yearly Appropriation and Finance Acts are not marked. 34 Revised Legislative Enactments chapters were confirmed by an official amending Act citing the Act by its chapter number and are now shown on the numbered Act, with the chapter entry removed. Still missing: LawNet's consolidated legislation could not be reached (its security certificate does not match its address), so no entry relies on it; most Acts before about 1995 exist only as scanned images, and only a few of their repeal sections were read; chapters with no amending Act since 1956 could not be matched to their original Act; and 277 amending Acts whose principal enactment is not in these listings are left out.",
  "src": [
   {
    "t": "Parliament of Sri Lanka: Acts listing",
@@ -307,7 +307,7 @@
    "no": "36",
    "yr": 2024,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 14 of 2025"
    ],
@@ -912,7 +912,7 @@
    "no": "11",
    "yr": 2021,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 2026"
    ],
@@ -1148,7 +1148,7 @@
    "no": "19",
    "yr": 2018,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 19 of 2025"
    ],
@@ -1191,7 +1191,7 @@
    "no": "29",
    "yr": 2018,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 8 of 2023"
    ],
@@ -1497,7 +1497,7 @@
    "no": "14",
    "yr": 2016,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 2017"
    ],
@@ -1583,7 +1583,7 @@
    "no": "4",
    "yr": 2016,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 2025",
     "No. 10 of 2025"
@@ -1844,7 +1844,7 @@
    "no": "38",
    "yr": 2014,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 21 of 2018"
    ],
@@ -1950,7 +1950,7 @@
    "no": "1",
    "yr": 2013,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 2 of 2017"
    ],
@@ -2074,7 +2074,7 @@
    "no": "30",
    "yr": 2013,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 37 of 2014"
    ],
@@ -2087,7 +2087,7 @@
    "no": "33",
    "yr": 2013,
    "a": "Sport",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 21 of 2025"
    ],
@@ -2240,7 +2240,7 @@
    "no": "13",
    "yr": 2011,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 6 of 2022"
    ],
@@ -2273,7 +2273,7 @@
    "no": "18",
    "yr": 2011,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 2012",
     "No. 5 of 2020"
@@ -2287,7 +2287,7 @@
    "no": "21",
    "yr": 2011,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 8 of 2013",
     "No. 11 of 2014"
@@ -2301,7 +2301,7 @@
    "no": "23",
    "yr": 2011,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 4 of 2012",
     "No. 20 of 2013"
@@ -2526,7 +2526,7 @@
    "no": "14",
    "yr": 2010,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 12 of 2018",
     "No. 24 of 2023"
@@ -2550,7 +2550,7 @@
    "no": "16",
    "yr": 2010,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 14 of 2014"
    ],
@@ -2583,7 +2583,7 @@
    "no": "19",
    "yr": 2010,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 16 of 2016"
    ],
@@ -3181,7 +3181,7 @@
    "no": "9",
    "yr": 2009,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 32 of 2009",
     "No. 10 of 2011",
@@ -3214,7 +3214,7 @@
    "no": "14",
    "yr": 2008,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 12 of 2011",
     "No. 16 of 2013",
@@ -3359,7 +3359,7 @@
    "no": "30",
    "yr": 2008,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 50 of 2011"
    ],
@@ -3452,7 +3452,7 @@
    "no": "41",
    "yr": 2008,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 2011"
    ],
@@ -3478,7 +3478,7 @@
    "no": "5",
    "yr": 2008,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 2012",
     "No. 29 of 2013"
@@ -3652,7 +3652,7 @@
    "no": "30",
    "yr": 2007,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 2009"
    ],
@@ -3775,7 +3775,7 @@
    "no": "48",
    "yr": 2007,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 12 of 2014"
    ],
@@ -3878,7 +3878,7 @@
    "no": "58",
    "yr": 2007,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 2019"
    ],
@@ -3991,7 +3991,7 @@
    "no": "9",
    "yr": 2007,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 2013"
    ],
@@ -4108,7 +4108,7 @@
    "no": "13",
    "yr": 2006,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2007",
     "No. 11 of 2008",
@@ -4131,7 +4131,7 @@
    "no": "17",
    "yr": 2006,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 18 of 2014"
    ],
@@ -4216,7 +4216,7 @@
    "no": "27",
    "yr": 2006,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 3 of 2015"
    ],
@@ -4229,7 +4229,7 @@
    "no": "28",
    "yr": 2006,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 28 of 2007"
    ],
@@ -4549,7 +4549,7 @@
    "no": "25",
    "yr": 2005,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 41 of 2011",
     "No. 3 of 2013",
@@ -4564,8 +4564,9 @@
    "no": "26",
    "yr": 2005,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5654.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5654.pdf",
+   "rep": "Repealed by Divineguma Act No. 1 of 2013"
   },
   {
    "id": "2005-27",
@@ -4574,7 +4575,7 @@
    "no": "27",
    "yr": 2005,
    "a": "Sport",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 39 of 2008"
    ],
@@ -4763,11 +4764,12 @@
    "no": "10",
    "yr": 2003,
    "a": "Tax",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 31 of 2003"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3557.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3557.pdf",
+   "rep": "Repealed by Inland Revenue (Regulation of Amnesty) Act No. 10 of 2004"
   },
   {
    "id": "2003-13",
@@ -4840,8 +4842,9 @@
    "no": "26",
    "yr": 2003,
    "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3652.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3652.pdf",
+   "rep": "Repealed by Petroleum Resources Act No. 21 of 2021"
   },
   {
    "id": "2003-27",
@@ -4850,7 +4853,7 @@
    "no": "27",
    "yr": 2003,
    "a": "Technology & data",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 33 of 2008"
    ],
@@ -4879,7 +4882,7 @@
    "no": "35",
    "yr": 2003,
    "a": "Immigration & travel",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 6 of 2009"
    ],
@@ -5195,7 +5198,7 @@
    "no": "25",
    "yr": 2002,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 2018"
    ],
@@ -5208,8 +5211,9 @@
    "no": "28",
    "yr": 2002,
    "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3475.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3475.pdf",
+   "rep": "Repealed by Sri Lanka Electricity Act No. 20 of 2009"
   },
   {
    "id": "2002-3",
@@ -5238,7 +5242,7 @@
    "no": "33",
    "yr": 2002,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 2022"
    ],
@@ -5474,7 +5478,7 @@
    "no": "21",
    "yr": 2000,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 2023"
    ],
@@ -5625,7 +5629,7 @@
    "no": "43",
    "yr": 2000,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 2007",
     "No. 3 of 2011",
@@ -5640,11 +5644,12 @@
    "no": "44",
    "yr": 2000,
    "a": "Justice",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 37 of 2005"
    ],
-   "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/44-2000_E_1784553218.pdf"
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/44-2000_E_1784553218.pdf",
+   "rep": "Repealed by Mediation (Civil and Commercial Disputes) Act No. 13 of 2026"
   },
   {
    "id": "2000-45",
@@ -5653,7 +5658,7 @@
    "no": "45",
    "yr": 2000,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 32 of 2006"
    ],
@@ -5666,7 +5671,7 @@
    "no": "46",
    "yr": 2000,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 46 of 2011"
    ],
@@ -5778,7 +5783,7 @@
    "no": "8",
    "yr": 2000,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 18 of 2023"
    ],
@@ -5791,7 +5796,7 @@
    "no": "9",
    "yr": 2000,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 2011"
    ],
@@ -5864,7 +5869,7 @@
    "no": "17",
    "yr": 1999,
    "a": "Sport",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 14 of 2017"
    ],
@@ -5977,8 +5982,9 @@
    "no": "36",
    "yr": 1999,
    "a": "Education",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3697.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3697.pdf",
+   "rep": "Repealed by Ocean University of Sri Lanka Act No. 31 of 2014"
   },
   {
    "id": "1999-37",
@@ -6017,7 +6023,7 @@
    "no": "4",
    "yr": 1999,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 2002"
    ],
@@ -6100,7 +6106,7 @@
    "no": "54",
    "yr": 1999,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 2009",
     "No. 20 of 2012"
@@ -6124,7 +6130,7 @@
    "no": "8",
    "yr": 1999,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 2004"
    ],
@@ -6147,7 +6153,7 @@
    "no": "12",
    "yr": 1998,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2019"
    ],
@@ -6380,7 +6386,7 @@
    "no": "53",
    "yr": 1998,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 23 of 2006"
    ],
@@ -6423,7 +6429,7 @@
    "no": "60",
    "yr": 1998,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 28 of 2009"
    ],
@@ -6540,7 +6546,7 @@
    "no": "30",
    "yr": 1997,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 2021"
    ],
@@ -6604,7 +6610,7 @@
    "no": "7",
    "yr": 1997,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2003"
    ],
@@ -6661,8 +6667,9 @@
    "no": "18",
    "yr": 1996,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3289.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3289.pdf",
+   "rep": "Repealed by Divineguma Act No. 1 of 2013"
   },
   {
    "id": "1996-2",
@@ -6671,7 +6678,7 @@
    "no": "2",
    "yr": 1996,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 4 of 2000",
     "No. 4 of 2004",
@@ -6711,7 +6718,7 @@
    "no": "26",
    "yr": 1996,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3307.pdf"
   },
   {
@@ -6721,7 +6728,7 @@
    "no": "28",
    "yr": 1996,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 33 of 2003"
    ],
@@ -6764,7 +6771,7 @@
    "no": "34",
    "yr": 1996,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3340.pdf"
   },
   {
@@ -6904,7 +6911,7 @@
    "no": "29",
    "yr": 1995,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 25 of 2006"
    ],
@@ -6917,11 +6924,12 @@
    "no": "30",
    "yr": 1995,
    "a": "Governance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 2 of 1997"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3192.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3192.pdf",
+   "rep": "Repealed by Divineguma Act No. 1 of 2013"
   },
   {
    "id": "1995-34",
@@ -6980,7 +6988,7 @@
    "no": "11",
    "yr": 1994,
    "a": "Technology & data",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 32 of 2013"
    ],
@@ -7074,7 +7082,7 @@
    "no": "22",
    "yr": 1994,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2021"
    ],
@@ -7217,7 +7225,7 @@
    "no": "52",
    "yr": 1993,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 2003",
     "No. 43 of 2006",
@@ -7441,7 +7449,7 @@
    "no": "33",
    "yr": 1992,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 66 of 2009"
    ],
@@ -7524,7 +7532,7 @@
    "no": "46",
    "yr": 1992,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 2026"
    ],
@@ -7647,7 +7655,7 @@
    "no": "6",
    "yr": 1992,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 45 of 2006"
    ],
@@ -7680,7 +7688,7 @@
    "no": "64",
    "yr": 1992,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 11 of 2000"
    ],
@@ -7863,7 +7871,7 @@
    "no": "25",
    "yr": 1991,
    "a": "Technology & data",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 1996",
     "No. 39 of 2024"
@@ -7897,7 +7905,7 @@
    "no": "37",
    "yr": 1991,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 1996",
     "No. 6 of 2017",
@@ -8032,7 +8040,7 @@
    "no": "52",
    "yr": 1991,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 36 of 1992",
     "No. 66 of 1992",
@@ -8090,7 +8098,7 @@
    "no": "14",
    "yr": 1990,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 22 of 2024"
    ],
@@ -8113,7 +8121,7 @@
    "no": "18",
    "yr": 1990,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 42 of 2008"
    ],
@@ -8126,7 +8134,7 @@
    "no": "19",
    "yr": 1990,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 54 of 2006",
     "No. 35 of 2022"
@@ -8216,7 +8224,7 @@
    "no": "4",
    "yr": 1990,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 1995",
     "No. 1 of 2011",
@@ -8430,7 +8438,7 @@
    "no": "19",
    "yr": 1988,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 35 of 2005"
    ],
@@ -8443,7 +8451,7 @@
    "no": "2",
    "yr": 1988,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 55 of 1988",
     "No. 7 of 1993",
@@ -8580,7 +8588,7 @@
    "no": "39",
    "yr": 1988,
    "a": "Immigration & travel",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 2009"
    ],
@@ -8603,7 +8611,7 @@
    "no": "40",
    "yr": 1988,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 2001",
     "No. 23 of 2003",
@@ -8683,7 +8691,7 @@
    "no": "53",
    "yr": 1988,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 1999",
     "No. 1 of 2014"
@@ -8777,7 +8785,7 @@
    "no": "72",
    "yr": 1988,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 1997",
     "No. 4 of 2011"
@@ -8801,7 +8809,7 @@
    "no": "75",
    "yr": 1988,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 45 of 2014"
    ],
@@ -8824,11 +8832,12 @@
    "no": "78",
    "yr": 1988,
    "a": "Public money",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 23 of 1991"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3911.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3911.pdf",
+   "rep": "Repealed by Finance Business Act No. 42 of 2011"
   },
   {
    "id": "1987-1",
@@ -8880,7 +8889,7 @@
    "no": "15",
    "yr": 1987,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 34 of 1993",
     "No. 14 of 1999",
@@ -8916,8 +8925,9 @@
    "no": "29",
    "yr": 1987,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3406.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3406.pdf",
+   "rep": "Repealed by Office for Reparations Act No. 34 of 2018"
   },
   {
    "id": "1987-3",
@@ -8946,11 +8956,12 @@
    "no": "36",
    "yr": 1987,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 26 of 1991"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3413.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3413.pdf",
+   "rep": "Repealed by Securities and Exchange Commission of Sri Lanka Act No. 19 of 2021"
   },
   {
    "id": "1987-41",
@@ -8969,7 +8980,7 @@
    "no": "42",
    "yr": 1987,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 1990",
     "No. 28 of 1990",
@@ -9073,7 +9084,7 @@
    "no": "15",
    "yr": 1986,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2016"
    ],
@@ -9187,8 +9198,9 @@
    "no": "2",
    "yr": 1985,
    "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3244.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3244.pdf",
+   "rep": "Repealed by Sri Lanka Sustainable Energy Authority Act No. 35 of 2007"
   },
   {
    "id": "1985-21",
@@ -9197,7 +9209,7 @@
    "no": "21",
    "yr": 1985,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 4 of 1994",
     "No. 56 of 2009"
@@ -9317,7 +9329,7 @@
    "no": "6",
    "yr": 1985,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 50 of 2000"
    ],
@@ -9330,7 +9342,7 @@
    "no": "9",
    "yr": 1985,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 1991",
     "No. 16 of 2018"
@@ -9488,8 +9500,9 @@
    "no": "3",
    "yr": 1984,
    "a": "Education",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3185.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3185.pdf",
+   "rep": "Repealed by Sri Lanka Institute of Textile and Apparel Act No. 12 of 2009"
   },
   {
    "id": "1984-30",
@@ -9538,8 +9551,9 @@
    "no": "4",
    "yr": 1984,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3187.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3187.pdf",
+   "rep": "Repealed by Sri Lanka Institute of Textile and Apparel Act No. 12 of 2009"
   },
   {
    "id": "1984-42",
@@ -9745,7 +9759,7 @@
    "no": "24",
    "yr": 1983,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 19 of 1985",
     "No. 16 of 1997",
@@ -10052,7 +10066,7 @@
    "no": "28",
    "yr": 1982,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 68 of 2009"
    ],
@@ -10108,7 +10122,7 @@
    "no": "43",
    "yr": 1982,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 71 of 1988",
     "No. 27 of 1991",
@@ -10128,7 +10142,7 @@
    "no": "6",
    "yr": 1982,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 26 of 2022"
    ],
@@ -10164,7 +10178,7 @@
    "no": "1",
    "yr": 1981,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 1988",
     "No. 29 of 1988",
@@ -10304,7 +10318,7 @@
    "no": "4",
    "yr": 1981,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 18 of 2006"
    ],
@@ -10317,7 +10331,7 @@
    "no": "43",
    "yr": 1981,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 2010"
    ],
@@ -10363,7 +10377,7 @@
    "no": "55",
    "yr": 1981,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 25 of 2014"
    ],
@@ -10386,7 +10400,7 @@
    "no": "57",
    "yr": 1981,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 64 of 1988",
     "No. 49 of 2011"
@@ -10410,7 +10424,7 @@
    "no": "66",
    "yr": 1981,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 2022"
    ],
@@ -10423,7 +10437,7 @@
    "no": "68",
    "yr": 1981,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 50 of 2007"
    ],
@@ -10483,7 +10497,7 @@
    "no": "73",
    "yr": 1981,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 37 of 2009"
    ],
@@ -10597,7 +10611,7 @@
    "no": "26",
    "yr": 1980,
    "a": "Consumers",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 20 of 1991",
     "No. 29 of 2011"
@@ -10611,13 +10625,14 @@
    "no": "27",
    "yr": 1980,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 38 of 1984",
     "No. 25 of 1987",
     "No. 12 of 1993"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2859.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2859.pdf",
+   "rep": "Repealed by National Medicines Regulatory Authority Act No. 5 of 2015"
   },
   {
    "id": "1980-31",
@@ -10646,7 +10661,7 @@
    "no": "33",
    "yr": 1980,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 6 of 1994",
     "No. 31 of 2011"
@@ -10696,7 +10711,7 @@
    "no": "44",
    "yr": 1980,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 1989",
     "No. 22 of 2021"
@@ -10883,7 +10898,7 @@
    "no": "15",
    "yr": 1979,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 36 of 1979",
     "No. 68 of 1979",
@@ -10924,7 +10939,7 @@
    "no": "17",
    "yr": 1979,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1982",
     "No. 20 of 1988",
@@ -11133,7 +11148,7 @@
    "no": "45",
    "yr": 1979,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 76 of 1981",
     "No. 5 of 1987",
@@ -11158,7 +11173,7 @@
    "no": "48",
    "yr": 1979,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 1982",
     "No. 22 of 1988",
@@ -11173,7 +11188,7 @@
    "no": "51",
    "yr": 1979,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 1984",
     "No. 35 of 1984",
@@ -11227,13 +11242,14 @@
    "no": "58",
    "yr": 1979,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 9 of 1990",
     "No. 4 of 1991",
     "No. 40 of 1993"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2784.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2784.pdf",
+   "rep": "Repealed by Agrarian Development Act No. 46 of 2000"
   },
   {
    "id": "1979-59",
@@ -11242,7 +11258,7 @@
    "no": "59",
    "yr": 1979,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 37 of 1982",
     "No. 1 of 2018"
@@ -11450,7 +11466,7 @@
    "no": "16",
    "yr": 1978,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 1988",
     "No. 26 of 1988",
@@ -11513,11 +11529,12 @@
    "no": "19",
    "yr": 1978,
    "a": "Sport",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 6 of 1981"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5780"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5780",
+   "rep": "Repealed by Sri Lanka Transport Board Act No. 27 of 2005"
   },
   {
    "id": "1978-2",
@@ -11526,7 +11543,7 @@
    "no": "2",
    "yr": 1978,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 37 of 1979",
     "No. 71 of 1981",
@@ -11694,7 +11711,7 @@
    "no": "41",
    "yr": 1978,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 70 of 1979",
     "No. 4 of 1982",
@@ -11860,7 +11877,7 @@
    "no": "21",
    "yr": 1977,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1981",
     "No. 6 of 1987",
@@ -12003,7 +12020,7 @@
    "no": "23",
    "yr": 1976,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 28 of 1991",
     "No. 2 of 2014"
@@ -12017,7 +12034,7 @@
    "no": "24",
    "yr": 1976,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 31 of 2018"
    ],
@@ -12124,7 +12141,7 @@
    "no": "14",
    "yr": 1975,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 17 of 1985",
     "No. 44 of 1990",
@@ -12266,7 +12283,7 @@
    "no": "33",
    "yr": 1975,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 2019"
    ],
@@ -12279,7 +12296,7 @@
    "no": "35",
    "yr": 1975,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 36 of 1991",
     "No. 21 of 1997",
@@ -12348,7 +12365,7 @@
    "no": "6",
    "yr": 1975,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 55 of 2009"
    ],
@@ -12418,7 +12435,7 @@
    "no": "2",
    "yr": 1974,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 1992",
     "No. 20 of 2026"
@@ -12518,7 +12535,7 @@
    "no": "10",
    "yr": 1973,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 46 of 1982",
     "No. 24 of 2003"
@@ -12592,7 +12609,7 @@
    "no": "25",
    "yr": 1973,
    "a": "Sport",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 47 of 1993",
     "No. 10 of 1998",
@@ -12617,11 +12634,12 @@
    "no": "27",
    "yr": 1973,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 55 of 1979"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4028"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4028",
+   "rep": "Repealed by Agricultural and Agrarian Insurance Act No. 20 of 1999"
   },
   {
    "id": "1973-28",
@@ -12697,8 +12715,9 @@
    "no": "4",
    "yr": 1973,
    "a": "Environment & land",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4000"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4000",
+   "rep": "Repealed by Mines and Minerals Act No. 33 of 1992"
   },
   {
    "id": "1973-42",
@@ -12797,7 +12816,7 @@
    "no": "5",
    "yr": 1973,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 2002"
    ],
@@ -12864,7 +12883,7 @@
    "no": "10",
    "yr": 1972,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 9 of 1981",
     "No. 16 of 1982",
@@ -13298,7 +13317,7 @@
    "no": "46",
    "yr": 1971,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 1975",
     "No. 7 of 1986",
@@ -13360,7 +13379,7 @@
    "no": "52",
    "yr": 1971,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 36 of 1988",
     "No. 17 of 2019"
@@ -13477,7 +13496,7 @@
    "no": "18",
    "yr": 1970,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 18 of 1985",
     "No. 55 of 1999",
@@ -13639,8 +13658,9 @@
    "no": "7",
    "yr": 1970,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/4523.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/4523.pdf",
+   "rep": "Repealed by Homoeopathy Act No. 10 of 2016"
   },
   {
    "id": "1969-1",
@@ -13728,8 +13748,9 @@
    "no": "19",
    "yr": 1969,
    "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5675.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5675.pdf",
+   "rep": "Repealed by Sri Lanka Atomic Energy Act No. 40 of 2014"
   },
   {
    "id": "1969-2",
@@ -13896,7 +13917,7 @@
    "no": "15",
    "yr": 1968,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 27 of 1976",
     "No. 52 of 1982",
@@ -14008,7 +14029,7 @@
    "no": "32",
    "yr": 1968,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 28 of 1971",
     "No. 37 of 1971",
@@ -14094,8 +14115,9 @@
    "no": "46",
    "yr": 1968,
    "a": "Environment & land",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5624.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5624.pdf",
+   "rep": "Repealed by Mines and Minerals Act No. 33 of 1992"
   },
   {
    "id": "1968-6",
@@ -14269,7 +14291,7 @@
    "no": "18",
    "yr": 1966,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 2 of 2011"
    ],
@@ -14371,8 +14393,9 @@
    "no": "17",
    "yr": 1965,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5589.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5589.pdf",
+   "rep": "Repealed by Holidays Act No. 29 of 1971"
   },
   {
    "id": "1965-19",
@@ -14628,12 +14651,13 @@
    "no": "25",
    "yr": 1962,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 9 of 1967",
     "No. 42 of 1986"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5116.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5116.pdf",
+   "rep": "Repealed by Regulation of Insurance Industry Act No. 43 of 2000"
   },
   {
    "id": "1962-30",
@@ -14712,12 +14736,13 @@
    "no": "19",
    "yr": 1961,
    "a": "Tax",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 5 of 1971",
     "No. 32 of 1976"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3926.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3926.pdf",
+   "rep": "Repealed by Finance Act No. 25 of 2003"
   },
   {
    "id": "1961-2",
@@ -14795,7 +14820,7 @@
    "no": "29",
    "yr": 1961,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 61 of 1980",
     "No. 32 of 1986",
@@ -14820,7 +14845,7 @@
    "no": "31",
    "yr": 1961,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1962",
     "No. 9 of 1969",
@@ -15308,7 +15333,7 @@
    "no": "2",
    "yr": 1958,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 20 of 2005"
    ],
@@ -15352,8 +15377,9 @@
    "no": "26",
    "yr": 1958,
    "a": "Public money",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3768.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3768.pdf",
+   "rep": "Repealed by National Audit Act No. 19 of 2018"
   },
   {
    "id": "1958-28",
@@ -15372,7 +15398,7 @@
    "no": "29",
    "yr": 1958,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 20 of 1964",
     "No. 10 of 1968",
@@ -15648,7 +15674,7 @@
    "no": "11",
    "yr": 1956,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 16 of 1957",
     "No. 45 of 1957",
@@ -15657,6 +15683,20 @@
     "No. 16 of 2025"
    ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3013.pdf"
+  },
+  {
+   "id": "ord-cap436",
+   "t": "Rubber Control",
+   "kind": "Ordinance",
+   "no": "436",
+   "yr": null,
+   "a": "Trade & exports",
+   "status": "unknown",
+   "amd": [
+    "No. 28 of 1948",
+    "No. 11 of 1950"
+   ],
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4955"
   },
   {
    "id": "1956-14",
@@ -15698,7 +15738,7 @@
    "no": "21",
    "yr": 1956,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 33 of 1969",
     "No. 36 of 1976",
@@ -15706,6 +15746,16 @@
     "No. 18 of 2005"
    ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3109.pdf"
+  },
+  {
+   "id": "ord-cap183",
+   "t": "Explosives",
+   "kind": "Ordinance",
+   "no": "183",
+   "yr": null,
+   "a": "Security",
+   "status": "unknown",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4490"
   },
   {
    "id": "1956-33",
@@ -15808,7 +15858,7 @@
    "no": "47",
    "yr": 1956,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 43 of 1964",
     "No. 29 of 1973",
@@ -15907,7 +15957,13 @@
    "yr": 1955,
    "a": "Education",
    "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5545.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5545.pdf",
+   "cap": "164",
+   "amd": [
+    "No. 14 of 1962",
+    "No. 51 of 1973",
+    "No. 19 of 1981"
+   ]
   },
   {
    "id": "1955-17",
@@ -15940,7 +15996,8 @@
    "yr": 1955,
    "a": "Governance",
    "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5560.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5560.pdf",
+   "cap": "392"
   },
   {
    "id": "1955-24",
@@ -16058,7 +16115,7 @@
    "no": "11",
    "yr": 1954,
    "a": "Justice",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 17 of 1956",
     "No. 40 of 1958",
@@ -16069,7 +16126,9 @@
     "No. 20 of 1994",
     "No. 22 of 2018"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5496.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5496.pdf",
+   "cap": "26",
+   "rep": "Repealed by Anti-Corruption Act No. 9 of 2023"
   },
   {
    "id": "1954-12",
@@ -16084,7 +16143,8 @@
     "No. 9 of 1957",
     "No. 18 of 1964"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5492.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5492.pdf",
+   "cap": "281"
   },
   {
    "id": "1954-14",
@@ -16182,7 +16242,8 @@
       "u": "https://www.parliament.lk/uploads/acts/gbills/english/6332.pdf"
      }
     ]
-   }
+   },
+   "cap": "129"
   },
   {
    "id": "1954-24",
@@ -16229,7 +16290,8 @@
     "No. 9 of 1978",
     "No. 49 of 1981"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5517.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5517.pdf",
+   "cap": "401"
   },
   {
    "id": "1954-38",
@@ -16368,7 +16430,7 @@
    "no": "24",
    "yr": 1953,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 35 of 1956",
     "No. 47 of 1957",
@@ -16378,7 +16440,9 @@
     "No. 4 of 1977",
     "No. 13 of 1977"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5455.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5455.pdf",
+   "cap": "423",
+   "rep": "Repealed by Foreign Exchange Act No. 12 of 2017"
   },
   {
    "id": "1953-27",
@@ -16387,7 +16451,7 @@
    "no": "27",
    "yr": 1953,
    "a": "Tax",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 52 of 1954",
     "No. 10 of 1959",
@@ -16395,7 +16459,9 @@
     "No. 40 of 1973",
     "No. 5 of 1979"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5466.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5466.pdf",
+   "cap": "245",
+   "rep": "Repealed by Tobacco Tax Act No. 8 of 1999"
   },
   {
    "id": "1953-29",
@@ -16414,7 +16480,7 @@
    "no": "36",
    "yr": 1953,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 1955",
     "No. 54 of 1956",
@@ -16425,7 +16491,8 @@
     "No. 9 of 1998",
     "No. 20 of 2006"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5467.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5467.pdf",
+   "cap": "437"
   },
   {
    "id": "1953-37",
@@ -16454,14 +16521,15 @@
    "no": "44",
    "yr": 1953,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 23 of 1957",
     "No. 38 of 1961",
     "No. 34 of 1964",
     "No. 32 of 2008"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5474.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5474.pdf",
+   "cap": "432"
   },
   {
    "id": "1953-45",
@@ -16470,8 +16538,9 @@
    "no": "45",
    "yr": 1953,
    "a": "Trade & exports",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5477.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5477.pdf",
+   "rep": "Repealed by Tea Control Act No. 51 of 1957"
   },
   {
    "id": "1953-7",
@@ -16530,7 +16599,8 @@
     "No. 3 of 1977",
     "No. 13 of 1987"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5364.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5364.pdf",
+   "cap": "219"
   },
   {
    "id": "1952-13",
@@ -16576,7 +16646,8 @@
    "amd": [
     "No. 44 of 1987"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5382.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5382.pdf",
+   "cap": "278"
   },
   {
    "id": "1952-20",
@@ -16685,8 +16756,9 @@
    "no": "13",
    "yr": 1951,
    "a": "Justice",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5328.pdf"
+   "status": "in force",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5328.pdf",
+   "cap": "115"
   },
   {
    "id": "1951-14",
@@ -16695,7 +16767,7 @@
    "no": "14",
    "yr": 1951,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 1952",
     "No. 1 of 1956",
@@ -16721,7 +16793,8 @@
     "No. 18 of 2017",
     "No. 10 of 2019"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5327.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5327.pdf",
+   "cap": "203"
   },
   {
    "id": "1951-15",
@@ -16730,8 +16803,9 @@
    "no": "15",
    "yr": 1951,
    "a": "Health & local government",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5329.pdf"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5329.pdf",
+   "rep": "Repealed by Colombo Municipal Council (Differential Rates) Act No. 23 of 1961"
   },
   {
    "id": "1951-16",
@@ -16750,15 +16824,17 @@
    "no": "17",
    "yr": 1951,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 1953",
     "No. 30 of 1954",
     "No. 40 of 1975",
     "No. 1 of 1993",
-    "No. 37 of 2006"
+    "No. 37 of 2006",
+    "No. 25 of 2013"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5301.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5301.pdf",
+   "cap": "110"
   },
   {
    "id": "1951-24",
@@ -16772,7 +16848,8 @@
     "No. 20 of 1979",
     "No. 19 of 1986"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5336.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5336.pdf",
+   "cap": "363"
   },
   {
    "id": "1951-25",
@@ -16785,7 +16862,8 @@
    "amd": [
     "No. 24 of 1996"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5400.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5400.pdf",
+   "cap": "450"
   },
   {
    "id": "1951-26",
@@ -16844,12 +16922,13 @@
    "no": "9",
    "yr": 1951,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 1953",
     "No. 1 of 2000"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5312.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5312.pdf",
+   "cap": "452"
   },
   {
    "id": "1950-1",
@@ -16885,7 +16964,8 @@
     "No. 22 of 1981",
     "No. 14 of 1987"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5228.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5228.pdf",
+   "cap": "365"
   },
   {
    "id": "1950-16",
@@ -16904,12 +16984,14 @@
    "no": "19",
    "yr": 1950,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 59 of 1957",
     "No. 15 of 1984"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5194.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5194.pdf",
+   "cap": "205",
+   "rep": "Repealed by Sri Lanka Electricity Act No. 20 of 2009"
   },
   {
    "id": "1950-2",
@@ -16969,7 +17051,8 @@
     "No. 32 of 1970",
     "No. 42 of 1971"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5253.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5253.pdf",
+   "cap": "171"
   },
   {
    "id": "1950-26",
@@ -17009,7 +17092,8 @@
     "No. 43 of 1975",
     "No. 33 of 1979"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5252.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5252.pdf",
+   "cap": "173"
   },
   {
    "id": "1950-3",
@@ -17051,7 +17135,7 @@
    "no": "34",
    "yr": 1950,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 8 of 1962",
     "No. 11 of 1962",
@@ -17061,7 +17145,8 @@
     "No. 53 of 1999",
     "No. 32 of 2011"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5256.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5256.pdf",
+   "cap": "358"
   },
   {
    "id": "1950-35",
@@ -17151,7 +17236,8 @@
       "u": "https://www.parliament.lk/uploads/acts/gbills/english/6265.pdf"
      }
     ]
-   }
+   },
+   "cap": "131"
   },
   {
    "id": "1949-12",
@@ -17175,7 +17261,8 @@
     "No. 62 of 1988",
     "No. 63 of 1988"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5090"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5090",
+   "cap": "220"
   },
   {
    "id": "1949-17",
@@ -17193,7 +17280,8 @@
     "No. 38 of 1990",
     "No. 10 of 1993"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5099"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5099",
+   "cap": "357"
   },
   {
    "id": "1949-18",
@@ -17218,9 +17306,13 @@
    "a": "Consumers",
    "status": "unknown",
    "amd": [
-    "No. 38 of 1952"
+    "No. 38 of 1952",
+    "No. 32 of 1954",
+    "No. 3 of 1958",
+    "No. 35 of 1968"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5104"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5104",
+   "cap": "216"
   },
   {
    "id": "1949-26",
@@ -17242,12 +17334,13 @@
    "no": "28",
    "yr": 1949,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 14 of 1950",
     "No. 27 of 1954"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5108"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5108",
+   "rep": "Repealed by Tea Control Act No. 51 of 1957"
   },
   {
    "id": "1949-3",
@@ -17330,7 +17423,8 @@
     "No. 82 of 1988",
     "No. 9 of 1993"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5164"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5164",
+   "cap": "359"
   },
   {
    "id": "1949-47",
@@ -17348,7 +17442,8 @@
     "Law No. 31 of 1978",
     "No. 31 of 1991"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5188"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5188",
+   "cap": "126"
   },
   {
    "id": "1949-51",
@@ -17392,7 +17487,7 @@
    "no": "58",
    "yr": 1949,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 33 of 1954",
     "No. 16 of 1967",
@@ -17410,7 +17505,9 @@
     "No. 9 of 2006",
     "No. 15 of 2014"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5196"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5196",
+   "cap": "422",
+   "rep": "Repealed by Central Bank of Sri Lanka Act No. 16 of 2023"
   },
   {
    "id": "1949-59",
@@ -17469,7 +17566,7 @@
    "no": "17",
    "yr": 1948,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 8 of 1950",
     "No. 40 of 1953",
@@ -17478,7 +17575,8 @@
     "No. 16 of 2008",
     "No. 3 of 2019"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5048"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5048",
+   "cap": "393"
   },
   {
    "id": "1948-18",
@@ -17487,7 +17585,7 @@
    "no": "18",
    "yr": 1948,
    "a": "Immigration & travel",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 40 of 1950",
     "No. 13 of 1955",
@@ -17496,7 +17594,8 @@
     "No. 43 of 1993",
     "No. 16 of 2003"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5049"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5049",
+   "cap": "349"
   },
   {
    "id": "1948-20",
@@ -17505,11 +17604,18 @@
    "no": "20",
    "yr": 1948,
    "a": "Immigration & travel",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
-    "No. 16 of 1955"
+    "No. 16 of 1955",
+    "No. 68 of 1961",
+    "No. 16 of 1993",
+    "No. 42 of 1998",
+    "No. 31 of 2006",
+    "No. 7 of 2015",
+    "No. 27 of 2021"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5050"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5050",
+   "cap": "351"
   },
   {
    "id": "1948-23",
@@ -17538,7 +17644,8 @@
     "No. 2 of 1964",
     "No. 12 of 1966"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5060"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5060",
+   "cap": "274"
   },
   {
    "id": "1948-5",
@@ -17597,7 +17704,7 @@
    "no": "101",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 1949",
     "No. 43 of 1949",
@@ -17677,7 +17784,7 @@
    "no": "105",
    "yr": null,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4743"
   },
   {
@@ -17697,7 +17804,7 @@
    "no": "107",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 6 of 1951",
     "No. 24 of 1973",
@@ -17740,19 +17847,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1761"
   },
   {
-   "id": "ord-cap110",
-   "t": "Births and Deaths",
-   "kind": "Ordinance",
-   "no": "110",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "amd": [
-    "No. 25 of 2013"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4159"
-  },
-  {
    "id": "ord-cap111",
    "t": "Registration of Deaths (Emergency)",
    "kind": "Ordinance",
@@ -17779,7 +17873,7 @@
    "no": "113",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4633"
   },
   {
@@ -17791,16 +17885,6 @@
    "a": "Justice",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4636"
-  },
-  {
-   "id": "ord-cap115",
-   "t": "Marriage and Divorce (Muslim)",
-   "kind": "Ordinance",
-   "no": "115",
-   "yr": null,
-   "a": "Justice",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4730"
   },
   {
    "id": "ord-cap116",
@@ -17819,7 +17903,7 @@
    "no": "117",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 22 of 1958",
     "No. 27 of 1969",
@@ -17889,7 +17973,7 @@
    "no": "122",
    "yr": null,
    "a": "Utilities",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4141"
   },
   {
@@ -17899,7 +17983,7 @@
    "no": "123",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 11 of 2005"
    ],
@@ -17930,16 +18014,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1710"
   },
   {
-   "id": "ord-cap126",
-   "t": "Co-operative Wholesale Establishment",
-   "kind": "Ordinance",
-   "no": "126",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4373"
-  },
-  {
    "id": "ord-cap127",
    "t": "Commissioner of Co- operative Development",
    "kind": "Ordinance",
@@ -17956,7 +18030,7 @@
    "no": "128",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 54 of 1961",
     "No. 12 of 1976",
@@ -17966,16 +18040,6 @@
     "No. 4 of 2021"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4494"
-  },
-  {
-   "id": "ord-cap129",
-   "t": "Shop and Office Employees",
-   "kind": "Act",
-   "no": "129",
-   "yr": null,
-   "a": "Labour",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1750"
   },
   {
    "id": "ord-cap13",
@@ -17996,16 +18060,6 @@
    "a": "Labour",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4468"
-  },
-  {
-   "id": "ord-cap131",
-   "t": "Industrial Disputes",
-   "kind": "Act",
-   "no": "131",
-   "yr": null,
-   "a": "Labour",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4585"
   },
   {
    "id": "ord-cap132",
@@ -18050,7 +18104,7 @@
    "no": "135",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1832"
   },
   {
@@ -18060,7 +18114,7 @@
    "no": "136",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1953",
     "No. 27 of 1957",
@@ -18105,7 +18159,7 @@
    "no": "139",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 31 of 1957",
     "No. 22 of 1959",
@@ -18123,7 +18177,7 @@
    "no": "14",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 1988",
     "No. 33 of 1998",
@@ -18139,7 +18193,7 @@
    "no": "140",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 26 of 1952",
     "No. 6 of 1958",
@@ -18179,7 +18233,7 @@
    "no": "143",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 16 of 1981",
     "No. 55 of 2000",
@@ -18204,12 +18258,13 @@
    "no": "145",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 35 of 1951",
     "No. 15 of 1964"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4347"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4347",
+   "rep": "Repealed by Companies Act No. 17 of 1982"
   },
   {
    "id": "ord-cap146",
@@ -18251,8 +18306,9 @@
    "no": "149",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4192"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4192",
+   "rep": "Repealed by Business Names Act No. 7 of 1987"
   },
   {
    "id": "ord-cap15",
@@ -18271,13 +18327,14 @@
    "no": "150",
    "yr": null,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 56 of 1949",
     "No. 4 of 1952",
     "No. 47 of 1953"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1812"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1812",
+   "rep": "Repealed by Trade Marks Act No. 30 of 1964"
   },
   {
    "id": "ord-cap151",
@@ -18435,21 +18492,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4087"
   },
   {
-   "id": "ord-cap164",
-   "t": "Ceylon Institute of Scientific and Industrial Research",
-   "kind": "Ordinance",
-   "no": "164",
-   "yr": null,
-   "a": "Education",
-   "status": "unknown",
-   "amd": [
-    "No. 14 of 1962",
-    "No. 51 of 1973",
-    "No. 19 of 1981"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4249"
-  },
-  {
    "id": "ord-cap165",
    "t": "Development Finance Corporation",
    "kind": "Ordinance",
@@ -18526,19 +18568,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1690"
   },
   {
-   "id": "ord-cap171",
-   "t": "Food Control",
-   "kind": "Ordinance",
-   "no": "171",
-   "yr": null,
-   "a": "Consumers",
-   "status": "unknown",
-   "amd": [
-    "No. 11 of 1948"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4509"
-  },
-  {
    "id": "ord-cap172",
    "t": "Food Control (Possession)",
    "kind": "Ordinance",
@@ -18547,16 +18576,6 @@
    "a": "Consumers",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1742"
-  },
-  {
-   "id": "ord-cap173",
-   "t": "Control of Prices",
-   "kind": "Ordinance",
-   "no": "173",
-   "yr": null,
-   "a": "Trade & exports",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4369"
   },
   {
    "id": "ord-cap174",
@@ -18689,16 +18708,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4502"
   },
   {
-   "id": "ord-cap183",
-   "t": "Explosives",
-   "kind": "Ordinance",
-   "no": "183",
-   "yr": null,
-   "a": "Security",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4490"
-  },
-  {
    "id": "ord-cap184",
    "t": "Petroleum",
    "kind": "Ordinance",
@@ -18777,7 +18786,7 @@
    "no": "19",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2640"
   },
   {
@@ -18979,16 +18988,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5152"
   },
   {
-   "id": "ord-cap203",
-   "t": "Motor Traffic",
-   "kind": "Ordinance",
-   "no": "203",
-   "yr": null,
-   "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4769"
-  },
-  {
    "id": "ord-cap204",
    "t": "Motor Car (Conventions)",
    "kind": "Ordinance",
@@ -18997,16 +18996,6 @@
    "a": "Utilities",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4767"
-  },
-  {
-   "id": "ord-cap205",
-   "t": "Electricity",
-   "kind": "Ordinance",
-   "no": "205",
-   "yr": null,
-   "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4453"
   },
   {
    "id": "ord-cap206",
@@ -19055,8 +19044,9 @@
    "no": "21",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4378"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4378",
+   "rep": "Repealed by Corporal Punishment (Repeal) Act No. 23 of 2005"
   },
   {
    "id": "ord-cap210",
@@ -19065,8 +19055,9 @@
    "no": "210",
    "yr": null,
    "a": "Environment & land",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2621"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2621",
+   "rep": "Repealed by Mines and Minerals Act No. 33 of 1992"
   },
   {
    "id": "ord-cap211",
@@ -19075,11 +19066,12 @@
    "no": "211",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 31 of 1964"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4961"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4961",
+   "rep": "Repealed by Mines and Minerals Act No. 33 of 1992"
   },
   {
    "id": "ord-cap212",
@@ -19131,21 +19123,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5173"
   },
   {
-   "id": "ord-cap216",
-   "t": "Food and Drugs",
-   "kind": "Ordinance",
-   "no": "216",
-   "yr": null,
-   "a": "Consumers",
-   "status": "unknown",
-   "amd": [
-    "No. 32 of 1954",
-    "No. 3 of 1958",
-    "No. 35 of 1968"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1762"
-  },
-  {
    "id": "ord-cap217",
    "t": "Bread",
    "kind": "Ordinance",
@@ -19162,7 +19139,7 @@
    "no": "218",
    "yr": null,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 42 of 1953",
     "No. 13 of 1984",
@@ -19173,37 +19150,17 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4824"
   },
   {
-   "id": "ord-cap219",
-   "t": "Health Services",
-   "kind": "Ordinance",
-   "no": "219",
-   "yr": null,
-   "a": "Health & local government",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4548"
-  },
-  {
    "id": "ord-cap22",
    "t": "Prevention of Crimes",
    "kind": "Ordinance",
    "no": "22",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 29 of 2017"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4871"
-  },
-  {
-   "id": "ord-cap220",
-   "t": "Nursing Homes (Regulation)",
-   "kind": "Ordinance",
-   "no": "220",
-   "yr": null,
-   "a": "Health & local government",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4813"
   },
   {
    "id": "ord-cap221",
@@ -19313,7 +19270,7 @@
    "no": "23",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 39 of 2022"
    ],
@@ -19454,8 +19411,9 @@
    "no": "236",
    "yr": null,
    "a": "Trade & exports",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1758"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1758",
+   "rep": "Repealed by Imports and Exports (Control) Act No. 1 of 1969"
   },
   {
    "id": "ord-cap237",
@@ -19582,16 +19540,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1746"
   },
   {
-   "id": "ord-cap245",
-   "t": "Tobacco Tax",
-   "kind": "Ordinance",
-   "no": "245",
-   "yr": null,
-   "a": "Tax",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5037"
-  },
-  {
    "id": "ord-cap246",
    "t": "Compulsory Food Production (Tax Relief)",
    "kind": "Ordinance",
@@ -19643,7 +19591,7 @@
    "no": "25",
    "yr": null,
    "a": "Education",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 24 of 2021"
    ],
@@ -19676,7 +19624,7 @@
    "no": "252",
    "yr": null,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 3 of 1951",
     "No. 26 of 1954",
@@ -19723,7 +19671,7 @@
    "no": "255",
    "yr": null,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 1961",
     "No. 48 of 1984",
@@ -19781,17 +19729,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4423"
   },
   {
-   "id": "ord-cap26",
-   "t": "Bribery",
-   "kind": "Act",
-   "no": "26",
-   "yr": null,
-   "a": "Justice",
-   "status": "repealed",
-   "rep": "Repealed by Anti-Corruption Act No. 9 of 2023",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4169"
-  },
-  {
    "id": "ord-cap260",
    "t": "Gal Oya Development Board",
    "kind": "Ordinance",
@@ -19818,7 +19755,7 @@
    "no": "262",
    "yr": null,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1949",
     "No. 25 of 1953",
@@ -19922,7 +19859,7 @@
    "no": "269",
    "yr": null,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 49 of 2000"
    ],
@@ -19971,7 +19908,7 @@
    "no": "272/9",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 2 of 1951",
     "No. 48 of 1953",
@@ -19994,16 +19931,6 @@
     "No. 63 of 1981"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1772"
-  },
-  {
-   "id": "ord-cap274",
-   "t": "Rent Restriction",
-   "kind": "Ordinance",
-   "no": "274",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2626"
   },
   {
    "id": "ord-cap275",
@@ -20039,16 +19966,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1805"
   },
   {
-   "id": "ord-cap278",
-   "t": "Arts Council of Ceylon",
-   "kind": "Ordinance",
-   "no": "278",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4132"
-  },
-  {
    "id": "ord-cap279",
    "t": "Ayurvedic Medical Council",
    "kind": "Ordinance",
@@ -20080,16 +19997,6 @@
     "No. 40 of 1971"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G736"
-  },
-  {
-   "id": "ord-cap281",
-   "t": "Milk Board",
-   "kind": "Ordinance",
-   "no": "281",
-   "yr": null,
-   "a": "Agriculture",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4754"
   },
   {
    "id": "ord-cap282",
@@ -20514,7 +20421,7 @@
    "no": "318",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 11 of 1968",
     "No. 34 of 1973",
@@ -20860,16 +20767,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4147"
   },
   {
-   "id": "ord-cap349",
-   "t": "Citizenship",
-   "kind": "Ordinance",
-   "no": "349",
-   "yr": null,
-   "a": "Immigration & travel",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4291"
-  },
-  {
    "id": "ord-cap35",
    "t": "Tea Thefts",
    "kind": "Ordinance",
@@ -20888,24 +20785,6 @@
    "a": "Immigration & travel",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1785"
-  },
-  {
-   "id": "ord-cap351",
-   "t": "Immigrants and Emigrants",
-   "kind": "Ordinance",
-   "no": "351",
-   "yr": null,
-   "a": "Immigration & travel",
-   "status": "unknown",
-   "amd": [
-    "No. 68 of 1961",
-    "No. 16 of 1993",
-    "No. 42 of 1998",
-    "No. 31 of 2006",
-    "No. 7 of 2015",
-    "No. 27 of 2021"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4457"
   },
   {
    "id": "ord-cap352",
@@ -20962,36 +20841,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1773"
   },
   {
-   "id": "ord-cap357",
-   "t": "Army",
-   "kind": "Ordinance",
-   "no": "357",
-   "yr": null,
-   "a": "Security",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4131"
-  },
-  {
-   "id": "ord-cap358",
-   "t": "Navy",
-   "kind": "Ordinance",
-   "no": "358",
-   "yr": null,
-   "a": "Security",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4803"
-  },
-  {
-   "id": "ord-cap359",
-   "t": "Air Force",
-   "kind": "Ordinance",
-   "no": "359",
-   "yr": null,
-   "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4093"
-  },
-  {
    "id": "ord-cap36",
    "t": "Hotel Keepers",
    "kind": "Ordinance",
@@ -21032,16 +20881,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1731"
   },
   {
-   "id": "ord-cap363",
-   "t": "Firing Ranges and Military Training",
-   "kind": "Ordinance",
-   "no": "363",
-   "yr": null,
-   "a": "Security",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4503"
-  },
-  {
    "id": "ord-cap364",
    "t": "Military Transport",
    "kind": "Ordinance",
@@ -21050,16 +20889,6 @@
    "a": "Sport",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1716"
-  },
-  {
-   "id": "ord-cap365",
-   "t": "Air Navigation",
-   "kind": "Ordinance",
-   "no": "365",
-   "yr": null,
-   "a": "Utilities",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4094"
   },
   {
    "id": "ord-cap366",
@@ -21368,26 +21197,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4419"
   },
   {
-   "id": "ord-cap392",
-   "t": "Administrative Districts",
-   "kind": "Ordinance",
-   "no": "392",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4077"
-  },
-  {
-   "id": "ord-cap393",
-   "t": "Commissions of Inquiry",
-   "kind": "Ordinance",
-   "no": "393",
-   "yr": null,
-   "a": "Business & finance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4344"
-  },
-  {
    "id": "ord-cap394",
    "t": "Diplomatic Privileges",
    "kind": "Ordinance",
@@ -21424,7 +21233,7 @@
    "no": "397",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 39 of 1949",
     "No. 19 of 1952",
@@ -21503,16 +21312,6 @@
     "No. 33 of 1973"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4682"
-  },
-  {
-   "id": "ord-cap401",
-   "t": "National Housing",
-   "kind": "Ordinance",
-   "no": "401",
-   "yr": null,
-   "a": "Environment & land",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4788"
   },
   {
    "id": "ord-cap402",
@@ -21695,7 +21494,7 @@
    "no": "417",
    "yr": null,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 35 of 1953",
     "No. 35 of 1992",
@@ -21741,7 +21540,7 @@
    "no": "420",
    "yr": null,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 51 of 1983",
     "No. 3 of 1985",
@@ -21759,28 +21558,6 @@
    "a": "Public money",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1670"
-  },
-  {
-   "id": "ord-cap422",
-   "t": "Monetary Law",
-   "kind": "Act",
-   "no": "422",
-   "yr": null,
-   "a": "Business & finance",
-   "status": "repealed",
-   "rep": "Repealed by Central Bank of Sri Lanka Act No. 16 of 2023",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4758"
-  },
-  {
-   "id": "ord-cap423",
-   "t": "Exchange Control",
-   "kind": "Act",
-   "no": "423",
-   "yr": null,
-   "a": "Business & finance",
-   "status": "repealed",
-   "rep": "Repealed by Foreign Exchange Act No. 12 of 2017",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4487"
   },
   {
    "id": "ord-cap424",
@@ -21878,7 +21655,7 @@
    "no": "431",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 1 of 1957",
     "No. 44 of 1981",
@@ -21887,19 +21664,6 @@
     "No. 8 of 2010"
    ],
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4839"
-  },
-  {
-   "id": "ord-cap432",
-   "t": "School Teachers Pension",
-   "kind": "Ordinance",
-   "no": "432",
-   "yr": null,
-   "a": "Labour",
-   "status": "unknown",
-   "amd": [
-    "No. 3 of 1952"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4842"
   },
   {
    "id": "ord-cap433",
@@ -21918,7 +21682,7 @@
    "no": "434",
    "yr": null,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 33 of 1952",
     "No. 46 of 1954",
@@ -21940,30 +21704,6 @@
    "a": "Trade & exports",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G5015"
-  },
-  {
-   "id": "ord-cap436",
-   "t": "Rubber Control",
-   "kind": "Ordinance",
-   "no": "436",
-   "yr": null,
-   "a": "Trade & exports",
-   "status": "unknown",
-   "amd": [
-    "No. 28 of 1948",
-    "No. 11 of 1950"
-   ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4955"
-  },
-  {
-   "id": "ord-cap437",
-   "t": "Rubber Replanting (Subsidy)",
-   "kind": "Ordinance",
-   "no": "437",
-   "yr": null,
-   "a": "Trade & exports",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4956"
   },
   {
    "id": "ord-cap438",
@@ -21991,7 +21731,7 @@
    "no": "439",
    "yr": null,
    "a": "Trade & exports",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 1950",
     "No. 30 of 1951",
@@ -22081,8 +21821,9 @@
    "no": "445",
    "yr": null,
    "a": "Agriculture",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1738"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G1738",
+   "rep": "Repealed by Fertilizers Act No. 21 of 1961"
   },
   {
    "id": "ord-cap446",
@@ -22104,13 +21845,14 @@
    "no": "447",
    "yr": null,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 6 of 1950",
     "No. 50 of 1957",
     "No. 20 of 1986"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2603"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G2603",
+   "rep": "Repealed by Plant Protection Act No. 35 of 1999"
   },
   {
    "id": "ord-cap448",
@@ -22147,16 +21889,6 @@
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4715"
   },
   {
-   "id": "ord-cap450",
-   "t": "Soil Conservation",
-   "kind": "Ordinance",
-   "no": "450",
-   "yr": null,
-   "a": "Environment & land",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4977"
-  },
-  {
    "id": "ord-cap451",
    "t": "Forests",
    "kind": "Ordinance",
@@ -22165,16 +21897,6 @@
    "a": "Environment & land",
    "status": "unknown",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4522"
-  },
-  {
-   "id": "ord-cap452",
-   "t": "Felling of Trees (Control)",
-   "kind": "Ordinance",
-   "no": "452",
-   "yr": null,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4496"
   },
   {
    "id": "ord-cap453",
@@ -22324,7 +22046,7 @@
    "no": "464",
    "yr": null,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 49 of 1953",
     "No. 16 of 1969",
@@ -22384,7 +22106,7 @@
    "no": "469",
    "yr": null,
    "a": "Environment & land",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 44 of 1964",
     "No. 1 of 1970",
@@ -22553,7 +22275,7 @@
    "no": "49",
    "yr": null,
    "a": "Agriculture",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 40 of 2022"
    ],
@@ -22596,7 +22318,7 @@
    "no": "52",
    "yr": null,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 41 of 1954",
     "No. 9 of 1956",
@@ -22643,7 +22365,7 @@
    "no": "54",
    "yr": null,
    "a": "Security",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 35 of 1952",
     "No. 21 of 1958",
@@ -22719,7 +22441,7 @@
    "no": "60",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 5 of 1993",
     "No. 29 of 2022"
@@ -22812,7 +22534,7 @@
    "no": "68",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 26 of 2014"
    ],
@@ -22845,7 +22567,7 @@
    "no": "70",
    "yr": null,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 30 of 2022",
     "No. 4 of 2024"
@@ -22976,7 +22698,7 @@
    "no": "81",
    "yr": null,
    "a": "Public money",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 43 of 1952",
     "No. 5 of 1959",
@@ -22996,7 +22718,7 @@
    "no": "82",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4158"
   },
   {
@@ -23036,7 +22758,7 @@
    "no": "86",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 1990",
     "No. 19 of 2024"
@@ -23050,7 +22772,7 @@
    "no": "87",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 1968",
     "No. 6 of 2018"
@@ -23074,7 +22796,7 @@
    "no": "89",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 53 of 1949",
     "No. 11 of 1953",
@@ -23116,11 +22838,12 @@
    "no": "91",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "repealed",
    "amd": [
     "No. 19 of 1972"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4724"
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4724",
+   "rep": "Repealed by Maintenance Act No. 37 of 1999"
   },
   {
    "id": "ord-cap92",
@@ -23189,8 +22912,9 @@
    "no": "98",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4113"
+   "status": "repealed",
+   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4113",
+   "rep": "Repealed by Arbitration Act No. 11 of 1995"
   },
   {
    "id": "ord-cap99",
