@@ -83,11 +83,16 @@ summary::-webkit-details-marker{display:none}
 
 /* The full record: each item is one line of headline facts that opens to the detail. */
 .wk-all{margin-top:56px}
-.all-h{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding-bottom:12px;border-bottom:1px solid var(--ink)}
-.all-h .blk-h{padding-bottom:0;border:0}
+/* The full record starts folded away: one line saying how much is in it, opened on demand. */
+.rec-h{font:inherit}
+.rec-t{display:flex;align-items:center;gap:6px 16px;width:100%;padding:14px 0;border:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);background:transparent;text-align:left;cursor:pointer;color:var(--ink)}
+.rec-l{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.rec-n{flex:1;font-size:14.5px;color:var(--ink-2)}
+.rec-t:hover .rec-n{color:var(--ink)}
+.rec-t[aria-expanded="true"] .pm::before{content:"\2212"}
+.all-h{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px 20px;padding-top:16px}
 .tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
 .tools .note-s{flex-basis:100%;text-align:right}
-.filters{padding-top:16px}
 .dg{padding-top:34px}
 .dg-h{display:grid;gap:6px;padding-bottom:14px;border-bottom:1px solid var(--rule-2)}
 .dg-k{font:600 12px/1.45 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
@@ -222,16 +227,18 @@ summary::-webkit-details-marker{display:none}
     </aside>
 
     <section class="wk-all" aria-labelledby="all-h">
-      <div class="all-h">
-        <h2 class="blk-h" id="all-h">The full record</h2>
-        <div class="tools">
-          <button class="btn" id="openBtn" type="button" aria-pressed="false">Open all</button>
-          <button class="btn" id="shareBtn" type="button">Copy summary</button>
-          <small class="note-s" id="shareNote" role="status"></small>
+      <h2 class="rec-h" id="all-h"><button class="rec-t" id="recBtn" type="button" aria-expanded="false" aria-controls="recBody"><span class="rec-l">The full record</span><span class="rec-n" id="recN"></span><span class="pm" aria-hidden="true"></span></button></h2>
+      <div id="recBody" hidden>
+        <div class="all-h">
+          <div class="filters" id="filters" role="group" aria-label="Show one type of item"></div>
+          <div class="tools">
+            <button class="btn" id="openBtn" type="button" aria-pressed="false">Open all</button>
+            <button class="btn" id="shareBtn" type="button">Copy summary</button>
+            <small class="note-s" id="shareNote" role="status"></small>
+          </div>
         </div>
+        <div id="days"><p class="empty">Loading the record.</p></div>
       </div>
-      <div class="filters" id="filters" role="group" aria-label="Show one type of item"></div>
-      <div id="days"><p class="empty">Loading the record.</p></div>
       <div class="ow" id="others"></div>
     </section>
   </div>
@@ -265,7 +272,7 @@ summary::-webkit-details-marker{display:none}
 <script>
 (function(){
 const {$,esc}=SB;
-let daily=null,lb={},pipe={},weeks=[],wi=-1,home=0,trackF="all",allOpen=false;
+let daily=null,lb={},pipe={},weeks=[],wi=-1,home=0,trackF="all",allOpen=false,recOpen=false;
 const ISO=/^\d{4}-\d\d-\d\d$/;
 const okDate=s=>ISO.test(s||"")&&!isNaN(SB.D(s));
 const monday=iso=>SB.addDays(iso,-((SB.D(iso).getUTCDay()+6)%7));
@@ -453,6 +460,8 @@ function renderList(w){
   $("filters").innerHTML=its.length?`<button type="button" class="fl" data-k="all">All ${its.length}</button>${counts.map(([k,n])=>`<button type="button" class="fl t-${k}" data-k="${k}"><i aria-hidden="true"></i>${esc(SB.TRACKS[k])} ${n}</button>`).join("")}`:"";
   $("days").innerHTML=w.days.map(dayHTML).join("")||`<p class="empty">Nothing on record for this week.</p>`;
   $("openBtn").hidden=$("shareBtn").hidden=!its.length;
+  $("recN").textContent=its.length?`${pl(its.length,"item","items")} over ${pl(w.days.filter(d=>(d.items||[]).length).length,"day","days")}`:"Nothing on record";
+  setRec(recOpen);
   $("shareNote").textContent="";
   setOpen(allOpen);
   filter();
@@ -463,6 +472,12 @@ function filter(){
   document.querySelectorAll("#days .it").forEach(li=>{li.hidden=!(trackF==="all"||li.dataset.k===trackF);});
   document.querySelectorAll("#days .dg").forEach(s=>{s.hidden=!s.querySelector(".it:not([hidden])");});
   document.querySelectorAll("#filters .fl").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.k===trackF)));
+}
+function setRec(v){
+  recOpen=v;
+  $("recBody").hidden=!v;
+  $("recBtn").setAttribute("aria-expanded",String(v));
+  $("recBtn").setAttribute("aria-label",(v?"Hide":"Show")+" the full record");
 }
 function setOpen(v){
   allOpen=v;
@@ -508,7 +523,7 @@ function route(first){
   const ta=$("shareText");if(ta)ta.remove();
   if(m&&h[0]==="d"){
     const el=document.getElementById("d"+m);
-    if(el){if(el.hidden){trackF="all";filter();}el.scrollIntoView({block:"start"});}
+    if(el){setRec(true);if(el.hidden){trackF="all";filter();}el.scrollIntoView({block:"start"});}
   }else if(!first&&$("wkHead").getBoundingClientRect().top<0){$("wkHead").scrollIntoView({block:"start"});}
 }
 
@@ -552,6 +567,7 @@ SB.load("daily.json","library.json").then(([d,l])=>{
     window.addEventListener("hashchange",()=>SB.safe("days",()=>route(false)));
     $("filters").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;trackF=b.dataset.k;filter();});
     $("openBtn").addEventListener("click",()=>setOpen(!allOpen));
+    $("recBtn").addEventListener("click",()=>setRec(!recOpen));
     $("strip").addEventListener("click",e=>{const b=e.target.closest(".wc");if(b&&!b.disabled&&b.getAttribute("aria-pressed")!=="true")location.hash="w"+b.dataset.k;});
     $("shareBtn").addEventListener("click",share);
   });
