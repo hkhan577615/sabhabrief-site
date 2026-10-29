@@ -31,11 +31,27 @@
 .dl-s{flex:1 1 260px;font-size:15px;color:var(--ink-2)}
 
 .wk-head{display:grid;gap:10px;padding:26px 0 30px}
-.wk-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px}
 .gl-k{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-.step{display:flex;flex-wrap:wrap;gap:6px 20px}
-.step a{font:600 13.5px/1.3 var(--sans);text-decoration:none;color:var(--ink-2);white-space:nowrap}
-.step a:hover{color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule-2)}
+
+/* Week picker: one card per week, oldest on the left, with a Monday-to-Friday dot for each sitting day. */
+.weeks{display:grid;gap:8px;margin-bottom:18px}
+.wstrip{position:relative;display:flex;gap:8px;overflow-x:auto;padding:2px 2px 6px;scroll-snap-type:x proximity;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.wc{flex:0 0 auto;min-width:122px;display:grid;gap:7px;justify-items:start;padding:10px 12px 11px;border:1px solid var(--rule);border-radius:8px;background:transparent;text-align:left;cursor:pointer;scroll-snap-align:center;transition:border-color .15s}
+.wc:hover:not(:disabled){border-color:var(--ink-3)}
+.wc[aria-pressed="true"]{border-color:var(--ink);background:var(--surface);box-shadow:inset 0 -3px 0 var(--ink)}
+.wc:disabled{cursor:default;opacity:.6}
+.wc-t{font:600 10.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);min-height:10.5px}
+.wc-d{font:600 14.5px/1.1 var(--sans);font-variant-numeric:tabular-nums;white-space:nowrap}
+.wc-n{font-size:12.5px;line-height:1.2;color:var(--ink-2);white-space:nowrap}
+.wc-dots,.wkey{display:flex;gap:3px}
+.weeks i{display:grid;place-items:center;width:17px;height:17px;border-radius:50%;font:600 9px/1 var(--sans);font-style:normal;color:var(--ink-3);box-shadow:inset 0 0 0 1px var(--rule-2)}
+.weeks i.s{background:var(--ink);color:var(--paper);box-shadow:none}
+.weeks i.x{box-shadow:inset 0 0 0 2px var(--ink);color:var(--ink)}
+.weeks i.a{box-shadow:none;border:1.5px dashed var(--ink-3)}
+.wkey{flex-wrap:wrap;gap:4px 16px;font-size:12px;color:var(--ink-3)}
+.wkey span{display:inline-flex;align-items:center;gap:6px}
+.wkey i{width:11px;height:11px}
+@media (max-width:940px){.wstrip{margin-inline:calc(-1 * var(--g));padding-inline:var(--g);scroll-padding-inline:var(--g)}}
 .wk-head h1{font-size:clamp(30px,3.6vw,44px);line-height:1.08;letter-spacing:-.02em}
 .wk-head .dek{font-size:18px;max-width:58ch}
 
@@ -166,10 +182,11 @@ summary::-webkit-details-marker{display:none}
 
   <div class="tg">
     <section class="wk-head" id="wkHead" aria-labelledby="h1">
-      <div class="wk-top">
-        <p class="gl-k" id="kicker">This week in Parliament</p>
-        <nav class="step" id="step" aria-label="Other weeks" hidden></nav>
+      <div class="weeks" id="weeksBox" hidden>
+        <div class="wstrip" id="strip" role="group" aria-label="Choose a week"></div>
+        <p class="wkey" aria-hidden="true"><span><i class="s"></i>Sitting day</span><span><i class="x"></i>Decision, no sitting</span><span><i class="a"></i>On the Order Paper</span></p>
       </div>
+      <p class="gl-k" id="kicker">This week in Parliament</p>
       <h1 id="h1">What Parliament decided this week</h1>
       <p class="dek" id="dek"></p>
     </section>
@@ -391,14 +408,36 @@ function show(i){
   $("h1").textContent=headline(w,b);
   const ag=w.ag.length?` ${and(w.ag.map(d=>day(d.date)))} ${w.ag.length===1?"is":"are"} on the Order Paper.`:"";
   $("dek").textContent=w.rec.length?(sitText(w)||"Parliament did not sit.")+` ${pl(w.n,"item","items")} went on record.`+ag:ag.trim();
-  const older=weeks[i+1],newer=weeks[i-1];
-  const lk=(x,txt)=>`<a href="#w${esc(x.key)}">${esc(txt)}</a>`;
-  $("step").innerHTML=(older?lk(older,"← Week of "+SB.dm(older.key)):"")+(newer?lk(newer,"Week of "+SB.dm(newer.key)+" →"):"");
-  $("step").hidden=!(older||newer);
+  renderStrip();
   $("keyBox").hidden=!b.stories.length;
   $("top3").innerHTML=b.stories.map(decHTML).join("");
   renderList(w);
   renderOthers();
+}
+
+/* Every week from the oldest on record to this week (or a later one on the Order Paper), recess weeks included so the calendar reads straight. */
+function renderStrip(){
+  const m=monday(SB.today),by={};
+  weeks.forEach(w=>{by[w.key]=w;});
+  const keys=weeks.map(w=>w.key);
+  const first=keys[keys.length-1],last=keys[0]>m?keys[0]:m;
+  const all=[];
+  for(let k=first;k<=last&&all.length<60;k=SB.addDays(k,7))all.push(k);
+  const span=k=>{const e=SB.addDays(k,6);return k.slice(5,7)===e.slice(5,7)?SB.F(k,{day:"numeric"})+"–"+SB.dm(e):SB.dm(k)+" – "+SB.dm(e);};
+  $("strip").innerHTML=all.map(k=>{
+    const w=by[k],sel=w&&weeks[wi]===w;
+    const rel=k===m?"This week":k===SB.addDays(m,-7)?"Last week":k===SB.addDays(m,7)?"Next week":SB.F(k,{month:"long"});
+    const n=!w?"No sitting":w.sit.length?pl(w.sit.length,"sitting","sittings")+" · "+pl(w.n,"item","items"):w.rec.length?pl(w.n,"item","items"):"On the Order Paper";
+    const dots=["M","T","W","T","F"].map((L,j)=>{
+      const d=w&&w.days.find(x=>x.date===SB.addDays(k,j));
+      const c=!d?"":d.status==="agenda"?"a":d.hours==="No sitting"?"x":"s";
+      return `<i class="${c}">${L}</i>`;
+    }).join("");
+    return `<button type="button" class="wc" data-k="${esc(k)}" aria-pressed="${!!sel}"${w?"":" disabled"} aria-label="${esc("Week of "+SB.F(k,{day:"numeric",month:"long"})+": "+n)}"><span class="wc-t">${esc(rel)}</span><span class="wc-d">${esc(span(k))}</span><span class="wc-dots" aria-hidden="true">${dots}</span><span class="wc-n">${esc(n)}</span></button>`;
+  }).join("");
+  $("weeksBox").hidden=all.length<2;
+  const s=$("strip"),c=s.querySelector('[aria-pressed="true"]');
+  if(c)s.scrollLeft=c.offsetLeft-(s.clientWidth-c.offsetWidth)/2;
 }
 
 function renderList(w){
@@ -507,6 +546,7 @@ SB.load("daily.json","library.json").then(([d,l])=>{
     window.addEventListener("hashchange",()=>SB.safe("days",()=>route(false)));
     $("filters").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;trackF=b.dataset.k;filter();});
     $("openBtn").addEventListener("click",()=>setOpen(!allOpen));
+    $("strip").addEventListener("click",e=>{const b=e.target.closest(".wc");if(b&&!b.disabled&&b.getAttribute("aria-pressed")!=="true")location.hash="w"+b.dataset.k;});
     $("shareBtn").addEventListener("click",share);
   });
   SB.safe("nextBox",renderNext);
