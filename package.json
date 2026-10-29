@@ -1,0 +1,8 @@
+{
+  "name": "sabhabrief-site",
+  "private": true,
+  "description": "Static site; the only code with dependencies is the MCP function in netlify/functions.",
+  "dependencies": {
+    "unpdf": "1.8.1"
+  }
+}

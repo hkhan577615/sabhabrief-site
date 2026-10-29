@@ -3,7 +3,7 @@
 Static site. No build step. Upload this folder as it is.
 
 ## Files
-- index.html (This week), bills.html, gazette.html, laws.html, about.html: the site
+- index.html (This week), bills.html, acts.html, gazette.html, about.html: the site
 - index.html shows one sitting week at a time: the headline and key decisions, then every item by day,
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
@@ -20,3 +20,14 @@ unless you also want the change kept; the nightly task only touches the two JSON
 ## Sign-ups
 Netlify dashboard > your site > Forms > alerts. Export as CSV from there.
 Turn on email notifications under Forms > Form notifications.
+
+## Document checker (MCP server)
+netlify/functions/mcp.mjs serves an MCP server at /mcp. Readers add https://<this site>/mcp to Claude
+as a custom connector, upload a notice or contract in a Claude chat, and Claude checks it against the
+official text of the Acts it cites. The server never sees the document: it only looks up Acts in
+statutes.json and library.json and reads Act text from parliament.lk, gov.lk or supremecourt.lk.
+package.json holds its one dependency (unpdf, to read PDFs); Netlify installs it on deploy.
+
+## Acts index
+statutes.json is the reference index of Acts and Ordinances (with summaries of key business Acts).
+It is built from official listings by a separate task and is not touched by the nightly update.

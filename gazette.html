@@ -29,8 +29,8 @@
   <div class="bar-in nav">
     <a href="index.html" data-p="week">This week</a>
     <a href="bills.html" data-p="bills">Bills</a>
+    <a href="acts.html" data-p="acts">Acts</a>
     <a href="gazette.html" data-p="gazette">Gazette</a>
-    <a href="laws.html" data-p="laws">Laws</a>
     <a href="alerts.html" data-p="alerts">Get alerts</a>
     <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
   </div>
@@ -144,7 +144,7 @@ SB.load("daily.json").then(([daily])=>{
     const by={};g.forEach(x=>(by[x.tabled]=by[x.tabled]||[]).push(x));
     const scale=Math.max(1,max);
     const row=x=>`<div class="or ${money(x.type)?"t-money":"t-law"}">
-      <div class="or-t"><b>${esc(x.t)}</b><span>${esc(x.type)} · Gazette No. ${esc(x.no)}</span></div>
+      <div class="or-t"><b>${esc(x.t)}</b><span>${esc(x.type)} · Gazette No. ${esc(x.no)}</span>${x.under&&x.under.t?`<span class="or-u">Made under ${SB.link(x.under)}</span>`:""}</div>
       <p class="or-d">Published ${esc(SB.dmy(x.g))}</p>
       <div class="or-w"><span class="or-track" role="img" aria-label="${x.lag} days from Gazette to Parliament"><i style="width:${Math.max(1.2,x.lag/scale*100).toFixed(1)}%"></i></span><em>${x.lag}<small>${x.lag===1?"day":"days"}</small></em></div>
     </div>`;

@@ -169,25 +169,12 @@ details[open]>summary .pm::before{content:"\2212"}
 .when b{font-weight:600}
 .note{font-size:14px;color:var(--ink-2);padding-left:14px;border-left:2px solid var(--rule-2);max-width:68ch}
 
-/* Laws */
-.acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:32px}
-.am-h{display:flex;justify-content:space-between;align-items:baseline;font:500 21px/1.2 var(--serif);padding-bottom:10px;border-bottom:1px solid var(--ink)}
-.am-h small{font:500 13px/1 var(--sans);color:var(--ink-3)}
-.ab{display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--rule);text-decoration:none}
-.ab b{font:500 26px/1 var(--serif);font-variant-numeric:lining-nums;color:var(--record)}
-.ab span{font-size:14px;line-height:1.35;color:var(--ink-2)}
-.ab:hover span{color:var(--ink)}
-.ab.con b{color:var(--law)}
-.ab.pend b{color:var(--ink-3);font-size:18px}
-.act{display:grid;grid-template-columns:140px minmax(0,1fr);gap:12px 48px;padding:44px 0;border-bottom:1px solid var(--rule)}
-.act-n{font:500 64px/.85 var(--serif);color:var(--record);font-variant-numeric:lining-nums;letter-spacing:-.02em}
-.act-n.con{color:var(--law)} .act-n.pend{color:var(--ink-3);font-size:34px}
-.act-b{display:grid;gap:20px;min-width:0}
-.act-h{display:grid;gap:8px}
-.act-h h3{font-size:clamp(26px,2.6vw,32px);letter-spacing:-.015em}
-.act-h p{font-size:14px;color:var(--ink-2)}
-@media (max-width:760px){.act{grid-template-columns:minmax(0,1fr)}}
-
+/* Search bar shared by Bills and Acts */
+.bf{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:22px}
+.bf input,.bf select{font:400 15px/1.3 var(--sans);color:var(--ink);background:var(--surface);border:1px solid var(--rule-2);border-radius:999px;padding:9px 14px;min-width:0}
+.bf-s{flex:1 1 280px;display:flex}.bf-s input{width:100%}
+.bf input:focus-visible,.bf select:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.bf-n{font-size:13.5px;color:var(--ink-2)}
 /* How it works */
 .steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:44px 32px}
 .step{display:grid;gap:10px;align-content:start}
@@ -260,6 +247,7 @@ details[open]>summary .pm::before{content:"\2212"}
 .or{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr) minmax(0,1.5fr);gap:8px 40px;align-items:center;padding:18px 0;border-bottom:1px solid var(--rule)}
 .or-t b{display:block;font:500 19px/1.3 var(--serif)}
 .or-t span{display:block;margin-top:4px;font-size:13px;color:var(--ink-3)}
+.or-t .or-u a{color:var(--ink-2)}
 .or-d{font-size:14px;color:var(--ink-2)}
 .or-w{display:flex;align-items:center;gap:16px;min-width:0}
 .or-track{flex:1;height:6px;border-radius:3px;background:var(--wash);overflow:hidden}
