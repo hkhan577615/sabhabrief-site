@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-29",
- "coverage": "Built on 29 October 2026 from every page of the Parliament of Sri Lanka Acts listing (numbered Acts and Laws from 1948 to October 2026, Constitutional amendments, and the chapters of the Revised Legislative Enactments, whose original years the listing does not give) and from about nine-tenths of the Department of Government Printing Acts listing (1980 to 2026); LawNet could not be reached, 278 amending Acts whose principal enactment is not in these listings are left out, and status is \"unknown\" unless an official text or listing records a repeal.",
+ "coverage": "Built on 29 October 2026 from every page of the Parliament of Sri Lanka Acts listing (numbered Acts and Laws from 1948 to October 2026, Constitutional amendments, and the chapters of the Revised Legislative Enactments, whose original years the listing does not give and which are filed as Ordinances unless an official text names them as Acts) and from about nine-tenths of the Department of Government Printing Acts listing (1980 to 2026); LawNet and the Department of Labour website could not be reached, 277 amending Acts whose principal enactment is not in these listings are left out, and status is \"unknown\" unless an official text read for this index records a repeal or cites the Act as current law between 2021 and 2026.",
  "src": [
   {
    "t": "Parliament of Sri Lanka: Acts listing",
@@ -9,6 +9,14 @@
   {
    "t": "Department of Government Printing: Acts",
    "u": "https://documents.gov.lk/web/acts"
+  },
+  {
+   "t": "Inland Revenue Department: Acts",
+   "u": "https://www.ird.gov.lk/en/publications/SitePages/Acts.aspx"
+  },
+  {
+   "t": "Sri Lanka Customs: Customs law",
+   "u": "https://www.customs.gov.lk/about-us/customs-law/"
   }
  ],
  "acts": [
@@ -362,8 +370,42 @@
    "no": "44",
    "yr": 2024,
    "a": "Public money",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6352.pdf"
+   "status": "in force",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6352.pdf",
+   "key": true,
+   "sum": "Sets fiscal rules, budget procedures and accountability for managing public funds.",
+   "impl": {
+    "sum": "The Government must budget within a medium-term fiscal framework, a primary balance target and a primary expenditure ceiling, and publish fiscal information.",
+    "figs": [
+     {
+      "v": "13% of GDP",
+      "l": "ceiling on Government primary expenditure"
+     },
+     {
+      "v": "5 years",
+      "l": "earliest review of the expenditure ceiling"
+     }
+    ],
+    "changes": [
+     "The Government prepares a medium-term fiscal framework with a primary balance target.",
+     "Primary expenditure may not exceed 13% of estimated nominal GDP, except in set circumstances.",
+     "The annual budget must follow the targets and ceilings in the framework.",
+     "Institutional responsibilities for public financial management are set out.",
+     "Repealed the Fiscal Management (Responsibility) Act No. 3 of 2003 and sections of the Finance Act No. 38 of 1971."
+    ],
+    "who": [
+     "Ministry of Finance and the Treasury",
+     "Government ministries, departments and agencies",
+     "Public corporations and other public entities"
+    ],
+    "when": "certified in 2024",
+    "src": [
+     {
+      "t": "Public Financial Management Act No. 44 of 2024 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6352.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2024-45",
@@ -452,8 +494,38 @@
    "no": "16",
    "yr": 2023,
    "a": "Business & finance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6288.pdf"
+   "status": "in force",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6288.pdf",
+   "key": true,
+   "sum": "Re-establishes the Central Bank, with domestic price stability as its primary object, and repealed the Monetary Law Act.",
+   "impl": {
+    "sum": "The Central Bank runs monetary policy through a Monetary Policy Board, under a flexible inflation targeting framework, and oversees financial system stability.",
+    "figs": [
+     {
+      "v": "6 years",
+      "l": "term of the Governor and appointed members"
+     }
+    ],
+    "changes": [
+     "Primary object is domestic price stability; the other object is financial system stability.",
+     "A Governing Board manages the Bank and a Monetary Policy Board sets monetary policy.",
+     "The Bank conducts a flexible exchange rate regime within inflation targeting.",
+     "Purchases of Treasury Bills in the primary market are allowed only in limited conditions.",
+     "The Bank must report to the Minister on threats to price stability and international reserves."
+    ],
+    "who": [
+     "Licensed banks and financial institutions",
+     "The Government and Ministry of Finance",
+     "The Central Bank"
+    ],
+    "when": "in force since 2023; it repealed the Monetary Law Act (Chapter 422)",
+    "src": [
+     {
+      "t": "Central Bank of Sri Lanka Act No. 16 of 2023 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6288.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2023-17",
@@ -507,7 +579,7 @@
   },
   {
    "id": "2023-26",
-   "t": "Conferring the Honour of Senior Instructing Attorneys - at-",
+   "t": "Conferring the Honour of Senior Instructing Attorneys - at- Law",
    "kind": "Act",
    "no": "26",
    "yr": 2023,
@@ -524,16 +596,6 @@
    "a": "Governance",
    "status": "unknown",
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/6287.pdf"
-  },
-  {
-   "id": "2023-30",
-   "t": "உள்ளூர் அதிகார சபைகள் தேர்தல்கள் (திருத்தம்)",
-   "kind": "Act",
-   "no": "30",
-   "yr": 2023,
-   "a": "Governance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/pbills/english/1485.pdf"
   },
   {
    "id": "2023-31",
@@ -596,12 +658,59 @@
    "no": "9",
    "yr": 2023,
    "a": "Justice",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 28 of 2023",
     "No. 25 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6296.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6296.pdf",
+   "key": true,
+   "sum": "Sets up the Commission to Investigate Allegations of Bribery or Corruption, defines corruption offences and governs asset declarations.",
+   "impl": {
+    "sum": "Offering or accepting bribes, corruption by public officials and false asset declarations are offences investigated and prosecuted by an independent Commission.",
+    "figs": [
+     {
+      "v": "Rs. 1m",
+      "l": "maximum fine for bribery offences"
+     },
+     {
+      "v": "7 years",
+      "l": "maximum rigorous imprisonment for bribery"
+     },
+     {
+      "v": "10 years",
+      "l": "maximum rigorous imprisonment for corruption"
+     }
+    ],
+    "changes": [
+     "Establishes an independent Commission to investigate and prosecute bribery, corruption and asset-declaration offences.",
+     "Offering gratification to judges, Members of Parliament, police and other public officials is bribery.",
+     "Public officials who misuse their office for improper advantage commit the offence of corruption.",
+     "Listed officials must declare assets and liabilities through a centralised electronic system.",
+     "The Commission may introduce codes of conduct for private sector entities to prevent bribery.",
+     "Repealed the Bribery Act, the 1994 Commission Act and the 1975 Declaration of Assets and Liabilities Law."
+    ],
+    "who": [
+     "Public officials and elected members",
+     "Persons dealing with public officials, including businesses",
+     "Persons required to declare assets"
+    ],
+    "when": "in force since 2023; amended by No. 28 of 2023 and No. 25 of 2026",
+    "src": [
+     {
+      "t": "Anti-Corruption Act No. 9 of 2023 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6296.pdf"
+     },
+     {
+      "t": "Anti-Corruption (Amendment) Act No. 28 of 2023 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6318.pdf"
+     },
+     {
+      "t": "Anti-Corruption (Amendment) Act No. 25 of 2026 (Government Printer)",
+      "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/PL15917%20%28E%29Act_1793011870.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2022-14",
@@ -650,14 +759,61 @@
    "no": "25",
    "yr": 2022,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 15 of 2023",
     "No. 15 of 2024",
     "No. 24 of 2025",
     "No. 10 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6262.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6262.pdf",
+   "key": true,
+   "sum": "Imposes a quarterly levy on the turnover of businesses that import, manufacture, provide services or trade.",
+   "impl": {
+    "sum": "Persons whose turnover passes the threshold must register, pay the levy on liable turnover each quarter and file quarterly returns.",
+    "figs": [
+     {
+      "v": "2.5%",
+      "l": "levy on liable turnover"
+     },
+     {
+      "v": "Rs. 36m",
+      "l": "yearly registration threshold, as amended by No. 10 of 2026"
+     },
+     {
+      "v": "Rs. 9m",
+      "l": "quarterly threshold, as amended by No. 10 of 2026"
+     },
+     {
+      "v": "20th day",
+      "l": "of month after quarter: return due"
+     }
+    ],
+    "changes": [
+     "Charges the levy on the liable turnover set out in the Second Schedule for every quarter from 1 October 2022.",
+     "A person must apply to register within 15 days of passing the turnover threshold.",
+     "Thresholds fall to Rs. 9 million a quarter or Rs. 36 million over four quarters from 1 July 2026.",
+     "Registered persons file a return for each quarter by the 20th day of the following month.",
+     "Registration can be cancelled after 12 months if turnover stays below the threshold."
+    ],
+    "who": [
+     "Importers",
+     "Manufacturers",
+     "Service providers",
+     "Wholesalers and retailers"
+    ],
+    "when": "in force since 1 October 2022",
+    "src": [
+     {
+      "t": "Social Security Contribution Levy Act No. 25 of 2022 (IRD)",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_SSCL/SSCL_Act_No.%2025_2022_E.pdf"
+     },
+     {
+      "t": "IRD consolidated text, amendments to April 2026",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_SSCL/SSCL_Cons_Act_-_2026_Changes.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2022-3",
@@ -700,11 +856,54 @@
    "no": "9",
    "yr": 2022,
    "a": "Technology & data",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 22 of 2025"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf",
+   "key": true,
+   "sum": "Regulates how personal data is processed and sets up a Data Protection Authority to enforce the rules.",
+   "impl": {
+    "sum": "Controllers and processors of personal data must process it lawfully, respect data subject rights and follow directions of the Data Protection Authority.",
+    "figs": [
+     {
+      "v": "Rs. 10m",
+      "l": "maximum penalty per non-compliance"
+     },
+     {
+      "v": "2x",
+      "l": "additional penalty for repeat non-compliance"
+     },
+     {
+      "v": "1 month",
+      "l": "to answer a data subject request, as amended by No. 22 of 2025"
+     }
+    ],
+    "changes": [
+     "Applies to processing in Sri Lanka and to some processing abroad that targets people in Sri Lanka.",
+     "Processing must have a lawful basis and follow the obligations set out in the Act.",
+     "Data subjects may ask for access, correction, erasure and other rights; controllers must reply in writing.",
+     "Some controllers must appoint a Data Protection Officer.",
+     "Personal data breaches must be notified to the Authority.",
+     "Most provisions take effect on dates the Minister appoints by Gazette Order, as amended by No. 22 of 2025."
+    ],
+    "who": [
+     "Controllers of personal data",
+     "Processors acting for controllers",
+     "Public authorities that process personal data"
+    ],
+    "when": "certified in March 2022; most provisions operate from dates set by Gazette Order",
+    "src": [
+     {
+      "t": "Personal Data Protection Act No. 9 of 2022 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf"
+     },
+     {
+      "t": "Personal Data Protection (Amendment) Act No. 22 of 2025 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6384.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2021-11",
@@ -766,8 +965,45 @@
    "no": "28",
    "yr": 2021,
    "a": "Labour",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6235.pdf"
+   "status": "in force",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6235.pdf",
+   "key": true,
+   "sum": "Sets 60 as the minimum age at which employers may retire workers, with limited grounds for earlier retirement.",
+   "impl": {
+    "sum": "Employers with more than 15 workers may not retire a worker before the minimum retirement age except on the grounds the Act allows.",
+    "figs": [
+     {
+      "v": "60",
+      "l": "minimum retirement age"
+     },
+     {
+      "v": "2 months",
+      "l": "for a worker to complain"
+     },
+     {
+      "v": "Rs. 5,000",
+      "l": "maximum fine for premature retirement"
+     }
+    ],
+    "changes": [
+     "A retirement age below 60 in a contract or collective agreement is void.",
+     "Early retirement is allowed for medical incapacity, disciplinary dismissal, closure by natural cause, or with the Commissioner-General’s approval.",
+     "Employers with 15 or fewer workers on average over the prior 12 months are exempt.",
+     "The Commissioner-General can order reinstatement with wages and benefits.",
+     "Workers may still leave voluntarily before 60."
+    ],
+    "who": [
+     "Employers with more than 15 workers",
+     "Workers"
+    ],
+    "when": "in force since 2021",
+    "src": [
+     {
+      "t": "Minimum Retirement Age of Workers Act No. 28 of 2021 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6235.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2021-30",
@@ -1019,9 +1255,6 @@
    "yr": 2018,
    "a": "Environment & land",
    "status": "unknown",
-   "amd": [
-    "No. 8 of 2018"
-   ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/6079.pdf"
   },
   {
@@ -1041,8 +1274,50 @@
    "no": "12",
    "yr": 2017,
    "a": "Business & finance",
-   "status": "unknown",
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6043.pdf"
+   "status": "in force",
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6043.pdf",
+   "key": true,
+   "sum": "Regulates foreign exchange transactions through the Central Bank and repealed the Exchange Control Act.",
+   "impl": {
+    "sum": "Foreign exchange business is carried out through authorised and restricted dealers, and current and capital transactions follow the rules made under the Act.",
+    "figs": [
+     {
+      "v": "Rs. 1m",
+      "l": "maximum penalty, or the transaction value"
+     },
+     {
+      "v": "Rs. 500,000",
+      "l": "maximum fine for ignoring a court Order"
+     },
+     {
+      "v": "30 days",
+      "l": "to appeal a penalty"
+     },
+     {
+      "v": "6 months",
+      "l": "to finish an investigation"
+     }
+    ],
+    "changes": [
+     "The Central Bank, as agent of the Government, promotes and regulates foreign exchange.",
+     "Banks are appointed as authorised dealers; others may be restricted dealers for limited business.",
+     "Capital transactions and current transactions are governed by regulations, Orders and directions under the Act.",
+     "The Central Bank may investigate breaches and impose penalties, with appeal to a Board of Inquiry.",
+     "Directors and partners can be personally liable for penalties on their organisation."
+    ],
+    "who": [
+     "Authorised dealers (licensed banks)",
+     "Restricted dealers such as money changers",
+     "Residents and businesses with foreign exchange dealings"
+    ],
+    "when": "in force since 2017; it repealed the Exchange Control Act (Chapter 423)",
+    "src": [
+     {
+      "t": "Foreign Exchange Act No. 12 of 2017 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6043.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2017-15",
@@ -1071,7 +1346,7 @@
    "no": "24",
    "yr": 2017,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 2021",
     "No. 45 of 2022",
@@ -1080,7 +1355,67 @@
     "No. 2 of 2025",
     "No. 11 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6054.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6054.pdf",
+   "key": true,
+   "sum": "Imposes income tax on individuals, companies, partnerships and other entities, and sets out how it is assessed and collected.",
+   "impl": {
+    "sum": "Every person chargeable with income tax must file returns, pay tax and instalments on time and keep records; the Commissioner-General of Inland Revenue administers the Act.",
+    "figs": [
+     {
+      "v": "30%",
+      "l": "company rate, as amended by No. 45 of 2022"
+     },
+     {
+      "v": "36%",
+      "l": "top individual rate, as amended by No. 2 of 2025"
+     },
+     {
+      "v": "Rs. 50,000",
+      "l": "maximum penalty for failing to register"
+     },
+     {
+      "v": "Rs. 400,000",
+      "l": "cap on late-filing penalty per return"
+     },
+     {
+      "v": "20%",
+      "l": "penalty on tax unpaid after 14 days"
+     },
+     {
+      "v": "Rs. 10m",
+      "l": "maximum fine for tax evasion"
+     }
+    ],
+    "changes": [
+     "Persons chargeable with income tax must register and file tax returns in the form the Commissioner-General specifies.",
+     "Income is taxed under employment, business, investment and other sources, at rates set in the First Schedule.",
+     "Late filing is penalised at the greater of 5% of tax owing plus 1% a month, or Rs. 50,000 plus Rs. 10,000 a month.",
+     "Underpayment caused by negligence or intent carries a penalty of 25%, or 75% in larger cases.",
+     "Proper documents must be kept; failing to keep them costs Rs. 1,000 a day after a warning notice.",
+     "Wilful evasion is an offence punishable by a fine up to Rs. 10 million, up to two years in prison, or both."
+    ],
+    "who": [
+     "Individuals with taxable income",
+     "Companies and partnerships",
+     "Trusts and other entities",
+     "Employers and others who withhold tax"
+    ],
+    "when": "in force since 1 April 2018; it repealed the Inland Revenue Act No. 10 of 2006",
+    "src": [
+     {
+      "t": "Inland Revenue Act No. 24 of 2017 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6054.pdf"
+     },
+     {
+      "t": "IRD consolidated text, amendments to March 2025",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IRA_Cons_Act_-_2025_Changes.pdf"
+     },
+     {
+      "t": "Inland Revenue (Amendment) Act No. 11 of 2026 (IRD)",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_Income%20Tax_2017/IR_Act_No_11-2026_E.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2017-28",
@@ -1188,13 +1523,58 @@
    "no": "3",
    "yr": 2016,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 16 of 2021",
     "No. 48 of 2024",
     "No. 11 of 2025"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6010.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/6010.pdf",
+   "key": true,
+   "sum": "Sets a national minimum monthly and daily wage that every employer must pay workers in any industry or service.",
+   "impl": {
+    "sum": "No employer may pay a worker less than the national minimum monthly or daily wage, and employers must keep wage registers.",
+    "figs": [
+     {
+      "v": "Rs. 30,000",
+      "l": "monthly minimum from 2026, as amended by No. 11 of 2025"
+     },
+     {
+      "v": "Rs. 1,200",
+      "l": "daily minimum from 2026, as amended by No. 11 of 2025"
+     },
+     {
+      "v": "6 years",
+      "l": "wage registers must be kept"
+     },
+     {
+      "v": "Rs. 25,000",
+      "l": "maximum fine for an offence"
+     }
+    ],
+    "changes": [
+     "Sets a floor for monthly and daily wages for all workers in any industry or service.",
+     "Workers keep terms that are no less favourable than before the Act came into force.",
+     "Employers keep a register of each worker, the work done and wages paid.",
+     "The Commissioner-General of Labour may inspect workplaces and registers and recover unpaid wages.",
+     "Budgetary relief allowances form part of the minimum wage, as declared by No. 11 of 2025."
+    ],
+    "who": [
+     "Employers in any industry or service",
+     "Workers"
+    ],
+    "when": "in force since 1 January 2016; current rates apply from 1 January 2026",
+    "src": [
+     {
+      "t": "National Minimum Wage of Workers Act No. 3 of 2016 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6010.pdf"
+     },
+     {
+      "t": "National Minimum Wage of Workers (Amendment) Act No. 11 of 2025 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6388.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2016-4",
@@ -1605,7 +1985,6 @@
    "a": "Utilities",
    "status": "unknown",
    "amd": [
-    "No. 14 of 2013",
     "No. 28 of 2022",
     "No. 3 of 2024"
    ],
@@ -1630,7 +2009,6 @@
    "a": "Justice",
    "status": "unknown",
    "amd": [
-    "No. 21 of 2013",
     "No. 32 of 2022",
     "No. 18 of 2024"
    ],
@@ -1645,7 +2023,6 @@
    "a": "Justice",
    "status": "unknown",
    "amd": [
-    "No. 23 of 2013",
     "No. 37 of 2022"
    ],
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/23-2013_E_1784553027.pdf"
@@ -2121,16 +2498,6 @@
    "a": "Governance",
    "status": "unknown",
    "u": "https://www.parliament.lk/uploads/acts/pbills/english/908.pdf"
-  },
-  {
-   "id": "2010-1",
-   "t": "Sri Lanka Chamber of Small Industry (Inc.) (Amend.)",
-   "kind": "Act",
-   "no": "1",
-   "yr": 2010,
-   "a": "Business & finance",
-   "status": "unknown",
-   "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/01-2010_E_1784552757.pdf"
   },
   {
    "id": "2010-12",
@@ -2818,6 +3185,7 @@
    "amd": [
     "No. 32 of 2009",
     "No. 10 of 2011",
+    "No. 9 of 2012",
     "No. 11 of 2013",
     "No. 10 of 2014",
     "No. 12 of 2015",
@@ -3563,14 +3931,58 @@
    "no": "7",
    "yr": 2007,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 13 of 2014",
     "No. 13 of 2019",
     "No. 23 of 2024",
     "No. 12 of 2025"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3776.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3776.pdf",
+   "key": true,
+   "sum": "Governs how companies are incorporated, run, audited, reorganised and wound up, and the duties of directors.",
+   "impl": {
+    "sum": "Every company must keep registers and records, hold annual general meetings, file an annual return and prepare audited financial statements.",
+    "figs": [
+     {
+      "v": "30 working days",
+      "l": "after AGM to file annual return"
+     },
+     {
+      "v": "6 months",
+      "l": "after balance sheet date: latest AGM"
+     },
+     {
+      "v": "15 months",
+      "l": "maximum gap between AGMs"
+     }
+    ],
+    "changes": [
+     "Companies are incorporated by registration with the Registrar of Companies.",
+     "An annual return in the prescribed form must be delivered to the Registrar each year.",
+     "An annual general meeting is held once each calendar year within the time limits.",
+     "Companies must keep details of beneficial owners, as amended by No. 12 of 2025.",
+     "Directors must act in good faith in the company’s interests, and accounting records must be kept.",
+     "Repealed the Companies Act No. 17 of 1982."
+    ],
+    "who": [
+     "Private and public companies",
+     "Directors and company secretaries",
+     "Shareholders",
+     "Overseas companies registered in Sri Lanka"
+    ],
+    "when": "in force since 2007; amended in 2014, 2019, 2024 and 2025",
+    "src": [
+     {
+      "t": "Companies Act No. 7 of 2007 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3776.pdf"
+     },
+     {
+      "t": "Companies (Amendment) Act No. 12 of 2025 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6389.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2007-9",
@@ -3602,7 +4014,8 @@
    "no": "10",
    "yr": 2006,
    "a": "Tax",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Inland Revenue Act No. 24 of 2017",
    "amd": [
     "No. 10 of 2007",
     "No. 9 of 2008",
@@ -3643,11 +4056,50 @@
    "no": "12",
    "yr": 2006,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 10 of 2008"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5715.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5715.pdf",
+   "key": true,
+   "sum": "Re-imposes stamp duty on listed instruments at rates the Minister sets by Gazette Order.",
+   "impl": {
+    "sum": "Stamp duty is payable on specified instruments such as leases, share certificates, insurance policies, licences and receipts, at rates fixed by Gazette Order.",
+    "figs": [
+     {
+      "v": "15 days",
+      "l": "after quarter end to remit compounded duty"
+     },
+     {
+      "v": "3 months",
+      "l": "for Parliament to approve a rate Order"
+     }
+    ],
+    "changes": [
+     "Duty applies to specified instruments executed in Sri Lanka, or abroad if they relate to property here.",
+     "Rates and exemptions are set by the Minister by Order in the Gazette, subject to Parliament approval.",
+     "The Act names who pays, for example the lessee on a lease and the transferee on a share transfer.",
+     "Insurers, licensing bodies, card issuers and large employers may compound duty with written permission.",
+     "Compounded duty is remitted to the Commissioner-General quarterly."
+    ],
+    "who": [
+     "Parties to leases, mortgages and share transfers",
+     "Insurers and credit card service providers",
+     "Licensing authorities",
+     "Employers with more than 100 staff"
+    ],
+    "when": "in force since 1 April 2006, amended by No. 10 of 2008",
+    "src": [
+     {
+      "t": "IRD consolidated text (with No. 10 of 2008)",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_Stamp%20Duty/SDActNo.12%5BE%5D2006ConsolFinal.pdf"
+     },
+     {
+      "t": "Stamp Duty (Special Provisions) Act No. 12 of 2006 (IRD)",
+      "u": "https://www.ird.gov.lk/en/publications/Acts_Stamp%20Duty/SDActNo.12%5BE%5D2006.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2006-13",
@@ -3692,11 +4144,40 @@
    "no": "19",
    "yr": 2006,
    "a": "Technology & data",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 25 of 2017"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5722.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5722.pdf",
+   "key": true,
+   "sum": "Gives legal recognition to electronic documents, records, signatures and contracts, and provides for certification services.",
+   "impl": {
+    "sum": "Information, contracts and signatures in electronic form are legally recognised, subject to the conditions and exclusions in the Act.",
+    "figs": [],
+    "changes": [
+     "Electronic documents and data messages are not denied legal effect only because they are electronic.",
+     "Contracts may be formed by exchanging electronic communications.",
+     "Electronic signatures can satisfy legal signature requirements.",
+     "Provides for a Certification Authority and for licensing certification service providers, as amended in 2017.",
+     "Gives effect to the UN Convention on the Use of Electronic Communications in International Contracts, as amended by No. 25 of 2017."
+    ],
+    "who": [
+     "Businesses trading online",
+     "Government institutions accepting electronic documents",
+     "Certification service providers"
+    ],
+    "when": "in force since 2006; amended by No. 25 of 2017",
+    "src": [
+     {
+      "t": "Electronic Transactions Act No. 19 of 2006 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5722.pdf"
+     },
+     {
+      "t": "Electronic Transactions (Amendment) Act No. 25 of 2017 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6053.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2006-2",
@@ -3825,16 +4306,6 @@
    "u": "https://www.parliament.lk/uploads/acts/pbills/english/482.pdf"
   },
   {
-   "id": "2006-42",
-   "t": "Tea Small Holdings Development (Amend.)",
-   "kind": "Act",
-   "no": "42",
-   "yr": 2006,
-   "a": "Trade & exports",
-   "status": "unknown",
-   "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/42-2006_E_1784553199.pdf"
-  },
-  {
    "id": "2006-47",
    "t": "Appropriation",
    "kind": "Act",
@@ -3851,12 +4322,54 @@
    "no": "5",
    "yr": 2006,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 40 of 2011",
     "No. 16 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5708.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5708.pdf",
+   "key": true,
+   "sum": "Makes money laundering an offence and provides for freezing and forfeiting property derived from unlawful activity.",
+   "impl": {
+    "sum": "Dealing with property known or believed to come from unlawful activity is a High Court offence, and such property can be frozen and forfeited.",
+    "figs": [
+     {
+      "v": "3x",
+      "l": "property value: maximum fine for laundering"
+     },
+     {
+      "v": "20 years",
+      "l": "maximum rigorous imprisonment, as amended by No. 16 of 2026"
+     }
+    ],
+    "changes": [
+     "Using, receiving, possessing, concealing or transferring proceeds of unlawful activity is money laundering.",
+     "Acquiring beneficial ownership of such property is included, as amended by No. 16 of 2026.",
+     "Attempting, aiding, abetting or facilitating laundering carries the same punishment.",
+     "Police may obtain Freezing Orders over accounts and property, and dealing in frozen property is an offence.",
+     "Property involved in a conviction is liable to forfeiture."
+    ],
+    "who": [
+     "Any person dealing in money or property",
+     "Banks and other financial institutions",
+     "Directors and officers of bodies corporate"
+    ],
+    "when": "in force since 2006; amended by No. 40 of 2011 and No. 16 of 2026",
+    "src": [
+     {
+      "t": "Prevention of Money Laundering Act No. 5 of 2006 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5708.pdf"
+     },
+     {
+      "t": "Prevention of Money Laundering (Amendment) Act No. 40 of 2011 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5851.pdf"
+     },
+     {
+      "t": "Prevention of Money Laundering (Amendment) Act No. 16 of 2026 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6422.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2006-51",
@@ -3900,11 +4413,54 @@
    "no": "6",
    "yr": 2006,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 17 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5709.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5709.pdf",
+   "key": true,
+   "sum": "Requires financial institutions and listed businesses to verify customers and report suspicious and large transactions to the Financial Intelligence Unit.",
+   "impl": {
+    "sum": "Institutions covered by the Act must identify customers, keep records and report suspicious and threshold transactions to the Financial Intelligence Unit.",
+    "figs": [
+     {
+      "v": "Rs. 100m",
+      "l": "maximum penalty per failure, as amended by No. 17 of 2026"
+     },
+     {
+      "v": "Rs. 200m",
+      "l": "maximum penalty for repeat failure, as amended by No. 17 of 2026"
+     },
+     {
+      "v": "Rs. 10m",
+      "l": "maximum fine for listed offences, as amended by No. 17 of 2026"
+     }
+    ],
+    "changes": [
+     "Sets up the Financial Intelligence Unit to receive and analyse reports.",
+     "Institutions must carry out customer due diligence and verify identity.",
+     "Suspicious transactions and transactions above prescribed thresholds must be reported.",
+     "Records of transactions and customer identity must be kept.",
+     "Opening or operating an account in a false name is an offence."
+    ],
+    "who": [
+     "Banks and finance companies",
+     "Insurers and securities firms",
+     "Real estate agents and dealers in precious metals and stones",
+     "Lawyers, notaries and accountants in some transactions"
+    ],
+    "when": "in force since 2006; substantially amended by No. 17 of 2026",
+    "src": [
+     {
+      "t": "Financial Transactions Reporting Act No. 6 of 2006 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5709.pdf"
+     },
+     {
+      "t": "Financial Transactions Reporting (Amendment) Act No. 17 of 2026 (Government Printer)",
+      "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/PL15738%20%28E%29_1786361562.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2005-1",
@@ -4307,7 +4863,8 @@
    "no": "3",
    "yr": 2003,
    "a": "Public money",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Public Financial Management Act No. 44 of 2024",
    "amd": [
     "No. 15 of 2013",
     "No. 13 of 2016",
@@ -4335,13 +4892,57 @@
    "no": "36",
    "yr": 2003,
    "a": "Governance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 2018",
     "No. 8 of 2021",
     "No. 8 of 2022"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3726.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3726.pdf",
+   "key": true,
+   "sum": "Protects copyright, industrial designs, patents, marks, trade names and geographical indications, and controls unfair competition.",
+   "impl": {
+    "sum": "Creators and businesses obtain protection by registration (patents, marks, designs) or automatically (copyright), and may act against infringement.",
+    "figs": [
+     {
+      "v": "20 years",
+      "l": "patent term from filing date"
+     },
+     {
+      "v": "10 years",
+      "l": "each renewal period for a mark"
+     },
+     {
+      "v": "70 years",
+      "l": "copyright after the author’s death"
+     }
+    ],
+    "changes": [
+     "Copyright protects original works without registration, for life plus 70 years.",
+     "Patents, marks and industrial designs are registered with the National Intellectual Property Office.",
+     "Registered marks can be renewed for successive ten-year periods.",
+     "Geographical indications can be registered, as amended by No. 8 of 2022.",
+     "Acts of unfair competition are prohibited.",
+     "Repealed the Code of Intellectual Property Act No. 52 of 1979."
+    ],
+    "who": [
+     "Authors, artists and software developers",
+     "Inventors and manufacturers",
+     "Brand owners and traders",
+     "Producers using geographical names"
+    ],
+    "when": "in force since 2003; amended in 2018, 2021 and 2022",
+    "src": [
+     {
+      "t": "Intellectual Property Act No. 36 of 2003 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3726.pdf"
+     },
+     {
+      "t": "Intellectual Property (Amendment) Act No. 8 of 2022 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6251.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2003-41",
@@ -4383,11 +4984,53 @@
    "no": "9",
    "yr": 2003,
    "a": "Consumers",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 20 of 2021"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5802.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5802.pdf",
+   "key": true,
+   "sum": "Sets up the Consumer Affairs Authority to protect consumers, regulate trade practices and promote competition.",
+   "impl": {
+    "sum": "Traders and manufacturers must follow the Authority’s directions on labelling, price marking and standards, and any maximum price orders.",
+    "figs": [
+     {
+      "v": "Rs. 5m",
+      "l": "company fine, first price-order breach, as amended by No. 20 of 2021"
+     },
+     {
+      "v": "Rs. 10m",
+      "l": "maximum company fine, repeat breach, as amended by No. 20 of 2021"
+     },
+     {
+      "v": "Rs. 500,000",
+      "l": "maximum individual fine, first breach, as amended by No. 20 of 2021"
+     }
+    ],
+    "changes": [
+     "The Authority may issue directions on labelling, price marking, packing and sale of goods.",
+     "Consumers may complain about goods that fail standards or warranties.",
+     "The Consumer Affairs Council investigates anti-competitive practices and abuse of a dominant position.",
+     "Where prices are found excessive, a maximum price can be set for goods or services.",
+     "Breaching a maximum price order carries higher fines, as amended by No. 20 of 2021."
+    ],
+    "who": [
+     "Traders and retailers",
+     "Manufacturers and importers",
+     "Service providers"
+    ],
+    "when": "in force since 2003; amended by No. 20 of 2021",
+    "src": [
+     {
+      "t": "Consumer Affairs Authority Act No. 9 of 2003 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5802.pdf"
+     },
+     {
+      "t": "Consumer Affairs Authority (Amendment) Act No. 20 of 2021 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6225.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2002-11",
@@ -4409,7 +5052,7 @@
    "no": "14",
    "yr": 2002,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 7 of 2003",
     "No. 13 of 2004",
@@ -4435,7 +5078,49 @@
     "No. 4 of 2025",
     "No. 14 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3053.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3053.pdf",
+   "key": true,
+   "sum": "Charges value added tax on taxable supplies of goods and services in Sri Lanka and on imported goods.",
+   "impl": {
+    "sum": "Businesses above the turnover threshold must register, charge VAT on taxable supplies, file returns and pay the tax, claiming credit for input tax.",
+    "figs": [
+     {
+      "v": "18%",
+      "l": "standard rate, as amended by No. 16 of 2024"
+     },
+     {
+      "v": "Rs. 60m",
+      "l": "yearly registration threshold, as amended by No. 4 of 2025"
+     },
+     {
+      "v": "Rs. 15m",
+      "l": "quarterly threshold, as amended by No. 4 of 2025"
+     }
+    ],
+    "changes": [
+     "VAT is charged on the value of taxable supplies made in Sri Lanka and on goods imported.",
+     "A person whose taxable supplies pass the registration threshold must apply to register.",
+     "Importers and exporters of goods for commercial purposes must register.",
+     "Registered persons charge output tax, deduct input tax and pay the balance.",
+     "Some goods and services are exempt or zero-rated under the Act and its Schedules."
+    ],
+    "who": [
+     "Businesses making taxable supplies above the threshold",
+     "Commercial importers and exporters",
+     "Voluntarily registered persons"
+    ],
+    "when": "in force since 1 August 2002, amended many times since",
+    "src": [
+     {
+      "t": "IRD consolidated text, amendments to 2025",
+      "u": "https://www.ird.gov.lk/en/publications/Value%20Added%20Tax_Acts/VAT_Act_No_14%5BE%5D_2002_%28Consolidation_2025%29.pdf"
+     },
+     {
+      "t": "Value Added Tax (Amendment) Act No. 14 of 2026 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6427.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "2002-16",
@@ -6368,7 +7053,8 @@
    "no": "19",
    "yr": 1994,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Anti-Corruption Act No. 9 of 2023",
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/2840.pdf"
   },
   {
@@ -6742,7 +7428,6 @@
    "a": "Tax",
    "status": "unknown",
    "amd": [
-    "No. 32 of 1992",
     "No. 28 of 1993",
     "No. 23 of 1994",
     "No. 13 of 1995"
@@ -7419,9 +8104,6 @@
    "yr": 1990,
    "a": "Trade & exports",
    "status": "unknown",
-   "amd": [
-    "No. 16 of 1990"
-   ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/2917.pdf"
   },
   {
@@ -7561,9 +8243,6 @@
    "yr": 1990,
    "a": "Governance",
    "status": "unknown",
-   "amd": [
-    "No. 46 of 1990"
-   ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3081.pdf"
   },
   {
@@ -7606,7 +8285,7 @@
    "no": "13",
    "yr": 1989,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 40 of 1990",
     "No. 8 of 1994",
@@ -7615,7 +8294,40 @@
     "No. 14 of 2009",
     "No. 17 of 2011"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2767.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2767.pdf",
+   "key": true,
+   "sum": "Levies excise duty on articles made in or imported into Sri Lanka, at rates set by Gazette Order.",
+   "impl": {
+    "sum": "Manufacturers and importers of excisable articles must pay excise duty at the rates fixed by Gazette Order and follow the Act’s rules on valuation and payment.",
+    "figs": [
+     {
+      "v": "12 months",
+      "l": "to claim a refund of duty"
+     }
+    ],
+    "changes": [
+     "Excise duty is charged on articles specified by Order, made in Sri Lanka or imported.",
+     "Rates may differ by class or description of article.",
+     "The Act sets how the value of articles is worked out for duty, amended in 2007, 2009 and 2011.",
+     "Unpaid duty can be enforced through recovery proceedings.",
+     "Overpaid duty may be refunded on application within twelve months."
+    ],
+    "who": [
+     "Manufacturers of excisable articles",
+     "Importers of excisable articles"
+    ],
+    "when": "in force since 1989; amended several times, most recently by No. 17 of 2011",
+    "src": [
+     {
+      "t": "Excise (Special Provisions) Act No. 13 of 1989 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/2767.pdf"
+     },
+     {
+      "t": "Excise (Special Provisions) (Amendment) Act No. 17 of 2011 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5833.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1989-14",
@@ -7720,7 +8432,6 @@
    "a": "Health & local government",
    "status": "unknown",
    "amd": [
-    "No. 19 of 1988",
     "No. 35 of 2005"
    ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3444.pdf"
@@ -7768,7 +8479,7 @@
    "no": "30",
    "yr": 1988,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 39 of 1990",
     "No. 33 of 1995",
@@ -7777,7 +8488,50 @@
     "No. 46 of 2006",
     "No. 24 of 2024"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3454.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3454.pdf",
+   "key": true,
+   "sum": "Requires a Central Bank licence to carry on banking business and regulates licensed commercial and specialised banks.",
+   "impl": {
+    "sum": "Only licensed banks may carry on banking business, and they must meet the Act’s rules on ownership, directors, audit and supervision by the Central Bank.",
+    "figs": [
+     {
+      "v": "Over 10%",
+      "l": "voting capital needs prior approval, as amended by No. 24 of 2024"
+     },
+     {
+      "v": "6 years",
+      "l": "auditor rotation, as amended by No. 24 of 2024"
+     },
+     {
+      "v": "3 years",
+      "l": "engagement partner rotation, as amended by No. 24 of 2024"
+     }
+    ],
+    "changes": [
+     "Carrying on banking business without a licence is prohibited.",
+     "Acquiring a material interest in a licensed commercial bank needs the Central Bank’s prior written approval.",
+     "Persons who are insolvent or otherwise disqualified cannot be directors or senior officials of a bank.",
+     "Banks must have their accounts audited and rotate auditors and engagement partners.",
+     "The Central Bank supervises banks and may require additional audits."
+    ],
+    "who": [
+     "Licensed commercial banks",
+     "Licensed specialised banks",
+     "Shareholders acquiring large stakes in banks",
+     "Bank directors and auditors"
+    ],
+    "when": "in force since 1988; substantially amended by No. 24 of 2024",
+    "src": [
+     {
+      "t": "Banking Act No. 30 of 1988 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3454.pdf"
+     },
+     {
+      "t": "Banking (Amendment) Act No. 24 of 2024 (Government Printer)",
+      "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/24-2024_E_1784553043.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1988-34",
@@ -8865,9 +9619,6 @@
    "yr": 1983,
    "a": "Utilities",
    "status": "unknown",
-   "amd": [
-    "No. 11 of 1983"
-   ],
    "u": "https://www.parliament.lk/uploads/acts/gbills/english/3119.pdf"
   },
   {
@@ -8877,13 +9628,65 @@
    "no": "12",
    "yr": 1983,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
-    "No. 12 of 1983",
     "No. 41 of 1990",
     "No. 62 of 1992"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3120.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3120.pdf",
+   "key": true,
+   "sum": "Requires employers of 15 or more workmen to pay a gratuity on termination after five years of service.",
+   "impl": {
+    "sum": "Employers with 15 or more workmen must pay a gratuity within 30 days when a workman with at least five completed years leaves for any reason.",
+    "figs": [
+     {
+      "v": "15",
+      "l": "workmen on any day in prior year"
+     },
+     {
+      "v": "5 years",
+      "l": "minimum completed service"
+     },
+     {
+      "v": "Half month",
+      "l": "pay per completed year (monthly rated)"
+     },
+     {
+      "v": "14 days",
+      "l": "pay per year (other workmen)"
+     },
+     {
+      "v": "30 days",
+      "l": "after termination to pay"
+     },
+     {
+      "v": "10%-30%",
+      "l": "surcharge on late payment, as amended by No. 62 of 1992"
+     }
+    ],
+    "changes": [
+     "Applies to termination by employer or workman, retirement, death or operation of law.",
+     "Gratuity is computed on the wage or salary last drawn.",
+     "Unpaid gratuity can be recovered through the Magistrate as if it were a fine.",
+     "A surcharge rising from 10% to 30% applies when payment is late, as amended by No. 62 of 1992.",
+     "Domestic servants and some workmen covered by pension schemes are excluded."
+    ],
+    "who": [
+     "Employers with 15 or more workmen",
+     "Workmen and their heirs"
+    ],
+    "when": "in force since 1983; amended by No. 41 of 1990 and No. 62 of 1992",
+    "src": [
+     {
+      "t": "Payment of Gratuity Act No. 12 of 1983 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3120.pdf"
+     },
+     {
+      "t": "Payment of Gratuity (Amendment) Act No. 62 of 1992 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3856.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1983-13",
@@ -9162,7 +9965,8 @@
    "no": "17",
    "yr": 1982,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Companies Act No. 7 of 2007",
    "amd": [
     "No. 33 of 1991"
    ],
@@ -9906,13 +10710,51 @@
    "no": "46",
    "yr": 1980,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 3 of 1982",
     "No. 47 of 1988",
     "No. 18 of 1993"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2878.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2878.pdf",
+   "key": true,
+   "sum": "Establishes the Employees’ Trust Fund, to which employers pay a monthly contribution for each employee.",
+   "impl": {
+    "sum": "Employers of employees covered by the Act must pay a monthly contribution of 3% of each employee’s total earnings to the Fund.",
+    "figs": [
+     {
+      "v": "3%",
+      "l": "of total monthly earnings, paid by employer"
+     },
+     {
+      "v": "Last day",
+      "l": "of next month: contribution due"
+     }
+    ],
+    "changes": [
+     "Employers pay the contribution; it is not deducted from the employee’s earnings.",
+     "Liability starts from the date the Minister fixes by Gazette Order for each employment.",
+     "Each member has an individual account to which contributions and interest are credited.",
+     "Self-employed persons may join the Fund as members.",
+     "Members receive benefits from their accounts on retirement and other events set out in the Act."
+    ],
+    "who": [
+     "Employers of covered employees",
+     "Employees in covered employment",
+     "Self-employed members"
+    ],
+    "when": "in force since 1980; amended in 1982, 1988 and 1993",
+    "src": [
+     {
+      "t": "Employees’ Trust Fund Act No. 46 of 1980 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/2878.pdf"
+     },
+     {
+      "t": "Employees’ Trust Fund (Amendment) Act No. 47 of 1988 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3469.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1980-47",
@@ -9921,13 +10763,60 @@
    "no": "47",
    "yr": 1980,
    "a": "Health & local government",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 56 of 1988",
     "No. 53 of 2000",
     "No. 15 of 2026"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2879.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/2879.pdf",
+   "key": true,
+   "sum": "Sets up the Central Environmental Authority and controls pollution through licences, project approvals and waste rules.",
+   "impl": {
+    "sum": "Prescribed activities that discharge waste need an environmental recommendation and licence, and prescribed projects need approval through a project approving agency.",
+    "figs": [
+     {
+      "v": "Rs. 20m",
+      "l": "maximum fine, licensing offences, as amended by No. 15 of 2026"
+     },
+     {
+      "v": "12 months",
+      "l": "validity of environmental recommendation, as amended by No. 15 of 2026"
+     },
+     {
+      "v": "12 months",
+      "l": "maximum licence term, as amended by No. 15 of 2026"
+     },
+     {
+      "v": "Rs. 150,000",
+      "l": "daily fine, continuing hazardous-waste offence, as amended by No. 15 of 2026"
+     }
+    ],
+    "changes": [
+     "Establishes the Central Environmental Authority to protect and manage the environment.",
+     "Construction for a prescribed activity may not start without an environmental recommendation, as amended by No. 15 of 2026.",
+     "Discharging, depositing or emitting waste in a prescribed activity needs a licence from the Director-General.",
+     "Prescribed projects are approved by a project approving agency with the Director-General’s concurrence.",
+     "New Parts on hazardous waste, chemicals, wastewater, wetlands and extended producer responsibility, added by No. 15 of 2026."
+    ],
+    "who": [
+     "Industries and businesses carrying out prescribed activities",
+     "Developers of prescribed projects",
+     "Generators and handlers of hazardous waste",
+     "Project approving agencies"
+    ],
+    "when": "in force since 1980; substantially amended by No. 15 of 2026",
+    "src": [
+     {
+      "t": "National Environmental Act No. 47 of 1980 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/2879.pdf"
+     },
+     {
+      "t": "National Environmental (Amendment) Act No. 15 of 2026 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6425.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1980-48",
@@ -10300,7 +11189,8 @@
    "no": "52",
    "yr": 1979,
    "a": "Governance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Intellectual Property Act No. 36 of 2003",
    "amd": [
     "No. 30 of 1980",
     "No. 2 of 1983",
@@ -10773,7 +11663,7 @@
    "no": "4",
    "yr": 1978,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 43 of 1980",
     "No. 21 of 1983",
@@ -11200,11 +12090,12 @@
   {
    "id": "1975-1",
    "t": "Declaration of Assets and Liabilities",
-   "kind": "Act",
+   "kind": "Law",
    "no": "1",
    "yr": 1975,
    "a": "Governance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Anti-Corruption Act No. 9 of 2023",
    "amd": [
     "No. 29 of 1985",
     "No. 74 of 1988"
@@ -11466,11 +12357,12 @@
   {
    "id": "1975-9",
    "t": "Foreign Companies (Special Provisions)",
-   "kind": "Act",
+   "kind": "Law",
    "no": "9",
    "yr": 1975,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Companies Act No. 7 of 2007",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4205"
   },
   {
@@ -11511,11 +12403,12 @@
   {
    "id": "1974-19",
    "t": "Companies (Special Provisions)",
-   "kind": "Act",
+   "kind": "Law",
    "no": "19",
    "yr": 1974,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Companies Act No. 7 of 2007",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4123"
   },
   {
@@ -12350,7 +13243,7 @@
    "no": "45",
    "yr": 1971,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 4 of 1976",
     "No. 51 of 1988",
@@ -12359,7 +13252,44 @@
     "No. 29 of 2021",
     "No. 23 of 2022"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/4706.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/4706.pdf",
+   "key": true,
+   "sum": "Bars employers from terminating covered workmen without the workman’s written consent or the Commissioner of Labour’s approval.",
+   "impl": {
+    "sum": "An employer covered by the Act may not terminate a workman’s employment, other than for discipline, without written consent or the Commissioner’s prior approval.",
+    "figs": [
+     {
+      "v": "Rs. 20,000",
+      "l": "maximum fine, as amended by No. 23 of 2022"
+     }
+    ],
+    "changes": [
+     "Termination needs the workman’s prior written consent or the Commissioner’s prior written approval.",
+     "Where a termination breaches the Act, the Commissioner may order reinstatement with back wages and benefits.",
+     "Unpaid sums ordered by the Commissioner can be recovered through the Magistrate’s Court.",
+     "An employer who seeks revision in the High Court must deposit the sum ordered as security, as amended by No. 23 of 2022.",
+     "Retirement at the minimum retirement age is not a termination under the Act, as amended by No. 29 of 2021."
+    ],
+    "who": [
+     "Employers in scheduled employments",
+     "Workmen in scheduled employments"
+    ],
+    "when": "in force since 1971; amended in 1976, 1988, 2003, 2008, 2021 and 2022",
+    "src": [
+     {
+      "t": "Termination of Employment of Workmen (Special Provisions) Act No. 45 of 1971 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/4706.pdf"
+     },
+     {
+      "t": "Termination of Employment of Workmen (Special Provisions) (Amendment) Act No. 23 of 2022 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6267.pdf"
+     },
+     {
+      "t": "Termination of Employment of Workmen (Special Provisions) (Amendment) Act No. 29 of 2021 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6236.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1971-46",
@@ -13663,7 +14593,7 @@
   },
   {
    "id": "1962-1",
-   "t": "Criminal (Special Provisions)",
+   "t": "Criminal Law (Special Provisions)",
    "kind": "Act",
    "no": "1",
    "yr": 1962,
@@ -13717,7 +14647,7 @@
   },
   {
    "id": "1962-31",
-   "t": "Criminal",
+   "t": "Criminal Law",
    "kind": "Act",
    "no": "31",
    "yr": 1962,
@@ -14306,7 +15236,7 @@
    "no": "15",
    "yr": 1958,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 16 of 1970",
     "No. 8 of 1971",
@@ -14317,7 +15247,49 @@
     "No. 2 of 2012",
     "No. 23 of 2021"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3739.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/3739.pdf",
+   "key": true,
+   "sum": "Establishes the Employees’ Provident Fund, to which employers and employees in covered employment make monthly contributions.",
+   "impl": {
+    "sum": "Employers in covered employment must pay monthly contributions for each employee to the Fund, which pays members benefits on retirement or other qualifying events.",
+    "figs": [
+     {
+      "v": "Last day",
+      "l": "of next month: contributions due"
+     },
+     {
+      "v": "30%",
+      "l": "of balance: housing or medical withdrawal, as amended by No. 2 of 2012"
+     }
+    ],
+    "changes": [
+     "Employees in covered employment, and their employers, contribute a percentage of total monthly earnings.",
+     "Contributions not paid by the last day of the following month attract a surcharge.",
+     "Unpaid contributions are recoverable as a debt.",
+     "Members may make up to two withdrawals for housing or medical treatment, as amended by No. 2 of 2012.",
+     "Foreign detached workers covered by a social security agreement are excluded, as amended by No. 23 of 2021."
+    ],
+    "who": [
+     "Employers in covered employment",
+     "Employees in covered employment",
+     "Members of the Fund"
+    ],
+    "when": "in force since 1958; amended many times, most recently by No. 23 of 2021",
+    "src": [
+     {
+      "t": "Employees’ Provident Fund Act No. 15 of 1958 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/3739.pdf"
+     },
+     {
+      "t": "Employees’ Provident Fund (Amendment) Act No. 2 of 2012 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5822.pdf"
+     },
+     {
+      "t": "Employees’ Provident Fund (Amendment) Act No. 23 of 2021 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6226.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1958-19",
@@ -15151,7 +16123,7 @@
    "no": "19",
    "yr": 1954,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 60 of 1957",
     "No. 28 of 1962",
@@ -15165,7 +16137,52 @@
     "No. 1 of 2021",
     "No. 28 of 2024"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5497.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5497.pdf",
+   "key": true,
+   "sum": "Regulates hours, holidays, leave, pay and conditions of employees in shops and offices.",
+   "impl": {
+    "sum": "Employers in shops and offices must keep to limits on working hours, give weekly and annual holidays, pay on time and follow rules on women and young persons.",
+    "figs": [
+     {
+      "v": "70 days",
+      "l": "maternity leave for live birth, as amended by No. 14 of 2018"
+     },
+     {
+      "v": "16 years",
+      "l": "minimum employment age, as amended by No. 1 of 2021"
+     }
+    ],
+    "changes": [
+     "Limits normal daily and weekly working hours and regulates overtime by regulation.",
+     "Employees who work enough hours in a week get one whole holiday and one half-holiday with pay.",
+     "Provides for annual holidays, leave and public holidays.",
+     "Sets meal intervals and conditions for night work by women and young persons.",
+     "Female employees get maternity leave, as amended by No. 14 of 2018."
+    ],
+    "who": [
+     "Employers who run shops and offices",
+     "Shop and office employees"
+    ],
+    "when": "in force since 1954 (Chapter 129); most recently amended by No. 28 of 2024",
+    "src": [
+     {
+      "t": "Shop and Office Employees Act No. 19 of 1954 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5497.pdf"
+     },
+     {
+      "t": "Shop and Office Employees (Amendment) Act No. 14 of 2018 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6094.pdf"
+     },
+     {
+      "t": "Shop and Office Employees (Amendment) Act No. 1 of 2021 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6201.pdf"
+     },
+     {
+      "t": "Shop and Office Employees (Amendment) Act No. 28 of 2024 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6332.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1954-24",
@@ -16073,7 +17090,7 @@
    "no": "43",
    "yr": 1950,
    "a": "Labour",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 25 of 1956",
     "No. 14 of 1957",
@@ -16088,7 +17105,53 @@
     "No. 22 of 2022",
     "No. 24 of 2022"
    ],
-   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5240.pdf"
+   "u": "https://www.parliament.lk/uploads/acts/gbills/english/5240.pdf",
+   "key": true,
+   "sum": "Provides for settling industrial disputes by conciliation, arbitration, industrial courts and labour tribunals, and for collective agreements.",
+   "impl": {
+    "sum": "Employers, workmen and trade unions are bound by collective agreements, settlements and awards made under the Act, and workmen may apply to labour tribunals.",
+    "figs": [
+     {
+      "v": "Rs. 5,000",
+      "l": "general maximum fine, as amended by No. 39 of 2011"
+     },
+     {
+      "v": "12 months",
+      "l": "maximum imprisonment, as amended by No. 39 of 2011"
+     }
+    ],
+    "changes": [
+     "The Commissioner of Labour may settle disputes by conciliation or refer them to arbitration or an industrial court.",
+     "Collective agreements are sent to the Commissioner, published, and bind the parties.",
+     "Awards and settlements are binding for the period set under the Act.",
+     "Labour tribunals hear applications by workmen, including on termination of employment.",
+     "An employer appealing to the Supreme Court against a High Court order for a workman must deposit security, as amended by No. 22 of 2022."
+    ],
+    "who": [
+     "Employers",
+     "Workmen",
+     "Trade unions"
+    ],
+    "when": "in force since 1950 (Chapter 131); most recently amended in 2022",
+    "src": [
+     {
+      "t": "Industrial Disputes Act No. 43 of 1950 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5240.pdf"
+     },
+     {
+      "t": "Industrial Disputes (Amendment) Act No. 39 of 2011 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5848.pdf"
+     },
+     {
+      "t": "Industrial Disputes (Amendment) Act No. 22 of 2022 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6260.pdf"
+     },
+     {
+      "t": "Industrial Disputes (Amendment) Act No. 24 of 2022 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6265.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "1949-12",
@@ -16324,7 +17387,7 @@
   },
   {
    "id": "1949-58",
-   "t": "Monetary",
+   "t": "Monetary Law",
    "kind": "Act",
    "no": "58",
    "yr": 1949,
@@ -16791,7 +17854,7 @@
   },
   {
    "id": "ord-cap12",
-   "t": "Adoption of Roman-Dutch",
+   "t": "Adoption of Roman-Dutch Law",
    "kind": "Ordinance",
    "no": "12",
    "yr": null,
@@ -16907,7 +17970,7 @@
   {
    "id": "ord-cap129",
    "t": "Shop and Office Employees",
-   "kind": "Ordinance",
+   "kind": "Act",
    "no": "129",
    "yr": null,
    "a": "Labour",
@@ -16937,7 +18000,7 @@
   {
    "id": "ord-cap131",
    "t": "Industrial Disputes",
-   "kind": "Ordinance",
+   "kind": "Act",
    "no": "131",
    "yr": null,
    "a": "Labour",
@@ -17091,7 +18154,7 @@
   },
   {
    "id": "ord-cap141",
-   "t": "Poor",
+   "t": "Poor Law",
    "kind": "Ordinance",
    "no": "141",
    "yr": null,
@@ -18313,7 +19376,7 @@
    "no": "235",
    "yr": null,
    "a": "Tax",
-   "status": "unknown",
+   "status": "in force",
    "amd": [
     "No. 6 of 1948",
     "No. 9 of 1949",
@@ -18329,7 +19392,60 @@
     "No. 2 of 2003",
     "No. 9 of 2013"
    ],
-   "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4394"
+   "u": "https://www.customs.gov.lk/about-us/customs-law/",
+   "key": true,
+   "sum": "Governs the levying of customs duties, the import and export of goods, and penalties for smuggling and duty evasion.",
+   "impl": {
+    "sum": "Importers and exporters must declare goods to Sri Lanka Customs, pay duties at the rates set under Schedule A, and follow the rules on entry, warehousing and clearance.",
+    "figs": [
+     {
+      "v": "3x",
+      "l": "goods value forfeited for duty evasion"
+     },
+     {
+      "v": "Rs. 100,000",
+      "l": "alternative penalty for duty evasion"
+     },
+     {
+      "v": "90 days",
+      "l": "for a duty dispute ruling, as amended by No. 9 of 2013"
+     },
+     {
+      "v": "30 days",
+      "l": "to appeal to Tax Appeals Commission"
+     }
+    ],
+    "changes": [
+     "Customs duties are levied on goods as set out in the table of duties, which Parliament may vary by resolution.",
+     "Imported goods must be entered and declared, and are valued under the rules in Schedule E.",
+     "Goods brought in contrary to restrictions, or with duty unpaid, are liable to forfeiture.",
+     "Persons knowingly involved in evading duty forfeit three times the value of the goods or Rs. 100,000, as the Director-General elects.",
+     "Importers and exporters may seek a ruling on duty disputes and appeal to the Tax Appeals Commission, as amended by No. 9 of 2013."
+    ],
+    "who": [
+     "Importers and exporters",
+     "Masters of ships carrying goods"
+    ],
+    "when": "in force; amended many times, most recently by No. 9 of 2013 in the Parliament listing",
+    "src": [
+     {
+      "t": "Sri Lanka Customs: Customs Ordinance, Part II",
+      "u": "https://www.customs.gov.lk/wp-content/uploads/2021/06/PART-II.pdf"
+     },
+     {
+      "t": "Sri Lanka Customs: Customs Ordinance, Part IV",
+      "u": "https://www.customs.gov.lk/wp-content/uploads/2021/06/PART-IV.pdf"
+     },
+     {
+      "t": "Sri Lanka Customs: Customs Ordinance, Part XIII",
+      "u": "https://www.customs.gov.lk/wp-content/uploads/2021/06/PART-XIII.pdf"
+     },
+     {
+      "t": "Customs (Amendment) Act No. 9 of 2013 (Parliament)",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/5898.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "ord-cap236",
@@ -18667,11 +19783,12 @@
   {
    "id": "ord-cap26",
    "t": "Bribery",
-   "kind": "Ordinance",
+   "kind": "Act",
    "no": "26",
    "yr": null,
    "a": "Justice",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Anti-Corruption Act No. 9 of 2023",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4169"
   },
   {
@@ -20645,22 +21762,24 @@
   },
   {
    "id": "ord-cap422",
-   "t": "Monetary",
-   "kind": "Ordinance",
+   "t": "Monetary Law",
+   "kind": "Act",
    "no": "422",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Central Bank of Sri Lanka Act No. 16 of 2023",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4758"
   },
   {
    "id": "ord-cap423",
    "t": "Exchange Control",
-   "kind": "Ordinance",
+   "kind": "Act",
    "no": "423",
    "yr": null,
    "a": "Business & finance",
-   "status": "unknown",
+   "status": "repealed",
+   "rep": "Repealed by Foreign Exchange Act No. 12 of 2017",
    "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G4487"
   },
   {
@@ -21575,7 +22694,7 @@
   },
   {
    "id": "ord-cap59",
-   "t": "Kandyan",
+   "t": "Kandyan Law",
    "kind": "Ordinance",
    "no": "59",
    "yr": null,
