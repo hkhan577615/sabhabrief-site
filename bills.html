@@ -15,25 +15,26 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <header class="mast">
   <div class="mast-in">
-    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
-    <nav class="nav" aria-label="Sections">
-      <a href="index.html" data-p="today">Today</a>
-      <a href="record.html" data-p="record">Record</a>
-      <a href="bills.html" data-p="bills">Bills</a>
-      <a href="gazette.html" data-p="gazette">Gazette</a>
-      <a href="laws.html" data-p="laws">Laws</a>
-      <a href="alerts.html" data-p="alerts">Get alerts</a>
-      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
-    </nav>
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span></a>
+    <p class="tagline">An independent record of Sri Lanka's Parliament, built only from official government sources.</p>
     <p class="fresh" id="updated" hidden></p>
   </div>
 </header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="index.html" data-p="week">This week</a>
+    <a href="bills.html" data-p="bills">Bills</a>
+    <a href="gazette.html" data-p="gazette">Gazette</a>
+    <a href="laws.html" data-p="laws">Laws</a>
+    <a href="alerts.html" data-p="alerts">Get alerts</a>
+    <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+  </div>
+</nav>
 <main class="wrap" data-page="bills">
   <header class="ph">
     <p class="kicker">Bills</p>

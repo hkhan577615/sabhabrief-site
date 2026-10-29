@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Sabha Brief</title>
-<meta name="description" content="What Sri Lanka's Parliament decided at its latest sitting, from official records.">
+<meta name="description" content="What Sri Lanka's Parliament decided this week, item by item, from official records.">
 <meta property="og:site_name" content="Sabha Brief">
 <meta property="og:title" content="Sabha Brief">
-<meta property="og:description" content="What Sri Lanka's Parliament decided at its latest sitting, from official records.">
+<meta property="og:description" content="What Sri Lanka's Parliament decided this week, item by item, from official records.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#F4F6F5">
@@ -15,53 +15,115 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Noto+Serif+Tamil:wght@500&display=swap&text=%E0%B7%83%E0%B6%B7%E0%B7%8F%E0%AE%9A%E0%AE%AA%E0%AF%88">
 <link rel="stylesheet" href="site.css">
 <style>
-/* Today: a one-minute read. Left, what was decided, as three short lines.
-   Right, a narrow rail: what is next, bills close to law, the week in one sentence.
-   Colour tokens come from site.css; nothing here sets a literal colour. */
-.today{gap:0;padding-block:clamp(24px,4vw,44px) clamp(64px,8vw,104px)}
-.tg{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:clamp(36px,5vw,72px);align-items:start}
-@media (max-width:940px){.tg{grid-template-columns:minmax(0,1fr)}}
+/* This week: one sitting week at a time. First the brief (a headline and the key decisions), then what is next,
+   then every item of the week by day. Each line shows its headline facts and opens to the figures, the next step,
+   what a bill changes and the official sources. Colour tokens come from site.css; nothing here sets a literal colour. */
+.wk{gap:0;padding-block:clamp(20px,3vw,32px) clamp(64px,8vw,104px)}
+.tg{display:grid;grid-template-columns:minmax(0,1fr) 320px;grid-template-areas:"head rail" "key rail" "all rail";grid-template-rows:auto auto 1fr;column-gap:clamp(36px,5vw,72px);align-items:start}
 .tg>*{min-width:0}
+.wk-head{grid-area:head}.wk-key{grid-area:key}.wk-all{grid-area:all}.rail{grid-area:rail}
+@media (max-width:940px){.tg{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "key" "rail" "all";grid-template-rows:none}}
 
-.dl{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px;padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.dl{display:flex;flex-wrap:wrap;align-items:center;gap:6px 20px;padding-bottom:16px;border-bottom:1px solid var(--rule)}
 .dl-d{font:italic 400 18px/1.3 var(--serif)}
 .dl-s{flex:1 1 260px;font-size:15px;color:var(--ink-2)}
-.tabs{display:inline-flex;gap:18px;margin-left:auto}
-.tabs button{border:0;background:none;padding:6px 0;font:600 14px/1 var(--sans);color:var(--ink-3);cursor:pointer;border-bottom:1.5px solid transparent}
-.tabs button:hover{color:var(--ink)}
-.tabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
 
-.gl-h{display:grid;gap:10px;padding:26px 0 8px}
+.wk-head{display:grid;gap:10px;padding:26px 0 30px}
+.wk-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px}
 .gl-k{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-.gl-h h1{font-size:clamp(30px,3.6vw,44px);line-height:1.08;letter-spacing:-.02em}
-.gl-h .dek{font-size:18px;max-width:58ch}
+.step{display:flex;flex-wrap:wrap;gap:6px 20px}
+.step a{font:600 13.5px/1.3 var(--sans);text-decoration:none;color:var(--ink-2);white-space:nowrap}
+.step a:hover{color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule-2)}
+.wk-head h1{font-size:clamp(30px,3.6vw,44px);line-height:1.08;letter-spacing:-.02em}
+.wk-head .dek{font-size:18px;max-width:58ch}
 
-.dec{list-style:none;padding:0;margin:18px 0 22px;border-top:1px solid var(--rule)}
-.dec li{display:grid;grid-template-columns:128px minmax(0,1fr);gap:4px 24px;padding:18px 0;border-bottom:1px solid var(--rule)}
-.dec-k{display:flex;align-items:center;gap:8px;font:600 12px/1.5 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--c);padding-top:4px}
+.blk-h{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding-bottom:10px;border-bottom:1px solid var(--ink)}
+.pm{flex:none}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+
+/* Key decisions: three lines, each opening to the record it came from. */
+.dec{list-style:none;padding:0}
+.dec>li{border-bottom:1px solid var(--rule)}
+.dec summary{display:grid;grid-template-columns:128px minmax(0,1fr) 30px;grid-template-areas:"k b pm";gap:6px 24px;padding:18px 0}
+.dec-k{grid-area:k;display:flex;align-items:center;gap:8px;font:600 12px/1.5 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--c);padding-top:4px}
 .dec-k::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--c)}
-.dec-b{display:grid;gap:4px;min-width:0}
+.dec-b{grid-area:b;display:grid;gap:4px;min-width:0}
 .dec-t{font:500 21px/1.25 var(--serif);letter-spacing:-.005em}
-.dec-t a{text-decoration:none}
-.dec-t a:hover{text-decoration:underline;text-decoration-color:var(--rule-2)}
+.dec summary:hover .dec-t,.it summary:hover .it-t{text-decoration:underline;text-decoration-color:var(--rule-2);text-underline-offset:.2em}
 .dec-l{font-size:15.5px;line-height:1.5;color:var(--ink-2)}
 .dec-f{font-size:14px;color:var(--ink-3);font-variant-numeric:tabular-nums}
 .dec-f b{font-weight:600;color:var(--ink)}
 .dec-w{font-size:13px;color:var(--ink-3)}
-@media (max-width:600px){.dec li{grid-template-columns:minmax(0,1fr)}.dec-k{padding-top:0}}
+.dec .pm{grid-area:pm;margin-top:2px}
+.dec-x{display:grid;gap:22px;padding:0 54px 28px 152px}
+@media (max-width:600px){
+  .dec summary{grid-template-columns:minmax(0,1fr) 30px;grid-template-areas:"k pm" "b b"}
+  .dec-k{padding-top:0}
+  .dec-x{padding:0 0 26px}
+}
 
-.more{display:flex;flex-wrap:wrap;gap:10px 28px}
+/* The full record: each item is one line of headline facts that opens to the detail. */
+.wk-all{margin-top:56px}
+.all-h{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding-bottom:12px;border-bottom:1px solid var(--ink)}
+.all-h .blk-h{padding-bottom:0;border:0}
+.tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
+.tools .note-s{flex-basis:100%;text-align:right}
+.filters{padding-top:16px}
+.dg{padding-top:34px}
+.dg-h{display:grid;gap:6px;padding-bottom:14px;border-bottom:1px solid var(--rule-2)}
+.dg-k{font:600 12px/1.45 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.dg-t{font-size:clamp(23px,2.3vw,28px);line-height:1.12;letter-spacing:-.015em}
+.dg-s{font-size:15.5px;color:var(--ink-2);max-width:62ch}
+.dg.ag .dg-h{border-bottom-style:dashed}
+.its{list-style:none;padding:0}
+.it{border-bottom:1px solid var(--rule)}
+.it summary{display:grid;grid-template-columns:minmax(0,1fr) 30px;grid-template-areas:"m pm" "t pm" "f pm";gap:5px 20px;padding:16px 0}
+.it-m{grid-area:m;display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px}
+.it-k{display:inline-flex;align-items:center;gap:8px;font:600 11.5px/1.3 var(--sans);letter-spacing:.13em;text-transform:uppercase;color:var(--c)}
+.it-k::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
+.it .st{margin-left:0;padding:4px 9px;font-size:12.5px}
+.it-t{grid-area:t;font:500 19.5px/1.3 var(--serif);letter-spacing:-.005em}
+.it-f{grid-area:f;font-size:14px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.it-f b{font-weight:600;color:var(--ink)}
+.it .pm{grid-area:pm;align-self:center}
 
-.rail{display:grid;gap:30px;padding-top:4px}
-@media (min-width:941px){.rail{position:sticky;top:calc(var(--mast) + 24px + env(safe-area-inset-top,0px))}}
+/* What opens under a line. */
+.it-b{display:grid;gap:18px;padding:2px 50px 28px 0}
+.dec-x .it-b{padding:0}
+.it-w{font-size:16px;color:var(--ink-2);max-width:68ch}
+.it-n{font-size:15px;max-width:68ch}
+.it-n b{font-weight:600}
+.pts{padding-left:1.15em;display:grid;gap:6px;font-size:15px;max-width:72ch}
+.pts li::marker{color:var(--ink-3)}
+.from{font-size:14px;color:var(--ink-2)}
+.from b{font-weight:600;color:var(--ink)}
+.bill{display:grid;gap:10px;justify-items:start;padding:16px 18px;background:var(--surface);border:1px solid var(--rule);border-radius:6px;max-width:680px}
+.bill-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
+.bill-h b{font:500 18px/1.3 var(--serif)}
+.bill-h span{font-size:13.5px;color:var(--ink-2)}
+.bill-s{font-size:15px;line-height:1.5}
+.bill-k{display:block;font:600 11.5px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.bill .who span{font-size:13px;padding:5px 10px}
+.bill .arrow{font-size:14px}
+.ow{margin-top:64px}
+.owl{list-style:none;padding:0}
+.owl a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule);text-decoration:none}
+.owl-d{font:600 12px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.owl-t{grid-column:1;font:500 19px/1.3 var(--serif)}
+.owl-n{grid-column:2;grid-row:1 / span 2;font-size:13.5px;color:var(--ink-2);text-align:right}
+.owl a:hover .owl-t{text-decoration:underline;text-decoration-color:var(--rule-2)}
+@media (max-width:600px){.it-b{padding-right:0}.owl a{grid-template-columns:minmax(0,1fr)}.owl-n{grid-column:1;grid-row:auto;text-align:left}}
+
+/* Side panel: what is next. */
+.rail{display:grid;gap:30px;padding-top:30px}
 .rb{display:grid;gap:12px}
 .rb h2{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding-bottom:10px;border-bottom:1px solid var(--ink)}
-.next{display:grid;gap:4px;padding:16px 18px;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
-.next-w{font:500 22px/1.2 var(--serif)}
-.next-r{font-size:14px;color:var(--ink-2)}
+.sit{display:grid;gap:4px;padding:16px 18px;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+.sit-w{font:500 22px/1.2 var(--serif)}
+.sit-r{font-size:14px;color:var(--ink-2)}
 .cl{list-style:none;padding:0;display:grid}
 .cl li{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
 .cl time{font-weight:600;font-variant-numeric:tabular-nums;color:var(--c,var(--ink))}
@@ -72,57 +134,55 @@
 .wb a:hover .wb-t{text-decoration:underline;text-decoration-color:var(--rule-2)}
 .wb-t{font:500 17px/1.3 var(--serif)}
 .wb-s{font-size:13.5px;color:var(--ink-2)}
-.wk{font-size:15px;line-height:1.6;color:var(--ink-2)}
-.wk a{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
 .rb .arrow{font-size:14px}
-.today .src{margin-top:2px}
+@media (max-width:940px){.rail{margin-top:48px;padding-top:0}}
+.wk>.srcs-sec{margin-top:clamp(72px,9vw,120px)}
 </style>
 </head>
 <body>
 <header class="mast">
   <div class="mast-in">
-    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span><span class="brand-l" aria-hidden="true"><span lang="si">සභා</span> · <span lang="ta">சபை</span></span></a>
-    <nav class="nav" aria-label="Sections">
-      <a href="index.html" data-p="today">Today</a>
-      <a href="record.html" data-p="record">Record</a>
-      <a href="bills.html" data-p="bills">Bills</a>
-      <a href="gazette.html" data-p="gazette">Gazette</a>
-      <a href="laws.html" data-p="laws">Laws</a>
-      <a href="alerts.html" data-p="alerts">Get alerts</a>
-      <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
-    </nav>
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span></a>
+    <p class="tagline">An independent record of Sri Lanka's Parliament, built only from official government sources.</p>
     <p class="fresh" id="updated" hidden></p>
   </div>
 </header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="index.html" data-p="week">This week</a>
+    <a href="bills.html" data-p="bills">Bills</a>
+    <a href="gazette.html" data-p="gazette">Gazette</a>
+    <a href="laws.html" data-p="laws">Laws</a>
+    <a href="alerts.html" data-p="alerts">Get alerts</a>
+    <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+  </div>
+</nav>
 
-<main class="wrap today" data-page="today">
+<main class="wrap wk" data-page="week">
   <div class="dl">
     <p class="dl-d" id="dlDate"></p>
     <p class="dl-s" id="dlStatus" hidden></p>
-    <div class="tabs" id="seg" role="group" aria-label="Choose the period" hidden>
-      <button type="button" id="segDay" data-m="day" aria-pressed="true">Latest sitting</button>
-      <button type="button" id="segWeek" data-m="week" aria-pressed="false">The week</button>
-    </div>
   </div>
 
   <div class="tg">
-    <section aria-labelledby="h1">
-      <div class="gl-h">
-        <p class="gl-k" id="kicker">What Parliament decided</p>
-        <h1 id="h1">What Parliament decided</h1>
-        <p class="dek" id="dek"></p>
+    <section class="wk-head" id="wkHead" aria-labelledby="h1">
+      <div class="wk-top">
+        <p class="gl-k" id="kicker">This week in Parliament</p>
+        <nav class="step" id="step" aria-label="Other weeks" hidden></nav>
       </div>
-      <ol class="dec" id="top3"><li class="empty">Loading the latest sitting.</li></ol>
-      <p class="more"><a class="arrow" id="recLink" href="record.html">Full record</a><a class="arrow" href="bills.html">All bills</a></p>
+      <h1 id="h1">What Parliament decided this week</h1>
+      <p class="dek" id="dek"></p>
     </section>
 
-    <aside class="rail" aria-label="At a glance">
+    <section class="wk-key" id="keyBox" aria-labelledby="key-h">
+      <h2 class="blk-h" id="key-h">Key decisions</h2>
+      <ol class="dec" id="top3"><li class="empty">Loading the week.</li></ol>
+    </section>
+
+    <aside class="rail" aria-label="What is next">
       <div class="rb" id="nextBox" hidden>
         <h2>Next sitting</h2>
-        <div class="next"><p class="next-w" id="nextW"></p><p class="next-r" id="nextR"></p></div>
-      </div>
-      <div class="rb">
-        <a class="cta" href="alerts.html"><b>Get alerts for your sector</b><span>By email or WhatsApp, when a Gazette or a vote touches your work.</span></a>
+        <div class="sit"><p class="sit-w" id="sitW"></p><p class="sit-r" id="sitR"></p></div>
       </div>
       <div class="rb">
         <h2>Coming up</h2>
@@ -134,11 +194,29 @@
         <a class="arrow" href="bills.html">Every bill and its stage</a>
       </div>
       <div class="rb">
-        <h2>The past seven days</h2>
-        <div id="pace"><p class="empty">Loading.</p></div>
+        <a class="cta" href="alerts.html"><b>Get alerts for your sector</b><span>By email or WhatsApp, when a Gazette or a vote touches your work.</span></a>
       </div>
     </aside>
+
+    <section class="wk-all" aria-labelledby="all-h">
+      <div class="all-h">
+        <h2 class="blk-h" id="all-h">The full record</h2>
+        <div class="tools">
+          <button class="btn" id="openBtn" type="button" aria-pressed="false">Open all</button>
+          <button class="btn" id="shareBtn" type="button">Copy summary</button>
+          <small class="note-s" id="shareNote" role="status"></small>
+        </div>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Show one type of item"></div>
+      <div id="days"><p class="empty">Loading the record.</p></div>
+      <div class="ow" id="others"></div>
+    </section>
   </div>
+
+  <section class="srcs-sec" aria-labelledby="src-h">
+    <div class="sec-h"><h2 id="src-h">How current each source is</h2><p>Votes and amounts usually arrive with the Hansard, one to three weeks after a sitting. Items wait for it and are completed later.</p></div>
+    <div id="clock"></div>
+  </section>
 </main>
 
 <footer class="foot">
@@ -164,81 +242,240 @@
 <script>
 (function(){
 const {$,esc}=SB;
-let daily=null,lib=null,days=[],briefs={},mode="day";
-const dmy=iso=>SB.F(iso,{weekday:"long",day:"numeric",month:"long"});
-const range=(a,b)=>{
-  if(a===b)return SB.F(a,{day:"numeric",month:"long"});
-  return a.slice(0,7)===b.slice(0,7)?SB.F(a,{day:"numeric"})+"–"+SB.F(b,{day:"numeric",month:"long"}):SB.F(a,{day:"numeric",month:"long"})+" – "+SB.F(b,{day:"numeric",month:"long"});
-};
+let daily=null,lb={},pipe={},weeks=[],wi=-1,home=0,trackF="all",allOpen=false;
+const ISO=/^\d{4}-\d\d-\d\d$/;
+const okDate=s=>ISO.test(s||"")&&!isNaN(SB.D(s));
+const monday=iso=>SB.addDays(iso,-((SB.D(iso).getUTCDay()+6)%7));
+const day=iso=>SB.F(iso,{weekday:"long",day:"numeric",month:"long"});
+const pl=(n,a,b)=>n+" "+(n===1?a:b);
+const NUM=["no","one","two","three","four","five","six","seven"];
+const and=a=>a.length<2?a.join(""):a.slice(0,-1).join(", ")+" and "+a[a.length-1];
 
-/* The latest sitting comes from the curated brief when it matches the record, otherwise from the record itself. */
-function buildBriefs(){
-  const sittings=days.filter(d=>d.status==="record"&&d.hours!=="No sitting"&&(d.items||[]).length);
-  const last=sittings[0];
-  const cur=(daily.brief||{}).day;
-  if(last){
-    const ok=cur&&cur.date===last.date&&(cur.stories||[]).length;
-    const stories=ok?cur.stories:(last.items||[]).slice(0,3).map(i=>{
-      const f=(i.figs||[])[0];
-      return {track:i.track,date:last.date,title:i.title,v:f?f.v:"",l:f?f.l:"",line:i.what||"",src:(i.src||[])[0]};
-    });
-    briefs.day={kind:"day",from:last.date,to:last.date,headline:(ok&&cur.headline)||last.headline,day:last,stories:stories.slice(0,3),days:[last]};
-  }
-  const w=(daily.brief||{}).week;
-  if(w&&(w.stories||[]).length){
-    briefs.week={kind:"week",from:w.from,to:w.to,headline:w.headline,stories:w.stories.slice(0,3),days:days.filter(d=>d.date>=w.from&&d.date<=w.to&&d.status==="record")};
-  }
+/* Weeks run Monday to Sunday. Each holds its days in order, the recorded ones and any still on the Order Paper. */
+function buildWeeks(){
+  const by={};
+  (daily.days||[]).forEach(d=>{if(d&&okDate(d.date))(by[monday(d.date)]=by[monday(d.date)]||[]).push(d);});
+  weeks=Object.keys(by).sort().reverse().map(k=>{
+    const days=by[k].sort((a,b)=>a.date<b.date?-1:1);
+    const rec=days.filter(d=>d.status==="record");
+    return {key:k,days,rec,sit:rec.filter(d=>d.hours!=="No sitting"),ag:days.filter(d=>d.status==="agenda"),n:rec.reduce((s,d)=>s+(d.items||[]).length,0)};
+  });
+  home=Math.max(0,weeks.findIndex(w=>w.rec.length));
 }
 
-/* One decision per row: track, title, one line, and the key figure kept small. */
-function rowHTML(s,b){
-  const t=SB.tr(s.track),src=Array.isArray(s.src)?s.src[0]:s.src;
-  const href="record.html#d"+(s.date||b.to);
-  const fig=s.v&&s.l&&!/^[A-Za-z]+$/.test(s.v)?`<p class="dec-f"><b>${esc(s.v)}</b> ${esc(s.l)}</p>`:"";
-  const when=b.kind==="week"&&s.date?esc(SB.short(s.date))+" · ":"";
-  return `<li class="t-${t}">
-    <p class="dec-k">${esc(SB.TRACKS[t])}</p>
-    <div class="dec-b">
-      <h3 class="dec-t"><a href="${esc(href)}">${esc(s.title)}</a></h3>
-      ${s.line?`<p class="dec-l">${esc(s.line)}</p>`:""}
-      ${fig}
-      ${src&&src.t?`<p class="dec-w">${when}Source: ${SB.link(src)}</p>`:""}
-    </div>
-  </li>`;
+/* Which record items a brief story stands for: exact titles when the story names them, otherwise the closest items of the same day and type. */
+const STOP=new Set("a an and are as at be by for from has have in into is it its of on or that the their this to was were with without not no yet more next now".split(" "));
+const words=t=>new Set(String(t||"").toLowerCase().replace(/['’]s\b/g,"").split(/[^a-z0-9]+/).map(x=>x.length>3?x.replace(/s$/,""):x).filter(x=>x.length>1&&!STOP.has(x)));
+function match(s,w){
+  const d=w.rec.find(x=>x.date===s.date);
+  if(!d)return [];
+  const its=d.items||[];
+  const refs=[].concat(s.refs||[]).filter(Boolean);
+  if(refs.length){const m=its.filter(it=>refs.includes(it.title));if(m.length)return m.map(it=>({it,d}));}
+  const sw=words([s.title,s.line,s.l].join(" "));
+  const sc=its.filter(it=>SB.tr(it.track)===SB.tr(s.track)).map(it=>{
+    const iw=words([it.title,it.what,it.status,(it.figs||[]).map(f=>f.l).join(" "),(it.points||[]).join(" ")].join(" "));
+    let n=0;sw.forEach(x=>{if(iw.has(x))n++;});
+    return {it,d,n};
+  });
+  const best=Math.max(0,...sc.map(x=>x.n));
+  return best<2?[]:sc.filter(x=>x.n>=Math.max(2,best*.6));
 }
 
-function render(){
-  const b=briefs[mode];
-  if(!b){$("top3").innerHTML=`<li class="empty">No sittings recorded yet.</li>`;return;}
-  const its=b.days.flatMap(d=>d.items||[]);
-  const sit=b.days.filter(d=>d.hours!=="No sitting").length;
-  if(b.kind==="day"){
-    const d=b.day;
-    $("kicker").textContent="Latest sitting · "+dmy(d.date);
-    $("dek").textContent=d.summary||"";
-    $("recLink").textContent="Everything from "+SB.F(d.date,{weekday:"long",day:"numeric",month:"short"});
-    $("recLink").href="record.html#d"+d.date;
-  }else{
-    $("kicker").textContent="The week · "+range(b.from,b.to);
-    $("dek").textContent=`${its.length} decisions across ${sit} ${sit===1?"sitting":"sittings"}. The three that matter most are below.`;
-    $("recLink").textContent="Everything from the week";
-    $("recLink").href="record.html#d"+b.from;
+/* The week's brief: the curated one when it covers this week, otherwise the weightiest items, one per type where possible. */
+const TW={law:4,money:3,oversight:2,record:1};
+function weight(it){
+  const st=String(it.status||"");
+  let s=TW[SB.tr(it.track)]*10;
+  if(/pass|certif|\blaw\b|approv|adopt|enact/i.test(st))s+=8;
+  else if(/second reading|2nd reading|debat|vote/i.test(st))s+=4;
+  else if(/1st reading|first reading|present|tabled|announc|extend|appoint|gazett/i.test(st))s+=2;
+  if(/court|petition/i.test(st+" "+(it.title||"")))s-=6;
+  if((it.figs||[]).length)s+=3;
+  if(it.votes)s+=3;
+  if((it.bills||[]).length)s+=2;
+  return s;
+}
+function brief(w){
+  const b=(daily.brief||{}).week;
+  if(b&&okDate(b.from)&&monday(b.from)===w.key&&(b.stories||[]).length){
+    return {headline:b.headline||"",stories:b.stories.slice(0,3).map(s=>({s,m:match(s,w)}))};
   }
-  $("h1").textContent=b.headline;
-  $("top3").innerHTML=b.stories.map(s=>rowHTML(s,b)).join("");
-  ["segDay","segWeek"].forEach(id=>$(id).setAttribute("aria-pressed",String($(id).dataset.m===mode)));
+  const pool=w.rec.flatMap(d=>(d.items||[]).map(it=>({it,d,w:weight(it)})));
+  const picks=[],used=new Set();
+  const adj=p=>p.w-(used.has(SB.tr(p.it.track))?15:0);
+  while(picks.length<3&&pool.length){
+    pool.sort((a,b)=>adj(b)-adj(a)||(a.d.date<b.d.date?1:-1));
+    const p=pool.shift();picks.push(p);used.add(SB.tr(p.it.track));
+  }
+  return {headline:picks.length?(picks[0].d.headline||picks[0].it.title):"",stories:picks.map(p=>{
+    const f=(p.it.figs||[])[0];
+    return {own:true,m:[p],s:{track:p.it.track,date:p.d.date,title:p.it.title,v:f?f.v:"",l:f?f.l:"",line:p.it.what||"",src:(p.it.src||[])[0]}};
+  })};
+}
+
+/* What a bill on the line changes and who it touches, from library.json. */
+function billHTML(id){
+  const b=lb[id],im=b.impl,p=pipe[id];
+  const sum=im&&im.sum?im.sum:b.about;
+  const who=im&&(im.who||[]).length?`<div><span class="bill-k">Who it affects</span><div class="who">${im.who.map(x=>`<span>${esc(x)}</span>`).join("")}</div></div>`:"";
+  return `<div class="bill">
+    <p class="bill-h"><b>${esc(b.t)}</b>${p&&p.label?`<span>Now: ${esc(p.label)}</span>`:""}</p>
+    ${sum?`<p class="bill-s">${im&&im.sum?`<span class="bill-k">${im.kind==="would"?"What it would do":"What it changes"}</span>`:""}${esc(sum)}</p>`:""}
+    ${who}
+    <a class="arrow" href="bills.html#b${esc(id)}">${im?"The bill in full":"Where the bill stands"}</a>
+  </div>`;
+}
+
+/* Everything under a line, most useful first: what happened, the numbers, what comes next, what a bill changes, detail, sources. */
+function bodyHTML(it,o){
+  o=o||{};
+  const t=SB.tr(it.track);
+  const conf=(it.conf||[]).map(k=>SB.SRC[k]||k);
+  const wait=(it.await||[]).map(k=>SB.SRC[k]||k);
+  const pts=(it.points||[]).length?`<ul class="pts">${it.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:"";
+  const bills=(it.bills||[]).filter(id=>lb[id]).slice(0,3).map(billHTML).join("");
+  const prov=conf.length||wait.length?`<div class="prov">${conf.length?`<span class="sb">Confirmed by ${esc(and(conf))}</span>`:""}${wait.map(k=>`<span class="sb wait">${esc(k)} awaited</span>`).join("")}</div>`:"";
+  return `<div class="it-b">${o.head||""}${it.what&&!o.noWhat?`<p class="it-w">${esc(it.what)}</p>`:""}${SB.figs(it.figs,t)}${SB.voteBar(it.votes)}${it.next?`<p class="it-n"><b>Next:</b> ${esc(it.next)}</p>`:""}${bills}${pts}${prov}${SB.srcLinks(it.src)}</div>`;
+}
+
+function decHTML(x){
+  const s=x.s,t=SB.tr(s.track);
+  const fig=s.v&&s.l&&!/^[A-Za-z]+$/.test(s.v)?`<span class="dec-f"><b>${esc(s.v)}</b> ${esc(s.l)}</span>`:"";
+  const body=x.m.map(({it,d})=>bodyHTML(it,{noWhat:x.own&&!!s.line,head:x.own?"":`<p class="from">From the record of ${esc(day(d.date))}: <b>${esc(it.title)}</b>${it.status?" · "+esc(it.status):""}</p>`})).join("");
+  const src=Array.isArray(s.src)?s.src:[s.src];
+  return `<li class="t-${t}"><details><summary>
+      <span class="dec-k">${esc(SB.TRACKS[t])}</span>
+      <span class="dec-b"><span class="dec-t">${esc(s.title)}</span>${s.line?`<span class="dec-l">${esc(s.line)}</span>`:""}${fig}<span class="dec-w">${esc(day(s.date))}</span></span>
+      <span class="pm" aria-hidden="true"></span>
+    </summary><div class="dec-x">${body||SB.srcLinks(src)}<a class="arrow" href="#d${esc(s.date)}">Everything from ${esc(SB.F(s.date,{weekday:"long"}))}</a></div></details></li>`;
+}
+
+function rowHTML(it){
+  const t=SB.tr(it.track),f=(it.figs||[])[0],more=(it.figs||[]).length-1;
+  return `<li class="it t-${t}" data-k="${t}"><details${allOpen?" open":""}><summary>
+      <span class="it-m"><span class="it-k">${esc(SB.TRACKS[t])}</span>${it.status?`<span class="st">${esc(it.status)}</span>`:""}</span>
+      <span class="it-t">${esc(it.title)}</span>
+      ${f?`<span class="it-f"><b>${esc(f.v)}</b> ${esc(f.l)}${more>0?` · ${more} more ${more===1?"figure":"figures"}`:""}</span>`:""}
+      <span class="pm" aria-hidden="true"></span>
+    </summary>${bodyHTML(it)}</details></li>`;
+}
+
+function dayHTML(d){
+  if(!(d.items||[]).length)return "";
+  const k=[day(d.date),d.status==="agenda"?"On the Order Paper":d.hours,d.chair?d.chair+" in the Chair":""].filter(Boolean).join(" · ");
+  return `<section class="dg${d.status==="agenda"?" ag":""}" id="d${esc(d.date)}" aria-label="${esc(day(d.date))}">
+    <header class="dg-h"><p class="dg-k">${esc(k)}</p>${d.headline?`<h3 class="dg-t">${esc(d.headline)}</h3>`:""}${d.summary?`<p class="dg-s">${esc(d.summary)}</p>`:""}</header>
+    <ul class="its">${d.items.map(rowHTML).join("")}</ul>
+  </section>`;
+}
+
+function sitText(w){
+  const ds=w.sit.map(d=>d.date);
+  if(!ds.length)return "";
+  const run=ds.every((x,i)=>!i||SB.diff(ds[i-1],x)===1);
+  const when=ds.length===1?day(ds[0]):run?SB.F(ds[0],{day:"numeric"})+" to "+SB.F(ds[ds.length-1],{day:"numeric",month:"long"}):and(ds.map(x=>SB.F(x,{weekday:"long"})));
+  return `Parliament sat on ${NUM[ds.length]||ds.length} ${ds.length===1?"day":"days"}, ${when}.`;
+}
+function weekLabel(w){
+  const m=monday(SB.today);
+  const rel=w.key===m?"This week":w.key===SB.addDays(m,-7)?"Last week":w.key===SB.addDays(m,7)?"Next week":"";
+  return (rel?rel+" · ":"")+"Week of "+SB.F(w.key,{day:"numeric",month:"long",year:"numeric"});
+}
+const headline=(w,b)=>b.headline||(w.ag[0]&&w.ag[0].headline)||(w.ag.length?"On the Order Paper":"Nothing recorded yet");
+
+function show(i){
+  wi=i;
+  const w=weeks[i],b=brief(w);
+  $("kicker").textContent=weekLabel(w);
+  $("h1").textContent=headline(w,b);
+  const ag=w.ag.length?` ${and(w.ag.map(d=>day(d.date)))} ${w.ag.length===1?"is":"are"} on the Order Paper.`:"";
+  $("dek").textContent=w.rec.length?(sitText(w)||"Parliament did not sit.")+` ${pl(w.n,"item","items")} went on record.`+ag:ag.trim();
+  const older=weeks[i+1],newer=weeks[i-1];
+  const lk=(x,txt)=>`<a href="#w${esc(x.key)}">${esc(txt)}</a>`;
+  $("step").innerHTML=(older?lk(older,"← Week of "+SB.dm(older.key)):"")+(newer?lk(newer,"Week of "+SB.dm(newer.key)+" →"):"");
+  $("step").hidden=!(older||newer);
+  $("keyBox").hidden=!b.stories.length;
+  $("top3").innerHTML=b.stories.map(decHTML).join("");
+  renderList(w);
+  renderOthers();
+}
+
+function renderList(w){
+  const its=w.days.flatMap(d=>d.items||[]);
+  const counts=Object.keys(SB.TRACKS).map(k=>[k,its.filter(it=>SB.tr(it.track)===k).length]).filter(x=>x[1]);
+  if(!counts.some(x=>x[0]===trackF))trackF="all";
+  $("filters").innerHTML=its.length?`<button type="button" class="fl" data-k="all">All ${its.length}</button>${counts.map(([k,n])=>`<button type="button" class="fl t-${k}" data-k="${k}"><i aria-hidden="true"></i>${esc(SB.TRACKS[k])} ${n}</button>`).join("")}`:"";
+  $("days").innerHTML=w.days.map(dayHTML).join("")||`<p class="empty">Nothing on record for this week.</p>`;
+  $("openBtn").hidden=$("shareBtn").hidden=!its.length;
+  $("shareNote").textContent="";
+  setOpen(allOpen);
+  filter();
+}
+
+/* Show one type of item; days with nothing of that type drop out. Lines already opened stay open. */
+function filter(){
+  document.querySelectorAll("#days .it").forEach(li=>{li.hidden=!(trackF==="all"||li.dataset.k===trackF);});
+  document.querySelectorAll("#days .dg").forEach(s=>{s.hidden=!s.querySelector(".it:not([hidden])");});
+  document.querySelectorAll("#filters .fl").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.k===trackF)));
+}
+function setOpen(v){
+  allOpen=v;
+  document.querySelectorAll("#days details").forEach(d=>{d.open=v;});
+  $("openBtn").textContent=v?"Close all":"Open all";
+  $("openBtn").setAttribute("aria-pressed",String(v));
+}
+
+function renderOthers(){
+  const o=weeks.map((w,i)=>({w,i})).filter(x=>x.i!==wi);
+  $("others").innerHTML=o.length?`<h2 class="blk-h">Other weeks on record</h2><ul class="owl">${o.map(({w})=>{
+    const n=w.rec.length?pl(w.sit.length,"sitting","sittings")+" · "+pl(w.n,"item","items"):"On the Order Paper";
+    return `<li><a href="#w${esc(w.key)}"><span class="owl-d">Week of ${esc(SB.F(w.key,{day:"numeric",month:"long"}))}</span><span class="owl-t">${esc(headline(w,brief(w)))}</span><span class="owl-n">${esc(n)}</span></a></li>`;
+  }).join("")}</ul>`:"";
+}
+
+/* A plain-text version of the week to paste into an email or a chat. It follows the filter. */
+function share(){
+  const w=weeks[wi],b=brief(w);
+  const keep=it=>trackF==="all"||SB.tr(it.track)===trackF;
+  const head="Sabha Brief · Parliament of Sri Lanka, week of "+SB.F(w.key,{day:"numeric",month:"long",year:"numeric"})+(trackF==="all"?"":" · "+SB.TRACKS[trackF]);
+  const out=[head,"",b.headline,""];
+  if(trackF==="all"&&b.stories.length){out.push("Key decisions",...b.stories.map(({s})=>"- "+s.title+(s.v&&s.l?" ("+s.v+" "+s.l+")":"")),"");}
+  w.days.forEach(d=>{
+    const its=(d.items||[]).filter(keep);
+    if(!its.length)return;
+    out.push(day(d.date)+(d.status==="agenda"?" (on the Order Paper)":""),...its.map(it=>"- "+it.title+(it.status?" ("+it.status+")":"")),"");
+  });
+  out.push("From Parliament's official records: "+location.href.split("#")[0]+"#w"+w.key);
+  const text=out.join("\n");
+  const note=$("shareNote");
+  const fallback=()=>{note.textContent="Select the text below and copy it.";let ta=$("shareText");if(!ta){ta=document.createElement("textarea");ta.id="shareText";ta.className="copy-ta";ta.readOnly=true;note.after(ta);}ta.value=text;ta.focus();ta.select();};
+  try{navigator.clipboard.writeText(text).then(()=>{note.textContent="Copied.";},fallback);}catch(e){fallback();}
+}
+
+/* #w<Monday> opens a week; #d<date> (also used by old Record links) opens that day's week and scrolls to it. */
+function route(first){
+  const h=(location.hash||"").slice(1);
+  const m=/^[wd]/.test(h)&&okDate(h.slice(1))?h.slice(1):null;
+  const i=m?weeks.findIndex(w=>w.key===monday(m)):-1;
+  const target=i<0?home:i;
+  if(target!==wi){trackF="all";allOpen=false;show(target);}
+  const ta=$("shareText");if(ta)ta.remove();
+  if(m&&h[0]==="d"){
+    const el=document.getElementById("d"+m);
+    if(el){if(el.hidden){trackF="all";filter();}el.scrollIntoView({block:"start"});}
+  }else if(!first&&$("wkHead").getBoundingClientRect().top<0){$("wkHead").scrollIntoView({block:"start"});}
 }
 
 function renderNext(){
   const n=(daily.keyDates||[]).filter(k=>k.label==="Parliament sits again"&&k.date>=SB.today).sort((a,b)=>a.date<b.date?-1:1)[0];
   if(!n)return;
-  $("nextW").textContent=SB.F(n.date,{weekday:"long",day:"numeric",month:"long"});
-  $("nextR").textContent=SB.rel(n.date).replace(/^./,c=>c.toUpperCase())+".";
+  $("sitW").textContent=day(n.date);
+  $("sitR").textContent=SB.rel(n.date).replace(/^./,c=>c.toUpperCase())+".";
   $("nextBox").hidden=false;
 }
-
 function renderDiary(){
-  const up=(daily.keyDates||[]).filter(k=>(k.end||k.date)>=SB.today&&k.label!=="Parliament sits again").sort((a,b)=>a.date<b.date?-1:1).slice(0,4);
+  const up=(daily.keyDates||[]).filter(k=>(k.end||k.date)>=SB.today&&k.label!=="Parliament sits again").sort((a,b)=>a.date<b.date?-1:1).slice(0,5);
   if(!up.length){$("diary").innerHTML=`<p class="empty">No dates announced yet.</p>`;return;}
   $("diary").innerHTML=`<ol class="cl">${up.map(x=>{
     const t=SB.tr(x.track);
@@ -246,49 +483,37 @@ function renderDiary(){
     return `<li class="t-${t}"><time datetime="${esc(x.date)}">${esc(SB.dm(x.date))}</time><span>${esc(x.label)}<small>${esc(when)} · ${esc(SB.rel(x.date))}</small></span></li>`;
   }).join("")}</ol>`;
 }
-
 function renderWatch(){
-  const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
-  const w=(daily.pipeline||[]).filter(p=>p.watch&&lb[p.id]).slice(0,3);
+  const w=(daily.pipeline||[]).filter(p=>p.watch&&lb[p.id]).slice(0,4);
   if(!w.length){$("watch").innerHTML=`<p class="empty">No bill is near its final vote.</p>`;return;}
   $("watch").innerHTML=`<ul class="wb">${w.map(p=>{
-    const b=lb[p.id];
     const nx=(p.dt||"").split(" · ").pop();
-    return `<li><a href="bills.html#b${esc(p.id)}"><span class="wb-t">${esc(b.t)}</span><span class="wb-s">${esc(p.label)}${nx&&nx!==p.label?" · "+esc(nx):""}</span></a></li>`;
+    return `<li><a href="bills.html#b${esc(p.id)}"><span class="wb-t">${esc(lb[p.id].t)}</span><span class="wb-s">${esc(p.label)}${nx&&nx!==p.label?" · "+esc(nx):""}</span></a></li>`;
   }).join("")}</ul>`;
 }
 
-function renderPace(){
-  const from=SB.addDays(SB.today,-6);
-  const win=days.filter(x=>x.date>=from&&x.date<=SB.today&&x.status==="record");
-  const its=win.flatMap(x=>x.items||[]).length;
-  const sittings=win.filter(x=>x.hours!=="No sitting").length;
-  const moved=(daily.pipeline||[]).filter(p=>p.chg>=from&&p.chg<=SB.today).length;
-  const gz=(daily.gazettes||[]).filter(g=>g.tabled>=from&&g.tabled<=SB.today).length;
-  const pl=(n,a,b)=>n+" "+(n===1?a:b);
-  $("pace").innerHTML=sittings||its?`<p class="wk"><a href="record.html">${pl(sittings,"sitting","sittings")}</a> with ${pl(its,"decision","decisions")} on record. <a href="bills.html">${pl(moved,"bill","bills")}</a> moved and <a href="gazette.html">${pl(gz,"Gazette order","Gazette orders")}</a> ${gz===1?"was":"were"} laid before the House.</p>`
-    :`<p class="wk">No sittings in the past seven days. <a href="record.html">See the full record</a>.</p>`;
-}
-
 SB.load("daily.json","library.json").then(([d,l])=>{
-  daily=d;lib=l;SB.fresh(daily.updated);
-  days=(daily.days||[]).slice().sort((a,b)=>a.date<b.date?1:-1);
+  daily=d;SB.fresh(daily.updated);
+  (l.bills||[]).forEach(b=>{lb[b.id]=b;});
+  (daily.pipeline||[]).forEach(p=>{pipe[p.id]=p;});
   $("dlDate").textContent=SB.long(SB.today);
   const s=daily.status||{};
   if(s.date===SB.today&&s.text){$("dlStatus").textContent=s.text;$("dlStatus").hidden=false;}
 
   SB.safe("top3",()=>{
-    buildBriefs();
-    if(briefs.day&&briefs.week)$("seg").hidden=false;
-    if((location.hash==="#week"&&briefs.week)||(!briefs.day&&briefs.week))mode="week";
-    render();
-    $("seg").addEventListener("click",e=>{const b=e.target.closest("button[data-m]");if(!b||!briefs[b.dataset.m])return;mode=b.dataset.m;render();});
+    buildWeeks();
+    if(!weeks.length){$("h1").textContent="No sittings recorded yet";$("keyBox").hidden=true;$("days").innerHTML=`<p class="empty">Nothing on record yet.</p>`;$("openBtn").hidden=$("shareBtn").hidden=true;return;}
+    route(true);
+    window.addEventListener("hashchange",()=>SB.safe("days",()=>route(false)));
+    $("filters").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;trackF=b.dataset.k;filter();});
+    $("openBtn").addEventListener("click",()=>setOpen(!allOpen));
+    $("shareBtn").addEventListener("click",share);
   });
   SB.safe("nextBox",renderNext);
   SB.safe("diary",renderDiary);
   SB.safe("watch",renderWatch);
-  SB.safe("pace",renderPace);
-}).catch(()=>{["top3","diary","watch","pace"].forEach(id=>SB.fail(id));});
+  SB.safe("clock",()=>SB.clock("clock",daily.sources));
+}).catch(()=>{["top3","days","diary","watch","clock"].forEach(id=>SB.fail(id));});
 })();
 </script>
 </body>

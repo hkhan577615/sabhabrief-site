@@ -1,6 +1,17 @@
 [build]
   publish = "."
 
+# The Record page is now part of the home page. Old links, including #dYYYY-MM-DD, still land on the right week.
+[[redirects]]
+  from = "/record.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/record"
+  to = "/"
+  status = 301
+
 # The nightly data must never be served stale.
 [[headers]]
   for = "/*.json"
