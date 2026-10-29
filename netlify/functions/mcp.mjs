@@ -128,7 +128,8 @@ async function actText(url) {
   let text;
   if ((r.headers.get("content-type") || "").includes("pdf") || /\.pdf($|\?)/i.test(url) || String.fromCharCode(...buf.slice(0, 4)) === "%PDF") {
     const pdf = await getDocumentProxy(buf);
-    ({ text } = await extractText(pdf, { mergePages: true }));
+    const { text: pages } = await extractText(pdf, { mergePages: false });
+    text = stripPageFurniture(pages);
   } else {
     text = new TextDecoder().decode(buf).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&");
   }
@@ -136,6 +137,27 @@ async function actText(url) {
   if (textCache.size > 30) textCache.delete(textCache.keys().next().value);
   textCache.set(url, { at: Date.now(), text });
   return text;
+}
+
+/* Government Printer PDFs repeat a running header (the Act's title and number), a page number and a
+   printer's footer such as "PL 15780 - 868 (05/2026)" on every page. Drop them so sections read cleanly. */
+const FOOTER = /^PL\s*\d+\s*[-–]\s*\d+\s*\(\d{2}\/\d{4}\)$/;
+const norm = (l) => l.replace(/^\d+\s*/, "").replace(/\s*\d+$/, "").replace(/\s+/g, " ").trim().toLowerCase();
+function stripPageFurniture(pages) {
+  const split = pages.map((p) => String(p).split(/\n/).map((l) => l.trim()).filter(Boolean));
+  const edge = new Map();
+  for (const lines of split) {
+    const seen = new Set([...lines.slice(0, 4), ...lines.slice(-3)].map(norm).filter((n) => n && n.length < 90));
+    for (const n of seen) edge.set(n, (edge.get(n) || 0) + 1);
+  }
+  const repeated = (l) => split.length > 2 && (edge.get(norm(l)) || 0) >= Math.max(2, Math.floor(split.length / 2));
+  const furniture = (l) => FOOTER.test(l) || /^\d{1,3}$/.test(l) || repeated(l);
+  return split.map((lines) => {
+    let a = 0, b = lines.length;
+    while (a < b && a < 4 && furniture(lines[a])) a++;
+    while (b > a && lines.length - b < 3 && furniture(lines[b - 1])) b--;
+    return lines.slice(a, b).filter((l) => !FOOTER.test(l)).join("\n");
+  }).join("\n");
 }
 
 /* A section starts at a line such as "163. (1) ..." and runs to the next section number. */
@@ -154,7 +176,14 @@ function findPhrase(text, phrase) {
   const lc = text.toLowerCase(), p = phrase.toLowerCase().trim();
   const out = [];
   let i = lc.indexOf(p);
-  while (i >= 0 && out.length < 8) { out.push("…" + text.slice(Math.max(0, i - 400), i + p.length + 400).trim() + "…"); i = lc.indexOf(p, i + p.length + 400); }
+  while (i >= 0 && out.length < 8) {
+    // Widen to whole lines so a passage never starts or ends mid-word.
+    let a = Math.max(0, i - 400), b = Math.min(text.length, i + p.length + 400);
+    const s = text.lastIndexOf("\n", a), e = text.indexOf("\n", b);
+    a = s < 0 ? 0 : s + 1; b = e < 0 ? text.length : e;
+    out.push((a > 0 ? "…" : "") + text.slice(a, b).trim() + (b < text.length ? "…" : ""));
+    i = lc.indexOf(p, b);
+  }
   return out;
 }
 
