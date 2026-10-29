@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Bills · Sabha Brief</title>
-<meta name="description" content="Where every government bill in Sri Lanka's Parliament stands, and what the bills close to law would change.">
+<meta name="description" content="Which government bills in Sri Lanka's Parliament became law, which are moving, which have stalled and which were dropped.">
 <meta property="og:site_name" content="Sabha Brief">
 <meta property="og:title" content="Bills · Sabha Brief">
-<meta property="og:description" content="Where every government bill in Sri Lanka's Parliament stands, and what the bills close to law would change.">
+<meta property="og:description" content="Which government bills in Sri Lanka's Parliament became law, which are moving, which have stalled and which were dropped.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#F4F6F5">
@@ -16,6 +16,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
 <link rel="stylesheet" href="site.css">
+<style>
+/* Bills: a scoreboard of outcomes, then the bills grouped by what is happening to them. Colour tokens come from site.css. */
+.g-law{--gc:var(--record)} .g-close{--gc:var(--law)} .g-move{--gc:var(--ink)} .g-pub{--gc:var(--ink-2)} .g-stall{--gc:var(--money)} .g-end{--gc:var(--ink-3)}
+.score{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}
+.sc-t{position:relative;display:grid;gap:6px;justify-items:start;align-content:start;padding:20px 20px 18px;border:0;border-left:1px solid var(--rule);background:transparent;text-align:left;cursor:pointer;color:var(--ink)}
+.sc-t:first-child{border-left:0}
+.sc-t:hover{background:var(--surface)}
+.sc-t b{font:500 clamp(38px,4.4vw,56px)/.9 var(--serif);font-variant-numeric:lining-nums;color:var(--gc)}
+.sc-t span{font:600 14.5px/1.25 var(--sans)}
+.sc-t small{font-size:13px;line-height:1.35;color:var(--ink-2)}
+.sc-t[aria-pressed="true"]{background:var(--surface)}
+.sc-t[aria-pressed="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;background:var(--gc)}
+@media (max-width:700px){.score{grid-template-columns:repeat(2,minmax(0,1fr))}.sc-t:nth-child(3){border-left:0}.sc-t:nth-child(n+3){border-top:1px solid var(--rule)}.sc-t{padding:16px 14px}}
+.bf{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:22px}
+.bf input,.bf select{font:400 15px/1.3 var(--sans);color:var(--ink);background:var(--surface);border:1px solid var(--rule-2);border-radius:999px;padding:9px 14px;min-width:0}
+.bf-s{flex:1 1 280px;display:flex}.bf-s input{width:100%}
+.bf input:focus-visible,.bf select:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.bf-n{font-size:13.5px;color:var(--ink-2)}
+.sg{margin-top:48px}
+.sg-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding-bottom:12px;border-bottom:2px solid var(--gc);font-size:26px;letter-spacing:-.01em}
+.sg-h small{font:500 14px/1 var(--sans);color:var(--ink-3)}
+.sg-d{flex-basis:100%;font:400 14.5px/1.45 var(--sans);color:var(--ink-2)}
+.mini{display:inline-grid;grid-template-columns:repeat(5,14px);gap:2px;vertical-align:middle}
+.mini i{height:4px;border-radius:2px;background:var(--rule)}
+.mini i.on{background:var(--gc)}
+.bmeta .st-m{display:inline-flex;align-items:center;gap:8px}
+.idle{color:var(--money);font-weight:600}
+.ended{font-weight:600;color:var(--ink)}
+</style>
 </head>
 <body>
 <header class="mast">
@@ -38,14 +67,19 @@
 <main class="wrap" data-page="bills">
   <header class="ph">
     <p class="kicker">Bills</p>
-    <h1>From Gazette to law</h1>
-    <p class="dek">Where every government bill stands. Bills near a final vote, and those already passed, show what they change, taken from the bill or Act text.</p>
+    <h1>Is Parliament getting laws made?</h1>
+    <p class="dek" id="dek">Every government bill and where it stands: which became law, which are moving, which have stalled and which were dropped. Bills near a final vote, and those already law, show what they change.</p>
   </header>
 
-  <section aria-label="Bills by stage">
-    <div class="path" id="pipe" role="group" aria-label="Filter by stage"></div>
-    <div id="stages"><p class="empty">Loading bills.</p></div>
-    <p class="cap">What each bill changes is drawn from the text published by Parliament or the Government Printer. The official text is what counts.</p>
+  <section aria-label="Bills by outcome">
+    <div class="score" id="score" role="group" aria-label="Show one group of bills"></div>
+    <div class="bf">
+      <label class="bf-s"><span class="sr">Search bills</span><input type="search" id="q" placeholder="Search bills, e.g. tax, trusts, police" autocomplete="off"></label>
+      <label class="bf-a"><span class="sr">Area</span><select id="area"><option value="">All areas</option></select></label>
+      <p class="bf-n" id="count" role="status"></p>
+    </div>
+    <div id="groups"><p class="empty">Loading bills.</p></div>
+    <p class="cap">"Stalled" means a bill has not moved for 90 days or more. Bills only end when the government withdraws them, Parliament votes them down, or Parliament is dissolved; until then a stalled bill can still come back. What each bill changes is drawn from the text published by Parliament or the Government Printer. The official text is what counts.</p>
   </section>
 </main>
 <footer class="foot">
@@ -71,38 +105,82 @@
 <script>
 (function(){
 const {$,esc}=SB;
+const STALL=90;
+/* Every bill falls in one group, decided from the pipeline: how far it got, when it last moved, and whether it ended. */
+const GROUPS=[
+  {k:"close",t:"Close to becoming law",d:"Second reading scheduled, passed and awaiting the Speaker's certificate, or the Budget."},
+  {k:"move",t:"Moving",d:"Moved in the last 90 days."},
+  {k:"pub",t:"Published, not yet presented",d:"In the Gazette but not yet put before Parliament."},
+  {k:"stall",t:"Stalled",d:"No movement for 90 days or more. A stalled bill can still be taken up again."},
+  {k:"law",t:"Became law",d:"Certified by the Speaker."},
+  {k:"end",t:"Ended without becoming law",d:"Withdrawn, voted down, or lapsed when Parliament was dissolved."}
+];
+const TILES=[
+  {k:"law",t:"Became law",s:"Certified as Acts"},
+  {k:"live",t:"In progress",s:"Moving or close to law"},
+  {k:"stall",t:"Stalled",s:"No movement for 90+ days"},
+  {k:"end",t:"Ended",s:"Withdrawn, defeated or lapsed"}
+];
 SB.load("daily.json","library.json").then(([daily,lib])=>{
   SB.fresh(daily.updated);
   const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
-  const pipe=(daily.pipeline||[]).filter(p=>lb[p.id]);
+  const idle=p=>p.chg?Math.max(0,SB.diff(p.chg,SB.today)):0;
+  const group=p=>{
+    const st=p.st|0;
+    if(p.out)return "end";
+    if(st===4)return "law";
+    if(p.watch)return "close";
+    if(p.chg&&idle(p)>=STALL)return "stall";
+    return st===0?"pub":"move";
+  };
+  const pipe=(daily.pipeline||[]).filter(p=>lb[p.id]).map(p=>Object.assign({g:group(p)},p));
   const hashId=(location.hash||"").replace(/^#b/,"");
-  let stageF=null;
+  let tileF=null,q="",area="";
+  if(daily.billsSince)$("dek").textContent=`Every government bill since ${SB.F(daily.billsSince,{day:"numeric",month:"long",year:"numeric"})} and where it stands: which became law, which are moving, which have stalled and which were dropped. Bills near a final vote, and those already law, show what they change.`;
+
+  const areas=[...new Set(pipe.map(p=>lb[p.id].a).filter(Boolean))].sort();
+  $("area").innerHTML+=areas.map(a=>`<option>${esc(a)}</option>`).join("");
+
   function billHTML(p){
-    const b=lb[p.id],im=b.impl;
-    const open=(p.id===hashId||p.watch)?" open":"";
+    const b=lb[p.id],im=b.impl,st=Math.max(0,Math.min(4,p.st|0));
+    const open=(p.id===hashId||(p.watch&&!p.out))?" open":"";
     const body=im?SB.implHTML(im,{changesLabel:im.kind==="would"?"What it would do":"What changes"})
       :`<div class="impl"><p class="sum">${esc(b.about)}</p><p class="note">What it changes is added when the bill reaches its second reading.</p>${SB.srcLinks(b.src)}</div>`;
-    const lawLink=(p.st|0)===4?`<p><a class="arrow" href="laws.html#a${esc(p.id)}">See it among this year's laws</a></p>`:"";
-    return `<li class="bl" id="b${esc(p.id)}"><details${open}><summary><span class="bn">${esc(b.t)}</span><span class="pm" aria-hidden="true"></span><span class="bmeta"><span>${esc(b.a)}</span>${p.chg?`<span>Moved ${esc(SB.dm(p.chg))}</span>`:""}${p.watch?`<span class="flag">Close to law</span>`:""}</span></summary>
-      <div class="bd">${SB.stageBar(p.st)}<p class="dtl">${esc(p.label)}${p.dt?" · "+esc(p.dt):""}</p>${body}${lawLink}</div></details></li>`;
+    const lawLink=st===4?`<p><a class="arrow" href="laws.html#a${esc(p.id)}">See it among the laws</a></p>`:"";
+    const when=p.g==="stall"?`<span class="idle">No movement for ${idle(p)} days</span>`:p.g==="end"?`<span class="ended">${esc(p.label)}</span>`:p.chg?`<span>Moved ${esc(SB.dm(p.chg))}</span>`:"";
+    const mini=`<span class="mini" aria-hidden="true">${[0,1,2,3,4].map(i=>`<i class="${i<=st?"on":""}"></i>`).join("")}</span>`;
+    return `<li class="bl" id="b${esc(p.id)}"><details${open}><summary><span class="bn">${esc(b.t)}</span><span class="pm" aria-hidden="true"></span><span class="bmeta"><span class="st-m">${mini}${esc(SB.STAGES[st])}</span><span>${esc(b.a)}</span>${when}</span></summary>
+      <div class="bd">${SB.stageBar(st)}<p class="dtl">${esc(p.label)}${p.dt?" · "+esc(p.dt):""}</p>${body}${lawLink}</div></details></li>`;
   }
+  const inTile=(p,k)=>k===null||(k==="live"?["close","move","pub"].includes(p.g):p.g===k);
+  const hay=p=>{const b=lb[p.id];return [b.t,b.a,b.about,b.impl&&b.impl.sum,(b.impl&&b.impl.who||[]).join(" "),p.label].join(" ").toLowerCase();};
+
   function render(){
-    const by=SB.STAGES.map((_,i)=>pipe.filter(p=>(p.st|0)===i));
-    $("pipe").innerHTML=SB.STAGES.map((s,i)=>`<button type="button" class="ps s${i}" data-s="${i}" aria-pressed="${stageF===i}"><small>Stage ${i+1}</small><b>${by[i].length}</b><span>${esc(s)}</span></button>`).join("");
-    const order=stageF===null?[3,2,1,0,4]:[stageF];
-    $("stages").innerHTML=order.filter(i=>by[i].length).map(i=>`<section class="sg s${i}"><h2 class="sg-h">${esc(SB.STAGES[i])}<small>${by[i].length} ${by[i].length===1?"bill":"bills"}</small></h2><ul class="bls">${by[i].slice().sort((a,b)=>(b.chg||"")<(a.chg||"")?-1:1).map(billHTML).join("")}</ul></section>`).join("")||`<p class="empty">No bills at this stage.</p>`;
+    $("score").innerHTML=TILES.map(t=>{
+      const n=pipe.filter(p=>inTile(p,t.k)).length;
+      return `<button type="button" class="sc-t g-${t.k==="live"?"move":t.k}" data-k="${t.k}" aria-pressed="${tileF===t.k}"><b>${n}</b><span>${esc(t.t)}</span><small>${esc(t.s)}</small></button>`;
+    }).join("");
+    const words=q.toLowerCase().split(/\s+/).filter(Boolean);
+    const shown=pipe.filter(p=>inTile(p,tileF)&&(!area||lb[p.id].a===area)&&words.every(w=>hay(p).includes(w)));
+    $("count").textContent=shown.length===pipe.length?`${pipe.length} bills`:`${shown.length} of ${pipe.length} bills`;
+    $("groups").innerHTML=GROUPS.map(g=>{
+      const list=shown.filter(p=>p.g===g.k).sort((a,b)=>g.k==="stall"?(a.chg||"")<(b.chg||"")?-1:1:(b.chg||"")<(a.chg||"")?-1:1);
+      return list.length?`<section class="sg g-${g.k}"><h2 class="sg-h">${esc(g.t)}<small>${list.length} ${list.length===1?"bill":"bills"}</small><span class="sg-d">${esc(g.d)}</span></h2><ul class="bls">${list.map(billHTML).join("")}</ul></section>`:"";
+    }).join("")||`<p class="empty">No bills match. Try another word or area.</p>`;
   }
-  SB.safe("stages",()=>{
+  SB.safe("groups",()=>{
     render();
-    $("pipe").addEventListener("click",e=>{const b=e.target.closest(".ps");if(!b)return;const s=+b.dataset.s;stageF=stageF===s?null:s;render();});
+    $("score").addEventListener("click",e=>{const b=e.target.closest(".sc-t");if(!b)return;tileF=tileF===b.dataset.k?null:b.dataset.k;render();});
+    $("q").addEventListener("input",e=>{q=e.target.value;render();});
+    $("area").addEventListener("change",e=>{area=e.target.value;render();});
     const go=id=>{const el=document.getElementById("b"+id);if(!el)return false;const d=el.querySelector("details");if(d)d.open=true;el.scrollIntoView({block:"start"});return true;};
     if(hashId)go(hashId);
     window.addEventListener("hashchange",()=>{
       const id=(location.hash||"").replace(/^#b/,"");
-      if(id&&!go(id)&&stageF!==null){stageF=null;render();go(id);}
+      if(id&&!go(id)){tileF=null;q="";area="";$("q").value="";$("area").value="";render();go(id);}
     });
   });
-}).catch(()=>{SB.fail("stages");});
+}).catch(()=>{SB.fail("groups");});
 })();
 </script>
 </body>
