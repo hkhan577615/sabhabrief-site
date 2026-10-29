@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-29",
  "bills": [
   {
    "id": "G6438",
@@ -353,6 +353,10 @@
     {
      "t": "Government Printer: bills",
      "u": "https://documents.gov.lk/web/bills"
+    },
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6448"
     }
    ]
   },
@@ -365,6 +369,10 @@
     {
      "t": "Government Printer: bills",
      "u": "https://documents.gov.lk/web/bills"
+    },
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6446"
     }
    ]
   },
@@ -804,18 +812,2267 @@
    "id": "ACT-16-2026",
    "t": "Prevention of Money Laundering (Amendment)",
    "a": "Business & finance",
-   "about": "Amends the Prevention of Money Laundering Act.",
+   "about": "Widens money laundering offences and raises fines under the 2006 Act.",
    "impl": {
-    "sum": "Amends the Prevention of Money Laundering Act.",
-    "when": "Published as Act No. 16 of 2026 on 4 August 2026.",
-    "note": "We could not open the official text online yet. A summary follows once Parliament or the Government Printer makes it available.",
+    "sum": "Widens money laundering offences, covers acts abroad and raises several fines tenfold or more.",
+    "figs": [
+     {
+      "v": "Rs. 5m",
+      "l": "new maximum for several fines"
+     },
+     {
+      "v": "Rs. 1m",
+      "l": "fine in section 6, was Rs. 100,000"
+     },
+     {
+      "v": "3 years",
+      "l": "maximum jail in one section, was 1"
+     }
+    ],
+    "changes": [
+     "Using, buying, transferring or acquiring beneficial ownership of criminal proceeds, or property converted from them, is an offence.",
+     "Covers acts committed wholly or partly outside Sri Lanka.",
+     "Facilitating or counselling others in money laundering is an offence.",
+     "The minimum five-year jail term is removed; the court sets the period.",
+     "Fines rise, for example from Rs. 50,000 to Rs. 500,000 in section 5."
+    ],
+    "who": [
+     "Banks and financial institutions",
+     "People accused of money laundering",
+     "Police and prosecutors"
+    ],
+    "when": "The Act sets no start date. Certified 4 August 2026.",
     "src": [
+     {
+      "t": "Act No. 16 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6422.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6422"
+     }
+    ]
+   },
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6422"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6422.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6425",
+   "t": "National Environmental (Amendment)",
+   "a": "Environment",
+   "about": "A smaller Central Environmental Authority board and changes to the 1980 environment law.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6425"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6425.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Reconstitutes the Central Environmental Authority as a five-member body with environmental experts.",
+    "figs": [
+     {
+      "v": "5",
+      "l": "members of the Authority"
+     },
+     {
+      "v": "10 years",
+      "l": "expertise required of three members"
+     }
+    ],
+    "changes": [
+     "The Authority has one ex officio Additional Secretary and four members appointed by the President.",
+     "Three appointed members need at least ten years of environmental management expertise.",
+     "Some officer posts in section 7 must be at least Senior Assistant Secretary rank."
+    ],
+    "who": [
+     "Central Environmental Authority",
+     "Businesses needing environmental approvals"
+    ],
+    "when": "The Act sets no start date. Certified 21 July 2026.",
+    "src": [
+     {
+      "t": "Act No. 15 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6425.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6425"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6427",
+   "t": "Value Added Tax (Amendment)",
+   "a": "Business & finance",
+   "about": "Moves VAT on foreign digital services to July 2026 and raises VAT on financial services.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6427"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6427.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Starts VAT on foreign digital services from July 2026 and raises VAT on financial services to 20.5%.",
+    "figs": [
+     {
+      "v": "1 Jul 2026",
+      "l": "VAT on foreign digital services begins"
+     },
+     {
+      "v": "Rs. 60m",
+      "l": "yearly sales that trigger registration"
+     },
+     {
+      "v": "Rs. 15m",
+      "l": "quarterly sales that trigger registration"
+     },
+     {
+      "v": "20.5%",
+      "l": "VAT on financial services, from 18%"
+     }
+    ],
+    "changes": [
+     "Non-resident digital service providers register when sales to Sri Lanka pass Rs. 60 million a year or Rs. 15 million a quarter.",
+     "A customer counts as in Sri Lanka if two signs point there, such as address, bank, card or IP address.",
+     "VAT on financial services rises from 18% to 20.5% for periods from 1 July 2026.",
+     "Services by registered garment buying offices to overseas buyers, paid in foreign currency, are zero-rated from October 2025.",
+     "Entertainment tax is deducted from the value of film ticket sales."
+    ],
+    "who": [
+     "Foreign digital service providers",
+     "Banks and finance companies",
+     "Garment buying offices",
+     "Cinemas"
+    ],
+    "when": "Certified 30 June 2026. Main changes apply from 1 July 2026.",
+    "src": [
+     {
+      "t": "Act No. 14 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6427.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6427"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6396",
+   "t": "Mediation (Civil and Commercial Disputes)",
+   "a": "Justice",
+   "about": "A new law on mediating civil and commercial disputes, replacing the 2000 commercial mediation law.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6396"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6396.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Sets out how civil and commercial disputes are mediated by agreement, by choice or on a court's referral.",
+    "figs": [
+     {
+      "v": "No. 13",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "2000",
+      "l": "year of the commercial mediation law repealed"
+     }
+    ],
+    "changes": [
+     "Applies to mediation under an agreement, by voluntary referral or on referral by a court.",
+     "Parties can agree to mediation by a contract clause or a separate written agreement.",
+     "Disputes that need a court decree to settle cannot be mediated, though related matters can.",
+     "Mediation Boards and special-category mediation stay under their own laws.",
+     "Repeals the Commercial Mediation Centre of Sri Lanka Act, No. 44 of 2000."
+    ],
+    "who": [
+     "Businesses in disputes",
+     "Courts",
+     "Mediators"
+    ],
+    "when": "The Act sets no start date. Certified 30 June 2026.",
+    "src": [
+     {
+      "t": "Act No. 13 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6396.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6396"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6419",
+   "t": "Rescue, Rehabilitation and Insolvency (Corporate and Personal)",
+   "a": "Business & finance",
+   "about": "A new insolvency code for companies and individuals, with an Insolvency Regulatory Authority.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6419"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6419.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Replaces the old insolvency laws with one code for rescuing viable businesses and handling personal and corporate insolvency.",
+    "figs": [
+     {
+      "v": "6 months",
+      "l": "after certification before most provisions start"
+     },
+     {
+      "v": "2 years",
+      "l": "maximum delay the Minister can add"
+     },
+     {
+      "v": "Rs. 2m",
+      "l": "debt level in several personal procedures"
+     }
+    ],
+    "changes": [
+     "Creates an Insolvency Regulatory Authority and an Official Receiver, and registers insolvency practitioners.",
+     "Sets procedures for personal insolvency, including a debt protection moratorium and debt restructuring arrangements.",
+     "Provides rescue and rehabilitation routes for viable businesses, including small and medium enterprises.",
+     "Repeals the Insolvency Ordinance and several Parts of the Companies Act."
+    ],
+    "who": [
+     "Indebted individuals",
+     "Companies and small businesses",
+     "Creditors and banks",
+     "Insolvency practitioners"
+    ],
+    "when": "Six months after certification on 17 June 2026, unless the Minister extends it.",
+    "src": [
+     {
+      "t": "Act No. 12 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6419.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6419"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6420",
+   "t": "Inland Revenue (Amendment)",
+   "a": "Business & finance",
+   "about": "Wide changes to income tax rules, rates and allowances, several backdated.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6420"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6420.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Amends many income tax rules, raises several 10% rates and adds a 100% allowance for new investment.",
+    "figs": [
+     {
+      "v": "15% or 30%",
+      "l": "new rates replacing five 10% rates"
+     },
+     {
+      "v": "100%",
+      "l": "capital allowance for qualifying new undertakings"
+     },
+     {
+      "v": "US$ 250k–3m",
+      "l": "investment range for that allowance"
+     },
+     {
+      "v": "10%",
+      "l": "cap on head office expense deduction"
+     }
+    ],
+    "changes": [
+     "Five 10% rates in the First Schedule rise to 15% or 30% from the date the Act was certified.",
+     "Gains from selling motor vehicles count as income from other sources.",
+     "New undertakings investing US$ 250,000 to US$ 3 million in depreciable assets get a 100% capital allowance.",
+     "Head office expenses are deductible up to 10% of assessable income from the business.",
+     "Gifts of assets to the Government or a university are treated as made at cost."
+    ],
+    "who": [
+     "Individual and company taxpayers",
+     "Investors in new undertakings",
+     "Branches of foreign companies",
+     "Inland Revenue Department"
+    ],
+    "when": "Certified 3 June 2026. Many provisions are dated from 2018 to April 2026 in a table in the Act.",
+    "src": [
+     {
+      "t": "Act No. 11 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6420.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6420"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6418",
+   "t": "Social Security Contribution Levy (Amendment)",
+   "a": "Business & finance",
+   "about": "Lowers the registration threshold for the levy and extends it to motor vehicles.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6418"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6418.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "From July 2026, businesses must register for the levy at Rs. 36 million yearly turnover; motor vehicles join in May.",
+    "figs": [
+     {
+      "v": "Rs. 9m",
+      "l": "quarterly turnover triggering registration"
+     },
+     {
+      "v": "Rs. 36m",
+      "l": "four-quarter turnover triggering registration"
+     },
+     {
+      "v": "1 Jul 2026",
+      "l": "new thresholds apply from"
+     },
+     {
+      "v": "1 May 2026",
+      "l": "motor vehicles added"
+     }
+    ],
+    "changes": [
+     "From 1 July 2026, register within 15 days once quarterly turnover passes Rs. 9 million or yearly turnover passes Rs. 36 million.",
+     "Deregistration is possible where four-quarter turnover stays at or below Rs. 36 million.",
+     "An import item in Part IA ends for imports from 1 May 2026.",
+     "Motor vehicles are added to Part IB from 1 May 2026."
+    ],
+    "who": [
+     "Businesses near the turnover threshold",
+     "Motor vehicle importers and sellers",
+     "Inland Revenue Department"
+    ],
+    "when": "Certified 9 April 2026. Dated changes apply from 1 May and 1 July 2026.",
+    "src": [
+     {
+      "t": "Act No. 10 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6418.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6418"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6408",
+   "t": "Microfinance and Credit Regulatory Authority",
+   "a": "Business & finance",
+   "about": "A regulator for moneylending and microfinance businesses, replacing the 2016 Microfinance Act.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6408"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6408.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6410",
+   "t": "Judicature (Amendment)",
+   "a": "Justice",
+   "about": "High Court jurisdiction over drug offences committed on the high seas.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6410"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6410.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Gives the High Court jurisdiction over drug offences on the high seas, as well as piracy.",
+    "figs": [
+     {
+      "v": "No. 8",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "6 Mar 2026",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Section 9 of the Judicature Act now covers offences on the high seas under the drugs Ordinance and the 2008 narcotics conventions Act.",
+     "Piracy under the law of nations stays covered.",
+     "The Sinhala text prevails if the Sinhala and Tamil texts differ."
+    ],
+    "who": [
+     "High Court",
+     "People accused of drug offences at sea"
+    ],
+    "when": "The Act sets no start date. Certified 6 March 2026.",
+    "src": [
+     {
+      "t": "Act No. 8 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6410.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6410"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6413",
+   "t": "Poisons, Opium and Dangerous Drugs (Amendment)",
+   "a": "Justice",
+   "about": "New offences for making or trafficking drugs on the high seas.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6413"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6413.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Makes manufacturing, possessing or trafficking drugs on the high seas an offence, with stateless ships forfeited.",
+    "figs": [
+     {
+      "v": "No. 7",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "Death or life",
+      "l": "for making heroin or cocaine at sea"
+     }
+    ],
+    "changes": [
+     "New section 54AA covers Sri Lankan-registered and stateless ships on the high seas, whatever the offender's nationality.",
+     "Manufacturing heroin, cocaine, morphine or opium there carries death or life imprisonment.",
+     "Possessing or trafficking listed drugs above set amounts carries penalties set in a schedule.",
+     "Stateless ships used in such offences can be forfeited."
+    ],
+    "who": [
+     "People accused of drug offences at sea",
+     "Navy and police",
+     "High Court"
+    ],
+    "when": "The Act sets no start date. Certified 6 March 2026.",
+    "src": [
+     {
+      "t": "Act No. 7 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6413.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6413"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6404",
+   "t": "Institute of Real Estate Professionals, Sri Lanka",
+   "a": "Business & finance",
+   "about": "Sets up a professional institute to register and discipline real estate professionals.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6404"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6404.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Creates an institute to register real estate professionals and keep professional standards and discipline.",
+    "figs": [
+     {
+      "v": "No. 6",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "19 Feb 2026",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Establishes the Institute of Real Estate Professionals, Sri Lanka.",
+     "It enrols and registers members.",
+     "It maintains professional standards and discipline.",
+     "It protects the public interest in relation to the real estate profession."
+    ],
+    "who": [
+     "Real estate professionals",
+     "Property buyers and sellers"
+    ],
+    "when": "The Act sets no start date. Certified 19 February 2026.",
+    "src": [
+     {
+      "t": "Act No. 6 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6404.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6404"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6415",
+   "t": "Parliamentary Pensions (Repeal)",
+   "a": "Public money",
+   "about": "Repeals the 1977 law on pensions for former Members of Parliament.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6415"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6415.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Repeals the Parliamentary Pensions Law of 1977; pensions paid under it stop.",
+    "figs": [
+     {
+      "v": "No. 5",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "1977",
+      "l": "year of the law repealed"
+     }
+    ],
+    "changes": [
+     "Repeals the Parliamentary Pensions Law, No. 1 of 1977.",
+     "People receiving a pension under that Law, or under section 9 of Acts No. 1 of 1982 and No. 47 of 1990, stop receiving it.",
+     "Pensions under the repealed provisions stop from the date the Act comes into operation."
+    ],
+    "who": [
+     "Former Members of Parliament receiving pensions",
+     "Treasury"
+    ],
+    "when": "The Act sets no start date. Certified 17 February 2026.",
+    "src": [
+     {
+      "t": "Act No. 5 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6415.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6415"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6416",
+   "t": "Licensing of Shipping Agents, Freight Forwarders, Non-Vessel Operating Common Carriers and Container Operators (Amendment)",
+   "a": "Trade & exports",
+   "about": "Moves container operator licensing to the new Container Depot Operators Act.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6416"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6416.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Removes container operators from the 1972 shipping licensing law; their licences move to Act No. 3 of 2026.",
+    "figs": [
+     {
+      "v": "No. 4",
+      "l": "Act number, 2026"
+     },
+     {
+      "v": "No. 3 of 2026",
+      "l": "law now covering container operators"
+     }
+    ],
+    "changes": [
+     "The 1972 Act is renamed without the words Container Operators.",
+     "The definition of container operators is removed.",
+     "Pending container operator applications are treated as made under the Licensing of Container Depot Operators Act.",
+     "Existing container operator licences continue under that Act."
+    ],
+    "who": [
+     "Container operators",
+     "Shipping agents and freight forwarders"
+    ],
+    "when": "The Act sets no start date. Certified 17 February 2026.",
+    "src": [
+     {
+      "t": "Act No. 4 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6416.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6416"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6414",
+   "t": "Licensing of Container Depot Operators",
+   "a": "Trade & exports",
+   "about": "A licence from the Director-General of Merchant Shipping to run a container depot.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6414"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6414.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Only licensed companies may run container depots, under licences issued by the Director-General of Merchant Shipping.",
+    "figs": [
+     {
+      "v": "Rs. 10m",
+      "l": "maximum fine for offences"
+     },
+     {
+      "v": "2 years",
+      "l": "maximum jail for offences"
+     }
+    ],
+    "changes": [
+     "Running a container depot business needs a licence from the Director-General of Merchant Shipping.",
+     "Only companies incorporated under the Companies Act may apply.",
+     "Applications with false or misleading information are rejected.",
+     "Licences cannot be transferred, and terms can change after a chance to show cause.",
+     "Monopolising container depot operations is an offence."
+    ],
+    "who": [
+     "Container depot operators",
+     "Importers and exporters",
+     "Director-General of Merchant Shipping"
+    ],
+    "when": "The Act sets no start date. Certified 17 February 2026.",
+    "src": [
+     {
+      "t": "Act No. 3 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6414.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6414"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6409",
+   "t": "Universities (Amendment)",
+   "a": "Education",
+   "about": "Who can be elected Dean of a Faculty or Head of Department, and term limits.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6409"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6409.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Widens who can be elected Dean and limits Deans to two terms.",
+    "figs": [
+     {
+      "v": "2",
+      "l": "maximum terms as Dean"
+     },
+     {
+      "v": "No. 2",
+      "l": "Act number, 2026"
+     }
+    ],
+    "changes": [
+     "The Faculty Board elects the Dean from its Senior Professors, Professors, Associate Professors and Senior Lecturers (Grade I).",
+     "A Head of Department elected Dean gives up the headship.",
+     "A Dean can be removed only by the Council under procedure set by the Commission.",
+     "Section 51 on Heads of Departments is replaced."
+    ],
+    "who": [
+     "University academic staff",
+     "University Councils",
+     "University Grants Commission"
+    ],
+    "when": "The Act sets no start date. Certified 3 February 2026.",
+    "src": [
+     {
+      "t": "Act No. 2 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6409.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6409"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6412",
+   "t": "Strategic Development Projects (Amendment)",
+   "a": "Business & finance",
+   "about": "Shorter tax holidays and cost-benefit checks for strategic development projects.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6412"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/gazette/english/6412.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Caps strategic project exemptions at ten years and requires Finance Ministry cost-benefit analysis and public monitoring reports.",
+    "figs": [
+     {
+      "v": "10 years",
+      "l": "maximum exemption period, was 25"
+     },
+     {
+      "v": "1 month",
+      "l": "for the Finance Ministry's analysis"
+     }
+    ],
+    "changes": [
+     "Exemptions for a Strategic Development Project last at most ten years instead of 25.",
+     "The Board of Investment identifies projects against prescribed criteria.",
+     "The Ministry of Finance does an ex-ante cost-benefit analysis within one month.",
+     "The Board monitors projects afterwards and the Ministry publishes outcomes and fiscal impacts online.",
+     "Projects missing agreed targets can lose concessions or pay penalties after a chance to show cause."
+    ],
+    "who": [
+     "Large investors",
+     "Board of Investment",
+     "Ministry of Finance"
+    ],
+    "when": "The Act sets no start date. Certified 17 December 2025.",
+    "src": [
+     {
+      "t": "Act No. 26 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6412.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6412"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6406",
+   "t": "Betting and Gaming Levy (Amendment)",
+   "a": "Business & finance",
+   "about": "Raises the betting and gaming levy rate to 18% from January 2026.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6406"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6406.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Raises the levy rate to 18% from 2026 and doubles a levy set in US dollars.",
+    "figs": [
+     {
+      "v": "18%",
+      "l": "rate from 1 January 2026 (was 15%)"
+     },
+     {
+      "v": "US$ 100",
+      "l": "levy in subsection (1AA)(b), was US$ 50"
+     }
+    ],
+    "changes": [
+     "The 15% rate under subsection (1A)(c) applies only until 31 December 2025.",
+     "From 1 January 2026 the rate is 18%.",
+     "The amount in subsection (1AA)(b) rises from US$ 50 to US$ 100."
+    ],
+    "who": [
+     "Betting and gaming businesses",
+     "Casinos",
+     "Inland Revenue Department"
+    ],
+    "when": "Certified 17 December 2025. The higher rate applies to years starting on or after 1 January 2026.",
+    "src": [
+     {
+      "t": "Act No. 25 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6406.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6406"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6407",
+   "t": "Social Security Contribution Levy (Amendment)",
+   "a": "Business & finance",
+   "about": "Changes which electricity, fuel, port and financial services the levy covers.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6407"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6407.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Adjusts the levy's exemption lists for electricity, fuel, container terminals and financial services.",
+    "figs": [
+     {
+      "v": "18 Feb 2025",
+      "l": "electricity change applies from"
+     },
+     {
+      "v": "1 Jul 2025",
+      "l": "fuel change applies from"
+     },
+     {
+      "v": "20.5%",
+      "l": "VAT rate on financial services named"
+     }
+    ],
+    "changes": [
+     "The Ceylon Electricity Board item applies only to supplies before 18 February 2025.",
+     "The fuel item is reworded for sales from 1 July 2025.",
+     "Services by container terminal operators for international transport are added to a Part II item.",
+     "Financial services already liable to VAT at 20.5% are added as a new item."
+    ],
+    "who": [
+     "Fuel sellers",
+     "Container terminal operators",
+     "Financial service providers"
+    ],
+    "when": "Certified 17 December 2025. Two changes are treated as in force from 18 February 2025 and 1 July 2025.",
+    "src": [
+     {
+      "t": "Act No. 24 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6407.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6407"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6401",
+   "t": "Appropriation 2026",
+   "a": "Public money",
+   "about": "The 2026 Budget: government spending and borrowing for the year.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6401"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6401.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Authorises Rs. 4,434.4 billion of spending in 2026 and caps borrowing at Rs. 3,740 billion.",
+    "figs": [
+     {
+      "v": "Rs. 4,434.4bn",
+      "l": "estimated spending authorised"
+     },
+     {
+      "v": "Rs. 4,545.6bn",
+      "l": "charged on the Consolidated Fund"
+     },
+     {
+      "v": "Rs. 3,740bn",
+      "l": "borrowing limit"
+     }
+    ],
+    "changes": [
+     "Sets spending for every ministry and department for 2026.",
+     "Limits loans raised during or outstanding at the end of 2026 to Rs. 3,740 billion.",
+     "Sets limits for advance account activities.",
+     "Loan details go in the final budget position report to Parliament."
+    ],
+    "who": [
+     "Every ministry and department",
+     "Taxpayers"
+    ],
+    "when": "Covers 1 January to 31 December 2026.",
+    "src": [
+     {
+      "t": "Act No. 23 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6401.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6401"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6384",
+   "t": "Personal Data Protection (Amendment)",
+   "a": "Digital & data",
+   "about": "Changes start dates and request deadlines under the 2022 data protection law.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6384"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6384.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Lets the Minister set start dates by Gazette and gives controllers one month to answer data requests.",
+    "figs": [
+     {
+      "v": "1 month",
+      "l": "to answer a data subject's request"
+     },
+     {
+      "v": "3 months",
+      "l": "maximum with an extension"
+     },
+     {
+      "v": "Free",
+      "l": "cost of handling a request"
+     }
+    ],
+    "changes": [
+     "The rest of the 2022 Act starts on dates the Minister sets by Gazette order.",
+     "Controllers must say within one month whether a request is granted or refused, with reasons.",
+     "The deadline can be extended by two months if the data subject is told in time.",
+     "Controllers must tell data subjects they can appeal a refusal to the Data Protection Authority.",
+     "Requests are handled free of charge, subject to rules by the Authority."
+    ],
+    "who": [
+     "Businesses and bodies holding personal data",
+     "Data subjects",
+     "Data Protection Authority"
+    ],
+    "when": "The Act sets no start date. Certified 30 October 2025.",
+    "src": [
+     {
+      "t": "Act No. 22 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6384.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6384"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6400",
+   "t": "Convention against Doping in Sport (Amendment)",
+   "a": "Sport",
+   "about": "Therapeutic use exemptions and anti-doping procedures for athletes.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6400"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6400.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Rewrites the rules on therapeutic use exemptions and the committee that grants them.",
+    "figs": [
+     {
+      "v": "3",
+      "l": "minimum members of the exemption committee"
+     },
+     {
+      "v": "No. 21",
+      "l": "Act number, 2025"
+     }
+    ],
+    "changes": [
+     "Repeals Part I of the 2013 Act.",
+     "An athlete with a medical condition may be allowed a prohibited substance if the rules' conditions are met.",
+     "Applications are made as soon as possible, and at least 30 days ahead for in-competition substances.",
+     "The committee has at least three medical members who must disclose conflicts of interest."
+    ],
+    "who": [
+     "Athletes",
+     "Sri Lanka Anti-Doping Agency",
+     "Sports bodies"
+    ],
+    "when": "The Act sets no start date. Certified 7 October 2025.",
+    "src": [
+     {
+      "t": "Act No. 21 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6400.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6400"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6397",
+   "t": "National Building Research Institute",
+   "a": "Governance",
+   "about": "Sets up the National Building Research Institute for landslide-prone and unstable areas.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6397"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6397.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Creates the National Building Research Institute as a statutory body for landslide and ground-stability research.",
+    "figs": [
+     {
+      "v": "No. 20",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "7 Oct 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Establishes the Institute as a body corporate.",
+     "It researches and surveys landslide-prone and geotechnically unstable areas.",
+     "It works to make construction in those areas disaster resilient, with technical help to authorities."
+    ],
+    "who": [
+     "Builders and developers in landslide-prone areas",
+     "Local and planning authorities"
+    ],
+    "when": "The Act sets no start date. Certified 7 October 2025.",
+    "src": [
+     {
+      "t": "Act No. 20 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6397.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6397"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6394",
+   "t": "National Audit (Amendment)",
+   "a": "Public money",
+   "about": "Makes officials report suspected fraud found in audits to law enforcement.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6394"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6394.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Where an audit finds signs of fraud or corruption, the Auditor-General must have it reported to law enforcement.",
+    "figs": [
+     {
+      "v": "No. 19",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "22 Sep 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "The Auditor-General notifies the Chief Accounting Officer, who must complain to a law enforcement authority at once.",
+     "If the allegation is against the Chief Accounting Officer, the Secretary to the Cabinet makes the complaint.",
+     "Those officers must report progress on the complaint to the Auditor-General.",
+     "Audit reports go to the Chief Accounting Officer, not the governing body, within a set time."
+    ],
+    "who": [
+     "Auditor-General",
+     "Chief Accounting Officers",
+     "Public bodies"
+    ],
+    "when": "The Act sets no start date. Certified 22 September 2025.",
+    "src": [
+     {
+      "t": "Act No. 19 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6394.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6394"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6399",
+   "t": "Presidents' Entitlements (Repeal)",
+   "a": "Public money",
+   "about": "Ends residences, allowances and pensions for former Presidents and their widows.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6399"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6399.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Repeals the 1986 Act; former Presidents and widows lose its residences, allowances and pensions.",
+    "figs": [
+     {
+      "v": "No. 18",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "1986",
+      "l": "year of the Act repealed"
+     }
+    ],
+    "changes": [
+     "Repeals the Presidents' Entitlements Act, No. 4 of 1986.",
+     "Residences and monthly allowances for former Presidents and their widows stop.",
+     "Secretarial allowances, official transport and other facilities stop.",
+     "The monthly pension for widows of former Presidents stops."
+    ],
+    "who": [
+     "Former Presidents",
+     "Widows of former Presidents",
+     "Treasury"
+    ],
+    "when": "The Act sets no start date. Certified 10 September 2025.",
+    "src": [
+     {
+      "t": "Act No. 18 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6399.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6399"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6393",
+   "t": "Gambling Regulatory Authority",
+   "a": "Business & finance",
+   "about": "Creates a Gambling Regulatory Authority to license all gambling except state lotteries.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6393"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6393.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Creates a Gambling Regulatory Authority and makes all gambling, except state lotteries and social gambling, need a licence.",
+    "figs": [
+     {
+      "v": "Rs. 10m",
+      "l": "maximum fine for most offences"
+     },
+     {
+      "v": "2 years",
+      "l": "maximum jail for most offences"
+     },
+     {
+      "v": "21",
+      "l": "minimum age to work in gambling"
+     }
+    ],
+    "changes": [
+     "Gambling needs a licence from the Authority's Director-General; premises must be registered.",
+     "Lotteries of the Development and National Lotteries Boards and social gambling are outside the Act.",
+     "Employing anyone under 21 in a gambling operation is an offence.",
+     "Repeals the Betting on Horse-Racing Ordinance, the Gaming Ordinance and the Casino Business (Regulation) Act of 2010."
+    ],
+    "who": [
+     "Casinos and betting businesses",
+     "Gambling staff",
+     "Tourism businesses"
+    ],
+    "when": "Most provisions start on a date set by the Minister by Gazette order. Certified 3 September 2025.",
+    "src": [
+     {
+      "t": "Act No. 17 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6393.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6393"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6395",
+   "t": "Rubber Control (Amendment)",
+   "a": "Agriculture",
+   "about": "Renames the Rubber Controller as Director-General and drops several old provisions.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6395"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6395.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Replaces the Rubber Controller with the Director-General of the Rubber Development Department.",
+    "figs": [
+     {
+      "v": "No. 16",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "22 Aug 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Every reference to the Controller becomes the Director-General of the Rubber Development Department.",
+     "Part VI is renamed Rubber Advisory Board.",
+     "Repeals sections 26, 36 to 39A and 50 of the Rubber Control Act."
+    ],
+    "who": [
+     "Rubber Development Department",
+     "Rubber growers and dealers"
+    ],
+    "when": "The Act sets no start date. Certified 22 August 2025.",
+    "src": [
+     {
+      "t": "Act No. 16 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6395.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6395"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6391",
+   "t": "Samurdhi (Amendment)",
+   "a": "Public money",
+   "about": "Brings Samurdhi community banks under the Auditor-General.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6391"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6391.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Makes the Auditor-General's audit rules apply to Samurdhi community-based banks and banking societies.",
+    "figs": [
+     {
+      "v": "No. 15",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "22 Aug 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "New section 28A: Article 154 and the National Audit Act apply to Samurdhi community-based banks.",
+     "New section 35A: the same applies to Samurdhi community-based banking societies.",
+     "The Auditor-General's audit powers now reach these community-based banks."
+    ],
+    "who": [
+     "Samurdhi banks and banking societies",
+     "Auditor-General"
+    ],
+    "when": "The Act sets no start date. Certified 22 August 2025.",
+    "src": [
+     {
+      "t": "Act No. 15 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6391.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6391"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6385",
+   "t": "Sri Lanka Electricity (Amendment)",
+   "a": "Utilities",
+   "about": "Changes to the 2024 electricity law on policy, the power market and restructuring.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6385"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6385.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Replaces the advisory council with a ministerial committee and renames the wholesale market the National Electricity Market.",
+    "figs": [
+     {
+      "v": "No. 14",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "2024",
+      "l": "year of the Act amended"
+     }
+    ],
+    "changes": [
+     "The National Electricity Advisory Council is replaced by a committee appointed by the Minister.",
+     "The Wholesale Electricity Market becomes the National Electricity Market.",
+     "The Act provides for a national electricity policy within the national energy policy.",
+     "Before restructuring orders, a transfer plan, a tariff policy and CEB generation and transmission plans must be ready."
+    ],
+    "who": [
+     "Ceylon Electricity Board",
+     "Electricity consumers",
+     "Power producers"
+    ],
+    "when": "The Act sets no start date. Certified 18 August 2025.",
+    "src": [
+     {
+      "t": "Act No. 14 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6385.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6385"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6392",
+   "t": "Bills of Exchange (Amendment)",
+   "a": "Business & finance",
+   "about": "Electronic cheque presentation, a new dishonoured-cheque offence and updated rules.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6392"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6392.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Lets banks present cheques electronically and makes issuing a cheque that bounces without good reason an offence.",
+    "figs": [
+     {
+      "v": "2 years",
+      "l": "maximum jail for a dishonoured cheque offence"
+     },
+     {
+      "v": "Cheque value",
+      "l": "maximum fine for that offence"
+     }
+    ],
+    "changes": [
+     "Banks may present a cheque by sending its image and payment data electronically.",
+     "Notice of dishonour may be given by fax or other electronic means.",
+     "Issuing a cheque that is dishonoured without legitimate reason can lead to a fine equal to the cheque or up to two years in jail.",
+     "Interest on bills is at the legal rate in force, not a fixed 9%.",
+     "References to Ceylon become Sri Lanka."
+    ],
+    "who": [
+     "Banks",
+     "Cheque issuers and holders",
+     "Businesses"
+    ],
+    "when": "The Act sets no start date. Certified 15 August 2025.",
+    "src": [
+     {
+      "t": "Act No. 13 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6392.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6392"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6389",
+   "t": "Companies (Amendment)",
+   "a": "Business & finance",
+   "about": "Bans bearer shares and requires companies to record and report their beneficial owners.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6389"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6389.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Bans bearer shares and makes companies keep and file details of their beneficial owners.",
+    "figs": [
+     {
+      "v": "60 days",
+      "l": "to convert existing bearer shares"
+     },
+     {
+      "v": "10 days",
+      "l": "working days for shareholders to give details"
+     },
+     {
+      "v": "20 days",
+      "l": "working days in section 11, was 10"
+     }
+    ],
+    "changes": [
+     "A company other than one limited by guarantee may have a single shareholder.",
+     "Companies may not issue bearer shares or share warrants to bearer.",
+     "Holders of existing bearer instruments must tell the company and convert them to registered shares within 60 days.",
+     "Companies must keep a register of beneficial owners and give the Registrar their names, addresses and ID numbers.",
+     "Shareholders must give these details within ten working days of buying or receiving shares."
+    ],
+    "who": [
+     "Companies",
+     "Shareholders",
+     "Company secretaries and directors",
+     "Registrar of Companies"
+    ],
+    "when": "Most provisions start on a date set by the Minister by Gazette order. Certified 4 August 2025.",
+    "src": [
+     {
+      "t": "Act No. 12 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6389.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6389"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6387",
+   "t": "Budgetary Relief Allowance of Workers (Amendment)",
+   "a": "Labour",
+   "about": "Ends the 2016 budgetary relief allowance on 31 March 2025.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6387"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6387.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Limits the budgetary relief allowance under the 2016 Act to periods ending 31 March 2025.",
+    "figs": [
+     {
+      "v": "31 Mar 2025",
+      "l": "last day of the allowance"
+     },
+     {
+      "v": "No. 4 of 2016",
+      "l": "Act amended"
+     }
+    ],
+    "changes": [
+     "Both allowances under Act No. 4 of 2016 now end on 31 March 2025.",
+     "Passed alongside the minimum wage increase in Act No. 11 of 2025.",
+     "The change is treated as in force from 1 April 2025."
+    ],
+    "who": [
+     "Private sector workers",
+     "Employers"
+    ],
+    "when": "Treated as in force from 1 April 2025.",
+    "src": [
+     {
+      "t": "Act No. 10 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6387.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6387"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6390",
+   "t": "Budgetary Relief Allowance of Workers (Amendment)",
+   "a": "Labour",
+   "about": "Ends the 2005 budgetary relief allowance on 31 March 2025.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6390"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6390.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Limits the budgetary relief allowance under the 2005 Act to August 2005 to March 2025.",
+    "figs": [
+     {
+      "v": "31 Mar 2025",
+      "l": "last day of the allowance"
+     },
+     {
+      "v": "No. 36 of 2005",
+      "l": "Act amended"
+     }
+    ],
+    "changes": [
+     "The allowance under Act No. 36 of 2005 now covers 1 August 2005 to 31 March 2025 only.",
+     "Passed alongside the minimum wage increase in Act No. 11 of 2025.",
+     "The change is treated as in force from 1 April 2025."
+    ],
+    "who": [
+     "Private sector workers",
+     "Employers"
+    ],
+    "when": "Treated as in force from 1 April 2025.",
+    "src": [
+     {
+      "t": "Act No. 9 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6390.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6390"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6388",
+   "t": "National Minimum Wage of Workers (Amendment)",
+   "a": "Labour",
+   "about": "Raises the national minimum wage and folds in the budgetary relief allowances.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6388"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6388.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Raises the national minimum monthly wage to Rs. 27,000, then Rs. 30,000 from January 2026.",
+    "figs": [
+     {
+      "v": "Rs. 27,000",
+      "l": "monthly minimum, Apr to Dec 2025"
+     },
+     {
+      "v": "Rs. 1,080",
+      "l": "daily minimum, Apr to Dec 2025"
+     },
+     {
+      "v": "Rs. 30,000",
+      "l": "monthly minimum from 1 Jan 2026"
+     },
+     {
+      "v": "Rs. 1,200",
+      "l": "daily minimum from 1 Jan 2026"
+     }
+    ],
+    "changes": [
+     "Minimum monthly wage of Rs. 27,000 and daily wage of Rs. 1,080 from 1 April to 31 December 2025.",
+     "From 1 January 2026, Rs. 30,000 a month and Rs. 1,200 a day.",
+     "Budgetary relief allowances paid as at 31 March 2025 now count as part of the minimum wage."
+    ],
+    "who": [
+     "Workers in any industry or service",
+     "Employers"
+    ],
+    "when": "Treated as in force from 1 April 2025.",
+    "src": [
+     {
+      "t": "Act No. 11 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6388.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6388"
+     },
      {
       "t": "Government Printer: Acts",
       "u": "https://documents.gov.lk/web/acts"
      }
     ]
    }
+  },
+  {
+   "id": "G6383",
+   "t": "National Transport Commission (Amendment)",
+   "a": "Transport",
+   "about": "Widens the Commission's role from inter-provincial buses to other road transport.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6383"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6383.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Extends the National Transport Commission from inter-provincial buses to office, school and three-wheeler services.",
+    "figs": [
+     {
+      "v": "No. 8",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "1991",
+      "l": "year of the Act amended"
+     }
+    ],
+    "changes": [
+     "The Act now covers road transportation, not only passenger transport by bus.",
+     "Inter-provincial office transport, school transport and three-wheeler services can come under the Commission.",
+     "The Minister can declare other inter-provincial road transport services.",
+     "The Commission sets standards to make road transport safe and comfortable."
+    ],
+    "who": [
+     "Bus operators",
+     "School and office transport operators",
+     "Three-wheeler operators",
+     "Passengers"
+    ],
+    "when": "The Act sets no start date. Certified 19 June 2025.",
+    "src": [
+     {
+      "t": "Act No. 8 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6383.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6383"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6381",
+   "t": "Code of Criminal Procedure (Amendment)",
+   "a": "Justice",
+   "about": "Lets Magistrates excuse suspects from attending court in person in special circumstances.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6381"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6381.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Lets a Magistrate excuse a suspect or accused from attending court in person in special circumstances.",
+    "figs": [
+     {
+      "v": "No. 7",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "18 Jun 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Attendance can be dispensed with for extending detention, bail hearings and other purposes.",
+     "The Attorney-General, the suspect or lawyer, or the police officer in charge can apply.",
+     "The Magistrate must be satisfied that one of the grounds in the Act applies."
+    ],
+    "who": [
+     "Suspects and accused persons",
+     "Magistrates",
+     "Police and prisons"
+    ],
+    "when": "The Act sets no start date. Certified 18 June 2025.",
+    "src": [
+     {
+      "t": "Act No. 7 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6381.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6381"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6382",
+   "t": "Foreign Loans (Repeal)",
+   "a": "Public money",
+   "about": "Repeals the 1957 Foreign Loans Act; existing loan agreements continue.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6382"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6382.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Repeals the Foreign Loans Act of 1957; existing loan agreements are treated as signed under the 2024 debt law.",
+    "figs": [
+     {
+      "v": "No. 6",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "1957",
+      "l": "year of the Act repealed"
+     }
+    ],
+    "changes": [
+     "Repeals the Foreign Loans Act, No. 29 of 1957.",
+     "Loan agreements and guarantees signed under it count as signed under the Public Debt Management Act, No. 33 of 2024.",
+     "Orders made to give effect to those agreements stay in force until the obligations are met."
+    ],
+    "who": [
+     "Ministry of Finance",
+     "Foreign lenders"
+    ],
+    "when": "The Act sets no start date. Certified 23 May 2025.",
+    "src": [
+     {
+      "t": "Act No. 6 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6382.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6382"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6378",
+   "t": "Proceeds of Crime",
+   "a": "Justice",
+   "about": "Tracing, freezing and confiscating proceeds of crime, with a new management authority.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6378"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6378.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Sets up a system to investigate, restrain, forfeit and manage proceeds of crime, with a new authority.",
+    "figs": [
+     {
+      "v": "No. 5",
+      "l": "Act number, 2025"
+     },
+     {
+      "v": "30 Apr 2025",
+      "l": "certified"
+     }
+    ],
+    "changes": [
+     "Provides for investigating, restraining, forfeiting and disposing of proceeds of crime.",
+     "Establishes the Proceeds of Crime Management Authority to protect and manage restrained property.",
+     "Provides for cooperation between agencies and with other countries."
+    ],
+    "who": [
+     "People whose property is linked to crime",
+     "Police and prosecutors",
+     "Courts"
+    ],
+    "when": "The Act sets no start date. Certified 30 April 2025.",
+    "src": [
+     {
+      "t": "Act No. 5 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6378.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6378"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6380",
+   "t": "Value Added Tax (Amendment)",
+   "a": "Business & finance",
+   "about": "VAT on digital services from abroad, registration of traders and electronic returns.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6380"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6380.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Brings foreign digital services into VAT from October 2025 and requires electronic VAT returns from July 2025.",
+    "figs": [
+     {
+      "v": "1 Oct 2025",
+      "l": "VAT on foreign digital services begins"
+     },
+     {
+      "v": "1 Jul 2025",
+      "l": "returns must be filed electronically"
+     }
+    ],
+    "changes": [
+     "Services supplied by non-residents to people in Sri Lanka through electronic platforms are taxable from 1 October 2025.",
+     "Several deferred-payment and import concessions end for periods from 1 October 2025.",
+     "Anyone importing or exporting goods for commercial purposes must register for VAT.",
+     "Returns for periods from 1 July 2025 are filed electronically, with exceptions allowed.",
+     "Free or subsidised staff meals and transport are valued at zero from January 2024."
+    ],
+    "who": [
+     "Importers and exporters",
+     "Foreign digital service providers",
+     "Registered VAT payers",
+     "Employers"
+    ],
+    "when": "Certified 11 April 2025. One change is treated as in force from 1 January 2024; others from July and October 2025.",
+    "src": [
+     {
+      "t": "Act No. 4 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6380.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6380"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6377",
+   "t": "Appropriation 2025",
+   "a": "Public money",
+   "about": "The 2025 Budget: government spending and borrowing for the year.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6377"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6377.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Authorises Rs. 4,218.2 billion of spending in 2025 and caps borrowing at Rs. 4,000 billion.",
+    "figs": [
+     {
+      "v": "Rs. 4,218.2bn",
+      "l": "estimated spending authorised"
+     },
+     {
+      "v": "Rs. 4,616.8bn",
+      "l": "charged on the Consolidated Fund"
+     },
+     {
+      "v": "Rs. 4,000bn",
+      "l": "borrowing limit"
+     }
+    ],
+    "changes": [
+     "Sets spending for every ministry and department for 2025.",
+     "Limits loans raised during or outstanding at the end of 2025 to Rs. 4,000 billion.",
+     "Sets limits for advance account activities.",
+     "Loan details go in the final budget position report to Parliament."
+    ],
+    "who": [
+     "Every ministry and department",
+     "Taxpayers"
+    ],
+    "when": "Covers 1 January to 31 December 2025.",
+    "src": [
+     {
+      "t": "Act No. 3 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6377.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6377"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6379",
+   "t": "Inland Revenue (Amendment)",
+   "a": "Business & finance",
+   "about": "New personal income tax bands and rates from April 2025.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6379"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6379.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "New income tax bands from April 2025, personal relief of Rs. 1.8 million and 15% on foreign-currency service income.",
+    "figs": [
+     {
+      "v": "Rs. 1.8m",
+      "l": "yearly personal relief from April 2025"
+     },
+     {
+      "v": "6% to 36%",
+      "l": "income tax bands for individuals"
+     },
+     {
+      "v": "15%",
+      "l": "cap on foreign-currency service income"
+     },
+     {
+      "v": "45%",
+      "l": "rate on betting, liquor and tobacco profits"
+     },
+     {
+      "v": "10%",
+      "l": "withholding on interest from April 2025"
+     }
+    ],
+    "changes": [
+     "Individuals pay 6% on the first Rs. 1 million of taxable income, rising in bands to 36% above Rs. 2.5 million.",
+     "Personal relief is Rs. 1,800,000 a year from 1 April 2025.",
+     "Service income earned in foreign currency and remitted through a bank is taxed at no more than 15%.",
+     "Profits from betting and gaming, liquor and tobacco are taxed at 45%.",
+     "Withholding on interest or discount rises from 5% to 10%.",
+     "Refunds for years from April 2024 must be claimed within 30 months of the year's end."
+    ],
+    "who": [
+     "Individual taxpayers",
+     "Exporters of services",
+     "Liquor, tobacco and gaming businesses",
+     "Savers earning interest"
+    ],
+    "when": "1 April 2025.",
+    "src": [
+     {
+      "t": "Act No. 2 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6379.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6379"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6376",
+   "t": "Local Authorities Elections (Special Provisions)",
+   "a": "Governance",
+   "about": "Cancels 2023 nominations and calls fresh local authority elections.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6376"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6376.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Voids nominations for the postponed 2023 local elections and requires fresh nominations within three months.",
+    "figs": [
+     {
+      "v": "9 Mar 2023",
+      "l": "date of the elections not held"
+     },
+     {
+      "v": "3 months",
+      "l": "deadline to call fresh nominations"
+     }
+    ],
+    "changes": [
+     "Nomination papers filed for the local authority elections due on 9 March 2023 have no effect.",
+     "The earlier notices of nomination are revoked.",
+     "Candidate deposits are refunded on production of the receipt.",
+     "The Election Commission must publish fresh nomination notices within three months."
+    ],
+    "who": [
+     "Local authority candidates",
+     "Political parties and independent groups",
+     "Election Commission",
+     "Voters"
+    ],
+    "when": "The Act sets no start date. Certified 17 February 2025.",
+    "src": [
+     {
+      "t": "Act No. 1 of 2025",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6376.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6376"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6411",
+   "t": "Colombo Port City Economic Commission (Amendment)",
+   "a": "Business & finance",
+   "about": "Port City pay in foreign currency, income tax exemptions and offshore banking rules.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6411"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6411.pdf"
+    }
+   ],
+   "impl": {
+    "sum": "Gives three years of income tax exemption to existing Port City businesses' staff and sets offshore banking rules.",
+    "figs": [
+     {
+      "v": "3 years",
+      "l": "income tax exemption for employees"
+     },
+     {
+      "v": "No. 1",
+      "l": "Act number, 2026"
+     }
+    ],
+    "changes": [
+     "Businesses approved before the Act may employ residents or non-residents and pay them in foreign currency.",
+     "For three years, their employees' employment income is exempt from income tax.",
+     "Employees of businesses approved after the Act are liable to income tax.",
+     "The Commission licenses offshore banking in the Port City; the Central Bank regulates it to international standards.",
+     "No fee, including a land use fee, may be charged before a licence and registration are issued."
+    ],
+    "who": [
+     "Port City businesses",
+     "Port City employees",
+     "Offshore banks",
+     "Central Bank"
+    ],
+    "when": "The Act sets no start date. Certified 20 January 2026.",
+    "src": [
+     {
+      "t": "Act No. 1 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6411.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6411"
+     },
+     {
+      "t": "Government Printer: Acts",
+      "u": "https://documents.gov.lk/web/acts"
+     }
+    ]
+   }
+  },
+  {
+   "id": "G6398",
+   "t": "Penal Code (Amendment)",
+   "a": "Justice",
+   "about": "Bans corporal punishment of children and raises penalties for hurting a child.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6398"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6398.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6405",
+   "t": "Protection of Occupants",
+   "a": "Justice",
+   "about": "Stops landlords from cutting utilities or forcing out lawful occupants.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6405"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6405.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6417",
+   "t": "Rent (Repeal)",
+   "a": "Justice",
+   "about": "Repeals the Rent Act of 1972, with one year of protection for existing tenants.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6417"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6417.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6424",
+   "t": "Finance (Amendment)",
+   "a": "Business & finance",
+   "about": "Five-year exemption from the cellular tower levy for new towers.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6424"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6424.pdf"
+    }
+   ]
+  },
+  {
+   "id": "G6426",
+   "t": "Telecommunication Levy (Amendment)",
+   "a": "Business & finance",
+   "about": "Extends the telecommunication levy to service providers and lets operators deduct bad debts.",
+   "src": [
+    {
+     "t": "Bill details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6426"
+    },
+    {
+     "t": "Bill text",
+     "u": "https://www.parliament.lk/uploads/bills/gbills/english/6426.pdf"
+    }
+   ]
   }
  ],
  "acts": [
@@ -885,6 +3142,252 @@
    "short": "Anti-corruption",
    "d": "2026-10-19",
    "id": "G6431"
+  },
+  {
+   "tag": "15",
+   "short": "Environment",
+   "d": "2026-07-21",
+   "id": "G6425"
+  },
+  {
+   "tag": "14",
+   "short": "VAT",
+   "d": "2026-06-30",
+   "id": "G6427"
+  },
+  {
+   "tag": "13",
+   "short": "Mediation",
+   "d": "2026-06-30",
+   "id": "G6396"
+  },
+  {
+   "tag": "12",
+   "short": "Insolvency",
+   "d": "2026-06-17",
+   "id": "G6419"
+  },
+  {
+   "tag": "11",
+   "short": "Income tax",
+   "d": "2026-06-03",
+   "id": "G6420"
+  },
+  {
+   "tag": "10",
+   "short": "Social security levy",
+   "d": "2026-04-09",
+   "id": "G6418"
+  },
+  {
+   "tag": "9",
+   "short": "Microfinance regulator",
+   "d": "2026-03-20",
+   "id": "G6408"
+  },
+  {
+   "tag": "8",
+   "short": "Judicature",
+   "d": "2026-03-06",
+   "id": "G6410"
+  },
+  {
+   "tag": "7",
+   "short": "Drugs at sea",
+   "d": "2026-03-06",
+   "id": "G6413"
+  },
+  {
+   "tag": "6",
+   "short": "Real estate professionals",
+   "d": "2026-02-19",
+   "id": "G6404"
+  },
+  {
+   "tag": "5",
+   "short": "MPs’ pensions repeal",
+   "d": "2026-02-17",
+   "id": "G6415"
+  },
+  {
+   "tag": "4",
+   "short": "Shipping agents licensing",
+   "d": "2026-02-17",
+   "id": "G6416"
+  },
+  {
+   "tag": "3",
+   "short": "Container depots",
+   "d": "2026-02-17",
+   "id": "G6414"
+  },
+  {
+   "tag": "2",
+   "short": "Universities",
+   "d": "2026-02-03",
+   "id": "G6409"
+  },
+  {
+   "tag": "26",
+   "short": "Strategic development projects",
+   "d": "2025-12-17",
+   "id": "G6412"
+  },
+  {
+   "tag": "25",
+   "short": "Betting and gaming levy",
+   "d": "2025-12-17",
+   "id": "G6406"
+  },
+  {
+   "tag": "24",
+   "short": "Social security levy",
+   "d": "2025-12-17",
+   "id": "G6407"
+  },
+  {
+   "tag": "23",
+   "short": "2026 Budget",
+   "d": "2025-12-05",
+   "id": "G6401"
+  },
+  {
+   "tag": "22",
+   "short": "Data protection",
+   "d": "2025-10-30",
+   "id": "G6384"
+  },
+  {
+   "tag": "21",
+   "short": "Anti-doping",
+   "d": "2025-10-07",
+   "id": "G6400"
+  },
+  {
+   "tag": "20",
+   "short": "Building research institute",
+   "d": "2025-10-07",
+   "id": "G6397"
+  },
+  {
+   "tag": "19",
+   "short": "National audit",
+   "d": "2025-09-22",
+   "id": "G6394"
+  },
+  {
+   "tag": "18",
+   "short": "Presidents’ entitlements repeal",
+   "d": "2025-09-10",
+   "id": "G6399"
+  },
+  {
+   "tag": "17",
+   "short": "Gambling regulator",
+   "d": "2025-09-03",
+   "id": "G6393"
+  },
+  {
+   "tag": "16",
+   "short": "Rubber control",
+   "d": "2025-08-22",
+   "id": "G6395"
+  },
+  {
+   "tag": "15",
+   "short": "Samurdhi audit",
+   "d": "2025-08-22",
+   "id": "G6391"
+  },
+  {
+   "tag": "14",
+   "short": "Electricity",
+   "d": "2025-08-18",
+   "id": "G6385"
+  },
+  {
+   "tag": "13",
+   "short": "Bills of exchange",
+   "d": "2025-08-15",
+   "id": "G6392"
+  },
+  {
+   "tag": "12",
+   "short": "Companies",
+   "d": "2025-08-04",
+   "id": "G6389"
+  },
+  {
+   "tag": "10",
+   "short": "Relief allowance (2016 Act)",
+   "d": "2025-07-23",
+   "id": "G6387"
+  },
+  {
+   "tag": "9",
+   "short": "Relief allowance (2005 Act)",
+   "d": "2025-07-23",
+   "id": "G6390"
+  },
+  {
+   "tag": "11",
+   "short": "Minimum wage",
+   "d": "2025-07-23",
+   "id": "G6388"
+  },
+  {
+   "tag": "8",
+   "short": "Transport commission",
+   "d": "2025-06-19",
+   "id": "G6383"
+  },
+  {
+   "tag": "7",
+   "short": "Criminal procedure",
+   "d": "2025-06-18",
+   "id": "G6381"
+  },
+  {
+   "tag": "6",
+   "short": "Foreign loans repeal",
+   "d": "2025-05-23",
+   "id": "G6382"
+  },
+  {
+   "tag": "5",
+   "short": "Proceeds of crime",
+   "d": "2025-04-30",
+   "id": "G6378"
+  },
+  {
+   "tag": "4",
+   "short": "VAT",
+   "d": "2025-04-11",
+   "id": "G6380"
+  },
+  {
+   "tag": "3",
+   "short": "2025 Budget",
+   "d": "2025-03-21",
+   "id": "G6377"
+  },
+  {
+   "tag": "2",
+   "short": "Income tax",
+   "d": "2025-03-20",
+   "id": "G6379"
+  },
+  {
+   "tag": "1",
+   "short": "Local elections",
+   "d": "2025-02-17",
+   "id": "G6376"
+  },
+  {
+   "tag": "1",
+   "short": "Port City",
+   "d": "2026-01-20",
+   "id": "G6411"
   }
  ]
 }
