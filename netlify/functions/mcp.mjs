@@ -52,6 +52,21 @@ const TOOLS = [
     },
     annotations: { readOnlyHint: true, openWorldHint: true },
   },
+  /* search and fetch use the names and shapes ChatGPT's connectors, deep research included, expect. */
+  {
+    name: "search",
+    title: "Search Acts",
+    description: "Search Sri Lankan Acts and Ordinances by name, number, year or topic. Returns JSON {results:[{id,title,url}]}; pass an id to fetch. Same index as search_acts.",
+    inputSchema: { type: "object", properties: { query: { type: "string", description: "Words to look for, e.g. \"VAT\", \"No. 24 of 2017\", \"gratuity\"" } }, required: ["query"] },
+    annotations: { readOnlyHint: true, openWorldHint: false },
+  },
+  {
+    name: "fetch",
+    title: "Fetch an Act",
+    description: "Fetch one Act by id from search: its status, amendments and summary followed by the official text. Use \"<id>:<section>\" (e.g. \"2026-14:3\") for one section. Returns JSON {id,title,text,url,metadata}.",
+    inputSchema: { type: "object", properties: { id: { type: "string", description: "Id from search, optionally with :section" } }, required: ["id"] },
+    annotations: { readOnlyHint: true, openWorldHint: true },
+  },
 ];
 
 /* ---------- data ---------- */
@@ -220,6 +235,24 @@ async function callTool(name, args, origin) {
     const part = text.slice(off, off + MAX_TEXT);
     return head + `Characters ${off}–${off + part.length} of ${text.length}${off + part.length < text.length ? ` (read on with offset ${off + part.length})` : ""}:\n\n${part}`;
   }
+  if (name === "search") {
+    const hits = search(acts, args.query, 10);
+    return JSON.stringify({ results: hits.map((e) => ({ id: e.id, title: `${e.t} — ${label(e)}${e.status === "repealed" ? " (repealed)" : ""}`, url: e.u || `${origin}/acts.html#a${e.bill || e.id}` })) });
+  }
+  if (name === "fetch") {
+    const [aid, sec] = String(args.id || "").split(":");
+    const e = acts.find((x) => x.id === aid);
+    if (!e) throw new Error(`No Act with id ${aid}. Use search to find the id.`);
+    let body = describe(e), note = "";
+    if (e.u && official(e.u)) {
+      try {
+        const text = await actText(e.u);
+        if (sec) { const s = findSection(text, sec); body += s ? `\n\nSection ${sec} (official text):\n${s.slice(0, MAX_TEXT)}` : `\n\nSection ${sec} was not found in the official text.`; }
+        else body += `\n\nOfficial text${text.length > 40000 ? " (first 40,000 characters; fetch \"" + aid + ":<section>\" for a later section)" : ""}:\n${text.slice(0, 40000)}`;
+      } catch (err) { note = err.message; body += `\n\nThe official text could not be read just now (${err.message}). It is at ${e.u}`; }
+    }
+    return JSON.stringify({ id: args.id, title: `${e.t} — ${label(e)}${sec ? ", section " + sec : ""}`, text: body, url: e.u || `${origin}/acts.html#a${e.bill || e.id}`, metadata: { status: e.status || "unknown", year: e.yr, number: e.no || "", amended_by: e.amd || [], ...(note ? { note } : {}) } });
+  }
   throw Object.assign(new Error(`Unknown tool ${name}`), { code: -32602 });
 }
 
@@ -234,7 +267,7 @@ async function handle(msg, origin) {
       return ok({
         protocolVersion: VERSIONS.includes(params.protocolVersion) ? params.protocolVersion : VERSIONS[0],
         capabilities: { tools: { listChanged: false } },
-        serverInfo: { name: "sabha-brief", title: "Sabha Brief: Sri Lankan Acts", version: "1.0.0" },
+        serverInfo: { name: "sabha-brief", title: "Sabha Brief: Sri Lankan Acts", version: "1.1.0" },
         instructions: INSTRUCTIONS,
       });
     case "ping": return ok({});

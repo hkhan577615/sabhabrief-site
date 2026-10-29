@@ -27,12 +27,18 @@
 .amd b{font-weight:600;color:var(--ink)}
 .alinks{display:flex;flex-wrap:wrap;gap:8px 24px}
 .more-r{margin-top:20px}
-.ck{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:28px 56px}
-@media (max-width:820px){.ck{grid-template-columns:minmax(0,1fr)}}
-.ck-s{display:grid;gap:16px;padding-left:1.3em;font-size:15.5px}
-.ck-s li::marker{font:600 15px var(--serif);color:var(--ink-3)}
-.ck-s b{display:block;font:500 19px/1.3 var(--serif);margin-bottom:2px}
-.ck code{font:500 14px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--wash);padding:2px 7px;border-radius:4px;word-break:break-all}
+.ck-addr{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:28px;font-size:14.5px;color:var(--ink-2)}
+.ck-addr code,.ck-n code{font:500 15px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--ink);background:var(--wash);padding:4px 10px;border-radius:4px;word-break:break-all}
+.ck-ai{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 40px}
+@media (max-width:980px){.ck-ai{grid-template-columns:repeat(2,minmax(0,1fr))}.ck-n{grid-column:1/-1}}
+@media (max-width:640px){.ck-ai{grid-template-columns:minmax(0,1fr)}}
+.ck-c{display:grid;gap:14px;align-content:start;padding-top:16px;border-top:2px solid var(--ink)}
+.ck-c h3{font-size:24px}
+.ck-c ol{display:grid;gap:10px;padding-left:1.2em;font-size:15px;color:var(--ink-2)}
+.ck-c b{color:var(--ink);font-weight:600}
+.ck-b{display:flex;flex-wrap:wrap;gap:8px}
+.ck-b .go-ai{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ck-b .go-ai:hover{opacity:.88}
 .ck-n{display:grid;gap:14px;align-content:start;padding:18px 20px;background:var(--surface);border:1px solid var(--rule);border-radius:6px;font-size:14.5px;color:var(--ink-2)}
 .ck-n b{color:var(--ink)}
 </style>
@@ -75,15 +81,27 @@
   </section>
 
   <section id="checker" aria-labelledby="ck-h">
-    <div class="sec-h"><h2 id="ck-h">Check a document against an Act</h2><p>For a notice, contract or letter that cites an Act: does the Act say what the document claims?</p></div>
-    <div class="ck">
-      <ol class="ck-s">
-        <li><b>Connect Sabha Brief to Claude.</b> In Claude, open Settings, then Connectors, and add a custom connector with this address: <code id="mcpUrl">your Sabha Brief web address followed by /mcp</code></li>
-        <li><b>Upload the document in a Claude chat</b> and ask, for example: "Check this notice against the Acts it cites, using Sabha Brief."</li>
-        <li><b>Claude looks up each Act and section</b> in the official text through Sabha Brief and tells you what matches, what does not, and what to ask about.</li>
-      </ol>
+    <div class="sec-h"><h2 id="ck-h">Check a document against an Act</h2><p>For a notice, contract or letter that cites an Act: does the Act say what the document claims? Your own AI assistant does the checking, using Sabha Brief to read the official text.</p></div>
+    <div class="ck-addr"><span>Sabha Brief connector address</span><code id="mcpUrl">https://sabhabrief.lk/mcp</code><button class="btn" id="copyMcp" type="button">Copy address</button><small class="note-s" id="copyNote" role="status"></small></div>
+    <div class="ck-ai">
+      <article class="ck-c">
+        <h3>Claude</h3>
+        <ol>
+          <li><b>Add Sabha Brief once.</b> Add a custom connector and paste the address above.</li>
+          <li><b>Start a check.</b> A new chat opens with the request written for you. Attach your document and send.</li>
+        </ol>
+        <p class="ck-b"><a class="btn" href="https://claude.ai/settings/connectors" target="_blank" rel="noopener">1. Add the connector</a><a class="btn go-ai" data-ai="claude" href="https://claude.ai/new" target="_blank" rel="noopener">2. Start a check</a></p>
+      </article>
+      <article class="ck-c">
+        <h3>ChatGPT</h3>
+        <ol>
+          <li><b>Add Sabha Brief once.</b> In Settings, open Apps &amp; Connectors (turn on Developer mode under Advanced if asked), create a connector with the address above and no authentication.</li>
+          <li><b>Start a check.</b> A new chat opens with the request. Attach your document, turn on Sabha Brief for the chat, and send.</li>
+        </ol>
+        <p class="ck-b"><a class="btn" href="https://chatgpt.com/#settings/Connectors" target="_blank" rel="noopener">1. Add the connector</a><a class="btn go-ai" data-ai="chatgpt" href="https://chatgpt.com/" target="_blank" rel="noopener">2. Start a check</a></p>
+      </article>
       <div class="ck-n">
-        <p><b>Your document stays in your Claude chat.</b> Sabha Brief only receives the names of Acts and sections to look up, never the document.</p>
+        <p><b>Your document stays with your AI assistant.</b> Sabha Brief only receives the names of Acts and sections to look up, never the document.</p>
         <p><b>A sense check, not legal advice.</b> It can spot a section that does not exist, a penalty above the Act's maximum, or an Act that has been amended or repealed. Ask a lawyer before acting on anything important.</p>
       </div>
     </div>
@@ -131,11 +149,16 @@ Promise.all([opt("statutes.json"),SB.load("library.json").then(([l])=>l)]).then(
   const counts=VIEWS.map(v=>all.filter(v.f).length);
   let view=counts[0]?"key":"ours",q="",area="",shown=PAGE;
   const h=(location.hash||"").slice(1);
-  if(h){view="all";shown=1e4;}
+  if(h&&h!=="checker"){view="all";shown=1e4;}
   if(st.coverage)$("cov").textContent=st.coverage+" Summaries are drawn from the official text. The official text is the law.";
   const areas=[...new Set(all.map(e=>e.a).filter(Boolean))].sort();
   $("area").innerHTML+=areas.map(a=>`<option>${esc(a)}</option>`).join("");
-  if(!/claude|localhost/.test(location.hostname)&&location.protocol==="https:")$("mcpUrl").textContent=location.origin+"/mcp";
+  /* The connector address and the prepared request each AI chat opens with. */
+  const mcp=!/claude|localhost|127\.0/.test(location.hostname)&&location.protocol==="https:"?location.origin+"/mcp":"https://sabhabrief.lk/mcp";
+  $("mcpUrl").textContent=mcp;
+  const ask="Using the Sabha Brief connector, check the document I'm attaching against the Sri Lankan Acts it cites. For each Act, section, rate, penalty and deadline it relies on, confirm the Act exists and is in force, and that the official text says what the document claims. Quote the official wording, link it, and list anything that does not match or is unclear. This is a sense check, not legal advice.";
+  document.querySelectorAll(".go-ai").forEach(a=>{a.href=(a.dataset.ai==="claude"?"https://claude.ai/new?q=":"https://chatgpt.com/?q=")+encodeURIComponent(ask);});
+  $("copyMcp").addEventListener("click",()=>{const n=$("copyNote");try{navigator.clipboard.writeText(mcp).then(()=>{n.textContent="Copied.";},()=>{n.textContent="Select the address and copy it.";});}catch(e){n.textContent="Select the address and copy it.";}});
 
   const hay=e=>[e.t,e.a,e.sum,e.no,e.yr,label(e),(e.impl&&e.impl.who||[]).join(" "),(e.amd||[]).join(" ")].join(" ").toLowerCase();
   function row(e){
