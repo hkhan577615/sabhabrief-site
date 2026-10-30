@@ -253,6 +253,8 @@ summary::-webkit-details-marker{display:none}
 <script>
 /* Open and close the WhatsApp box; send the number to Netlify Forms without leaving the page. */
 (function(){
+  /* The Google Apps Script web app that writes to the "Sabha Brief – WhatsApp alerts" sheet (netlify/apps-script). */
+  const SHEET_URL="";
   const $=id=>document.getElementById(id),btn=$("waBtn"),panel=$("waPanel"),form=$("waForm"),msg=$("waMsg"),num=$("waNum");
   const set=v=>{panel.hidden=!v;btn.setAttribute("aria-expanded",String(v));if(v)setTimeout(()=>num.focus(),30);};
   btn.addEventListener("click",()=>set(panel.hidden));
@@ -264,7 +266,9 @@ summary::-webkit-details-marker{display:none}
     e.preventDefault();
     if(!form.reportValidity())return;
     msg.textContent="Signing you up…";
-    fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(new FormData(form)).toString()})
+    const fd=new FormData(form);
+    if(SHEET_URL)fetch(SHEET_URL,{method:"POST",mode:"no-cors",body:new URLSearchParams({whatsapp:fd.get("whatsapp"),page:"home","bot-field":fd.get("bot-field")||""})}).catch(()=>{});
+    fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(fd).toString()})
       .then(r=>{if(!r.ok)throw 0;form.querySelector(".wa-r").hidden=true;msg.textContent="Thank you. You will get updates on WhatsApp.";})
       .catch(()=>{msg.textContent="That did not go through. Please try again.";});
   });
@@ -276,7 +280,7 @@ summary::-webkit-details-marker{display:none}
     <div>
       <span class="brand-w">Sabha <em>Brief</em></span>
       <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
-      <p class="foot-c">Contact: <a href="mailto:haseem.n.9@gmail.com">haseem.n.9@gmail.com</a></p>
+      <p class="foot-c">Sabha Brief is in beta. Follow along on <a href="https://x.com/sabhabrief" target="_blank" rel="noopener">X @sabhabrief</a>.</p>
     </div>
     <div>
       <h2>Official sources</h2>

@@ -65,16 +65,57 @@
   </section>
 
   <section class="cs-n" aria-label="Hear when it opens">
-    <p>Want to know when it opens, or have a document you would like checked first?</p>
-    <p class="cs-a"><a class="btn go" href="index.html#alerts">WhatsApp alerts</a><a class="arrow" href="mailto:haseem.n.9@gmail.com?subject=Contract%20checker">Email us</a></p>
+    <p>Want to know when it opens?</p>
+    <p class="cs-a"><a class="btn go" href="#alerts">WhatsApp alerts</a><a class="arrow" href="https://x.com/sabhabrief" target="_blank" rel="noopener">Follow on X</a></p>
   </section>
 </main>
+
+<!-- WhatsApp alerts: one number, nothing else. Netlify Forms keeps the sign-ups (form "alerts"). -->
+<div class="wa" id="wa">
+  <div class="wa-p" id="waPanel" role="dialog" aria-labelledby="waT" hidden>
+    <form class="wa-f" id="waForm" name="alerts" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="alerts">
+      <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <label class="wa-l" id="waT" for="waNum">WhatsApp alerts</label>
+      <div class="wa-r">
+        <input id="waNum" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+94 7X XXX XXXX" pattern="\+?[0-9 ()\-]{9,18}" required>
+        <button class="wa-go" type="submit">Sign up</button>
+      </div>
+      <p class="wa-m" id="waMsg" role="status"></p>
+    </form>
+  </div>
+  <button class="wa-b" id="waBtn" type="button" aria-expanded="false" aria-controls="waPanel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.9L3.5 20.5l4.2-1.1A8.5 8.5 0 1 0 12 3.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>WhatsApp alerts</span></button>
+</div>
+<script>
+/* Open and close the WhatsApp box; send the number to Netlify Forms without leaving the page. */
+(function(){
+  /* The Google Apps Script web app that writes to the "Sabha Brief – WhatsApp alerts" sheet (netlify/apps-script). */
+  const SHEET_URL="";
+  const $=id=>document.getElementById(id),btn=$("waBtn"),panel=$("waPanel"),form=$("waForm"),msg=$("waMsg"),num=$("waNum");
+  const set=v=>{panel.hidden=!v;btn.setAttribute("aria-expanded",String(v));if(v)setTimeout(()=>num.focus(),30);};
+  btn.addEventListener("click",()=>set(panel.hidden));
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden){set(false);btn.focus();}});
+  document.addEventListener("click",e=>{if(!panel.hidden&&!$("wa").contains(e.target))set(false);});
+  if(location.hash==="#alerts")set(true);
+  window.addEventListener("hashchange",()=>{if(location.hash==="#alerts")set(true);});
+  form.addEventListener("submit",e=>{
+    e.preventDefault();
+    if(!form.reportValidity())return;
+    msg.textContent="Signing you up…";
+    const fd=new FormData(form);
+    if(SHEET_URL)fetch(SHEET_URL,{method:"POST",mode:"no-cors",body:new URLSearchParams({whatsapp:fd.get("whatsapp"),page:"home","bot-field":fd.get("bot-field")||""})}).catch(()=>{});
+    fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(fd).toString()})
+      .then(r=>{if(!r.ok)throw 0;form.querySelector(".wa-r").hidden=true;msg.textContent="Thank you. You will get updates on WhatsApp.";})
+      .catch(()=>{msg.textContent="That did not go through. Please try again.";});
+  });
+})();
+</script>
 <footer class="foot">
   <div class="foot-in">
     <div>
       <span class="brand-w">Sabha <em>Brief</em></span>
       <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
-      <p class="foot-c">Contact: <a href="mailto:haseem.n.9@gmail.com">haseem.n.9@gmail.com</a></p>
+      <p class="foot-c">Sabha Brief is in beta. Follow along on <a href="https://x.com/sabhabrief" target="_blank" rel="noopener">X @sabhabrief</a>.</p>
     </div>
     <div>
       <h2>Official sources</h2>
