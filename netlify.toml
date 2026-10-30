@@ -12,15 +12,25 @@
   to = "/"
   status = 301
 
-# Laws was renamed Acts.
+# The Laws, later Acts, page is retired; the contract checker takes its place in the menu.
 [[redirects]]
   from = "/laws.html"
-  to = "/acts.html"
+  to = "/checker.html"
   status = 301
 
 [[redirects]]
   from = "/laws"
-  to = "/acts.html"
+  to = "/checker.html"
+  status = 301
+
+[[redirects]]
+  from = "/acts.html"
+  to = "/checker.html"
+  status = 301
+
+[[redirects]]
+  from = "/acts"
+  to = "/checker.html"
   status = 301
 
 # The MCP function's source and packages are not pages: keep them unpublished.

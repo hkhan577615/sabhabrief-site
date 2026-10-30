@@ -68,7 +68,7 @@ button{font:inherit;color:inherit}
   .nav{gap:22px}
 }
 @media (max-width:600px){.nav .long{display:none}.nav .short{display:inline}}
-@media (max-width:420px){.nav{gap:16px}.nav a{font-size:14px}}
+@media (max-width:420px){.nav{gap:13px}.nav a{font-size:14px}}
 
 /* Page heads and section heads */
 .ph{display:grid;gap:18px;max-width:880px}

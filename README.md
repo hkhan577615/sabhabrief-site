@@ -3,7 +3,7 @@
 Static site. No build step. Upload this folder as it is.
 
 ## Files
-- index.html (This week), bills.html, acts.html, gazette.html, about.html: the site
+- index.html (This week), bills.html, checker.html (contract checker, coming soon), gazette.html, about.html: the site
 - index.html shows one sitting week at a time: the headline and key decisions, then every item by day,
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
