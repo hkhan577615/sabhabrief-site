@@ -12,25 +12,35 @@
   to = "/"
   status = 301
 
-# The Laws, later Acts, page is retired; the contract checker takes its place in the menu.
+# Retired pages: Laws, later Acts, and the contract checker.
 [[redirects]]
   from = "/laws.html"
-  to = "/checker.html"
+  to = "/"
   status = 301
 
 [[redirects]]
   from = "/laws"
-  to = "/checker.html"
+  to = "/"
   status = 301
 
 [[redirects]]
   from = "/acts.html"
-  to = "/checker.html"
+  to = "/"
   status = 301
 
 [[redirects]]
   from = "/acts"
-  to = "/checker.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/checker.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/checker"
+  to = "/"
   status = 301
 
 # Alerts are now a WhatsApp sign-up box on the home page.

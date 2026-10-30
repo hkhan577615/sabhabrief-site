@@ -276,7 +276,10 @@ details[open]>summary .pm::before{content:"\2212"}
 .foot a{text-decoration:none;color:var(--ink-2)}
 .foot a:hover{color:var(--ink);text-decoration:underline}
 .foot .foot-c{margin-top:10px}
-.foot .foot-c a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule-2)}
+.foot .foot-c{display:flex;align-items:center;gap:10px}
+.x-l{display:inline-flex;color:var(--ink-2)}
+.x-l:hover{color:var(--ink)}
+.x-l svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
 @media (max-width:760px){.foot-in{grid-template-columns:minmax(0,1fr)}}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
