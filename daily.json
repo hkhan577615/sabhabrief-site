@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-29T21:50:00+05:30",
+ "updated": "2026-10-30T21:50:00+05:30",
  "status": {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "sitting": false,
   "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
  },
@@ -97,7 +97,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-10-29",
+   "latest": "2026-10-30",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
