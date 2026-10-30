@@ -33,6 +33,17 @@
   to = "/checker.html"
   status = 301
 
+# Alerts are now a WhatsApp sign-up box on the home page.
+[[redirects]]
+  from = "/alerts.html"
+  to = "/#alerts"
+  status = 301
+
+[[redirects]]
+  from = "/alerts"
+  to = "/#alerts"
+  status = 301
+
 # The MCP function's source and packages are not pages: keep them unpublished.
 [[redirects]]
   from = "/node_modules/*"
