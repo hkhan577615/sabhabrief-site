@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:45:00+05:30",
+ "updated": "2026-10-31T22:24:27+05:30",
  "status": {
   "date": "2026-10-31",
   "sitting": false,
@@ -1974,5 +1974,99 @@
    ]
   }
  ],
- "billsSince": "2024-11-21"
+ "billsSince": "2024-11-21",
+ "gzfeed": {
+  "from": "2026-10-19",
+  "src": [
+   {
+    "t": "Gazette Extraordinary listing, Department of Government Printing",
+    "u": "https://documents.gov.lk/web/extra_gazettes"
+   }
+  ],
+  "items": [
+   {
+    "no": "2512/06",
+    "d": "2026-10-26",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Vavuniya North Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Vavuniya North Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208109%20%28E%29_1793252661.pdf"
+   },
+   {
+    "no": "2512/05",
+    "d": "2026-10-26",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Yatinuwara Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Yatinuwara Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208108%20%20%28E%29_1793252591.pdf"
+   },
+   {
+    "no": "2512/02",
+    "d": "2026-10-26",
+    "kind": "Extraordinary",
+    "cat": "rules",
+    "t": "Armed forces called out for public order",
+    "by": "Presidential Secretariat",
+    "sum": "Armed forces called out under the Public Security Ordinance from 27 October 2026.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048403%20%28E%29_1793088877.pdf"
+   },
+   {
+    "no": "2512/01",
+    "d": "2026-10-26",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Customs rates of exchange from 26 October",
+    "by": "Sri Lanka Customs",
+    "sum": "New customs exchange rates apply from 26 October 2026, replacing those of 19 October.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048402%20%28E%29_1793080453.pdf"
+   },
+   {
+    "no": "2511/84",
+    "d": "2026-10-23",
+    "kind": "Extraordinary",
+    "cat": "land",
+    "t": "Land title determination, Godagama, Matara",
+    "by": "Department of Land Title Settlement",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048378%28E%29_1793430139.pdf"
+   },
+   {
+    "no": "2511/82",
+    "d": "2026-10-23",
+    "kind": "Extraordinary",
+    "cat": "land",
+    "t": "Land title determination, Ampitiya Pallegama, Kandy",
+    "by": "Department of Land Title Settlement",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048371%20%28E%29_1793250878.pdf"
+   },
+   {
+    "no": "2511/80",
+    "d": "2026-10-23",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Chavakachcheri Urban Council vacancy filled",
+    "by": "Returning Officer, Chavakachcheri Urban Council",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208104%20%28E%29_1793346058.pdf"
+   },
+   {
+    "no": "2511/78",
+    "d": "2026-10-23",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Wattala Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Wattala Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208102%20%28E%29_1793272177.pdf"
+   },
+   {
+    "no": "2511/77",
+    "d": "2026-10-23",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Polonnaruwa Municipal Council vacancy filled",
+    "by": "Returning Officer, Polonnaruwa Municipal Council",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208101%20%28E%29_1793346026.pdf"
+   }
+  ]
+ }
 }
