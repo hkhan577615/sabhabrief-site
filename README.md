@@ -7,7 +7,7 @@ Static site. No build step. Upload this folder as it is.
 - index.html shows one sitting week at a time: the headline and key decisions, then every item by day,
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
-- WhatsApp alerts: a floating sign-up box on index.html that takes only a WhatsApp number (Netlify Forms, form name "alerts"); thanks.html is the fallback after sign-up; 404.html
+- gazette.html: the Gazette feed (daily.json gzfeed), notices from last week on; 404.html
 - daily.json, library.json: the data, replaced every night
 - site.css, site.js, favicon.svg, robots.txt
 - netlify.toml: tells Netlify to serve the JSON files fresh
@@ -17,9 +17,6 @@ The nightly task replaces daily.json (and library.json when it changes) in the G
 Netlify redeploys automatically on each commit. Never edit the HTML by hand on GitHub
 unless you also want the change kept; the nightly task only touches the two JSON files.
 
-## Sign-ups
-Netlify dashboard > your site > Forms > alerts. Export as CSV from there.
-Turn on email notifications under Forms > Form notifications.
 
 ## Document checker (MCP server)
 netlify/functions/mcp.mjs serves an MCP server at /mcp. Readers add https://<this site>/mcp to Claude

@@ -43,15 +43,20 @@
   to = "/"
   status = 301
 
-# Alerts are now a WhatsApp sign-up box on the home page.
+# Alerts sign-up retired for now.
 [[redirects]]
   from = "/alerts.html"
-  to = "/#alerts"
+  to = "/"
   status = 301
 
 [[redirects]]
   from = "/alerts"
-  to = "/#alerts"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/thanks.html"
+  to = "/"
   status = 301
 
 # The MCP function's source and packages are not pages: keep them unpublished.

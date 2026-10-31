@@ -291,20 +291,3 @@ details[open]>summary .pm::before{content:"\2212"}
 /* Thanks page */
 .thx{display:grid;gap:18px;max-width:640px}
 
-/* WhatsApp alerts: a small floating button that opens one field. */
-.wa{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:45;display:grid;justify-items:end;gap:10px}
-.wa-b{display:inline-flex;align-items:center;gap:9px;padding:12px 18px 12px 15px;border:0;border-radius:999px;background:var(--ink);color:var(--paper);font:600 14px/1 var(--sans);cursor:pointer;box-shadow:0 6px 20px rgb(0 0 0 / .18)}
-.wa-b svg{width:19px;height:19px}
-.wa-b:hover{opacity:.92}
-.wa-b[aria-expanded="true"]{opacity:.85}
-.wa-p{width:min(340px,calc(100vw - 32px));padding:16px;background:var(--surface);border:1px solid var(--rule);border-radius:12px;box-shadow:0 12px 32px rgb(0 0 0 / .16)}
-.wa-f{display:grid;gap:10px}
-.wa-l{font:600 12px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
-.wa-r{display:flex;gap:8px}
-.wa-r[hidden]{display:none}
-.wa-r input{flex:1;min-width:0;font:400 16px/1.3 var(--sans);color:var(--ink);background:var(--paper);border:1px solid var(--rule-2);border-radius:999px;padding:10px 14px}
-.wa-r input:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
-.wa-go{border:0;border-radius:999px;background:var(--ink);color:var(--paper);font:600 14px/1 var(--sans);padding:0 16px;cursor:pointer}
-.wa-m{font-size:14px;color:var(--ink-2)}
-.wa-m:empty{display:none}
-@media print{.wa{display:none}}

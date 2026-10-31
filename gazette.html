@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Gazette · Sabha Brief</title>
-<meta name="description" content="What Sri Lanka's Gazette is, how it is published, why it matters, and the government orders laid before Parliament.">
+<title>Gazette feed · Sabha Brief</title>
+<meta name="description" content="Every Sri Lankan Gazette notice since last week, sorted by what it does, linked to the official PDF.">
 <meta property="og:site_name" content="Sabha Brief">
 <meta property="og:title" content="Gazette · Sabha Brief">
-<meta property="og:description" content="What Sri Lanka's Gazette is, how it is published, why it matters, and the government orders laid before Parliament.">
+<meta property="og:description" content="Every Sri Lankan Gazette notice since last week, sorted by what it does, linked to the official PDF.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#F4F6F5">
@@ -16,6 +16,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
 <link rel="stylesheet" href="site.css">
+<style>
+/* Gazette feed: notices from last week on, grouped by day, filtered by what they do. Colour tokens come from site.css. */
+.gz .ph{gap:12px}
+.c-tax{--c:var(--money)} .c-trade{--c:var(--money)} .c-rules{--c:var(--law)} .c-land{--c:var(--record)} .c-work{--c:var(--oversight)} .c-elect{--c:var(--oversight)} .c-appt{--c:var(--ink-2)} .c-notice{--c:var(--ink-3)}
+.gz-tools{display:grid;gap:14px;margin-bottom:8px}
+.gz-tools .bf-s{display:flex;max-width:520px}
+.gz-tools input{width:100%;font:400 15px/1.3 var(--sans);color:var(--ink);background:var(--surface);border:1px solid var(--rule-2);border-radius:999px;padding:9px 14px}
+.gz-tools input:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.gd{padding-top:30px}
+.gd-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding-bottom:10px;border-bottom:1px solid var(--ink)}
+.gd-h h2{font-size:clamp(21px,2.2vw,25px);letter-spacing:-.01em}
+.gd-h small{font-size:13.5px;color:var(--ink-3)}
+.gn{list-style:none;padding:0}
+.gi{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 24px;align-items:start;padding:15px 0;border-bottom:1px solid var(--rule)}
+.gi-k{display:inline-flex;align-items:center;gap:8px;font:600 11.5px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.gi-k::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
+.gi-t{grid-column:1;font:500 19px/1.3 var(--serif)}
+.gi-s{grid-column:1;font-size:15px;color:var(--ink-2);max-width:72ch}
+.gi-m{grid-column:1;font-size:13.5px;color:var(--ink-3)}
+.gi-a{grid-column:2;grid-row:1 / span 4;align-self:center;font:600 13.5px/1 var(--sans);color:var(--ink);text-decoration:none;border:1px solid var(--rule-2);border-radius:999px;padding:8px 12px;white-space:nowrap}
+.gi-a:hover{border-color:var(--ink)}
+@media (max-width:600px){.gi{grid-template-columns:minmax(0,1fr)}.gi-a{grid-column:1;grid-row:auto;justify-self:start;margin-top:6px}}
+#fsrc{margin-top:28px}
+</style>
 </head>
 <body>
 <header class="mast">
@@ -33,109 +57,23 @@
     <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
   </div>
 </nav>
-<main class="wrap" data-page="gazette">
+<main class="wrap gz" data-page="gazette">
   <header class="ph">
-    <p class="kicker">The Gazette</p>
-    <h1>Where government orders are made public</h1>
-    <p class="dek">Regulations and orders take effect when they appear in the Gazette. Parliament sees many of them later. Here is how the Gazette works, and the orders recently laid before the House.</p>
+    <p class="kicker">Gazette</p>
+    <h1>Gazette feed</h1>
+    <p class="dek" id="dek">Every Gazette notice, newest first, sorted by what it does.</p>
   </header>
 
-  <section aria-labelledby="x-h">
-    <div class="sec-h"><h2 id="x-h">What the Gazette is</h2><p>The government's official publication, and the first public step for most laws and rules.</p></div>
-    <div class="x3">
-      <article>
-        <h3>The official record</h3>
-        <p><b>The Gazette of the Democratic Socialist Republic of Sri Lanka</b> is where the government makes its decisions public. Bills, Acts, regulations, orders and official notices all appear in it.</p>
-        <p>It is printed by the Department of Government Printing, which also posts every issue on its website.</p>
-      </article>
-      <article>
-        <h3>How it is published</h3>
-        <p>An ordinary issue comes out every Friday. Between issues, notices appear in a <b>Gazette Extraordinary</b>, which can be published on any day of the week, weekends included.</p>
-        <p>Each issue has a number, such as 2502/21, and is listed online with its Sinhala, Tamil and English versions. In mid-October 2026, Extraordinary issues carried notices from the Election Commission, Sri Lanka Customs, the Ministry of Energy and the Land Title Settlement Department.</p>
-      </article>
-      <article>
-        <h3>Why it matters</h3>
-        <p><b>Orders take effect on publication.</b> A Minister's regulations come into force when they appear in the Gazette, or on a later date they name. Parliament approves them afterwards.</p>
-        <p><b>Bills are public before debate.</b> A government bill must be in the Gazette at least seven days before it can go on Parliament's Order Paper. The Elimination of Rabies and Registration of Dogs Bill was published on 7 September 2026 and presented on 24 September.</p>
-        <p><b>Acts are printed in it.</b> Act No. 24 of 2026 was certified on 6 October and printed as a supplement to Part II of the Gazette of 9 October.</p>
-      </article>
+  <section aria-label="Gazette notices">
+    <div class="gz-tools">
+      <div class="filters" id="cats" role="group" aria-label="Show one kind of notice"></div>
+      <label class="bf-s"><span class="sr">Search notices</span><input type="search" id="q" placeholder="Search, e.g. customs, VAT, land, Colombo" autocomplete="off"></label>
     </div>
-
-    <figure class="flow-w" aria-labelledby="f-h">
-      <div class="flow-h">
-        <h3 id="f-h">How a regulation reaches Parliament</h3>
-        <p>Each Act sets its own rules. These steps follow a typical clause: section 24 of the Elimination of Rabies and Registration of Dogs Bill.</p>
-      </div>
-      <ol class="flow">
-        <li><span class="fn">1</span><b>Made</b><span>A Minister makes regulations, using a power given by an Act.</span></li>
-        <li class="wait"><span class="fn">2</span><b>Published in the Gazette</b><span>They take effect that day, or on a later date they name.</span><p class="flow-wait" id="wait" hidden></p></li>
-        <li><span class="fn">3</span><b>Laid before Parliament</b><span>As soon as convenient after publication, they go to Parliament for approval.</span></li>
-        <li><span class="fn">4</span><b>Approved or rescinded</b><span>If Parliament does not approve them, they are treated as rescinded from that date. Anything already done under them stands.</span></li>
-      </ol>
-    </figure>
-    <p class="src" style="margin-top:18px">Official sources: <a href="https://www.parliament.lk/en/learn/how-parliament-works/government-bills" target="_blank" rel="noopener">Government bills, Parliament of Sri Lanka</a> · <a href="https://www.parliament.lk/uploads/bills/gbills/english/6438.pdf" target="_blank" rel="noopener">Elimination of Rabies and Registration of Dogs Bill</a> · <a href="https://www.parliament.lk/uploads/acts/gbills/english/6432.pdf" target="_blank" rel="noopener">Act No. 24 of 2026</a> · <a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">Gazettes</a> and <a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a>, Department of Government Printing</p>
-  </section>
-
-  <section aria-labelledby="o-h">
-    <div class="sec-h"><h2 id="o-h">Orders laid before Parliament</h2><p>How long each order was in force before it reached the House: the days between its Gazette date and its tabling.</p></div>
-    <div class="gz-stats" id="gzstat"></div>
-    <div class="gkey" aria-hidden="true"><span class="t-money"><i></i>Tax and customs orders</span><span class="t-law"><i></i>Other orders</span><span>All bars share one scale.</span></div>
-    <div id="orders"><p class="empty">Loading orders.</p></div>
-    <div id="gsrc"></div>
-  </section>
-
-  <section aria-labelledby="r-h">
-    <div class="sec-h"><h2 id="r-h">Read the Gazette</h2><p>Official copies from the Department of Government Printing and the Ministry of Finance.</p></div>
-    <ul class="readl">
-      <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener"><b>The Gazette</b><span>The weekly issues, published on Fridays.</span><small>documents.gov.lk</small></a></li>
-      <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener"><b>Gazette Extraordinary</b><span>Issues published between the weekly editions.</span><small>documents.gov.lk</small></a></li>
-      <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener"><b>Bills</b><span>Government bills as published, before first reading.</span><small>documents.gov.lk</small></a></li>
-      <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener"><b>Acts</b><span>Acts as printed after the Speaker's certificate.</span><small>documents.gov.lk</small></a></li>
-      <li><a href="https://www.treasury.gov.lk/acts-gazettes-circulars" target="_blank" rel="noopener"><b>Tax and duty gazettes</b><span>Gazettes, Acts and circulars from the Ministry of Finance.</span><small>treasury.gov.lk</small></a></li>
-    </ul>
+    <div id="feed"><p class="empty">Loading the feed.</p></div>
+    <div id="fsrc"></div>
   </section>
 </main>
 
-<!-- WhatsApp alerts: one number, nothing else. Netlify Forms keeps the sign-ups (form "alerts"). -->
-<div class="wa" id="wa">
-  <div class="wa-p" id="waPanel" role="dialog" aria-labelledby="waT" hidden>
-    <form class="wa-f" id="waForm" name="alerts" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="alerts">
-      <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-      <label class="wa-l" id="waT" for="waNum">WhatsApp alerts</label>
-      <div class="wa-r">
-        <input id="waNum" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+94 7X XXX XXXX" pattern="\+?[0-9 ()\-]{9,18}" required>
-        <button class="wa-go" type="submit">Sign up</button>
-      </div>
-      <p class="wa-m" id="waMsg" role="status"></p>
-    </form>
-  </div>
-  <button class="wa-b" id="waBtn" type="button" aria-expanded="false" aria-controls="waPanel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.9L3.5 20.5l4.2-1.1A8.5 8.5 0 1 0 12 3.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>WhatsApp alerts</span></button>
-</div>
-<script>
-/* Open and close the WhatsApp box; send the number to Netlify Forms without leaving the page. */
-(function(){
-  /* The Google Apps Script web app that writes to the "Sabha Brief – WhatsApp alerts" sheet (netlify/apps-script). */
-  const SHEET_URL="";
-  const $=id=>document.getElementById(id),btn=$("waBtn"),panel=$("waPanel"),form=$("waForm"),msg=$("waMsg"),num=$("waNum");
-  const set=v=>{panel.hidden=!v;btn.setAttribute("aria-expanded",String(v));if(v)setTimeout(()=>num.focus(),30);};
-  btn.addEventListener("click",()=>set(panel.hidden));
-  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden){set(false);btn.focus();}});
-  document.addEventListener("click",e=>{if(!panel.hidden&&!$("wa").contains(e.target))set(false);});
-  if(location.hash==="#alerts")set(true);
-  window.addEventListener("hashchange",()=>{if(location.hash==="#alerts")set(true);});
-  form.addEventListener("submit",e=>{
-    e.preventDefault();
-    if(!form.reportValidity())return;
-    msg.textContent="Signing you up…";
-    const fd=new FormData(form);
-    if(SHEET_URL)fetch(SHEET_URL,{method:"POST",mode:"no-cors",body:new URLSearchParams({whatsapp:fd.get("whatsapp"),page:"home","bot-field":fd.get("bot-field")||""})}).catch(()=>{});
-    fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(fd).toString()})
-      .then(r=>{if(!r.ok)throw 0;form.querySelector(".wa-r").hidden=true;msg.textContent="Thank you. You will get updates on WhatsApp.";})
-      .catch(()=>{msg.textContent="That did not go through. Please try again.";});
-  });
-})();
-</script>
 <footer class="foot">
   <div class="foot-in">
     <div>
@@ -160,38 +98,40 @@
 <script>
 (function(){
 const {$,esc}=SB;
-const money=t=>/customs|tax|excise|vat|levy|duty|tariff|finance/i.test(t||"");
+/* What a notice does, in the order the filters show them. */
+const CATS={tax:"Tax & duties",trade:"Trade & prices",rules:"Rules & orders",land:"Land",work:"Work & pay",elect:"Elections",appt:"Appointments",notice:"Other notices"};
+const cat=k=>CATS[k]?k:"notice";
 SB.load("daily.json").then(([daily])=>{
   SB.fresh(daily.updated);
-  const g=(daily.gazettes||[]).filter(x=>x.g&&x.tabled).map(x=>Object.assign({lag:Math.max(0,SB.diff(x.g,x.tabled))},x));
-  const lags=g.map(x=>x.lag).sort((a,b)=>a-b);
-  const n=lags.length;
-  const med=n?(n%2?lags[(n-1)/2]:Math.round((lags[n/2-1]+lags[n/2])/2)):0;
-  const min=n?lags[0]:0,max=n?lags[n-1]:0;
-  const first=n?g.map(x=>x.tabled).sort()[0]:"";
-
-  SB.safe("wait",()=>{
-    if(!n)return;
-    $("wait").textContent=`In force while it waits. The orders below waited ${min} to ${max} days.`;
-    $("wait").hidden=false;
+  const f=daily.gzfeed||{};
+  const items=(f.items||[]).filter(x=>x&&/^\d{4}-\d\d-\d\d$/.test(x.d||"")).sort((a,b)=>a.d<b.d?1:a.d>b.d?-1:String(b.no).localeCompare(String(a.no)));
+  let sel="all",q="";
+  if(f.from)$("dek").textContent=`Every Gazette notice since ${SB.F(f.from,{weekday:"long",day:"numeric",month:"long"})}, newest first, sorted by what it does.`;
+  const hay=x=>[x.t,x.sum,x.by,x.no,CATS[cat(x.cat)]].join(" ").toLowerCase();
+  function render(){
+    const counts=Object.keys(CATS).map(k=>[k,items.filter(x=>cat(x.cat)===k).length]).filter(x=>x[1]);
+    $("cats").innerHTML=items.length?`<button type="button" class="fl" data-k="all" aria-pressed="${sel==="all"}">All ${items.length}</button>`+counts.map(([k,n])=>`<button type="button" class="fl c-${k}" data-k="${k}" aria-pressed="${sel===k}"><i aria-hidden="true"></i>${esc(CATS[k])} ${n}</button>`).join(""):"";
+    const words=q.toLowerCase().split(/\s+/).filter(Boolean);
+    const shown=items.filter(x=>(sel==="all"||cat(x.cat)===sel)&&words.every(w=>hay(x).includes(w)));
+    if(!items.length){$("feed").innerHTML=`<p class="empty">The feed fills in with the next nightly update.</p>`;return;}
+    if(!shown.length){$("feed").innerHTML=`<p class="empty">No notices match.</p>`;return;}
+    const days=[...new Set(shown.map(x=>x.d))];
+    $("feed").innerHTML=days.map(d=>{
+      const list=shown.filter(x=>x.d===d);
+      return `<section class="gd" aria-label="${esc(SB.long(d))}"><div class="gd-h"><h2>${esc(SB.F(d,{weekday:"long",day:"numeric",month:"long"}))}</h2><small>${list.length} ${list.length===1?"notice":"notices"}</small></div><ul class="gn">${list.map(x=>{
+        const k=cat(x.cat);
+        const meta=[x.by,x.no?"No. "+x.no:"",x.kind].filter(Boolean).map(esc).join(" · ");
+        return `<li class="gi c-${k}"><span class="gi-k">${esc(CATS[k])}</span><span class="gi-t">${esc(x.t)}</span>${x.sum?`<span class="gi-s">${esc(x.sum)}</span>`:""}${meta?`<span class="gi-m">${meta}</span>`:""}${x.u&&SB.official(x.u)?`<a class="gi-a" href="${esc(x.u)}" target="_blank" rel="noopener">Gazette PDF</a>`:""}</li>`;
+      }).join("")}</ul></section>`;
+    }).join("");
+  }
+  SB.safe("feed",()=>{
+    render();
+    $("fsrc").innerHTML=SB.srcLinks(f.src);
+    $("cats").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;sel=b.dataset.k;render();});
+    $("q").addEventListener("input",e=>{q=e.target.value;render();});
   });
-  SB.safe("gzstat",()=>{
-    if(!n){$("gzstat").innerHTML="";return;}
-    $("gzstat").innerHTML=`<div class="gs"><b>${n}</b><span>${n===1?"order":"orders"} tabled since ${esc(SB.F(first,{day:"numeric",month:"long"}))}</span></div><div class="gs"><b>${med}</b><span>days, the median wait</span></div><div class="gs"><b>${max}</b><span>days, the longest wait</span></div>`;
-  });
-  SB.safe("orders",()=>{
-    if(!n){$("orders").innerHTML=`<p class="empty">No orders have been tabled in the last 60 days.</p>`;return;}
-    const by={};g.forEach(x=>(by[x.tabled]=by[x.tabled]||[]).push(x));
-    const scale=Math.max(1,max);
-    const row=x=>`<div class="or ${money(x.type)?"t-money":"t-law"}">
-      <div class="or-t"><b>${esc(x.t)}</b><span>${esc(x.type)} · Gazette No. ${esc(x.no)}</span>${x.under&&x.under.t?`<span class="or-u">Made under ${SB.link(x.under)}</span>`:""}</div>
-      <p class="or-d">Published ${esc(SB.dmy(x.g))}</p>
-      <div class="or-w"><span class="or-track" role="img" aria-label="${x.lag} days from Gazette to Parliament"><i style="width:${Math.max(1.2,x.lag/scale*100).toFixed(1)}%"></i></span><em>${x.lag}<small>${x.lag===1?"day":"days"}</small></em></div>
-    </div>`;
-    $("orders").innerHTML=Object.keys(by).sort().reverse().map(d=>`<section class="og"><h3 class="og-h">Tabled on ${esc(SB.long(d))}<small>${by[d].length} ${by[d].length===1?"order":"orders"}</small></h3>${by[d].sort((a,b)=>b.lag-a.lag).map(row).join("")}</section>`).join("");
-    $("gsrc").innerHTML=SB.srcLinks(daily.gazetteSrc);
-  });
-}).catch(()=>{["gzstat","orders"].forEach(id=>SB.fail(id));});
+}).catch(()=>{SB.fail("feed");});
 })();
 </script>
 </body>
