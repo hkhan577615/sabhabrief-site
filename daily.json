@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-31T22:24:27+05:30",
+ "updated": "2026-11-01T21:50:00+05:30",
  "status": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "sitting": false,
   "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
  },
@@ -139,9 +139,19 @@
    "track": "money"
   },
   {
+   "date": "2026-11-03",
+   "label": "Motion: select committee on the 1983 Black July incident",
+   "track": "oversight"
+  },
+  {
    "date": "2026-11-04",
    "label": "Vote: Supplementary Estimate No. 07, import rules",
    "track": "money"
+  },
+  {
+   "date": "2026-11-05",
+   "label": "Trusts (Amendment) Bill, second reading, if no court petitions",
+   "track": "law"
   },
   {
    "date": "2026-11-12",
