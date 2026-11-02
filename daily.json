@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-01T21:50:00+05:30",
+ "updated": "2026-11-02T22:30:00+05:30",
  "status": {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "sitting": false,
   "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
  },
@@ -104,7 +104,7 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-10-26",
+   "latest": "2026-10-30",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -130,11 +130,6 @@
   },
   {
    "date": "2026-11-03",
-   "label": "Debate: no-confidence motion on the Speaker",
-   "track": "oversight"
-  },
-  {
-   "date": "2026-11-03",
    "label": "Supplementary Estimate No. 07 presented",
    "track": "money"
   },
@@ -145,7 +140,7 @@
   },
   {
    "date": "2026-11-04",
-   "label": "Vote: Supplementary Estimate No. 07, import rules",
+   "label": "Vote: Supplementary Estimate No. 07, import regulations (Gazette 2508/27)",
    "track": "money"
   },
   {
@@ -1986,11 +1981,15 @@
  ],
  "billsSince": "2024-11-21",
  "gzfeed": {
-  "from": "2026-10-19",
+  "from": "2026-10-26",
   "src": [
    {
     "t": "Gazette Extraordinary listing, Department of Government Printing",
     "u": "https://documents.gov.lk/web/extra_gazettes"
+   },
+   {
+    "t": "Gazette listing, Department of Government Printing",
+    "u": "https://documents.gov.lk/web/gazettes"
    }
   ],
   "items": [
@@ -2031,51 +2030,6 @@
     "by": "Sri Lanka Customs",
     "sum": "New customs exchange rates apply from 26 October 2026, replacing those of 19 October.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048402%20%28E%29_1793080453.pdf"
-   },
-   {
-    "no": "2511/84",
-    "d": "2026-10-23",
-    "kind": "Extraordinary",
-    "cat": "land",
-    "t": "Land title determination, Godagama, Matara",
-    "by": "Department of Land Title Settlement",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048378%28E%29_1793430139.pdf"
-   },
-   {
-    "no": "2511/82",
-    "d": "2026-10-23",
-    "kind": "Extraordinary",
-    "cat": "land",
-    "t": "Land title determination, Ampitiya Pallegama, Kandy",
-    "by": "Department of Land Title Settlement",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048371%20%28E%29_1793250878.pdf"
-   },
-   {
-    "no": "2511/80",
-    "d": "2026-10-23",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Chavakachcheri Urban Council vacancy filled",
-    "by": "Returning Officer, Chavakachcheri Urban Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208104%20%28E%29_1793346058.pdf"
-   },
-   {
-    "no": "2511/78",
-    "d": "2026-10-23",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Wattala Pradeshiya Sabha vacancy filled",
-    "by": "Returning Officer, Wattala Pradeshiya Sabha",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208102%20%28E%29_1793272177.pdf"
-   },
-   {
-    "no": "2511/77",
-    "d": "2026-10-23",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Polonnaruwa Municipal Council vacancy filled",
-    "by": "Returning Officer, Polonnaruwa Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208101%20%28E%29_1793346026.pdf"
    }
   ]
  }
