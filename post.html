@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Today's posts · Sabha Brief</title>
+<meta name="description" content="Today's draft posts for X and the WhatsApp channel.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Gazette · Sabha Brief">
+<meta property="og:description" content="Today's draft posts for X and the WhatsApp channel.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+/* Daily post drafts: the text to paste into X and the WhatsApp channel. */
+.pp .ph{gap:12px}
+.pc{display:grid;gap:14px;max-width:680px;padding:20px 22px;background:var(--surface);border:1px solid var(--rule);border-radius:8px;margin-bottom:24px}
+.pc h2{font-size:22px}
+.pc-t{white-space:pre-wrap;font:400 16px/1.55 var(--sans);padding:14px 16px;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.pc-b{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.pc-n{margin-left:auto;font-size:13.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.pc-n.over{color:var(--oversight);font-weight:600}
+.pc .go{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span></a>
+    <p class="tagline">An independent record of Sri Lanka's Parliament, built only from official government sources.</p>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="index.html" data-p="week">This week</a>
+    <a href="bills.html" data-p="bills">Bills</a>
+    <a href="gazette.html" data-p="gazette">Gazette</a>
+    <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+  </div>
+</nav>
+<main class="wrap pp" data-page="post">
+  <header class="ph">
+    <p class="kicker" id="pk">Daily posts</p>
+    <h1>Today's posts</h1>
+    <p class="dek" id="pd"></p>
+  </header>
+  <div id="cards"><p class="empty">Loading.</p></div>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament of Sri Lanka. Check the official text before relying on any item.</p>
+      <p class="foot-c">In beta <a class="x-l" href="https://x.com/sabhabrief" target="_blank" rel="noopener" aria-label="Sabha Brief on X" title="@sabhabrief"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a> <a class="mcp-l" href="https://sabhabrief.lk/mcp" title="MCP server address for Claude or ChatGPT">MCP</a></p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+        <li><a href="https://www.parliament.lk/en/business-of-parliament/hansards" target="_blank" rel="noopener">Hansard</a></li>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://documents.gov.lk/web/bills" target="_blank" rel="noopener">Bills as published</a></li>
+        <li><a href="https://documents.gov.lk/web/acts" target="_blank" rel="noopener">Acts</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+const LINK="https://sabhabrief.lk";
+SB.load("daily.json").then(([daily])=>{
+  SB.fresh(daily.updated);
+  const p=daily.posts||{};
+  const fresh=p.date===SB.today;
+  $("pd").textContent=p.date?(fresh?SB.long(p.date):`From ${SB.long(p.date)}. Tonight's update will refresh them.`):"Drafts appear after the nightly update.";
+  const items=[{k:"x",t:"X post",text:p.x,limit:280},{k:"wa",t:"WhatsApp channel post",text:p.wa}].filter(x=>x.text&&String(x.text).trim());
+  if(!items.length){$("cards").innerHTML=`<p class="empty">${esc(p.date?(p.note||"Nothing new to post today."):"No drafts yet.")}</p>`;return;}
+  $("cards").innerHTML=items.map(x=>{
+    const full=String(x.text).trim()+"\n\n"+LINK;
+    const n=String(x.text).trim().length+2+23;
+    return `<section class="pc" data-k="${x.k}"><h2>${esc(x.t)}</h2><div class="pc-t">${esc(full)}</div><div class="pc-b"><button class="btn go" type="button" data-copy="${x.k}">Copy</button>${x.k==="x"?`<a class="btn" href="https://x.com/intent/post?text=${encodeURIComponent(full)}" target="_blank" rel="noopener">Open in X</a>`:""}${x.limit?`<span class="pc-n${n>x.limit?" over":""}">${n}/${x.limit}</span>`:""}<small class="note-s" role="status"></small></div></section>`;
+  }).join("");
+  $("cards").addEventListener("click",e=>{
+    const b=e.target.closest("[data-copy]");if(!b)return;
+    const card=b.closest(".pc"),text=card.querySelector(".pc-t").textContent,note=card.querySelector(".note-s");
+    const fb=()=>{note.textContent="Select the text and copy it.";const r=document.createRange();r.selectNodeContents(card.querySelector(".pc-t"));const s=getSelection();s.removeAllRanges();s.addRange(r);};
+    try{navigator.clipboard.writeText(text).then(()=>{note.textContent="Copied.";},fb);}catch(err){fb();}
+  });
+}).catch(()=>{SB.fail("cards");});
+})();
+</script>
+</body>
+</html>
