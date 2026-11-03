@@ -1,93 +1,111 @@
 {
- "updated": "2026-11-02T22:30:00+05:30",
+ "updated": "2026-11-03T21:45:00+05:30",
  "status": {
-  "date": "2026-11-02",
-  "sitting": false,
-  "text": "No sitting today. Parliament next sits on Tuesday 3 November at 9.30 am."
+  "date": "2026-11-03",
+  "sitting": true,
+  "text": "The House sat today and adjourned at 5.13 pm. Parliament next sits on Wednesday 4 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-10-23",
-   "headline": "Rabies bill debated; vote later",
+   "date": "2026-11-03",
+   "headline": "Black July committee approved; estimates presented",
    "stories": [
     {
-     "track": "law",
-     "date": "2026-10-23",
-     "title": "Rabies and dog registration bill",
-     "v": "Rs. 2,000",
-     "l": "proposed late-registration penalty",
-     "line": "Second reading debated and adjourned. No vote yet.",
-     "src": {
-      "t": "Business of the House, 23 Oct",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
-     }
-    },
-    {
-     "track": "record",
-     "date": "2026-10-23",
-     "title": "Poverty programme funding",
-     "v": "Rs. 25,000m",
-     "l": "allocated to Prajashakthi",
-     "line": "From a written answer. All 15,725 projects are due to finish by 31 December.",
-     "src": {
-      "t": "Parliament news, 23 Oct",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5492"
-     }
-    },
-    {
      "track": "oversight",
-     "date": "2026-10-23",
-     "title": "Public Finance committee reports",
-     "v": "2",
-     "l": "annual reports for 2025 tabled",
-     "line": "Regional Development Bank and Jaya Container Terminals. Three public petitions referred.",
+     "date": "2026-11-03",
+     "title": "Black July select committee",
+     "v": "Approved",
+     "l": "House resolution on 1983 incident",
+     "line": "A select committee will study the incident, its impact and relief.",
      "src": {
-      "t": "Business of the House, 23 Oct",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5491"
-     }
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Black July select committee"
+     ]
+    },
+    {
+     "track": "money",
+     "date": "2026-11-03",
+     "title": "Two supplementary estimates",
+     "v": "2",
+     "l": "supplementary estimates presented",
+     "line": "Amounts are not in the daily record. No. 07 is up for approval 4 November.",
+     "src": {
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Supplementary Estimates No. 07 and 08"
+     ]
+    },
+    {
+     "track": "law",
+     "date": "2026-11-03",
+     "title": "Civil Procedure Code bill presented",
+     "v": "1 bill",
+     "l": "presented to the House",
+     "line": "A bill to amend the Civil Procedure Code was presented.",
+     "src": {
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Civil Procedure Code (Amendment) Bill"
+     ]
     }
    ]
   },
   "week": {
-   "from": "2026-10-20",
-   "to": "2026-10-23",
-   "headline": "Drug-law bills pass; debt resolution approved",
+   "from": "2026-11-03",
+   "to": "2026-11-03",
+   "headline": "Black July committee approved; estimates presented",
    "stories": [
     {
-     "track": "law",
-     "date": "2026-10-22",
-     "title": "Two drug-law bills passed",
-     "v": "2 bills",
-     "l": "passed with amendments",
-     "line": "Seized drugs, methamphetamine, manufacturing and bail. Speaker's certificate next.",
+     "track": "oversight",
+     "date": "2026-11-03",
+     "title": "Black July select committee",
+     "v": "Approved",
+     "l": "House resolution on 1983 incident",
+     "line": "A select committee will study the incident, its impact and relief.",
      "src": {
-      "t": "Business of the House, 22 Oct",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5489"
-     }
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Black July select committee"
+     ]
     },
     {
      "track": "money",
-     "date": "2026-10-21",
-     "title": "Debt resolution and extra spending",
+     "date": "2026-11-03",
+     "title": "Two supplementary estimates",
      "v": "2",
-     "l": "money motions approved",
-     "line": "Includes Supplementary Estimate No. 06. Amounts follow in the Hansard.",
+     "l": "supplementary estimates presented",
+     "line": "Amounts are not in the daily record. No. 07 is up for approval 4 November.",
      "src": {
-      "t": "Business of the House, 21 Oct",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5482"
-     }
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Supplementary Estimates No. 07 and 08"
+     ]
     },
     {
-     "track": "oversight",
-     "date": "2026-10-20",
-     "title": "Container inquiry given more time",
-     "v": "323",
-     "l": "containers released without inspection",
-     "line": "The select committee's report is now due on 21 December.",
+     "track": "law",
+     "date": "2026-11-03",
+     "title": "Civil Procedure Code bill presented",
+     "v": "1 bill",
+     "l": "presented to the House",
+     "line": "A bill to amend the Civil Procedure Code was presented.",
      "src": {
-      "t": "Business of the House, 20 Oct",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5478"
-     }
+      "t": "Business of the House, 3 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+     },
+     "refs": [
+      "Civil Procedure Code (Amendment) Bill"
+     ]
     }
    ]
   }
@@ -97,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-10-30",
+   "latest": "2026-11-03",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -124,56 +142,58 @@
  ],
  "keyDates": [
   {
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "label": "Parliament sits again",
    "track": "record"
   },
   {
-   "date": "2026-11-03",
-   "label": "Supplementary Estimate No. 07 presented",
-   "track": "money"
-  },
-  {
-   "date": "2026-11-03",
-   "label": "Motion: select committee on the 1983 Black July incident",
-   "track": "oversight"
-  },
-  {
    "date": "2026-11-04",
    "label": "Vote: Supplementary Estimate No. 07, import regulations (Gazette 2508/27)",
-   "track": "money"
+   "track": "money",
+   "note": "Parliament votes on extra 2026 spending and the import regulations laid on 3 November."
   },
   {
    "date": "2026-11-05",
    "label": "Trusts (Amendment) Bill, second reading, if no court petitions",
-   "track": "law"
+   "track": "law",
+   "note": "Second reading of the Trusts bill, only if no court petitions are filed.",
+   "bill": "G6447"
   },
   {
    "date": "2026-11-12",
    "label": "Budget Speech",
-   "track": "money"
+   "track": "money",
+   "note": "The Finance Minister presents the 2027 Budget to Parliament.",
+   "bill": "G6443"
   },
   {
    "date": "2026-11-13",
    "end": "2026-11-20",
    "label": "Budget debate, second reading",
-   "track": "money"
+   "track": "money",
+   "note": "Second reading debate on the Appropriation Bill, the Budget.",
+   "bill": "G6443"
   },
   {
    "date": "2026-11-21",
    "end": "2026-12-14",
    "label": "Committee stage, ministry by ministry",
-   "track": "money"
+   "track": "money",
+   "note": "Committee stage examines each ministry's allocation.",
+   "bill": "G6443"
   },
   {
    "date": "2026-12-14",
    "label": "Final Budget vote, 6 pm",
-   "track": "money"
+   "track": "money",
+   "note": "Final vote on the Appropriation Bill.",
+   "bill": "G6443"
   },
   {
    "date": "2026-12-21",
    "label": "Report due: 323 uninspected containers",
-   "track": "oversight"
+   "track": "oversight",
+   "note": "The select committee's report on uninspected containers falls due."
   }
  ],
  "keyDatesSrc": [
@@ -196,6 +216,10 @@
   {
    "t": "Forthcoming business of the House",
    "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+  },
+  {
+   "t": "Business of the House, 3 Nov",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
   }
  ],
  "pipeline": [
@@ -233,10 +257,10 @@
   },
   {
    "id": "G6445",
-   "st": 1,
-   "label": "1st reading",
-   "chg": "2026-10-20",
-   "dt": "Published 6 Oct · 1st reading 20 Oct"
+   "st": 2,
+   "label": "Supreme Court petitions",
+   "chg": "2026-11-03",
+   "dt": "Published 6 Oct · 1st reading 20 Oct · petitions announced 3 Nov · court determination next"
   },
   {
    "id": "G6444",
@@ -689,6 +713,16 @@
  ],
  "gazettes": [
   {
+   "no": "2508/27",
+   "g": "2026-10-01",
+   "tabled": "2026-11-03",
+   "type": "Imports and Exports",
+   "t": "Import regulations by the Finance Minister",
+   "under": {
+    "t": "Imports and Exports (Control) Act, section 20"
+   }
+  },
+  {
    "no": "2384/27",
    "g": "2024-05-16",
    "tabled": "2026-10-20",
@@ -763,6 +797,256 @@
   }
  ],
  "days": [
+  {
+   "date": "2026-11-06",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Private Members' motions",
+   "summary": "",
+   "items": [
+    {
+     "track": "record",
+     "title": "Private Members' motions",
+     "status": "Scheduled",
+     "what": "Seven motions listed, including train services, smart meters and tree planting.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Forthcoming business of the House",
+       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Trusts bill second reading",
+   "summary": "",
+   "items": [
+    {
+     "track": "law",
+     "title": "Trusts (Amendment) Bill",
+     "status": "Scheduled",
+     "what": "Second reading, only if no Supreme Court petitions are filed.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Forthcoming business of the House",
+       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+      }
+     ],
+     "bills": [
+      "G6447"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Estimate and import regulations to be voted",
+   "summary": "",
+   "items": [
+    {
+     "track": "money",
+     "title": "Supplementary Estimate No. 07 of 2026",
+     "status": "Scheduled",
+     "what": "To be put for approval.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Forthcoming business of the House",
+       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Import regulations, Gazette 2508/27",
+     "status": "Scheduled",
+     "what": "To be put for approval under the Imports and Exports (Control) Act.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Forthcoming business of the House",
+       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "status": "record",
+   "chair": "Deputy Speaker Rizvie Salih",
+   "hours": "to 5.13 pm",
+   "headline": "Black July committee approved; estimates presented",
+   "summary": "The House approved a select committee on Black July and received two supplementary estimates. It next sits on 4 November.",
+   "items": [
+    {
+     "track": "law",
+     "title": "Civil Procedure Code (Amendment) Bill",
+     "status": "Presented",
+     "what": "Bill to amend the Civil Procedure Code presented by the Chief Government Whip.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Bill text and number to be added when Parliament lists it",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Organised Crimes Bill: court petitions",
+     "status": "In the Supreme Court",
+     "what": "The Speaker announced copies of petitions filed at the Supreme Court against the bill.",
+     "bills": [
+      "G6445"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Supreme Court determination to be announced to the House",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Black July select committee",
+     "status": "Approved",
+     "what": "The House approved a resolution for a select committee on the 1983 Black July incident, its impact and relief.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Members and timetable to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Supplementary Estimates No. 07 and 08",
+     "status": "Presented",
+     "what": "Two supplementary estimates for 2026 were presented. No amounts appear in the daily record.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Estimate No. 07 is due for approval on 4 November",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Import regulations, Gazette 2508/27",
+     "status": "Tabled",
+     "what": "Finance Minister's regulations under the Imports and Exports (Control) Act laid before the House.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Motion to approve is due on 4 November",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Auditor-General reports and annual reports",
+     "status": "Tabled",
+     "what": "Auditor-General reports for 2020 to 2025 and annual reports of ten public bodies were presented.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Public Security Ordinance order",
+     "status": "Reported",
+     "what": "A message from the President on an order under the Public Security Ordinance was read.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Terms of the order to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Answers on farmers and Development Officers",
+     "status": "Answers",
+     "what": "The Minister of Public Administration answered two questions on Maha season farmers and Development Officers.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 3 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-10-23",
    "status": "record",
@@ -2032,5 +2316,10 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048402%20%28E%29_1793080453.pdf"
    }
   ]
+ },
+ "posts": {
+  "date": "2026-11-03",
+  "x": "The House approved a select committee on the 1983 Black July incident and received Supplementary Estimates No. 07 and 08 for 2026. A Civil Procedure Code amendment bill was presented. Amounts are awaited from the Hansard.",
+  "wa": "Parliament sat on 3 November\n- The House approved a select committee on the 1983 Black July incident\n- Supplementary Estimates No. 07 and 08 of 2026 were presented; amounts are awaited\n- A bill to amend the Civil Procedure Code was presented\n- Import regulations (Gazette 2508/27) were tabled\nNext: the House sits on Wednesday 4 November at 9.30 am to vote on Estimate No. 07 and the regulations."
  }
 }
