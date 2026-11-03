@@ -149,6 +149,18 @@ summary::-webkit-details-marker{display:none}
 .cl li{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
 .cl time{font-weight:600;font-variant-numeric:tabular-nums;color:var(--c,var(--ink))}
 .cl small{display:block;font-size:13px;color:var(--ink-3)}
+/* A Coming up row opens when there is more to say: what it is, what a bill changes, the official source. */
+.cl li.cl-d{display:block;padding:0}
+.cl summary{display:grid;grid-template-columns:62px minmax(0,1fr) 24px;gap:12px;padding:9px 0;align-items:start}
+.cl summary:hover .cl-l{text-decoration:underline;text-decoration-color:var(--rule-2);text-underline-offset:.2em}
+.cl summary .pm{grid-column:3;grid-row:1;width:24px;height:24px;font-size:15px;margin-top:2px}
+.cl-x{display:grid;gap:10px;padding:0 0 14px 74px;font-size:14.5px;color:var(--ink-2)}
+.cl-x .src{font-size:13px}
+.cl-x .arrow{font-size:14px}
+.cl-b{display:grid;gap:4px;padding:12px 14px;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+.cl-b b{font:500 16px/1.3 var(--serif);color:var(--ink)}
+.cl-more{justify-self:start;margin-top:10px}
+@media (max-width:600px){.cl-x{padding-left:0}}
 .rb .arrow{font-size:14px}
 .rb-p{font-size:14.5px;line-height:1.5;color:var(--ink-2)}
 @media (max-width:940px){.rail{margin-top:48px;padding-top:0}}
@@ -516,13 +528,28 @@ function renderNext(){
   $("nextBox").hidden=false;
 }
 function renderDiary(){
-  const up=(daily.keyDates||[]).filter(k=>(k.end||k.date)>=SB.today&&k.label!=="Parliament sits again").sort((a,b)=>a.date<b.date?-1:1).slice(0,5);
-  if(!up.length){$("diary").innerHTML=`<p class="empty">No dates announced yet.</p>`;return;}
-  $("diary").innerHTML=`<ol class="cl">${up.map(x=>{
+  const all=(daily.keyDates||[]).filter(k=>(k.end||k.date)>=SB.today&&k.label!=="Parliament sits again").sort((a,b)=>a.date<b.date?-1:1);
+  if(!all.length){$("diary").innerHTML=`<p class="empty">No dates announced yet.</p>`;return;}
+  const LIM=5,opened=new Set();let showAll=false;
+  const dayItems=d=>((daily.days||[]).find(x=>x.date===d)||{}).items||[];
+  const row=x=>{
     const t=SB.tr(x.track);
     const when=x.end?`${SB.dm(x.date)} to ${SB.dm(x.end)}`:SB.F(x.date,{weekday:"long"});
-    return `<li class="t-${t}"><time datetime="${esc(x.date)}">${esc(SB.dm(x.date))}</time><span>${esc(x.label)}<small>${esc(when)} · ${esc(SB.rel(x.date))}</small></span></li>`;
-  }).join("")}</ol>`;
+    const head=`<time datetime="${esc(x.date)}">${esc(SB.dm(x.date))}</time><span><span class="cl-l">${esc(x.label)}</span><small>${esc(when)} · ${esc(SB.rel(x.date))}</small></span>`;
+    const b=x.bill&&lb[x.bill],im=b&&b.impl;
+    const bsum=b?(im&&im.sum?im.sum:b.about):"";
+    const who=im&&(im.who||[]).length?`<div class="who">${im.who.map(w=>`<span>${esc(w)}</span>`).join("")}</div>`:"";
+    const link=x.u&&SB.official(x.u)?SB.link({t:"Official source",u:x.u}):"";
+    const agenda=dayItems(x.date).length?`<a class="arrow" href="#d${esc(x.date)}">What is on that day</a>`:"";
+    const bits=[x.note?`<p>${esc(x.note)}</p>`:"",b?`<div class="cl-b"><b>${esc(b.t)}</b>${bsum?`<span>${esc(bsum)}</span>`:""}${who}<a class="arrow" href="bills.html#b${esc(x.bill)}">Where the bill stands</a></div>`:"",link?`<p class="src">${link}</p>`:"",agenda].filter(Boolean);
+    return bits.length?`<li class="cl-d t-${t}"><details data-k="${esc(x.date+"|"+x.label)}"${opened.has(x.date+"|"+x.label)?" open":""}><summary>${head}<span class="pm" aria-hidden="true"></span></summary><div class="cl-x">${bits.join("")}</div></details></li>`:`<li class="t-${t}">${head}</li>`;
+  };
+  const draw=()=>{
+    $("diary").innerHTML=`<ol class="cl">${(showAll?all:all.slice(0,LIM)).map(row).join("")}</ol>${all.length>LIM?`<button class="btn cl-more" id="diaryMore" type="button">${showAll?"Show fewer":"Show all "+all.length+" dates"}</button>`:""}`;
+    const m=$("diaryMore");if(m)m.addEventListener("click",()=>{showAll=!showAll;draw();});
+    $("diary").querySelectorAll("details").forEach(d=>d.addEventListener("toggle",()=>{d.open?opened.add(d.dataset.k):opened.delete(d.dataset.k);}));
+  };
+  draw();
 }
 
 SB.load("daily.json","library.json").then(([d,l])=>{
