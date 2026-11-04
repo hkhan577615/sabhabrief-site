@@ -356,10 +356,10 @@ function bodyHTML(it,o){
   const t=SB.tr(it.track);
   const conf=(it.conf||[]).map(k=>SB.SRC[k]||k);
   const wait=(it.await||[]).map(k=>SB.SRC[k]||k);
-  const pts=(it.points||[]).length?`<ul class="pts">${it.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:"";
+  const pts=(it.points||[]).length?`<ul class="pts">${it.points.map(p=>`<li>${SB.gzText(p)}</li>`).join("")}</ul>`:"";
   const bills=(it.bills||[]).filter(id=>lb[id]).slice(0,3).map(billHTML).join("");
   const prov=conf.length||wait.length?`<div class="prov">${conf.length?`<span class="sb">Confirmed by ${esc(and(conf))}</span>`:""}${wait.map(k=>`<span class="sb wait">${esc(k)} awaited</span>`).join("")}</div>`:"";
-  return `<div class="it-b">${o.head||""}${it.what&&!o.noWhat?`<p class="it-w">${esc(it.what)}</p>`:""}${SB.figs(it.figs,t)}${SB.voteBar(it.votes)}${it.next?`<p class="it-n"><b>Next:</b> ${esc(it.next)}</p>`:""}${bills}${pts}${prov}${SB.srcLinks(it.src)}</div>`;
+  return `<div class="it-b">${o.head||""}${it.what&&!o.noWhat?`<p class="it-w">${SB.gzText(it.what)}</p>`:""}${SB.figs(it.figs,t)}${SB.voteBar(it.votes)}${it.next?`<p class="it-n"><b>Next:</b> ${SB.gzText(it.next)}</p>`:""}${bills}${pts}${prov}${SB.srcLinks(SB.gzSrc([it.title,it.what,it.next].concat(it.points||[]),it.src))}</div>`;
 }
 
 function decHTML(x){
@@ -539,9 +539,9 @@ function renderDiary(){
     const b=x.bill&&lb[x.bill],im=b&&b.impl;
     const bsum=b?(im&&im.sum?im.sum:b.about):"";
     const who=im&&(im.who||[]).length?`<div class="who">${im.who.map(w=>`<span>${esc(w)}</span>`).join("")}</div>`:"";
-    const link=x.u&&SB.official(x.u)?SB.link({t:"Official source",u:x.u}):"";
+    const link=SB.gzSrc([x.label,x.note],x.u&&SB.official(x.u)?[{t:"Official source",u:x.u}]:[]).map(SB.link).join(" · ");
     const agenda=dayItems(x.date).length?`<a class="arrow" href="#d${esc(x.date)}">What is on that day</a>`:"";
-    const bits=[x.note?`<p>${esc(x.note)}</p>`:"",b?`<div class="cl-b"><b>${esc(b.t)}</b>${bsum?`<span>${esc(bsum)}</span>`:""}${who}<a class="arrow" href="bills.html#b${esc(x.bill)}">Where the bill stands</a></div>`:"",link?`<p class="src">${link}</p>`:"",agenda].filter(Boolean);
+    const bits=[x.note?`<p>${SB.gzText(x.note)}</p>`:"",b?`<div class="cl-b"><b>${esc(b.t)}</b>${bsum?`<span>${esc(bsum)}</span>`:""}${who}<a class="arrow" href="bills.html#b${esc(x.bill)}">Where the bill stands</a></div>`:"",link?`<p class="src">${link}</p>`:"",agenda].filter(Boolean);
     return bits.length?`<li class="cl-d t-${t}"><details data-k="${esc(x.date+"|"+x.label)}"${opened.has(x.date+"|"+x.label)?" open":""}><summary>${head}<span class="pm" aria-hidden="true"></span></summary><div class="cl-x">${bits.join("")}</div></details></li>`:`<li class="t-${t}">${head}</li>`;
   };
   const draw=()=>{
@@ -553,7 +553,7 @@ function renderDiary(){
 }
 
 SB.load("daily.json","library.json").then(([d,l])=>{
-  daily=d;SB.fresh(daily.updated);
+  daily=d;SB.fresh(daily.updated);SB.gzIndex(daily);
   (l.bills||[]).forEach(b=>{lb[b.id]=b;});
   (daily.pipeline||[]).forEach(p=>{pipe[p.id]=p;});
   $("dlDate").textContent=SB.long(SB.today);

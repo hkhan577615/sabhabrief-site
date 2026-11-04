@@ -117,7 +117,7 @@ const TILES=[
   {k:"end",t:"Ended",s:"Withdrawn, defeated or lapsed"}
 ];
 SB.load("daily.json","library.json").then(([daily,lib])=>{
-  SB.fresh(daily.updated);
+  SB.fresh(daily.updated);SB.gzIndex(daily);
   const lb={};(lib.bills||[]).forEach(b=>lb[b.id]=b);
   const idle=p=>p.chg?Math.max(0,SB.diff(p.chg,SB.today)):0;
   const group=p=>{
@@ -144,7 +144,7 @@ SB.load("daily.json","library.json").then(([daily,lib])=>{
     const when=p.g==="stall"?`<span class="idle">No movement for ${idle(p)} days</span>`:p.g==="end"?`<span class="ended">${esc(p.label)}</span>`:p.chg?`<span>Moved ${esc(SB.dm(p.chg))}</span>`:"";
     const mini=`<span class="mini" aria-hidden="true">${[0,1,2,3,4].map(i=>`<i class="${i<=st?"on":""}"></i>`).join("")}</span>`;
     return `<li class="bl" id="b${esc(p.id)}"><details${open}><summary><span class="bn">${esc(b.t)}</span><span class="pm" aria-hidden="true"></span><span class="bmeta"><span class="st-m">${mini}${esc(SB.STAGES[st])}</span><span>${esc(b.a)}</span>${when}</span></summary>
-      <div class="bd">${SB.stageBar(st)}<p class="dtl">${esc(p.label)}${p.dt?" · "+esc(p.dt):""}</p>${body}</div></details></li>`;
+      <div class="bd">${SB.stageBar(st)}<p class="dtl">${SB.gzText(p.label)}${p.dt?" · "+SB.gzText(p.dt):""}</p>${body}</div></details></li>`;
   }
   const inTile=(p,k)=>k===null||(k==="live"?["close","move","pub"].includes(p.g):p.g===k);
   const hay=p=>{const b=lb[p.id];return [b.t,b.a,b.about,b.impl&&b.impl.sum,(b.impl&&b.impl.who||[]).join(" "),p.label].join(" ").toLowerCase();};

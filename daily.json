@@ -720,70 +720,80 @@
    "t": "Import regulations by the Finance Minister",
    "under": {
     "t": "Imports and Exports (Control) Act, section 20"
-   }
+   },
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208048%20E%29_1791971160.pdf"
   },
   {
    "no": "2384/27",
    "g": "2024-05-16",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "SLT Campus renamed"
+   "t": "SLT Campus renamed",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf"
   },
   {
    "no": "2446/36",
    "g": "2025-07-22",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Textile and apparel degree, SLITA"
+   "t": "Textile and apparel degree, SLITA",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2446-36_E_1784567260.pdf"
   },
   {
    "no": "2450/40",
    "g": "2025-08-21",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Honours degrees, SLIIT"
+   "t": "Honours degrees, SLIIT",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2450-40_E_1784567373.pdf"
   },
   {
    "no": "2454/39",
    "g": "2025-09-17",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Acupuncture degree, KIU Campus"
+   "t": "Acupuncture degree, KIU Campus",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2454-39_E_1784567456.pdf"
   },
   {
    "no": "2455/06",
    "g": "2025-09-22",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Psychology degree, American College"
+   "t": "Psychology degree, American College",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2455-06_E_1784567467.pdf"
   },
   {
    "no": "2458/13",
    "g": "2025-10-13",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Esoft Metro Campus renamed"
+   "t": "Esoft Metro Campus renamed",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2458-13_E_1784567544.pdf"
   },
   {
    "no": "2468/08",
    "g": "2025-12-23",
    "tabled": "2026-10-20",
    "type": "Education",
-   "t": "Business analytics degree, SL Technology Campus"
+   "t": "Business analytics degree, SL Technology Campus",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2468-08_E_1784567756.pdf"
   },
   {
    "no": "2501/88",
    "g": "2026-08-14",
    "tabled": "2026-10-08",
    "type": "Customs",
-   "t": "Customs duty order, section 10A"
+   "t": "Customs duty order, section 10A",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207908%20%28E%29_1789381225.pdf"
   },
   {
    "no": "2502/21",
    "g": "2026-08-18",
    "tabled": "2026-10-20",
    "type": "Customs",
-   "t": "Customs import duty order"
+   "t": "Customs import duty order",
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207919%20I-I%20%20Custom%20%28E%29_1791353826.pdf"
   }
  ],
  "gazetteSrc": [
@@ -2452,5 +2462,17 @@
   "date": "2026-11-04",
   "x": "The House approved import regulations under the Imports and Exports (Control) Act (Gazette 2508/27) and two supplementary sums, Heads 119 and 102. Amounts are not yet in the official record.",
   "wa": "Parliament, 4 November\n- House approved the import regulations, Gazette 2508/27\n- House approved supplementary sums under Heads 119 and 102; amounts await the Hansard\n- Speaker announced Supreme Court petitions against the Prevention of Organised Crimes Bill\nNext: the House sits on 5 November at 9.30 am; Supplementary Estimate No. 08 (Air Force) is listed for approval."
+ },
+ "gzlinks": {
+  "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
+  "2446/36": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2446-36_E_1784567260.pdf",
+  "2450/40": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2450-40_E_1784567373.pdf",
+  "2454/39": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2454-39_E_1784567456.pdf",
+  "2455/06": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2455-06_E_1784567467.pdf",
+  "2458/13": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2458-13_E_1784567544.pdf",
+  "2468/08": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2468-08_E_1784567756.pdf",
+  "2501/88": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207908%20%28E%29_1789381225.pdf",
+  "2502/21": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207919%20I-I%20%20Custom%20%28E%29_1791353826.pdf",
+  "2508/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208048%20E%29_1791971160.pdf"
  }
 }

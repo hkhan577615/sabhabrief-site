@@ -25,6 +25,16 @@ SB.load=(...names)=>Promise.all(names.map(n=>fetch(n,{cache:"no-store"}).then(r=
 SB.fail=(id,msg)=>{const el=SB.$(id);if(el)el.innerHTML=`<p class="empty">${SB.esc(msg||"This section could not load. Refresh the page to try again.")}</p>`};
 SB.safe=(id,fn)=>{try{fn()}catch(e){SB.fail(id);if(window.console)console.error(e)}};
 
+/* Gazette numbers (e.g. 2508/27) link to the official PDF, from daily.json gazettes, gzfeed and gzlinks. */
+SB.GZ={};
+SB.gzIndex=d=>{d=d||{};const put=(n,u)=>{if(n&&SB.official(u)&&!SB.GZ[n])SB.GZ[n]=u};
+  (d.gazettes||[]).forEach(g=>put(g.no,g.u));((d.gzfeed||{}).items||[]).forEach(g=>put(g.no,g.u));
+  Object.entries(d.gzlinks||{}).forEach(([n,u])=>put(n,u))};
+SB.GZRE=/\b(\d{4}\/\d{1,3})\b/g;
+SB.gzText=t=>SB.esc(t).replace(SB.GZRE,(m,n)=>SB.GZ[n]?`<a href="${SB.esc(SB.GZ[n])}" target="_blank" rel="noopener" title="Official Gazette PDF">${n}</a>`:m);
+SB.gzSrc=(texts,src)=>{const have=new Set((src||[]).map(s=>s&&s.u)),out=[];
+  texts.filter(Boolean).join(" ").replace(SB.GZRE,(m,n)=>{const u=SB.GZ[n];if(u&&!have.has(u)){have.add(u);out.push({t:"Gazette "+n,u})}return m});
+  return (src||[]).concat(out)};
 SB.link=s=>s&&SB.official(s.u)?`<a href="${SB.esc(s.u)}" target="_blank" rel="noopener">${SB.esc(s.t)}</a>`:SB.esc(s&&s.t);
 SB.srcLinks=(arr,label)=>{const l=(arr||[]).filter(s=>s&&SB.official(s.u)).map(SB.link);return l.length?`<p class="src">${SB.esc(label||(l.length>1?"Official sources":"Official source"))}: ${l.join(" · ")}</p>`:""};
 SB.figs=(list,track)=>(list||[]).length?`<div class="figs${list.length>4?" many":""}${track?" t-"+track:""}">${list.map(f=>`<div class="fig"><b>${SB.esc(f.v)}</b><span>${SB.esc(f.l)}</span></div>`).join("")}</div>`:"";
@@ -40,9 +50,9 @@ SB.stageBar=st=>{
 SB.implHTML=(im,opts)=>{
   if(!im)return "";
   opts=opts||{};
-  const ch=(im.changes||[]).length?`<div><h4>${SB.esc(opts.changesLabel||"What changes")}</h4><ul>${im.changes.map(x=>`<li>${SB.esc(x)}</li>`).join("")}</ul></div>`:"";
+  const ch=(im.changes||[]).length?`<div><h4>${SB.esc(opts.changesLabel||"What changes")}</h4><ul>${im.changes.map(x=>`<li>${SB.gzText(x)}</li>`).join("")}</ul></div>`:"";
   const who=(im.who||[]).length||im.when?`<div>${(im.who||[]).length?`<h4>Who is affected</h4><div class="who">${im.who.map(x=>`<span>${SB.esc(x)}</span>`).join("")}</div>`:""}${im.when?`<p class="when"><b>When it starts.</b> ${SB.esc(im.when)}</p>`:""}</div>`:"";
-  return `<div class="impl">${im.sum?`<p class="sum">${SB.esc(im.sum)}</p>`:""}${SB.figs(im.figs,"law")}${SB.voteBar(im.votes)}${(ch||who)?`<div class="impl-g">${ch}${who}</div>`:""}${im.note?`<p class="note">${SB.esc(im.note)}</p>`:""}${SB.srcLinks(im.src)}</div>`;
+  return `<div class="impl">${im.sum?`<p class="sum">${SB.gzText(im.sum)}</p>`:""}${SB.figs(im.figs,"law")}${SB.voteBar(im.votes)}${(ch||who)?`<div class="impl-g">${ch}${who}</div>`:""}${im.note?`<p class="note">${SB.gzText(im.note)}</p>`:""}${SB.srcLinks(im.src)}</div>`;
 };
 /* One freshness line in the masthead. */
 SB.fresh=(iso,prefix)=>{
