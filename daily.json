@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T21:45:00+05:30",
+ "updated": "2026-11-04T07:45:00+05:30",
  "status": {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "sitting": true,
-  "text": "The House sat today and adjourned at 5.13 pm. Parliament next sits on Wednesday 4 November at 9.30 am."
+  "text": "Sitting today from 9.30 am: vote on Supplementary Estimate No. 07 and import regulations (Gazette 2508/27)."
  },
  "brief": {
   "day": {
@@ -122,7 +122,7 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-10-30",
+   "latest": "2026-11-02",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -2278,6 +2278,35 @@
   ],
   "items": [
    {
+    "no": "2513/01",
+    "d": "2026-11-02",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Customs rates of exchange from 2 November",
+    "by": "Sri Lanka Customs",
+    "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 2 to 8 November 2026.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048483%20%28E%29_1793697508.pdf"
+   },
+   {
+    "no": "2512/41",
+    "d": "2026-10-30",
+    "kind": "Extraordinary",
+    "cat": "rules",
+    "t": "Disaster plans required of public institutions",
+    "by": "National Disaster Management Council",
+    "sum": "Every ministry, department and public corporation must prepare and submit a disaster management plan to the Disaster Management Centre.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048420%20%28E%29%20-%20I-I_1793619694.pdf"
+   },
+   {
+    "no": "2512/28",
+    "d": "2026-10-28",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Kandy Municipal Council member's seat declared vacant",
+    "by": "Returning Officer, Kandy Municipal Council",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208116%20%28E%29_1793687182.pdf"
+   },
+   {
     "no": "2512/06",
     "d": "2026-10-26",
     "kind": "Extraordinary",
@@ -2318,8 +2347,8 @@
   ]
  },
  "posts": {
-  "date": "2026-11-03",
-  "x": "The House approved a select committee on the 1983 Black July incident and received Supplementary Estimates No. 07 and 08 for 2026. A Civil Procedure Code amendment bill was presented. Amounts are awaited from the Hansard.",
-  "wa": "Parliament sat on 3 November\n- The House approved a select committee on the 1983 Black July incident\n- Supplementary Estimates No. 07 and 08 of 2026 were presented; amounts are awaited\n- A bill to amend the Civil Procedure Code was presented\n- Import regulations (Gazette 2508/27) were tabled\nNext: the House sits on Wednesday 4 November at 9.30 am to vote on Estimate No. 07 and the regulations."
+  "date": "2026-11-04",
+  "x": "All ministries, departments and public corporations must now prepare disaster management plans and submit them to the Disaster Management Centre, under a Gazette order dated 30 October. It affects every public institution.",
+  "wa": "New Gazette notices\n- Order of 30 October: every ministry, department and public corporation must prepare an Institutional Disaster Management Plan and submit it to the Disaster Management Centre\n- Customs exchange rates for duty payments apply from 2 to 8 November 2026\nNext: the House sits today, 4 November, at 9.30 am to vote on Supplementary Estimate No. 07 and the import regulations."
  }
 }
