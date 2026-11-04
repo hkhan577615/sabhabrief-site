@@ -1,66 +1,66 @@
 {
- "updated": "2026-11-04T07:45:00+05:30",
+ "updated": "2026-11-04T21:45:00+05:30",
  "status": {
   "date": "2026-11-04",
   "sitting": true,
-  "text": "Sitting today from 9.30 am: vote on Supplementary Estimate No. 07 and import regulations (Gazette 2508/27)."
+  "text": "The House sat today and adjourned at 6.05 pm. It sits again on Thursday 5 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-03",
-   "headline": "Black July committee approved; estimates presented",
+   "date": "2026-11-04",
+   "headline": "Import regulations and supplementary sums approved",
    "stories": [
     {
-     "track": "oversight",
-     "date": "2026-11-03",
-     "title": "Black July select committee",
+     "track": "money",
+     "date": "2026-11-04",
+     "title": "Import regulations approved",
      "v": "Approved",
-     "l": "House resolution on 1983 incident",
-     "line": "A select committee will study the incident, its impact and relief.",
+     "l": "Gazette 2508/27 regulations",
+     "line": "The House approved the regulations under the Imports and Exports Act.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Business of the House, 4 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
      },
      "refs": [
-      "Black July select committee"
+      "Import regulations, Gazette 2508/27"
      ]
     },
     {
      "track": "money",
-     "date": "2026-11-03",
-     "title": "Two supplementary estimates",
-     "v": "2",
-     "l": "supplementary estimates presented",
-     "line": "Amounts are not in the daily record. No. 07 is up for approval 4 November.",
+     "date": "2026-11-04",
+     "title": "Supplementary sums approved",
+     "v": "2 heads",
+     "l": "supplementary sums approved",
+     "line": "Heads 119 and 102 approved; amounts await the Hansard.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Business of the House, 4 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
      },
      "refs": [
-      "Supplementary Estimates No. 07 and 08"
+      "Supplementary Estimate No. 07 of 2026"
      ]
     },
     {
      "track": "law",
-     "date": "2026-11-03",
-     "title": "Civil Procedure Code bill presented",
-     "v": "1 bill",
-     "l": "presented to the House",
-     "line": "A bill to amend the Civil Procedure Code was presented.",
+     "date": "2026-11-04",
+     "title": "Organised Crimes Bill in court",
+     "v": "Petitions",
+     "l": "filed at Supreme Court",
+     "line": "Copies of petitions against the bill were announced to the House.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Business of the House, 4 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
      },
      "refs": [
-      "Civil Procedure Code (Amendment) Bill"
+      "Organised Crimes Bill: court petitions"
      ]
     }
    ]
   },
   "week": {
    "from": "2026-11-03",
-   "to": "2026-11-03",
-   "headline": "Black July committee approved; estimates presented",
+   "to": "2026-11-04",
+   "headline": "Regulations approved; Black July committee set up",
    "stories": [
     {
      "track": "oversight",
@@ -79,32 +79,32 @@
     },
     {
      "track": "money",
-     "date": "2026-11-03",
-     "title": "Two supplementary estimates",
-     "v": "2",
-     "l": "supplementary estimates presented",
-     "line": "Amounts are not in the daily record. No. 07 is up for approval 4 November.",
+     "date": "2026-11-04",
+     "title": "Import regulations approved",
+     "v": "Approved",
+     "l": "Gazette 2508/27 regulations",
+     "line": "The House approved the regulations under the Imports and Exports Act.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Business of the House, 4 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
      },
      "refs": [
-      "Supplementary Estimates No. 07 and 08"
+      "Import regulations, Gazette 2508/27"
      ]
     },
     {
-     "track": "law",
-     "date": "2026-11-03",
-     "title": "Civil Procedure Code bill presented",
-     "v": "1 bill",
-     "l": "presented to the House",
-     "line": "A bill to amend the Civil Procedure Code was presented.",
+     "track": "money",
+     "date": "2026-11-04",
+     "title": "Supplementary sums approved",
+     "v": "2 heads",
+     "l": "supplementary sums approved",
+     "line": "Heads 119 and 102 approved; amounts await the Hansard.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Business of the House, 4 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
      },
      "refs": [
-      "Civil Procedure Code (Amendment) Bill"
+      "Supplementary Estimate No. 07 of 2026"
      ]
     }
    ]
@@ -115,14 +115,14 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-03",
+   "latest": "2026-11-04",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-11-02",
+   "latest": "2026-11-04",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -142,15 +142,15 @@
  ],
  "keyDates": [
   {
-   "date": "2026-11-04",
+   "date": "2026-11-05",
    "label": "Parliament sits again",
    "track": "record"
   },
   {
-   "date": "2026-11-04",
-   "label": "Vote: Supplementary Estimate No. 07, import regulations (Gazette 2508/27)",
+   "date": "2026-11-05",
+   "label": "Vote: Supplementary Estimate No. 08 (Air Force)",
    "track": "money",
-   "note": "Parliament votes on extra 2026 spending and the import regulations laid on 3 November."
+   "note": "Parliament votes on extra 2026 spending for the Sri Lanka Air Force."
   },
   {
    "date": "2026-11-05",
@@ -827,7 +827,7 @@
    "status": "agenda",
    "chair": "",
    "hours": "",
-   "headline": "Trusts bill second reading",
+   "headline": "Trusts bill and Air Force estimate",
    "summary": "",
    "items": [
     {
@@ -852,10 +852,14 @@
      "track": "money",
      "title": "Supplementary Estimate No. 08 (Air Force)",
      "status": "Scheduled",
-     "what": "Extra 2026 spending for the Sri Lanka Air Force, to be put for approval.",
+     "what": "Estimate for the Sri Lanka Air Force to be put for approval. The amount is not yet in an official source.",
      "conf": [
       "bh"
      ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Amount to be added when published",
      "src": [
       {
        "t": "Forthcoming business of the House",
@@ -867,40 +871,122 @@
   },
   {
    "date": "2026-11-04",
-   "status": "agenda",
-   "chair": "",
-   "hours": "",
-   "headline": "Estimate and import regulations to be voted",
-   "summary": "",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "to 6.05 pm",
+   "headline": "Import regulations and supplementary sums approved",
+   "summary": "The House approved the import regulations and two supplementary sums, and received a Public Finance Committee report. It next sits on 5 November.",
    "items": [
     {
      "track": "money",
      "title": "Supplementary Estimate No. 07 of 2026",
-     "status": "Scheduled",
-     "what": "Extra 2026 spending beyond the Appropriation Act. Ministry and amount are not in the daily record.",
+     "status": "Approved",
+     "what": "The House approved supplementary sums under Head 119 and Head 102 (Programme 01 each).",
      "conf": [
       "bh"
      ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Ministry names, amounts and vote to be added from the Hansard",
      "src": [
       {
-       "t": "Forthcoming business of the House",
-       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
       }
-     ],
-     "next": "No. 08 (Sri Lanka Air Force) follows on 5 November"
+     ]
     },
     {
      "track": "money",
      "title": "Import regulations, Gazette 2508/27",
-     "status": "Scheduled",
-     "what": "To be put for approval under the Imports and Exports (Control) Act.",
+     "status": "Approved",
+     "what": "The House approved regulations under the Imports and Exports (Control) Act.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Vote count to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Organised Crimes Bill: court petitions",
+     "status": "In the Supreme Court",
+     "what": "The Speaker announced receipt of copies of petitions filed at the Supreme Court against the bill.",
+     "bills": [
+      "G6445"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Supreme Court determination to be announced to the House",
+     "src": [
+      {
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Public Finance Committee report",
+     "status": "Presented",
+     "what": "The Committee on Public Finance report was presented by its Chair, Dr. Harsha de Silva.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Contents to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Annual reports tabled",
+     "status": "Tabled",
+     "what": "Six annual reports were presented, including the Department of Pensions and Ceylon Petroleum Storage Terminals for 2025.",
      "conf": [
       "bh"
      ],
      "src": [
       {
-       "t": "Forthcoming business of the House",
-       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Answer on protecting wild elephants",
+     "status": "Question",
+     "what": "The Leader of the Opposition's question on wild elephant protection was taken under Standing Order 27(2).",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Answer to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 4 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
       }
      ]
     }
@@ -978,7 +1064,7 @@
      "track": "money",
      "title": "Supplementary Estimates No. 07 and 08",
      "status": "Presented",
-     "what": "Two extra-spending requests for 2026, on top of the Appropriation Act, were laid before Parliament.",
+     "what": "Two supplementary estimates for 2026 were presented. No amounts appear in the daily record.",
      "conf": [
       "bh"
      ],
@@ -991,11 +1077,6 @@
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
       }
-     ],
-     "points": [
-      "No. 07: vote on 4 Nov (ministry not named in the record)",
-      "No. 08: Sri Lanka Air Force, vote on 5 Nov",
-      "Amounts not in the daily record; added from the Hansard"
      ]
     },
     {
@@ -2369,7 +2450,7 @@
  },
  "posts": {
   "date": "2026-11-04",
-  "x": "All ministries, departments and public corporations must now prepare disaster management plans and submit them to the Disaster Management Centre, under a Gazette order dated 30 October. It affects every public institution.",
-  "wa": "New Gazette notices\n- Order of 30 October: every ministry, department and public corporation must prepare an Institutional Disaster Management Plan and submit it to the Disaster Management Centre\n- Customs exchange rates for duty payments apply from 2 to 8 November 2026\nNext: the House sits today, 4 November, at 9.30 am to vote on Supplementary Estimate No. 07 and the import regulations."
+  "x": "The House approved import regulations under the Imports and Exports (Control) Act (Gazette 2508/27) and two supplementary sums, Heads 119 and 102. Amounts are not yet in the official record.",
+  "wa": "Parliament, 4 November\n- House approved the import regulations, Gazette 2508/27\n- House approved supplementary sums under Heads 119 and 102; amounts await the Hansard\n- Speaker announced Supreme Court petitions against the Prevention of Organised Crimes Bill\nNext: the House sits on 5 November at 9.30 am; Supplementary Estimate No. 08 (Air Force) is listed for approval."
  }
 }
