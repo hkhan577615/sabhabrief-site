@@ -1,67 +1,97 @@
 {
- "updated": "2026-11-04T21:45:00+05:30",
+ "updated": "2026-11-05T21:45:00+05:30",
  "status": {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "sitting": true,
-  "text": "The House sat today and adjourned at 6.05 pm. It sits again on Thursday 5 November at 9.30 am."
+  "text": "Parliament sat today and approved the Trusts (Amendment) Bill and the Air Force estimate. It next sits on Friday 6 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-04",
-   "headline": "Import regulations and supplementary sums approved",
+   "date": "2026-11-05",
+   "headline": "Trusts bill, Air Force estimate approved",
    "stories": [
     {
-     "track": "money",
-     "date": "2026-11-04",
-     "title": "Import regulations approved",
-     "v": "Approved",
-     "l": "Gazette 2508/27 regulations",
-     "line": "The House approved the regulations under the Imports and Exports Act.",
-     "src": {
-      "t": "Business of the House, 4 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
-     },
-     "refs": [
-      "Import regulations, Gazette 2508/27"
-     ]
-    },
-    {
-     "track": "money",
-     "date": "2026-11-04",
-     "title": "Supplementary sums approved",
-     "v": "2 heads",
-     "l": "supplementary sums approved",
-     "line": "Heads 119 and 102 approved; amounts await the Hansard.",
-     "src": {
-      "t": "Business of the House, 4 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
-     },
-     "refs": [
-      "Supplementary Estimate No. 07 of 2026"
-     ]
-    },
-    {
      "track": "law",
-     "date": "2026-11-04",
-     "title": "Organised Crimes Bill in court",
-     "v": "Petitions",
-     "l": "filed at Supreme Court",
-     "line": "Copies of petitions against the bill were announced to the House.",
+     "date": "2026-11-05",
+     "title": "Trusts bill approved",
+     "v": "1 bill",
+     "l": "Trusts (Amendment) Bill",
+     "line": "Stage and vote await the Hansard.",
      "src": {
-      "t": "Business of the House, 4 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      "t": "Business of the House, 5 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
      },
      "refs": [
-      "Organised Crimes Bill: court petitions"
+      "Trusts (Amendment) Bill"
+     ]
+    },
+    {
+     "track": "money",
+     "date": "2026-11-05",
+     "title": "Air Force estimate approved",
+     "v": "Rs. 4.26bn",
+     "l": "extra spending sought, UAV system",
+     "line": "The House approved the Air Force supplementary estimate.",
+     "src": {
+      "t": "Parliament news, Supplementary Estimate No. 8",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+     },
+     "refs": [
+      "Supplementary Estimate No. 08 (Air Force)"
+     ]
+    },
+    {
+     "track": "oversight",
+     "date": "2026-11-05",
+     "title": "Committee reports presented",
+     "v": "2 reports",
+     "l": "committee reports presented",
+     "line": "Public Finance and Governance committees reported.",
+     "src": {
+      "t": "Business of the House, 5 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+     },
+     "refs": [
+      "Committee reports presented"
      ]
     }
    ]
   },
   "week": {
    "from": "2026-11-03",
-   "to": "2026-11-04",
-   "headline": "Regulations approved; Black July committee set up",
+   "to": "2026-11-05",
+   "headline": "Trusts bill, Air Force estimate approved",
    "stories": [
+    {
+     "track": "law",
+     "date": "2026-11-05",
+     "title": "Trusts bill approved",
+     "v": "1 bill",
+     "l": "Trusts (Amendment) Bill",
+     "line": "Stage and vote await the Hansard.",
+     "src": {
+      "t": "Business of the House, 5 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+     },
+     "refs": [
+      "Trusts (Amendment) Bill"
+     ]
+    },
+    {
+     "track": "money",
+     "date": "2026-11-05",
+     "title": "Air Force estimate approved",
+     "v": "Rs. 4.26bn",
+     "l": "extra spending sought, UAV system",
+     "line": "The House approved the Air Force supplementary estimate.",
+     "src": {
+      "t": "Parliament news, Supplementary Estimate No. 8",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+     },
+     "refs": [
+      "Supplementary Estimate No. 08 (Air Force)"
+     ]
+    },
     {
      "track": "oversight",
      "date": "2026-11-03",
@@ -76,36 +106,6 @@
      "refs": [
       "Black July select committee"
      ]
-    },
-    {
-     "track": "money",
-     "date": "2026-11-04",
-     "title": "Import regulations approved",
-     "v": "Approved",
-     "l": "Gazette 2508/27 regulations",
-     "line": "The House approved the regulations under the Imports and Exports Act.",
-     "src": {
-      "t": "Business of the House, 4 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
-     },
-     "refs": [
-      "Import regulations, Gazette 2508/27"
-     ]
-    },
-    {
-     "track": "money",
-     "date": "2026-11-04",
-     "title": "Supplementary sums approved",
-     "v": "2 heads",
-     "l": "supplementary sums approved",
-     "line": "Heads 119 and 102 approved; amounts await the Hansard.",
-     "src": {
-      "t": "Business of the House, 4 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
-     },
-     "refs": [
-      "Supplementary Estimate No. 07 of 2026"
-     ]
     }
    ]
   }
@@ -115,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-04",
+   "latest": "2026-11-05",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -142,22 +142,9 @@
  ],
  "keyDates": [
   {
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "label": "Parliament sits again",
    "track": "record"
-  },
-  {
-   "date": "2026-11-05",
-   "label": "Vote: Supplementary Estimate No. 08 (Air Force)",
-   "track": "money",
-   "note": "Parliament votes on extra 2026 spending for the Sri Lanka Air Force."
-  },
-  {
-   "date": "2026-11-05",
-   "label": "Trusts (Amendment) Bill, second reading, if no court petitions",
-   "track": "law",
-   "note": "Second reading of the Trusts bill, only if no court petitions are filed.",
-   "bill": "G6447"
   },
   {
    "date": "2026-11-12",
@@ -272,9 +259,10 @@
   {
    "id": "G6447",
    "st": 1,
-   "label": "1st reading",
-   "chg": "2026-10-21",
-   "dt": "Published 14 Oct · 1st reading 21 Oct"
+   "label": "Approved 5 Nov, details awaited",
+   "chg": "2026-11-05",
+   "dt": "Published 14 Oct · 1st reading 21 Oct · House approval 5 Nov · stage awaits Hansard",
+   "watch": true
   },
   {
    "id": "G6441",
@@ -834,46 +822,121 @@
   },
   {
    "date": "2026-11-05",
-   "status": "agenda",
-   "chair": "",
-   "hours": "",
-   "headline": "Trusts bill and Air Force estimate",
-   "summary": "",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "to 5.58 pm",
+   "headline": "Trusts bill and Air Force estimate approved",
+   "summary": "The House approved the Trusts (Amendment) Bill and the Air Force supplementary estimate of Rs. 4.26bn. It next sits on 6 November.",
    "items": [
     {
      "track": "law",
      "title": "Trusts (Amendment) Bill",
-     "status": "Scheduled",
-     "what": "Second reading, only if no Supreme Court petitions are filed.",
-     "conf": [
-      "bh"
-     ],
-     "src": [
-      {
-       "t": "Forthcoming business of the House",
-       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
-      }
-     ],
-     "bills": [
-      "G6447"
-     ]
-    },
-    {
-     "track": "money",
-     "title": "Supplementary Estimate No. 08 (Air Force)",
-     "status": "Scheduled",
-     "what": "Estimate for the Sri Lanka Air Force to be put for approval. The amount is not yet in an official source.",
+     "status": "Approved",
+     "what": "The record lists the bill among two Order Paper items approved; stage and vote are not stated.",
      "conf": [
       "bh"
      ],
      "await": [
       "hansard"
      ],
-     "next": "Amount to be added when published",
+     "next": "Stage, vote and amendments to be added from the Hansard",
+     "bills": [
+      "G6447"
+     ],
      "src": [
       {
-       "t": "Forthcoming business of the House",
-       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+       "t": "Business of the House, 5 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      },
+      {
+       "t": "Parliament news, Trusts (Amendment) Bill",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5520"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Supplementary Estimate No. 08 (Air Force)",
+     "status": "Approved",
+     "what": "Extra spending for the Sri Lanka Air Force to set up an unmanned aerial vehicle system.",
+     "figs": [
+      {
+       "v": "Rs. 4.26bn",
+       "l": "extra spending sought"
+      }
+     ],
+     "points": [
+      "Debate and approval set for 5 Nov",
+      "Record lists Head 224, Programme 01"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Vote count to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 5 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      },
+      {
+       "t": "Parliament news, Supplementary Estimate No. 8",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Committee reports presented",
+     "status": "Presented",
+     "what": "Reports of the Public Finance Committee and the Governance, Justice and Civil Protection oversight committee were presented.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Contents to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 5 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor-General reports tabled",
+     "status": "Tabled",
+     "what": "Parts of the Auditor-General's reports for 2024 and 2025 were presented.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 5 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Petitions and questions",
+     "status": "Recorded",
+     "what": "Ten petitions went to the Public Petitions Committee; ministers answered questions on the Mannar-Rameswaram ferry and exports.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Answers to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 5 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
       }
      ]
     }
@@ -2390,6 +2453,15 @@
   ],
   "items": [
    {
+    "no": "2513/07",
+    "d": "2026-11-02",
+    "kind": "Extraordinary",
+    "cat": "appt",
+    "t": "Sri Jayawardenapura Kotte Budget 2027 open to inspection",
+    "by": "Sri Jayawardenapura Kotte Municipal Council",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1793785955.pdf"
+   },
+   {
     "no": "2513/01",
     "d": "2026-11-02",
     "kind": "Extraordinary",
@@ -2398,6 +2470,15 @@
     "by": "Sri Lanka Customs",
     "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 2 to 8 November 2026.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048483%20%28E%29_1793697508.pdf"
+   },
+   {
+    "no": "2512/42",
+    "d": "2026-10-30",
+    "kind": "Extraordinary",
+    "cat": "appt",
+    "t": "Colombo Municipal Council Budget 2027 open to inspection",
+    "by": "Colombo Municipal Council",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG8099%28E%29%20%20%5BIV-B%5D_1793775849.pdf"
    },
    {
     "no": "2512/41",
@@ -2410,6 +2491,15 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048420%20%28E%29%20-%20I-I_1793619694.pdf"
    },
    {
+    "no": "2512/30",
+    "d": "2026-10-28",
+    "kind": "Extraordinary",
+    "cat": "appt",
+    "t": "Health Services Committee of Public Service Commission appointed",
+    "by": "Public Service Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208117%20%28E%29_1793687227.pdf"
+   },
+   {
     "no": "2512/28",
     "d": "2026-10-28",
     "kind": "Extraordinary",
@@ -2417,6 +2507,16 @@
     "t": "Kandy Municipal Council member's seat declared vacant",
     "by": "Returning Officer, Kandy Municipal Council",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208116%20%28E%29_1793687182.pdf"
+   },
+   {
+    "no": "2512/10",
+    "d": "2026-10-26",
+    "kind": "Extraordinary",
+    "cat": "notice",
+    "t": "Karainagar Pradeshiya Sabha Vice Chairman election meeting",
+    "by": "Department of Local Government, Northern Province",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208113%20%28E%29_1793793073.pdf",
+    "sum": "Meeting to fill the vice chairman post is set for 6 November 2026 at 9.30 am."
    },
    {
     "no": "2512/06",
@@ -2459,9 +2559,9 @@
   ]
  },
  "posts": {
-  "date": "2026-11-04",
-  "x": "The House approved import regulations under the Imports and Exports (Control) Act (Gazette 2508/27) and two supplementary sums, Heads 119 and 102. Amounts are not yet in the official record.",
-  "wa": "Parliament, 4 November\n- House approved the import regulations, Gazette 2508/27\n- House approved supplementary sums under Heads 119 and 102; amounts await the Hansard\n- Speaker announced Supreme Court petitions against the Prevention of Organised Crimes Bill\nNext: the House sits on 5 November at 9.30 am; Supplementary Estimate No. 08 (Air Force) is listed for approval."
+  "date": "2026-11-05",
+  "x": "Parliament approved the Trusts (Amendment) Bill and a Rs. 4.26bn supplementary estimate for the Air Force's unmanned aerial vehicle system on 5 November. Vote counts await the Hansard. Parliament sits again on 6 November.",
+  "wa": "Parliament, 5 November\n- Trusts (Amendment) Bill approved; stage and vote await the Hansard\n- Supplementary Estimate No. 08: Rs. 4.26bn extra spending for the Sri Lanka Air Force, for an unmanned aerial vehicle system\n- Public Finance Committee report and Auditor-General reports presented\nNext: Parliament sits on Friday 6 November at 9.30 am."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
