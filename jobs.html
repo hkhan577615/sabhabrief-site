@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Government jobs · Sabha Brief</title>
+<meta name="description" content="Every government vacancy in Sri Lanka's Gazette that is still open, sorted by closing date, with salary, age limit and how to apply, linked to the official notice.">
+<meta property="og:site_name" content="Sabha Brief">
+<meta property="og:title" content="Government jobs · Sabha Brief">
+<meta property="og:description" content="Every government vacancy in the Gazette that is still open, sorted by closing date, linked to the official notice.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Noto+Sans+Sinhala:wght@400;500&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+/* Jobs: one list of open vacancies ordered by closing date. Each line shows the post, employer, posts and pay; it opens to the facts and the official notice. Colour tokens come from site.css. */
+.jl{list-style:none;padding:0;margin-top:26px;border-top:1px solid var(--ink)}
+.jb{border-bottom:1px solid var(--rule)}
+.jb>details>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 22px;padding:20px 0;cursor:pointer;list-style:none}
+.jb>details>summary::-webkit-details-marker{display:none}
+.jm{display:grid;gap:5px;min-width:0}
+.jo{font-size:13.5px;color:var(--ink-3)}
+.jt{font:500 21px/1.25 var(--serif);letter-spacing:-.01em}
+.jb>details>summary:hover .jt{text-decoration:underline;text-decoration-color:var(--rule-2);text-underline-offset:.2em}
+.js{font:400 14.5px/1.45 "Noto Sans Sinhala","Iskoola Pota",var(--sans);color:var(--ink-2)}
+.jf{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:14px;color:var(--ink-2);font-variant-numeric:tabular-nums;margin-top:2px}
+.jf b{font-weight:600;color:var(--ink)}
+.jc{display:grid;justify-items:end;align-content:start;gap:6px;text-align:right}
+.jc small{font-size:13px;color:var(--ink-3);white-space:nowrap}
+.dl{font:600 12.5px/1 var(--sans);padding:6px 10px;border-radius:999px;background:var(--wash);color:var(--record);white-space:nowrap}
+.dl.soon{color:var(--money)}
+.dl.now{background:var(--oversight);color:var(--paper)}
+.tag{font:600 11.5px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--oversight)}
+.jx{display:grid;gap:16px;padding:0 0 26px;max-width:860px}
+.jx dl{display:grid;grid-template-columns:150px minmax(0,1fr);gap:9px 20px;font-size:15.5px}
+.jx dt{font-size:13.5px;color:var(--ink-3);padding-top:2px}
+.jx dd{margin:0;min-width:0}
+@media (max-width:620px){
+  .jb>details>summary{grid-template-columns:minmax(0,1fr)}
+  .jc{grid-row:1;justify-items:start;text-align:left;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+  .jx dl{grid-template-columns:minmax(0,1fr);gap:2px}
+  .jx dt{padding-top:10px}
+}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.note{font-size:14px;color:var(--ink-2);max-width:76ch}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html"><span class="brand-w">Sabha <em>Brief</em></span></a>
+    <p class="tagline">An independent record of Sri Lanka's Parliament, built only from official government sources.</p>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="index.html" data-p="week">This week</a>
+    <a href="bills.html" data-p="bills">Bills</a>
+    <a href="gazette.html" data-p="gazette">Gazette</a>
+    <a href="jobs.html" data-p="jobs">Jobs</a>
+    <a href="about.html" data-p="about"><span class="long">How it works</span><span class="short">About</span></a>
+  </div>
+</nav>
+<main class="wrap" data-page="jobs">
+  <header class="ph">
+    <p class="kicker">Government jobs</p>
+    <h1>Jobs in the Gazette, still open</h1>
+    <p class="dek" id="dek">Every government vacancy advertised in the weekly Gazette whose closing date has not passed, soonest first. Each one links to the official notice.</p>
+  </header>
+
+  <section aria-label="Open vacancies">
+    <div class="bf">
+      <label class="bf-s"><span class="sr">Search jobs</span><input type="search" id="q" placeholder="Search, e.g. driver, nursing, Kandy, Grade III" autocomplete="off"></label>
+      <p class="bf-n" id="count" role="status"></p>
+    </div>
+    <div class="bf"><div class="chips" id="chips" role="group" aria-label="Show one type of job"></div></div>
+    <ul class="jl" id="list"><li class="empty">Loading vacancies.</li></ul>
+    <p class="cap" id="cap"></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Sabha <em>Brief</em></span>
+      <p>An independent record of Sri Lanka's Parliament, built only from official government sources. Not affiliated with the Parliament or the Government of Sri Lanka. Check the official notice before you apply.</p>
+      <p class="foot-c">In beta <a class="x-l" href="https://x.com/sabhabrief" target="_blank" rel="noopener" aria-label="Sabha Brief on X" title="@sabhabrief"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a> <a class="mcp-l" href="https://sabhabrief.lk/mcp" title="MCP server address for Claude or ChatGPT">MCP</a></p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://www.doenets.lk" target="_blank" rel="noopener">Online exam applications</a></li>
+        <li><a href="https://www.parliament.lk/en/home/business-of-the-house" target="_blank" rel="noopener">Business of the House</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+const PART={"I (IIA)":"Part I, Section II(A)","IV(A)":"Part IV(A), provincial councils","IV(B)":"Part IV(B), local government"};
+SB.load("jobs.json").then(([d])=>{
+  SB.fresh(d.updated);
+  const left=s=>SB.diff(SB.today,s);
+  const all=(d.jobs||[]).filter(j=>j.close&&left(j.close)>=0).sort((a,b)=>a.close<b.close?-1:a.close>b.close?1:(b.n||0)-(a.n||0));
+  const cats=[...new Set(all.map(j=>j.cat))].sort();
+  let cat="All",q="";
+  $("chips").innerHTML=["All",...cats].map(c=>`<button type="button" class="fl" data-k="${esc(c)}" aria-pressed="${c===cat}">${esc(c)} <span>${c==="All"?all.length:all.filter(j=>j.cat===c).length}</span></button>`).join("");
+  const iss=(d.issues||[]);
+  if(iss.length)$("cap").textContent=`From the weekly Gazettes of ${SB.dmy(iss[0])} to ${SB.dmy(iss[iss.length-1])}: Part I Section II(A), and Parts IV(A) and IV(B). Summaries are translated from the official text, usually the Sinhala edition, which is authoritative. A blank field means the notice does not state it plainly; check the notice.`;
+  function due(j){
+    const n=left(j.close);
+    if(n===0)return `<span class="dl now">Closes today</span>`;
+    if(n===1)return `<span class="dl now">Closes tomorrow</span>`;
+    if(n<=7)return `<span class="dl soon">${n} days left</span>`;
+    return `<span class="dl">${n} days left</span>`;
+  }
+  function row(j){
+    const short=j.pay?j.pay.split(" a month")[0]:"";
+    const rows=[["Posts",j.n?String(j.n):""],["Salary",j.pay],["Age limit",j.age],["Where",j.where],["Who can apply",j.who],["How to apply",j.how],["Basis",j.basis]].filter(r=>r[1]);
+    return `<li class="jb" id="j${esc(j.id)}"><details><summary>
+      <div class="jm">
+        <p class="jo">${esc(j.org)}${j.basis?` · <span class="tag">${esc(j.basis)}</span>`:""}</p>
+        <h2 class="jt">${esc(j.t)}</h2>
+        ${j.si?`<p class="js" lang="si">${esc(j.si)}</p>`:""}
+        <p class="jf">${j.n?`<span><b>${j.n}</b> ${j.n===1?"post":"posts"}</span>`:""}${short?`<span>${esc(short)}</span>`:""}${j.where&&j.where.length<40?`<span>${esc(j.where)}</span>`:""}</p>
+      </div>
+      <div class="jc">${due(j)}<small>Closes ${esc(SB.F(j.close,{weekday:"short",day:"numeric",month:"short"}))}</small></div>
+    </summary><div class="jx">
+      <dl>${rows.map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>
+      <p class="src">Official notice: ${SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">Gazette of ${esc(SB.dmy(j.g))}, ${esc(PART[j.part]||j.part)}, page ${j.p} (${esc(j.lang||"Sinhala")})</a>`:""}</p>
+    </div></details></li>`;
+  }
+  const hay=j=>[j.t,j.si,j.org,j.cat,j.where,j.who,j.how,j.basis].join(" ").toLowerCase();
+  function render(){
+    const w=q.toLowerCase().split(/\s+/).filter(Boolean);
+    const list=all.filter(j=>(cat==="All"||j.cat===cat)&&w.every(x=>hay(j).includes(x)));
+    const posts=list.reduce((s,j)=>s+(j.n||0),0);
+    $("count").textContent=`${list.length} ${list.length===1?"vacancy notice":"vacancy notices"}${posts?`, at least ${posts.toLocaleString("en-GB")} posts`:""}`;
+    $("list").innerHTML=list.map(row).join("")||`<li class="empty">No open vacancies match. Try another word or type.</li>`;
+  }
+  SB.safe("list",()=>{
+    render();
+    $("chips").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;cat=b.dataset.k;document.querySelectorAll("#chips .fl").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.k===cat)));render();});
+    $("q").addEventListener("input",e=>{q=e.target.value;render();});
+    const h=(location.hash||"").slice(1);if(h){const el=document.getElementById(h);if(el){el.querySelector("details").open=true;el.scrollIntoView({block:"start"});}}
+  });
+}).catch(()=>SB.fail("list"));
+})();
+</script>
+</body>
+</html>
