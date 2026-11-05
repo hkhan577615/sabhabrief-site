@@ -125,7 +125,7 @@ Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{emplo
   let cat="All",q="";
   $("chips").innerHTML=["All",...cats].map(c=>`<button type="button" class="fl" data-k="${esc(c)}" aria-pressed="${c===cat}">${esc(c)} <span>${c==="All"?all.length:all.filter(j=>j.cat===c).length}</span></button>`).join("");
   const iss=(d.issues||[]);
-  if(iss.length)$("cap").textContent=`From the weekly Gazettes of ${SB.dmy(iss[0])} to ${SB.dmy(iss[iss.length-1])}: Part I Section II(A), and Parts IV(A) and IV(B). Summaries are translated from the official text, usually the Sinhala edition, which is authoritative. A blank field means the notice does not state it plainly; check the notice.`;
+  if(iss.length)$("cap").textContent=`From the weekly Gazettes of ${SB.dmy(iss[0])} to ${SB.dmy(iss[iss.length-1])} (Part I Section II(A), and Parts IV(A) and IV(B)), and from employers' own careers pages listed below. Summaries are translated from the official text, usually the Sinhala edition, which is authoritative. A blank field means the notice does not state it plainly; check the notice.`;
   function due(j){
     const n=left(j.close);
     if(n===0)return `<span class="dl now">Closes today</span>`;
@@ -154,7 +154,7 @@ Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{emplo
     const w=q.toLowerCase().split(/\s+/).filter(Boolean);
     const list=all.filter(j=>(cat==="All"||j.cat===cat)&&w.every(x=>hay(j).includes(x)));
     const posts=list.reduce((s,j)=>s+(j.n||0),0);
-    $("count").textContent=`${list.length} ${list.length===1?"vacancy notice":"vacancy notices"}${posts?`, at least ${posts.toLocaleString("en-GB")} posts`:""}`;
+    $("count").textContent=`${list.length} ${list.length===1?"vacancy notice":"vacancy notices"}${posts?`, at least ${posts.toLocaleString("en-GB")} ${posts===1?"post":"posts"}`:""}`;
     $("list").innerHTML=list.map(row).join("")||`<li class="empty">No open vacancies match. Try another word or type.</li>`;
   }
   SB.safe("list",()=>{

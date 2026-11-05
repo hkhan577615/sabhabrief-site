@@ -78,7 +78,7 @@
    "name": "South Eastern University",
    "type": "University",
    "page": "http://www.seu.ac.lk/vacancy/",
-   "status": "ok"
+   "status": "unreachable"
   },
   {
    "name": "University of the Visual and Performing Arts",
@@ -126,7 +126,7 @@
    "name": "University Grants Commission",
    "type": "University",
    "page": "https://www.ugc.ac.lk",
-   "status": "unreachable"
+   "status": "ok"
   },
   {
    "name": "Kotelawala Defence University",
@@ -291,5 +291,6 @@
   "vpa.ac.lk",
   "waterboard.lk",
   "wyb.ac.lk"
- ]
+ ],
+ "checked": "2026-11-06"
 }
