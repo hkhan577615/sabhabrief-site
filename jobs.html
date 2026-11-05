@@ -47,6 +47,11 @@
 }
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .note{font-size:14px;color:var(--ink-2);max-width:76ch}
+.empd{margin-top:22px;font-size:14.5px}
+.empd summary{cursor:pointer;font-weight:600}
+.empd .note{margin:10px 0}
+.empl{list-style:none;padding:0;columns:3 220px;column-gap:28px;font-size:14px;line-height:1.9}
+.empl small{color:var(--ink-3)}
 </style>
 </head>
 <body>
@@ -70,7 +75,7 @@
   <header class="ph">
     <p class="kicker">Government jobs</p>
     <h1>Jobs in the Gazette, still open</h1>
-    <p class="dek" id="dek">Every government vacancy advertised in the weekly Gazette whose closing date has not passed, soonest first. Each one links to the official notice.</p>
+    <p class="dek" id="dek">Every government vacancy still open, from the weekly Gazette and from the careers pages of universities, state banks and state enterprises, soonest closing first. Each one links to the official notice.</p>
   </header>
 
   <section aria-label="Open vacancies">
@@ -81,6 +86,7 @@
     <div class="bf"><div class="chips" id="chips" role="group" aria-label="Show one type of job"></div></div>
     <ul class="jl" id="list"><li class="empty">Loading vacancies.</li></ul>
     <p class="cap" id="cap"></p>
+    <details class="empd" id="emp" hidden></details>
   </section>
 </main>
 
@@ -107,7 +113,11 @@
 (function(){
 const {$,esc}=SB;
 const PART={"I (IIA)":"Part I, Section II(A)","IV(A)":"Part IV(A), provincial councils","IV(B)":"Part IV(B), local government"};
-SB.load("jobs.json").then(([d])=>{
+Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{employers:[],domains:[]}])]).then(([[d],[src]])=>{
+  const doms=new Set(src.domains||[]);
+  const okHost=u=>{try{const x=new URL(u);const h=x.hostname.replace(/^www\./,"");return /^https?:$/.test(x.protocol)&&(SB.official(u)||doms.has(h)||[...doms].some(dm=>h.endsWith("."+dm)))}catch(e){return false}};
+  const emp=(src.employers||[]);
+  if(emp.length){const ok=emp.filter(e=>e.status==="ok");$("emp").innerHTML=`<summary>${src.checked?`Also checked on ${esc(SB.dm(src.checked))}: ${ok.length} employers' own careers pages`:`Employers' own careers pages: ${ok.length} added from the next update`}</summary><p class="note">Universities, state banks and state enterprises that advertise on their own websites rather than in the Gazette. Those marked unavailable could not be read at the last check and are tried again each run.</p><ul class="empl">${emp.map(e=>`<li><a href="${esc(e.page)}" target="_blank" rel="noopener">${esc(e.name)}</a>${e.status==="ok"?"":` <small>${esc(e.status==="blocked"||e.status==="unreachable"?"unavailable":e.status)}</small>`}</li>`).join("")}</ul>`;$("emp").hidden=false;}
   SB.fresh(d.updated);
   const left=s=>SB.diff(SB.today,s);
   const all=(d.jobs||[]).filter(j=>j.close&&left(j.close)>=0).sort((a,b)=>a.close<b.close?-1:a.close>b.close?1:(b.n||0)-(a.n||0));
@@ -136,7 +146,7 @@ SB.load("jobs.json").then(([d])=>{
       <div class="jc">${due(j)}<small>Closes ${esc(SB.F(j.close,{weekday:"short",day:"numeric",month:"short"}))}</small></div>
     </summary><div class="jx">
       <dl>${rows.map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>
-      <p class="src">Official notice: ${SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">Gazette of ${esc(SB.dmy(j.g))}, ${esc(PART[j.part]||j.part)}, page ${j.p} (${esc(j.lang||"Sinhala")})</a>`:""}</p>
+      <p class="src">Official notice: ${j.part==="Employer"?(okHost(j.u)?`<a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.org)} website${j.g?`, posted ${esc(SB.dmy(j.g))}`:""}</a>`:""):(SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">Gazette of ${esc(SB.dmy(j.g))}, ${esc(PART[j.part]||j.part)}, page ${j.p} (${esc(j.lang||"Sinhala")})</a>`:"")}</p>
     </div></details></li>`;
   }
   const hay=j=>[j.t,j.si,j.org,j.cat,j.where,j.who,j.how,j.basis].join(" ").toLowerCase();

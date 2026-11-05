@@ -1,0 +1,295 @@
+{
+ "updated": "2026-11-06",
+ "note": "Official careers pages checked by the jobs task, in addition to the Gazette. status is the result of the last check.",
+ "employers": [
+  {
+   "name": "University of Colombo",
+   "type": "University",
+   "page": "https://cmb.ac.lk/category/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "University of Peradeniya",
+   "type": "University",
+   "page": "https://www.pdn.ac.lk/Vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "University of Sri Jayewardenepura",
+   "type": "University",
+   "page": "https://www.sjp.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "University of Kelaniya",
+   "type": "University",
+   "page": "https://www.kln.ac.lk/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "University of Moratuwa",
+   "type": "University",
+   "page": "https://uom.lk/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "University of Jaffna",
+   "type": "University",
+   "page": "https://www.jfn.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "University of Ruhuna",
+   "type": "University",
+   "page": "https://www.ruh.ac.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Eastern University",
+   "type": "University",
+   "page": "https://www.esn.ac.lk/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "Rajarata University",
+   "type": "University",
+   "page": "https://www.rjt.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "Sabaragamuwa University",
+   "type": "University",
+   "page": "https://www.sab.ac.lk/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "Wayamba University",
+   "type": "University",
+   "page": "https://www.wyb.ac.lk/category/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "Uva Wellassa University",
+   "type": "University",
+   "page": "https://www.uwu.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "South Eastern University",
+   "type": "University",
+   "page": "http://www.seu.ac.lk/vacancy/",
+   "status": "ok"
+  },
+  {
+   "name": "University of the Visual and Performing Arts",
+   "type": "University",
+   "page": "https://vpa.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "Open University of Sri Lanka",
+   "type": "University",
+   "page": "https://ou.ac.lk/vacancies/",
+   "status": "ok"
+  },
+  {
+   "name": "Gampaha Wickramarachchi University",
+   "type": "University",
+   "page": "https://gwu.ac.lk/index.php/vacancies",
+   "status": "ok"
+  },
+  {
+   "name": "University of Vavuniya",
+   "type": "University",
+   "page": "https://www.vau.ac.lk/category/vacancies/advertisement/",
+   "status": "ok"
+  },
+  {
+   "name": "University of Vocational Technology",
+   "type": "University",
+   "page": "https://uovt.ac.lk/en/careers",
+   "status": "ok"
+  },
+  {
+   "name": "Ocean University",
+   "type": "University",
+   "page": "https://ocu.ac.lk/careers/",
+   "status": "ok"
+  },
+  {
+   "name": "Buddhist and Pali University",
+   "type": "University",
+   "page": "https://bpu.ac.lk",
+   "status": "ok"
+  },
+  {
+   "name": "University Grants Commission",
+   "type": "University",
+   "page": "https://www.ugc.ac.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Kotelawala Defence University",
+   "type": "University",
+   "page": "https://kdu.ac.lk",
+   "status": "blocked"
+  },
+  {
+   "name": "Central Bank of Sri Lanka",
+   "type": "Bank",
+   "page": "https://www.cbsl.gov.lk/en/careers",
+   "status": "ok"
+  },
+  {
+   "name": "Bank of Ceylon",
+   "type": "Bank",
+   "page": "https://www.boc.lk/careers",
+   "status": "ok"
+  },
+  {
+   "name": "National Savings Bank",
+   "type": "Bank",
+   "page": "https://www.nsb.lk/careers/",
+   "status": "ok"
+  },
+  {
+   "name": "Regional Development Bank",
+   "type": "Bank",
+   "page": "https://www.rdb.lk/careers/",
+   "status": "ok"
+  },
+  {
+   "name": "People's Bank",
+   "type": "Bank",
+   "page": "https://www.peoplesbank.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Sri Lanka Insurance",
+   "type": "Bank",
+   "page": "https://www.srilankainsurance.com",
+   "status": "no careers page found"
+  },
+  {
+   "name": "Ceylon Electricity Board",
+   "type": "SOE",
+   "page": "https://www.ceb.lk/careers/en",
+   "status": "ok"
+  },
+  {
+   "name": "Sri Lanka Ports Authority",
+   "type": "SOE",
+   "page": "https://www.slpa.lk/port-colombo/opportunities",
+   "status": "ok"
+  },
+  {
+   "name": "Sri Lanka Transport Board",
+   "type": "SOE",
+   "page": "https://www.sltb.lk/notice/vacancy",
+   "status": "ok"
+  },
+  {
+   "name": "State Pharmaceuticals Corporation",
+   "type": "SOE",
+   "page": "https://www.spc.lk/careers.php",
+   "status": "ok"
+  },
+  {
+   "name": "Sri Lanka Telecom",
+   "type": "SOE",
+   "page": "https://www.slt.lk/en/careers",
+   "status": "ok"
+  },
+  {
+   "name": "Lanka Electricity Company",
+   "type": "SOE",
+   "page": "https://www.leco.lk/index.php/careers",
+   "status": "ok"
+  },
+  {
+   "name": "SriLankan Airlines",
+   "type": "SOE",
+   "page": "https://www.srilankan.com/en_uk/careers",
+   "status": "blocked"
+  },
+  {
+   "name": "National Water Supply and Drainage Board",
+   "type": "SOE",
+   "page": "https://www.waterboard.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Airport and Aviation Services",
+   "type": "SOE",
+   "page": "https://www.airport.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Ceylon Petroleum Corporation",
+   "type": "SOE",
+   "page": "https://ceypetco.gov.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Sri Lanka Railways",
+   "type": "SOE",
+   "page": "https://www.railway.gov.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Public Service Commission",
+   "type": "Authority",
+   "page": "https://www.psc.gov.lk",
+   "status": "unreachable"
+  },
+  {
+   "name": "Department of Examinations",
+   "type": "Authority",
+   "page": "https://www.doenets.lk/onlineapplications",
+   "status": "ok"
+  }
+ ],
+ "domains": [
+  "airport.lk",
+  "boc.lk",
+  "bpu.ac.lk",
+  "cbsl.gov.lk",
+  "ceb.lk",
+  "ceypetco.gov.lk",
+  "cmb.ac.lk",
+  "doenets.lk",
+  "esn.ac.lk",
+  "gwu.ac.lk",
+  "jfn.ac.lk",
+  "kdu.ac.lk",
+  "kln.ac.lk",
+  "leco.lk",
+  "nsb.lk",
+  "ocu.ac.lk",
+  "ou.ac.lk",
+  "pdn.ac.lk",
+  "peoplesbank.lk",
+  "psc.gov.lk",
+  "railway.gov.lk",
+  "rdb.lk",
+  "rjt.ac.lk",
+  "ruh.ac.lk",
+  "sab.ac.lk",
+  "seu.ac.lk",
+  "sjp.ac.lk",
+  "slpa.lk",
+  "slt.lk",
+  "sltb.lk",
+  "spc.lk",
+  "srilankainsurance.com",
+  "srilankan.com",
+  "ugc.ac.lk",
+  "uom.lk",
+  "uovt.ac.lk",
+  "uwu.ac.lk",
+  "vau.ac.lk",
+  "vpa.ac.lk",
+  "waterboard.lk",
+  "wyb.ac.lk"
+ ]
+}
