@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T21:45:00+05:30",
+ "updated": "2026-11-06T07:45:00+05:30",
  "status": {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "sitting": true,
-  "text": "Parliament sat today and approved the Trusts (Amendment) Bill and the Air Force estimate. It next sits on Friday 6 November at 9.30 am."
+  "text": "Sitting today from 9.30 am: private Members' motions from 11.30 am, then an Opposition motion at adjournment."
  },
  "brief": {
   "day": {
@@ -2453,6 +2453,15 @@
   ],
   "items": [
    {
+    "no": "2513/29",
+    "d": "2026-11-04",
+    "kind": "Extraordinary",
+    "cat": "rules",
+    "t": "National Single Window for Trade electronic transaction regulation",
+    "by": "Ministry of Digital Economy",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048495%20%28E%29_1793867806.pdf"
+   },
+   {
     "no": "2513/07",
     "d": "2026-11-02",
     "kind": "Extraordinary",
@@ -2559,9 +2568,10 @@
   ]
  },
  "posts": {
-  "date": "2026-11-05",
-  "x": "Parliament approved the Trusts (Amendment) Bill and a Rs. 4.26bn supplementary estimate for the Air Force's unmanned aerial vehicle system on 5 November. Vote counts await the Hansard. Parliament sits again on 6 November.",
-  "wa": "Parliament, 5 November\n- Trusts (Amendment) Bill approved; stage and vote await the Hansard\n- Supplementary Estimate No. 08: Rs. 4.26bn extra spending for the Sri Lanka Air Force, for an unmanned aerial vehicle system\n- Public Finance Committee report and Auditor-General reports presented\nNext: Parliament sits on Friday 6 November at 9.30 am."
+  "date": "2026-11-06",
+  "x": "",
+  "wa": "",
+  "note": "No new sitting record yet and no new tax, duty or price notice today."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
