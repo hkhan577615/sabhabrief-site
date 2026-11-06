@@ -1,65 +1,65 @@
 {
- "updated": "2026-11-06T07:45:00+05:30",
+ "updated": "2026-11-06T21:45:00+05:30",
  "status": {
   "date": "2026-11-06",
   "sitting": true,
-  "text": "Sitting today from 9.30 am: private Members' motions from 11.30 am, then an Opposition motion at adjournment."
+  "text": "The House sat today and adjourned at 4.52 pm. Parliament next sits on Thursday 12 November at 1.30 pm."
  },
  "brief": {
   "day": {
-   "date": "2026-11-05",
-   "headline": "Trusts bill, Air Force estimate approved",
+   "date": "2026-11-06",
+   "headline": "Five Members' motions passed",
    "stories": [
     {
-     "track": "law",
-     "date": "2026-11-05",
-     "title": "Trusts bill approved",
-     "v": "1 bill",
-     "l": "Trusts (Amendment) Bill",
-     "line": "Stage and vote await the Hansard.",
+     "track": "record",
+     "date": "2026-11-06",
+     "title": "Five motions passed",
+     "v": "5",
+     "l": "private Members' motions passed",
+     "line": "Rail, trees, education, tourism and water hyacinth.",
      "src": {
-      "t": "Business of the House, 5 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      "t": "Business of the House, 6 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
      },
      "refs": [
-      "Trusts (Amendment) Bill"
-     ]
-    },
-    {
-     "track": "money",
-     "date": "2026-11-05",
-     "title": "Air Force estimate approved",
-     "v": "Rs. 4.26bn",
-     "l": "extra spending sought, UAV system",
-     "line": "The House approved the Air Force supplementary estimate.",
-     "src": {
-      "t": "Parliament news, Supplementary Estimate No. 8",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
-     },
-     "refs": [
-      "Supplementary Estimate No. 08 (Air Force)"
+      "Five private Members' motions passed"
      ]
     },
     {
      "track": "oversight",
-     "date": "2026-11-05",
-     "title": "Committee reports presented",
-     "v": "2 reports",
-     "l": "committee reports presented",
-     "line": "Public Finance and Governance committees reported.",
+     "date": "2026-11-06",
+     "title": "Auditor-General reports tabled",
+     "v": "2025",
+     "l": "annual report tabled",
+     "line": "Installments for 2019 and 2022 to 2025 also tabled.",
      "src": {
-      "t": "Business of the House, 5 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      "t": "Business of the House, 6 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
      },
      "refs": [
-      "Committee reports presented"
+      "Auditor-General reports tabled"
+     ]
+    },
+    {
+     "track": "law",
+     "date": "2026-11-06",
+     "title": "Bill certificate endorsed",
+     "v": "1 bill",
+     "l": "certificate under Article 79",
+     "line": "The bill's name awaits the Hansard.",
+     "src": {
+      "t": "Business of the House, 6 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+     },
+     "refs": [
+      "Bill certificate endorsed"
      ]
     }
    ]
   },
   "week": {
    "from": "2026-11-03",
-   "to": "2026-11-05",
+   "to": "2026-11-06",
    "headline": "Trusts bill, Air Force estimate approved",
    "stories": [
     {
@@ -115,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-05",
+   "latest": "2026-11-06",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -142,8 +142,8 @@
  ],
  "keyDates": [
   {
-   "date": "2026-11-06",
-   "label": "Parliament sits again",
+   "date": "2026-11-12",
+   "label": "Parliament sits again, 1.30 pm",
    "track": "record"
   },
   {
@@ -797,24 +797,102 @@
  "days": [
   {
    "date": "2026-11-06",
-   "status": "agenda",
-   "chair": "",
-   "hours": "",
-   "headline": "Private Members' motions",
-   "summary": "",
+   "status": "record",
+   "chair": "Deputy Speaker Dr. Rizvie Salih",
+   "hours": "to 4.52 pm",
+   "headline": "Five Members' motions passed",
+   "summary": "The House passed five private Members' motions and received Auditor-General reports. It next sits on 12 November at 1.30 pm.",
    "items": [
     {
      "track": "record",
-     "title": "Private Members' motions",
-     "status": "Scheduled",
-     "what": "Seven motions listed, including train services, smart meters and tree planting.",
+     "title": "Five private Members' motions passed",
+     "status": "Passed",
+     "what": "Motions on Puttalam line trains, road-reserve trees, Colleges of Education, Udawalawe tourism and water hyacinth were passed.",
+     "figs": [
+      {
+       "v": "5",
+       "l": "motions passed"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Votes and debate to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 6 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor-General reports tabled",
+     "status": "Tabled",
+     "what": "Installments of Auditor-General reports for 2019, 2022 to 2025 and the 2025 annual report were presented.",
      "conf": [
       "bh"
      ],
      "src": [
       {
-       "t": "Forthcoming business of the House",
-       "u": "https://www.parliament.lk/en/home/forthcoming-business-of-the-house"
+       "t": "Business of the House, 6 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Bill certificate endorsed",
+     "status": "Announced",
+     "what": "The Speaker announced endorsement of a certificate on a bill under Article 79; the bill is not named in the record.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Bill name to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 6 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Ministers answer questions",
+     "status": "Recorded",
+     "what": "The Labour Minister answered on unemployment and the fuel subsidy; two ministers replied on Maha season farmers and the Asian Games.",
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Answers to be added from the Hansard",
+     "src": [
+      {
+       "t": "Business of the House, 6 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Adjournment motion: East Container Terminal",
+     "status": "Debated",
+     "what": "A motion on completion of the East Container Terminal at Colombo Port was proposed at adjournment.",
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 6 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
       }
      ]
     }
@@ -2569,9 +2647,8 @@
  },
  "posts": {
   "date": "2026-11-06",
-  "x": "",
-  "wa": "",
-  "note": "No new sitting record yet and no new tax, duty or price notice today."
+  "x": "Parliament sat on 6 November and passed five private Members' motions, on Puttalam line trains, road-side trees, Colleges of Education, Udawalawe tourism and water hyacinth. Next sitting: 12 November, 1.30 pm.",
+  "wa": "Parliament, 6 November\n- Passed five private Members' motions: Puttalam rail services, trees in road reserves, Colleges of Education, Udawalawe tourist zone, water hyacinth.\n- Auditor-General report installments and the 2025 annual report were tabled.\n- The Speaker announced a bill certificate endorsed under Article 79.\nNext: Parliament sits on Thursday 12 November at 1.30 pm."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
