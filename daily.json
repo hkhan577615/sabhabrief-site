@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-08T21:45:00+05:30",
+ "updated": "2026-11-09T21:45:00+05:30",
  "status": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "sitting": false,
   "text": "No sitting today. Parliament next sits on Thursday 12 November at 1.30 pm."
  },
@@ -2518,7 +2518,7 @@
  ],
  "billsSince": "2024-11-21",
  "gzfeed": {
-  "from": "2026-10-26",
+  "from": "2026-11-02",
   "src": [
    {
     "t": "Gazette Extraordinary listing, Department of Government Printing",
@@ -2530,6 +2530,15 @@
    }
   ],
   "items": [
+   {
+    "no": "2514/02",
+    "d": "2026-11-09",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Election Commission notice",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208140%20%28E%29_1794215189.pdf"
+   },
    {
     "no": "2513/30",
     "d": "2026-11-04",
@@ -2575,99 +2584,14 @@
     "by": "Sri Lanka Customs",
     "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 2 to 8 November 2026.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048483%20%28E%29_1793697508.pdf"
-   },
-   {
-    "no": "2512/42",
-    "d": "2026-10-30",
-    "kind": "Extraordinary",
-    "cat": "appt",
-    "t": "Colombo Municipal Council Budget 2027 open to inspection",
-    "by": "Colombo Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG8099%28E%29%20%20%5BIV-B%5D_1793775849.pdf"
-   },
-   {
-    "no": "2512/41",
-    "d": "2026-10-30",
-    "kind": "Extraordinary",
-    "cat": "rules",
-    "t": "Disaster plans required of public institutions",
-    "by": "National Disaster Management Council",
-    "sum": "Every ministry, department and public corporation must prepare and submit a disaster management plan to the Disaster Management Centre.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048420%20%28E%29%20-%20I-I_1793619694.pdf"
-   },
-   {
-    "no": "2512/30",
-    "d": "2026-10-28",
-    "kind": "Extraordinary",
-    "cat": "appt",
-    "t": "Health Services Committee of Public Service Commission appointed",
-    "by": "Public Service Commission",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208117%20%28E%29_1793687227.pdf"
-   },
-   {
-    "no": "2512/28",
-    "d": "2026-10-28",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Kandy Municipal Council member's seat declared vacant",
-    "by": "Returning Officer, Kandy Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208116%20%28E%29_1793687182.pdf"
-   },
-   {
-    "no": "2512/10",
-    "d": "2026-10-26",
-    "kind": "Extraordinary",
-    "cat": "notice",
-    "t": "Karainagar Pradeshiya Sabha Vice Chairman election meeting",
-    "by": "Department of Local Government, Northern Province",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208113%20%28E%29_1793793073.pdf",
-    "sum": "Meeting to fill the vice chairman post is set for 6 November 2026 at 9.30 am."
-   },
-   {
-    "no": "2512/06",
-    "d": "2026-10-26",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Vavuniya North Pradeshiya Sabha vacancy filled",
-    "by": "Returning Officer, Vavuniya North Pradeshiya Sabha",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208109%20%28E%29_1793252661.pdf"
-   },
-   {
-    "no": "2512/05",
-    "d": "2026-10-26",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Yatinuwara Pradeshiya Sabha vacancy filled",
-    "by": "Returning Officer, Yatinuwara Pradeshiya Sabha",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208108%20%20%28E%29_1793252591.pdf"
-   },
-   {
-    "no": "2512/02",
-    "d": "2026-10-26",
-    "kind": "Extraordinary",
-    "cat": "rules",
-    "t": "Armed forces called out for public order",
-    "by": "Presidential Secretariat",
-    "sum": "Armed forces called out under the Public Security Ordinance from 27 October 2026.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048403%20%28E%29_1793088877.pdf"
-   },
-   {
-    "no": "2512/01",
-    "d": "2026-10-26",
-    "kind": "Extraordinary",
-    "cat": "tax",
-    "t": "Customs rates of exchange from 26 October",
-    "by": "Sri Lanka Customs",
-    "sum": "New customs exchange rates apply from 26 October 2026, replacing those of 19 October.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048402%20%28E%29_1793080453.pdf"
    }
   ]
  },
  "posts": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "x": "",
   "wa": "",
-  "note": "No sitting today; only routine Election Commission notices."
+  "note": "No sitting and no new significant notices today."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
