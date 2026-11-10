@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "note": "Official careers pages checked by the jobs task, in addition to the Gazette. status is the result of the last check.",
  "employers": [
   {
@@ -60,13 +60,13 @@
    "name": "Sabaragamuwa University",
    "type": "University",
    "page": "https://www.sab.ac.lk/vacancies",
-   "status": "ok"
+   "status": "unreachable"
   },
   {
    "name": "Wayamba University",
    "type": "University",
    "page": "https://www.wyb.ac.lk/category/vacancies/",
-   "status": "ok"
+   "status": "unreachable"
   },
   {
    "name": "Uva Wellassa University",
@@ -161,8 +161,8 @@
   {
    "name": "People's Bank",
    "type": "Bank",
-   "page": "https://www.peoplesbank.lk",
-   "status": "unreachable"
+   "page": "https://www.peoplesbank.lk/careers/",
+   "status": "ok"
   },
   {
    "name": "Sri Lanka Insurance",
@@ -216,7 +216,7 @@
    "name": "National Water Supply and Drainage Board",
    "type": "SOE",
    "page": "https://www.waterboard.lk",
-   "status": "blocked"
+   "status": "unreachable"
   },
   {
    "name": "Airport and Aviation Services",
@@ -292,5 +292,5 @@
   "waterboard.lk",
   "wyb.ac.lk"
  ],
- "checked": "2026-11-07"
+ "checked": "2026-11-10"
 }
