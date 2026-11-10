@@ -9,6 +9,401 @@
  ],
  "jobs": [
   {
+   "t": "Primary non-skilled posts (PL 1), open recruitment",
+   "si": "ප්‍රාථමික ශිල්පීය නොවන සේවා ගණය (PL 1)",
+   "org": "Government Factory Department",
+   "cat": "Trades",
+   "close": "2026-11-06",
+   "how": "Registered post to the Director General, Government Factory Department, Kolonnawa.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 16,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-16-24",
+   "lang": "Sinhala",
+   "s": "primary-non-skilled-posts-pl-1-open-recruitment-government-factory-dep-1009-16-24"
+  },
+  {
+   "t": "Primary semi-skilled posts (PL 2), open recruitment",
+   "si": "ප්‍රාථමික අර්ධ ශිල්පීය සේවා ගණය (PL 2)",
+   "org": "Government Factory Department",
+   "cat": "Trades",
+   "close": "2026-11-06",
+   "age": "18 to 45",
+   "how": "Registered post to the Director General, Government Factory Department, Kolonnawa.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 24,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-24-25",
+   "lang": "Sinhala",
+   "amin": 18,
+   "amax": 45,
+   "s": "primary-semi-skilled-posts-pl-2-open-recruitment-government-factory-de-1009-24-25"
+  },
+  {
+   "t": "Director General",
+   "si": "අධ්‍යක්ෂ ජනරාල්",
+   "org": "Wayamba Development Authority",
+   "cat": "Provincial",
+   "close": "2026-11-06",
+   "pay": "HM 1-1 scale",
+   "age": "30 to 50",
+   "how": "Registered post to the Wayamba Development Authority, Maguruoyawatta, New Malkaduwawa, Boyagane.",
+   "g": "2026-10-16",
+   "part": "IV(A)",
+   "p": 2,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28A%29%202026.10.16_1793855869.pdf",
+   "id": "1016-2-33",
+   "lang": "English",
+   "amin": 30,
+   "amax": 50,
+   "s": "director-general-wayamba-development-authority-1016-2-33"
+  },
+  {
+   "t": "Office Assistant, Grade III",
+   "si": "කාර්යාල සහායක (III ශ්‍රේණිය)",
+   "org": "Wayamba Development Authority",
+   "cat": "Provincial",
+   "close": "2026-11-06",
+   "pay": "Rs. 40,500 to Rs. 62,530 a month (PL 1)",
+   "age": "18 to 45",
+   "where": "North Western Province residents",
+   "how": "Registered post to the Wayamba Development Authority, Boyagane.",
+   "g": "2026-10-16",
+   "part": "IV(A)",
+   "p": 8,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28A%29%202026.10.16_1793855869.pdf",
+   "id": "1016-8-34",
+   "lang": "English",
+   "prov": "North Western",
+   "amin": 18,
+   "amax": 45,
+   "s": "office-assistant-grade-iii-wayamba-development-authority-1016-8-34"
+  },
+  {
+   "t": "Agriculture Technical Assistant (Extension), Grade III",
+   "si": "කෘෂිකර්ම තාක්ෂණ සහායක (III ශ්‍රේණිය)",
+   "org": "North Western Provincial Public Service Commission",
+   "cat": "Provincial",
+   "close": "2026-11-06",
+   "where": "North Western Province residents",
+   "who": "Open competitive exam",
+   "how": "Registered post to the Secretary, North Western Provincial Public Service Commission, Kurunegala.",
+   "g": "2026-10-16",
+   "part": "IV(A)",
+   "p": 13,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28A%29%202026.10.16_1793855869.pdf",
+   "id": "1016-13-35",
+   "lang": "English",
+   "prov": "North Western",
+   "s": "agriculture-technical-assistant-extension-grade-iii-north-western-prov-1016-13-35"
+  },
+  {
+   "t": "Chief Editor, Sinhala Dictionary Office (contract)",
+   "si": "සිංහල ශබ්දකෝෂ කාර්යාලය ප්‍රධාන කර්තෘ (කොන්ත්‍රාත්)",
+   "org": "Department of Cultural Affairs",
+   "cat": "Professional",
+   "close": "2026-11-06",
+   "basis": "Contract",
+   "who": "As in the 25 September 2026 notice; this amendment sets the closing date",
+   "how": "Registered post to the Director of Cultural Affairs, 8th Floor, Sethsiripaya, Battaramulla.",
+   "g": "2026-10-23",
+   "part": "I (IIA)",
+   "p": 20,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
+   "id": "1023-20-11",
+   "lang": "Sinhala",
+   "s": "chief-editor-sinhala-dictionary-office-contract-department-of-cultural-1023-20-11"
+  },
+  {
+   "t": "Project Assistant (contract), Department of Chemistry",
+   "org": "Open University of Sri Lanka",
+   "cat": "University",
+   "close": "2026-11-06",
+   "u": "https://ou.ac.lk/vacancy/post-of-project-assistant-on-contract-16/",
+   "g": "2026-10-26",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "basis": "Contract",
+   "how": "As set out in the notice.",
+   "id": "1026-1-e24",
+   "s": "project-assistant-contract-department-of-chemistry-open-university-of-1026-1-e24"
+  },
+  {
+   "t": "Temporary Demonstrator, Department of Mechanical Engineering",
+   "org": "Open University of Sri Lanka",
+   "cat": "University",
+   "close": "2026-11-06",
+   "u": "https://ou.ac.lk/vacancy/post-of-temporary-demonstrator-11/",
+   "g": "2026-10-31",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "basis": "Temporary",
+   "how": "As set out in the notice.",
+   "id": "1031-1-e20",
+   "s": "temporary-demonstrator-department-of-mechanical-engineering-open-unive-1031-1-e20"
+  },
+  {
+   "t": "Book Keeper (assignment basis)",
+   "org": "Ocean University",
+   "cat": "University",
+   "close": "2026-11-06",
+   "u": "https://ocu.ac.lk/wp-content/uploads/2026/11/AD-Book-Keeper-CODL.pdf",
+   "g": "2026-11-06",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "n": 1,
+   "basis": "Contract",
+   "where": "Head Office, Mattakkuliya, Colombo 15",
+   "pay": "Rs. 60,000 a month for a six-month assignment",
+   "how": "By hand or registered post to the Senior Assistant Registrar, Human Resources.",
+   "id": "1106-1-e27",
+   "s": "book-keeper-assignment-basis-ocean-university-1106-1-e27"
+  },
+  {
+   "t": "Dental Surgeon, Grade II",
+   "si": "දන්ත ශල්‍ය වෛද්‍ය නිලධාරී (II ශ්‍රේණිය)",
+   "org": "Ministry of Health and Mass Media",
+   "cat": "Health",
+   "n": 85,
+   "close": "2026-11-08",
+   "pay": "Rs. 91,750 to Rs. 184,170 a month (SL 2-2025)",
+   "who": "Dental surgeons who have completed internship and hold SLMC registration",
+   "how": "Registered post to the address in the notice. Annex III lists the 85 posts.",
+   "g": "2026-10-30",
+   "part": "I (IIA)",
+   "p": 24,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
+   "id": "1030-24-0",
+   "lang": "Sinhala",
+   "edu": "prof",
+   "s": "dental-surgeon-grade-ii-ministry-of-health-and-mass-media-1030-24-0"
+  },
+  {
+   "t": "Muslim Marriage Registrar (Sinhala medium)",
+   "si": "මුස්ලිම් විවාහ ලියාපදිංචි කිරීමේ රෙජිස්ට්‍රාර් (සිංහල)",
+   "org": "Registrar General's Department",
+   "cat": "Registrars",
+   "close": "2026-11-09",
+   "basis": "Fee-paid appointment",
+   "where": "Nuwara Eliya District",
+   "age": "At least 30",
+   "how": "Registered post to the address in the notice's schedule. Forms at rgd.gov.lk.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 4,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-4-19",
+   "lang": "Sinhala",
+   "amin": 30,
+   "s": "muslim-marriage-registrar-sinhala-medium-registrar-general-s-departmen-1009-4-19"
+  },
+  {
+   "t": "Muslim Marriage Registrar (Tamil medium)",
+   "si": "මුස්ලිම් විවාහ ලියාපදිංචි කිරීමේ රෙජිස්ට්‍රාර් (දෙමළ)",
+   "org": "Registrar General's Department",
+   "cat": "Registrars",
+   "close": "2026-11-09",
+   "basis": "Fee-paid appointment",
+   "where": "Nuwara Eliya District",
+   "age": "At least 30",
+   "how": "Registered post to the address in the notice's schedule. Forms at rgd.gov.lk.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 5,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-5-20",
+   "lang": "Sinhala",
+   "amin": 30,
+   "s": "muslim-marriage-registrar-tamil-medium-registrar-general-s-department-1009-5-20"
+  },
+  {
+   "t": "Muslim Marriage Registrar (Sinhala medium)",
+   "si": "මුස්ලිම් විවාහ ලියාපදිංචි කිරීමේ රෙජිස්ට්‍රාර් (සිංහල)",
+   "org": "Registrar General's Department",
+   "cat": "Registrars",
+   "close": "2026-11-09",
+   "basis": "Fee-paid appointment",
+   "where": "Kandy District",
+   "age": "At least 30",
+   "how": "Registered post to the address in the notice's schedule. Forms at rgd.gov.lk.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 6,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-6-21",
+   "lang": "Sinhala",
+   "amin": 30,
+   "s": "muslim-marriage-registrar-sinhala-medium-registrar-general-s-departmen-1009-6-21"
+  },
+  {
+   "t": "Registrar of Births, Deaths and Marriages (Sinhala medium)",
+   "si": "උප්පැන්න, මරණ හා විවාහ රෙජිස්ට්‍රාර් (සිංහල)",
+   "org": "Registrar General's Department",
+   "cat": "Registrars",
+   "close": "2026-11-09",
+   "basis": "Fee-paid appointment",
+   "where": "Kegalle District",
+   "age": "At least 30",
+   "how": "Registered post to the address in the notice's schedule. Forms at rgd.gov.lk.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 8,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-8-22",
+   "lang": "Sinhala",
+   "amin": 30,
+   "s": "registrar-of-births-deaths-and-marriages-sinhala-medium-registrar-gene-1009-8-22"
+  },
+  {
+   "t": "Additional Director General",
+   "si": "අතිරේක අධ්‍යක්ෂ ජනරාල්",
+   "org": "Commission to Investigate Allegations of Bribery or Corruption",
+   "cat": "Professional",
+   "n": 1,
+   "close": "2026-11-09",
+   "age": "40 to 54",
+   "how": "Registered post to the address in the notice.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 12,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-12-23",
+   "lang": "Sinhala",
+   "amin": 40,
+   "amax": 54,
+   "s": "additional-director-general-commission-to-investigate-allegations-of-b-1009-12-23"
+  },
+  {
+   "t": "Nursing graduates: training intake",
+   "si": "හෙද උපාධිධාරීන් බඳවා ගැනීම - 2026",
+   "org": "Ministry of Health and Mass Media",
+   "cat": "Health",
+   "close": "2026-11-09",
+   "pay": "Rs. 54,920 to Rs. 102,710 a month (MT-7-2025)",
+   "age": "18 to 35 on 9 Nov 2026",
+   "who": "B.Sc. Nursing graduates, for the internship and orientation course",
+   "how": "Registered post to the Ministry of Health, Colombo 08.",
+   "g": "2026-10-09",
+   "part": "I (IIA)",
+   "p": 44,
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.09%20Part%20I-II%20A%20%28S%29%20press-_1792405264.pdf",
+   "id": "1009-44-26",
+   "lang": "Sinhala",
+   "edu": "prof",
+   "amin": 18,
+   "amax": 35,
+   "s": "nursing-graduates-training-intake-ministry-of-health-and-mass-media-1009-44-26"
+  },
+  {
+   "t": "Lecturer (Probationary / Unconfirmed), Senior Lecturer Grade II/I and Medical Officer",
+   "org": "University of Colombo",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://cmb.ac.lk/post-of-lecturer-senior-lecturer-and-medical-officer",
+   "g": "2026-10-18",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "how": "Google Form linked for each post on the notice.",
+   "id": "1018-1-e8",
+   "s": "lecturer-probationary-unconfirmed-senior-lecturer-grade-ii-i-and-medic-1018-1-e8"
+  },
+  {
+   "t": "Senior Lecturer and Lecturer posts in several departments",
+   "org": "University of Sri Jayewardenepura",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://www.sjp.ac.lk/vacancies/academic-vacancies-university-of-sri-jayewardenepura-3/",
+   "g": "2026-10-25",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "how": "As set out in the advertisement on the notice page.",
+   "id": "1025-1-f2",
+   "s": "senior-lecturer-and-lecturer-posts-in-several-departments-university-o-1025-1-f2"
+  },
+  {
+   "t": "Temporary Demonstrator in Yoga and Parapsychology",
+   "org": "Gampaha Wickramarachchi University of Indigenous Medicine",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://gwu.ac.lk/images/Vacancies/Temporary_Demonstrator_-_yoga.pdf",
+   "g": "2026-10-27",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "basis": "Temporary",
+   "how": "By email, as set out in the notice.",
+   "id": "1027-1-e26",
+   "s": "temporary-demonstrator-in-yoga-and-parapsychology-gampaha-wickramarach-1027-1-e26"
+  },
+  {
+   "t": "Technical Officer (Grade II, Segment B) and Public Health Inspector (Grade III)",
+   "org": "University of Moratuwa",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://uom.lk/vacancy/non-academic-vacancies-6",
+   "g": "2026-11-06",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "age": "18 to 45",
+   "pay": "Technical Officer: Rs. 51,095 to Rs. 60,575 a month (U-MT I (III)); first three years as a trainee",
+   "how": "Online at vacancy-apply.uom.lk.",
+   "id": "1106-1-e13",
+   "amin": 18,
+   "amax": 45,
+   "s": "technical-officer-grade-ii-segment-b-and-public-health-inspector-grade-1106-1-e13"
+  },
+  {
+   "t": "Librarian",
+   "org": "Sabaragamuwa University",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://www.sab.ac.lk/sites/default/files/vacancies/2026/Library%20Staff%20Advertistment.pdf",
+   "g": "2026-11-06",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "how": "As set out in the notice; closing date from the university's vacancies page.",
+   "id": "1106-1-e14",
+   "s": "librarian-sabaragamuwa-university-1106-1-e14"
+  },
+  {
+   "t": "Senior Professor / Professor (Chair)",
+   "org": "Sabaragamuwa University",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://www.sab.ac.lk/sites/default/files/vacancies/2026/Academic_Staff_Advertisment_Correct_Rotation%20(1).pdf",
+   "g": "2026-11-06",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "how": "As set out in the notice; closing date from the university's vacancies page.",
+   "id": "1106-1-e15",
+   "s": "senior-professor-professor-chair-sabaragamuwa-university-1106-1-e15"
+  },
+  {
+   "t": "Temporary Demonstrator, Department of Food Science and Technology",
+   "org": "Uva Wellassa University",
+   "cat": "University",
+   "close": "2026-11-09",
+   "u": "https://www.uwu.ac.lk/post-of-temporary-demonstrator-department-of-food-science-and-technology/",
+   "g": "2026-11-06",
+   "part": "Employer",
+   "p": 1,
+   "lang": "English",
+   "basis": "Temporary",
+   "how": "As set out in the notice.",
+   "id": "1106-1-e16",
+   "s": "temporary-demonstrator-department-of-food-science-and-technology-uva-w-1106-1-e16"
+  },
+  {
    "t": "Members, Agrarian Review Boards",
    "si": "ගොවිජන සමාලෝචන මණ්ඩල සාමාජිකයින්",
    "org": "Judicial Service Commission",
@@ -22,7 +417,8 @@
    "p": 7,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.16%20Part%20I-II%20A%20%28S%29%20PRESS_1793599811.pdf",
    "id": "1016-7-18",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "members-agrarian-review-boards-judicial-service-commission-1016-7-18"
   },
   {
    "t": "Temporary Assistant Lecturer in Chinese, Confucius Institute",
@@ -36,7 +432,9 @@
    "lang": "English",
    "basis": "Temporary",
    "how": "As set out in the notice.",
-   "id": "1022-1-e7"
+   "id": "1022-1-e7",
+   "edu": "deg",
+   "s": "temporary-assistant-lecturer-in-chinese-confucius-institute-university-1022-1-e7"
   },
   {
    "t": "Health Labourer (daily paid)",
@@ -52,7 +450,8 @@
    "p": 2,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2023.10.2026%20%281-33%29%20tem._1793704665.pdf",
    "id": "1023-2-32",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "health-labourer-daily-paid-laggala-pallegama-pradeshiya-sabha-1023-2-32"
   },
   {
    "t": "Project Assistant (contract), Faculty of Natural Sciences",
@@ -66,7 +465,8 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice.",
-   "id": "1029-1-e22"
+   "id": "1029-1-e22",
+   "s": "project-assistant-contract-faculty-of-natural-sciences-open-university-1029-1-e22"
   },
   {
    "t": "Project Assistant (contract), Finance Division",
@@ -80,7 +480,8 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice.",
-   "id": "1101-1-e19"
+   "id": "1101-1-e19",
+   "s": "project-assistant-contract-finance-division-open-university-of-sri-lan-1101-1-e19"
   },
   {
    "t": "IT Demonstrator (temporary)",
@@ -94,7 +495,9 @@
    "lang": "English",
    "basis": "Temporary",
    "how": "As set out in the notice.",
-   "id": "1104-1-e18"
+   "id": "1104-1-e18",
+   "edu": "deg",
+   "s": "it-demonstrator-temporary-open-university-of-sri-lanka-1104-1-e18"
   },
   {
    "t": "Assistant General Managers (Legal, Compliance, IT and others) and Secretary to the Board",
@@ -107,7 +510,9 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the advertisement, to reach the bank by 10 Nov.",
-   "id": "1106-1-e31"
+   "id": "1106-1-e31",
+   "edu": "deg",
+   "s": "assistant-general-managers-legal-compliance-it-and-others-and-secretar-1106-1-e31"
   },
   {
    "t": "Temporary Demonstrator, Department of Psychiatry",
@@ -121,7 +526,9 @@
    "lang": "English",
    "basis": "Temporary",
    "how": "As set out in the notice.",
-   "id": "1022-1-e6"
+   "id": "1022-1-e6",
+   "edu": "deg",
+   "s": "temporary-demonstrator-department-of-psychiatry-university-of-colombo-1022-1-e6"
   },
   {
    "t": "Supervisor (Civil), assignment basis",
@@ -136,7 +543,10 @@
    "basis": "Contract",
    "age": "18 to 45",
    "how": "Registered post to the Senior Assistant Registrar, Non-Academic Establishments, University of Colombo.",
-   "id": "1028-1-e4"
+   "id": "1028-1-e4",
+   "amin": 18,
+   "amax": 45,
+   "s": "supervisor-civil-assignment-basis-university-of-colombo-1028-1-e4"
   },
   {
    "t": "Project Assistant (contract), Study Centres",
@@ -150,7 +560,8 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice.",
-   "id": "1029-1-e21"
+   "id": "1029-1-e21",
+   "s": "project-assistant-contract-study-centres-open-university-of-sri-lanka-1029-1-e21"
   },
   {
    "t": "Audit officer posts, State Audit Service (exam)",
@@ -165,7 +576,15 @@
    "p": 39,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.02%20Part%20I-II%20A%20%28S%29%20Gazettes%20New%2013.10.2026_1791887273.pdf",
    "id": "1002-39-27",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "ev": [
+    {
+     "d": "2026-10-02",
+     "l": "Closing date extended to 12 Nov 2026"
+    }
+   ],
+   "next": "Written exam in Colombo, December 2026; date to be announced",
+   "s": "audit-officer-posts-state-audit-service-exam-audit-service-commission-1002-39-27"
   },
   {
    "t": "Marshal, Alternative Communication Facilitator, Management Assistant, Works Aide, Gardener, Mechanic, Carpenter and Sub-warden",
@@ -179,7 +598,8 @@
    "lang": "English",
    "pay": "Marshal and Facilitator: Rs. 71,365 to Rs. 92,785 a month (U-MN 3 (II)); other posts as in the notice",
    "how": "Registered post to the address in the notice, Kumaratunga Munidasa Mawatha, Colombo 03.",
-   "id": "1025-1-e5"
+   "id": "1025-1-e5",
+   "s": "marshal-alternative-communication-facilitator-management-assistant-wor-1025-1-e5"
   },
   {
    "t": "Laboratory Assistant, Grade III",
@@ -196,7 +616,10 @@
    "p": 19,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.16%20Part%20I-II%20A%20%28S%29%20PRESS_1793599811.pdf",
    "id": "1016-19-14",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 18,
+   "amax": 45,
+   "s": "laboratory-assistant-grade-iii-department-of-animal-production-and-hea-1016-19-14"
   },
   {
    "t": "Driver, Grade III",
@@ -212,7 +635,8 @@
    "p": 5,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2030.10.2026_1793619587.pdf",
    "id": "1030-5-30",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "driver-grade-iii-kurunegala-municipal-council-1030-5-30"
   },
   {
    "t": "Kandyan dance instructor (service contract)",
@@ -228,7 +652,8 @@
    "p": 2,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2030.10.2026_1793619587.pdf",
    "id": "1030-2-31",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "kandyan-dance-instructor-service-contract-kandy-municipal-council-1030-2-31"
   },
   {
    "t": "Manager – Planning, Compliance and Finance executives, Executive – IT Risk Management",
@@ -241,7 +666,9 @@
    "p": 1,
    "lang": "English",
    "how": "Registered cover to the address in the advertisement.",
-   "id": "1106-1-e32"
+   "id": "1106-1-e32",
+   "edu": "deg",
+   "s": "manager-planning-compliance-and-finance-executives-executive-it-risk-m-1106-1-e32"
   },
   {
    "t": "Acting Director, Educational Technology (CETMe)",
@@ -255,7 +682,15 @@
    "lang": "English",
    "who": "Closing date extended to 13 Nov",
    "how": "As set out in the notice.",
-   "id": "1107-1-f3"
+   "id": "1107-1-f3",
+   "edu": "deg",
+   "ev": [
+    {
+     "d": "2026-11-07",
+     "l": "Closing date extended to 13 Nov 2026"
+    }
+   ],
+   "s": "acting-director-educational-technology-cetme-open-university-of-sri-la-1107-1-f3"
   },
   {
    "t": "Project Assistant (contract), Library",
@@ -269,7 +704,8 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice.",
-   "id": "1029-1-e23"
+   "id": "1029-1-e23",
+   "s": "project-assistant-contract-library-open-university-of-sri-lanka-1029-1-e23"
   },
   {
    "t": "Non-academic posts, open recruitment (several permanent posts)",
@@ -282,7 +718,8 @@
    "p": 1,
    "lang": "Sinhala",
    "how": "Online through the Apply Now link on the notice, by 4 pm on 14 Nov.",
-   "id": "1102-1-f1"
+   "id": "1102-1-f1",
+   "s": "non-academic-posts-open-recruitment-several-permanent-posts-university-1102-1-f1"
   },
   {
    "t": "Bank Examiner (General)",
@@ -296,7 +733,9 @@
    "lang": "English",
    "who": "A first or upper second class degree, or GPA 3.5 or more",
    "how": "Online only, through the CBSL recruitment portal (cbsl.lk/RecruitmentPortal).",
-   "id": "1025-1-e28"
+   "id": "1025-1-e28",
+   "edu": "deg",
+   "s": "bank-examiner-general-central-bank-of-sri-lanka-1025-1-e28"
   },
   {
    "t": "Bank Examiner (Information Technology)",
@@ -309,7 +748,9 @@
    "p": 1,
    "lang": "English",
    "how": "Online only, through the CBSL recruitment portal (cbsl.lk/RecruitmentPortal).",
-   "id": "1025-1-e29"
+   "id": "1025-1-e29",
+   "edu": "deg",
+   "s": "bank-examiner-information-technology-central-bank-of-sri-lanka-1025-1-e29"
   },
   {
    "t": "Senior Bank Examiner (Information Technology)",
@@ -322,7 +763,9 @@
    "p": 1,
    "lang": "English",
    "how": "Online only, through the CBSL recruitment portal (cbsl.lk/RecruitmentPortal).",
-   "id": "1025-1-e30"
+   "id": "1025-1-e30",
+   "edu": "deg",
+   "s": "senior-bank-examiner-information-technology-central-bank-of-sri-lanka-1025-1-e30"
   },
   {
    "t": "Radiographer: graduate training intake",
@@ -339,7 +782,11 @@
    "p": 8,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-8-1",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "edu": "prof",
+   "amin": 18,
+   "amax": 35,
+   "s": "radiographer-graduate-training-intake-ministry-of-health-and-mass-medi-1030-8-1"
   },
   {
    "t": "Management Service Officer, Grade III",
@@ -357,7 +804,9 @@
    "p": 2,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28A%29%202026.10.30%20%28S%29_1793619574.pdf",
    "id": "1030-2-28",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "prov": "North Western",
+   "s": "management-service-officer-grade-iii-north-western-provincial-public-s-1030-2-28"
   },
   {
    "t": "Management Service Officer, Grade III",
@@ -376,7 +825,11 @@
    "p": 8,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28A%29%202026.10.30%20%28S%29_1793619574.pdf",
    "id": "1030-8-29",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "prov": "Western",
+   "amin": 18,
+   "amax": 30,
+   "s": "management-service-officer-grade-iii-western-provincial-public-service-1030-8-29"
   },
   {
    "t": "Temporary Research Assistant, Rural Health Research Centre (Kataragama)",
@@ -390,7 +843,9 @@
    "lang": "English",
    "basis": "Temporary",
    "how": "As set out in the notice.",
-   "id": "1107-1-f0"
+   "id": "1107-1-f0",
+   "edu": "deg",
+   "s": "temporary-research-assistant-rural-health-research-centre-kataragama-u-1107-1-f0"
   },
   {
    "t": "Pipe Fitter",
@@ -406,7 +861,10 @@
    "p": 26,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.16%20Part%20I-II%20A%20%28S%29%20PRESS_1793599811.pdf",
    "id": "1016-26-15",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 18,
+   "amax": 45,
+   "s": "pipe-fitter-department-of-labour-1016-26-15"
   },
   {
    "t": "Management Assistant, Grade III (non-technical)",
@@ -422,7 +880,10 @@
    "p": 43,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.16%20Part%20I-II%20A%20%28S%29%20PRESS_1793599811.pdf",
    "id": "1016-43-16",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 21,
+   "amax": 35,
+   "s": "management-assistant-grade-iii-non-technical-commission-to-investigate-1016-43-16"
   },
   {
    "t": "Office Assistant, Grade III",
@@ -439,7 +900,10 @@
    "p": 50,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.16%20Part%20I-II%20A%20%28S%29%20PRESS_1793599811.pdf",
    "id": "1016-50-17",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 21,
+   "amax": 32,
+   "s": "office-assistant-grade-iii-commission-to-investigate-allegations-of-br-1016-50-17"
   },
   {
    "t": "Ayurvedic Medical Officer (Preliminary Grade)",
@@ -456,7 +920,10 @@
    "p": 9,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
    "id": "1023-9-9",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "edu": "prof",
+   "amin": 22,
+   "s": "ayurvedic-medical-officer-preliminary-grade-department-of-ayurveda-1023-9-9"
   },
   {
    "t": "Junior Assistant Librarian",
@@ -474,7 +941,11 @@
    "p": 17,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-17-2",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "edu": "al",
+   "amin": 18,
+   "amax": 40,
+   "s": "junior-assistant-librarian-parliament-of-sri-lanka-1030-17-2"
   },
   {
    "t": "Food and Beverage Assistant",
@@ -491,7 +962,10 @@
    "p": 19,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-19-3",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 22,
+   "amax": 35,
+   "s": "food-and-beverage-assistant-parliament-of-sri-lanka-1030-19-3"
   },
   {
    "t": "Furniture Polisher",
@@ -508,7 +982,8 @@
    "p": 19,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-19-4",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "furniture-polisher-parliament-of-sri-lanka-1030-19-4"
   },
   {
    "t": "Resource Centre Assistant, Faculty of Arts",
@@ -521,7 +996,8 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the notice.",
-   "id": "1103-1-e1"
+   "id": "1103-1-e1",
+   "s": "resource-centre-assistant-faculty-of-arts-university-of-colombo-1103-1-e1"
   },
   {
    "t": "Driver, Mason, Tractor Operator and Security Guard (Grade III)",
@@ -536,7 +1012,10 @@
    "age": "18 to 45",
    "pay": "Driver: Rs. 48,005 to Rs. 55,845 a month (U-PL 3 (III)); other posts as in the notice",
    "how": "As set out in the notice.",
-   "id": "1106-1-e12"
+   "id": "1106-1-e12",
+   "amin": 18,
+   "amax": 45,
+   "s": "driver-mason-tractor-operator-and-security-guard-grade-iii-university-1106-1-e12"
   },
   {
    "t": "Firefighter",
@@ -551,7 +1030,14 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2006.11.2026%20tem._1794215106.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-10-g7"
+   "id": "1106-10-g7",
+   "ev": [
+    {
+     "d": "2026-11-06",
+     "l": "Closing date extended to 16 Nov 2026"
+    }
+   ],
+   "s": "firefighter-dehiwala-mount-lavinia-municipal-council-1106-10-g7"
   },
   {
    "t": "Lecturer (contract)",
@@ -565,7 +1051,9 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice; closes 9.30 am on 16 Nov.",
-   "id": "1110-1-h2"
+   "id": "1110-1-h2",
+   "edu": "deg",
+   "s": "lecturer-contract-open-university-of-sri-lanka-1110-1-h2"
   },
   {
    "t": "Curator (Landscape), Grade III",
@@ -578,7 +1066,8 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the notice; closing date from the university's vacancies page.",
-   "id": "1029-1-e9"
+   "id": "1029-1-e9",
+   "s": "curator-landscape-grade-iii-university-of-peradeniya-1029-1-e9"
   },
   {
    "t": "Nursing Officer (contract)",
@@ -593,7 +1082,9 @@
    "basis": "Contract",
    "pay": "Rs. 51,095 a month plus COLA, EPF and ETF, for six months",
    "how": "By email to the address in the notice.",
-   "id": "1110-1-h3"
+   "id": "1110-1-h3",
+   "edu": "prof",
+   "s": "nursing-officer-contract-gampaha-wickramarachchi-university-of-indigen-1110-1-h3"
   },
   {
    "t": "Quantity Surveyor (temporary)",
@@ -609,7 +1100,9 @@
    "age": "Not more than 45",
    "pay": "Rs. 631,320 in total, paid in six equal parts",
    "how": "Registered post to the Senior Assistant Registrar, Non-Academic Establishments, University of Colombo.",
-   "id": "1105-1-e0"
+   "id": "1105-1-e0",
+   "amax": 45,
+   "s": "quantity-surveyor-temporary-university-of-colombo-1105-1-e0"
   },
   {
    "t": "Supervisor (Maintenance), Grade III",
@@ -623,7 +1116,8 @@
    "lang": "Sinhala",
    "si": "වැඩ පරිපාලක (නඩත්තු) - III ශ්‍රේණිය",
    "how": "Online form on the university's vacancies page, and the signed application by registered post.",
-   "id": "1029-1-e25"
+   "id": "1029-1-e25",
+   "s": "supervisor-maintenance-grade-iii-gampaha-wickramarachchi-university-of-1029-1-e25"
   },
   {
    "t": "Director, Postgraduate Institute of Humanities and Social Sciences",
@@ -636,7 +1130,8 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the notice; closing date from the university's vacancies page.",
-   "id": "1106-1-e10"
+   "id": "1106-1-e10",
+   "s": "director-postgraduate-institute-of-humanities-and-social-sciences-univ-1106-1-e10"
   },
   {
    "t": "Non-academic vacancies (several posts)",
@@ -650,7 +1145,10 @@
    "lang": "English",
    "age": "18 to 45",
    "how": "Google Form linked in the advertisement.",
-   "id": "1016-1-e11"
+   "id": "1016-1-e11",
+   "amin": 18,
+   "amax": 45,
+   "s": "non-academic-vacancies-several-posts-university-of-peradeniya-1016-1-e11"
   },
   {
    "t": "Examination Data Assistant, Grade III",
@@ -667,7 +1165,10 @@
    "p": 21,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
    "id": "1023-21-12",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 18,
+   "amax": 35,
+   "s": "examination-data-assistant-grade-iii-department-of-examinations-1023-21-12"
   },
   {
    "t": "Office Labourer (Office Employee Service, Grade III)",
@@ -686,7 +1187,10 @@
    "p": 12,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-12-5",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 18,
+   "amax": 45,
+   "s": "office-labourer-office-employee-service-grade-iii-registrar-general-s-1030-12-5"
   },
   {
    "t": "Health Driver (open recruitment)",
@@ -703,7 +1207,11 @@
    "p": 122,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-122-6",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "edu": "ol",
+   "amin": 18,
+   "amax": 45,
+   "s": "health-driver-open-recruitment-ministry-of-health-and-mass-media-1030-122-6"
   },
   {
    "t": "Assistant Secretary, Labour Tribunals",
@@ -721,7 +1229,8 @@
    "p": 4,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
    "id": "1023-4-8",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "assistant-secretary-labour-tribunals-ministry-of-justice-and-national-1023-4-8"
   },
   {
    "t": "Senior Assistant Auditor General (Class I)",
@@ -738,7 +1247,10 @@
    "p": 13,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
    "id": "1023-13-10",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "amin": 35,
+   "amax": 45,
+   "s": "senior-assistant-auditor-general-class-i-audit-service-commission-1023-13-10"
   },
   {
    "t": "Lecturer / Senior Lecturer, Assistant Internal Auditor, Works Engineer (Civil)",
@@ -751,7 +1263,9 @@
    "p": 1,
    "lang": "English",
    "how": "Online, through the Apply link for each post on the notice.",
-   "id": "1102-1-e2"
+   "id": "1102-1-e2",
+   "edu": "deg",
+   "s": "lecturer-senior-lecturer-assistant-internal-auditor-works-engineer-civ-1102-1-e2"
   },
   {
    "t": "Management Assistant (Bookkeeping), Postgraduate Institute of Medicine",
@@ -764,7 +1278,8 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the notice.",
-   "id": "1102-1-e3"
+   "id": "1102-1-e3",
+   "s": "management-assistant-bookkeeping-postgraduate-institute-of-medicine-un-1102-1-e3"
   },
   {
    "t": "Assistant Security Officer (contract)",
@@ -779,7 +1294,8 @@
    "basis": "Contract",
    "age": "Men 40 to 50, women 35 to 50, on 23 Nov 2026",
    "how": "Registered post to the Director, Human Resources, Central Bank of Sri Lanka.",
-   "id": "1108-1-h4"
+   "id": "1108-1-h4",
+   "s": "assistant-security-officer-contract-central-bank-of-sri-lanka-1108-1-h4"
   },
   {
    "t": "Academic Coordinator, Colombo Regional Centre",
@@ -792,7 +1308,9 @@
    "p": 1,
    "lang": "English",
    "how": "As set out in the notice.",
-   "id": "1110-1-h1"
+   "id": "1110-1-h1",
+   "edu": "deg",
+   "s": "academic-coordinator-colombo-regional-centre-open-university-of-sri-la-1110-1-h1"
   },
   {
    "t": "Sri Lanka Technological Service, Grade III (limited exam)",
@@ -807,7 +1325,8 @@
    "p": 25,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.23%20%20%20Part%20I-II%20A%20%28S%29%20Gazettes_1793428247.pdf",
    "id": "1023-25-13",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "sri-lanka-technological-service-grade-iii-limited-exam-irrigation-depa-1023-25-13"
   },
   {
    "t": "Academic Coordinator (contract) and Temporary Demonstrator, Department of Pharmacy",
@@ -821,7 +1340,9 @@
    "lang": "English",
    "basis": "Contract",
    "how": "As set out in the notice; closes 9.30 am on 26 Nov.",
-   "id": "1107-1-f4"
+   "id": "1107-1-f4",
+   "edu": "deg",
+   "s": "academic-coordinator-contract-and-temporary-demonstrator-department-of-1107-1-f4"
   },
   {
    "t": "Driver (daily paid)",
@@ -839,7 +1360,10 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2006.11.2026%20tem._1794215106.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-2-g5"
+   "id": "1106-2-g5",
+   "edu": "ol",
+   "prov": "Central",
+   "s": "driver-daily-paid-nawalapitiya-urban-council-1106-2-g5"
   },
   {
    "t": "Assistant Registrar (Legal and Documentation), Works Engineer (Civil) Grade III, Project Manager, Career Guidance Counsellor and Assistant Network Manager",
@@ -852,7 +1376,8 @@
    "p": 1,
    "lang": "English",
    "how": "Application form on the notice page.",
-   "id": "1102-1-e17"
+   "id": "1102-1-e17",
+   "s": "assistant-registrar-legal-and-documentation-works-engineer-civil-grade-1102-1-e17"
   },
   {
    "t": "Vocational Instructor, Grade III",
@@ -870,7 +1395,10 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.11.06%20Part%20I-II%20A%20%28S%29%20tem._1794038417.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-4-g0"
+   "id": "1106-4-g0",
+   "amin": 18,
+   "amax": 35,
+   "s": "vocational-instructor-grade-iii-department-of-social-services-1106-4-g0"
   },
   {
    "t": "Lecturer, Grade II, Sri Lanka Planetarium",
@@ -885,7 +1413,8 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.11.06%20Part%20I-II%20A%20%28S%29%20tem._1794038417.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-17-g2"
+   "id": "1106-17-g2",
+   "s": "lecturer-grade-ii-sri-lanka-planetarium-ministry-of-science-and-techno-1106-17-g2"
   },
   {
    "t": "Lecturer (Probationary / Unconfirmed), Senior Lecturer Grade II/I, Faculties of Arts and Law",
@@ -898,7 +1427,9 @@
    "p": 1,
    "lang": "English",
    "how": "Online, through the Apply link for each post on the notice.",
-   "id": "1109-1-h0"
+   "id": "1109-1-h0",
+   "edu": "deg",
+   "s": "lecturer-probationary-unconfirmed-senior-lecturer-grade-ii-i-faculties-1109-1-h0"
   },
   {
    "t": "Legal Officer (Executive Service, Grade III)",
@@ -915,7 +1446,11 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.11.06%20Part%20I-II%20A%20%28S%29%20tem._1794038417.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-9-g1"
+   "id": "1106-9-g1",
+   "edu": "prof",
+   "amin": 21,
+   "amax": 45,
+   "s": "legal-officer-executive-service-grade-iii-government-valuation-departm-1106-9-g1"
   },
   {
    "t": "Crematorium Operator, Grade III",
@@ -932,7 +1467,10 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/IV%20%28B%29%20%28S%29%20-%2006.11.2026%20tem._1794215106.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-6-g6"
+   "id": "1106-6-g6",
+   "edu": "ol",
+   "prov": "Central",
+   "s": "crematorium-operator-grade-iii-medadumbara-pradeshiya-sabha-1106-6-g6"
   },
   {
    "t": "External instructors for 2027 courses",
@@ -948,7 +1486,8 @@
    "p": 4,
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.10.30%20Part%20I-II%20A%20%28S%29%20press_1793965300.pdf",
    "id": "1030-4-7",
-   "lang": "Sinhala"
+   "lang": "Sinhala",
+   "s": "external-instructors-for-2027-courses-department-of-technical-educatio-1030-4-7"
   },
   {
    "t": "Inspector of Excise (open competitive exam)",
@@ -964,7 +1503,9 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.11.06%20Part%20I-II%20A%20%28S%29%20tem._1794038417.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-22-g3"
+   "id": "1106-22-g3",
+   "amin": 21,
+   "s": "inspector-of-excise-open-competitive-exam-excise-department-1106-22-g3"
   },
   {
    "t": "Railway Technical Management Assistant (Mechanical), Grade III",
@@ -981,7 +1522,8 @@
    "u": "https://documents.gov.lk/api/content-file-proxy?file=/gazette-content/2026.11.06%20Part%20I-II%20A%20%28S%29%20tem._1794038417.pdf",
    "lang": "Sinhala",
    "g": "2026-11-06",
-   "id": "1106-26-g4"
+   "id": "1106-26-g4",
+   "s": "railway-technical-management-assistant-mechanical-grade-iii-sri-lanka-1106-26-g4"
   }
  ]
 }

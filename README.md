@@ -8,7 +8,8 @@ Static site. No build step. Upload this folder as it is.
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
 - gazette.html: the Gazette feed (daily.json gzfeed), notices from last week on; 404.html
-- jobs.html: open government vacancies from the weekly Gazette (jobs.json), sorted by closing date; updated by a weekly task
+- jobs.html, jobs.css: government vacancies (jobs.json) from the Gazette and employers' careers pages (jobs-sources.json): open posts by closing date, a "What can I apply for?" match, and closed recruitments still being followed
+- job/: one page per vacancy, and sitemap.xml, both written by scripts/build_jobs.py from jobs.json (run by the twice-weekly jobs task; never edit by hand)
 - post.html: unlisted page showing the day's draft X and WhatsApp channel posts (daily.json posts) with Copy buttons; nothing is posted automatically
 - daily.json, library.json: the data, replaced every night
 - site.css, site.js, favicon.svg, robots.txt
