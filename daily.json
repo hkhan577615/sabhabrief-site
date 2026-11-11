@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T21:45:00+05:30",
+ "updated": "2026-11-11T07:39:00+05:30",
  "status": {
-  "date": "2026-11-09",
+  "date": "2026-11-11",
   "sitting": false,
-  "text": "No sitting today. Parliament next sits on Thursday 12 November at 1.30 pm."
+  "text": "No sitting today. Parliament sits on Thursday 12 November at 1.30 pm for the Appropriation Bill, the 2027 Budget."
  },
  "brief": {
   "day": {
@@ -60,18 +60,18 @@
   "week": {
    "from": "2026-11-03",
    "to": "2026-11-06",
-   "headline": "Trusts bill, Air Force estimate approved",
+   "headline": "Trusts Act passed; Air Force estimate approved",
    "stories": [
     {
      "track": "law",
      "date": "2026-11-05",
-     "title": "Trusts bill approved",
-     "v": "1 bill",
-     "l": "Trusts (Amendment) Bill",
-     "line": "Stage and vote await the Hansard.",
+     "title": "Trusts bill becomes law",
+     "v": "Act No. 28",
+     "l": "Trusts (Amendment) Act, 2026",
+     "line": "Passed and certified on 5 November; trusts must register.",
      "src": {
-      "t": "Business of the House, 5 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      "t": "Bill details: Trusts (Amendment)",
+      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6447"
      },
      "refs": [
       "Trusts (Amendment) Bill"
@@ -122,14 +122,14 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-11-04",
+   "latest": "2026-11-09",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
    "k": "act",
    "name": "Acts",
    "gives": "The final law and its number",
-   "latest": "2026-10-19",
+   "latest": "2026-11-05",
    "u": "https://documents.gov.lk/web/acts"
   },
   {
@@ -143,7 +143,7 @@
  "keyDates": [
   {
    "date": "2026-11-12",
-   "label": "Parliament sits again, 1.30 pm",
+   "label": "Parliament sits again",
    "track": "record"
   },
   {
@@ -219,22 +219,6 @@
    "watch": true
   },
   {
-   "id": "G6437",
-   "st": 3,
-   "label": "Passed with amendments",
-   "chg": "2026-10-22",
-   "dt": "Presented 8 Sep · passed 22 Oct · Speaker's certificate next",
-   "watch": true
-  },
-  {
-   "id": "G6439",
-   "st": 3,
-   "label": "Passed with amendments",
-   "chg": "2026-10-22",
-   "dt": "Presented 8 Sep · passed 22 Oct · Speaker's certificate next",
-   "watch": true
-  },
-  {
    "id": "G6443",
    "st": 1,
    "label": "Budget process",
@@ -255,14 +239,6 @@
    "label": "1st reading",
    "chg": "2026-10-20",
    "dt": "Published 30 Sep · 1st reading 20 Oct"
-  },
-  {
-   "id": "G6447",
-   "st": 1,
-   "label": "Approved 5 Nov, details awaited",
-   "chg": "2026-11-05",
-   "dt": "Published 14 Oct · 1st reading 21 Oct · House approval 5 Nov · stage awaits Hansard",
-   "watch": true
   },
   {
    "id": "G6441",
@@ -298,6 +274,30 @@
    "label": "Published",
    "chg": "2026-10-13",
    "dt": "Published 13 Oct"
+  },
+  {
+   "id": "G6447",
+   "st": 4,
+   "label": "Act No. 28 of 2026",
+   "chg": "2026-11-05",
+   "dt": "Published 14 Oct · 1st reading 21 Oct · passed and certified 5 Nov · Act text awaited",
+   "watch": false
+  },
+  {
+   "id": "G6439",
+   "st": 4,
+   "label": "Act No. 27 of 2026",
+   "chg": "2026-10-30",
+   "dt": "Presented 8 Sep · passed 22 Oct · certified 30 Oct · Act No. 27 printed",
+   "watch": false
+  },
+  {
+   "id": "G6437",
+   "st": 4,
+   "label": "Act No. 26 of 2026",
+   "chg": "2026-10-30",
+   "dt": "Presented 8 Sep · passed 22 Oct · certified 30 Oct · Act No. 26 of 2026",
+   "watch": false
   },
   {
    "id": "G6431",
@@ -796,6 +796,100 @@
  ],
  "days": [
   {
+   "date": "2026-11-12",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget Speech: Appropriation Bill",
+   "summary": "The Order Paper lists the Appropriation Bill for second reading at 1.30 pm, ahead of other bills and annual reports.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading",
+     "status": "Scheduled",
+     "what": "First item on the Order Paper; the Finance Minister presents the 2027 Budget.",
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Order Paper, 12 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Bills listed for second reading",
+     "status": "Scheduled",
+     "what": "Bills listed on the Order Paper after the Appropriation Bill; they may not be reached.",
+     "bills": [
+      "G6438",
+      "G6441",
+      "G6440",
+      "G6445",
+      "G6444",
+      "G6442"
+     ],
+     "points": [
+      "Elimination of Rabies and Registration of Dogs (adjourned debate)",
+      "Sri Lanka Cricket",
+      "Protection of the State from Terrorism",
+      "Prevention of Organised Crimes",
+      "Prevention of Foreign Terrorist Fighters",
+      "Immigration",
+      "Chartered Institute of Media Professionals of Sri Lanka"
+     ],
+     "figs": [
+      {
+       "v": "7",
+       "l": "government bills listed after the Budget"
+      }
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Order Paper, 12 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Justice sector annual reports for approval",
+     "status": "Scheduled",
+     "what": "Annual reports with Auditor-General observations, already considered by a Sectoral Oversight Committee.",
+     "figs": [
+      {
+       "v": "11",
+       "l": "annual reports listed for approval"
+      }
+     ],
+     "points": [
+      "Superior Courts Complex Board of Management (2022)",
+      "National Authority for the Protection of Victims of Crime and Witnesses (2022, 2023)",
+      "Legal Aid Commission (2022, 2023)",
+      "Official Languages Commission (2020 to 2023)",
+      "National Institute of Language Education and Training (2022, 2023)"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Order Paper, 12 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-06",
    "status": "record",
    "chair": "Deputy Speaker Dr. Rizvie Salih",
@@ -847,7 +941,7 @@
      "track": "law",
      "title": "Bill certificate endorsed",
      "status": "Announced",
-     "what": "The Speaker announced endorsement of a certificate on a bill under Article 79; the bill is not named in the record.",
+     "what": "The Speaker announced a certificate endorsed under Article 79; the record does not name the bill.",
      "conf": [
       "bh"
      ],
@@ -866,7 +960,7 @@
      "track": "record",
      "title": "Ministers answer questions",
      "status": "Recorded",
-     "what": "The Labour Minister answered on unemployment and the fuel subsidy; two ministers replied on Maha season farmers and the Asian Games.",
+     "what": "The Labour Minister answered on unemployment and the fuel subsidy; others replied on Maha farmers and the Asian Games.",
      "conf": [
       "bh"
      ],
@@ -903,21 +997,22 @@
    "status": "record",
    "chair": "Speaker Dr. Jagath Wickramaratne",
    "hours": "to 5.58 pm",
-   "headline": "Trusts bill and Air Force estimate approved",
+   "headline": "Trusts bill passed; Air Force estimate approved",
    "summary": "The House approved the Trusts (Amendment) Bill and the Air Force supplementary estimate of Rs. 4.26bn. It next sits on 6 November.",
    "items": [
     {
      "track": "law",
      "title": "Trusts (Amendment) Bill",
-     "status": "Approved",
-     "what": "The record lists the bill among two Order Paper items approved; stage and vote are not stated.",
+     "status": "Passed, certified",
+     "what": "Read a second and third time and certified by the Speaker the same day, as Act No. 28 of 2026.",
      "conf": [
-      "bh"
+      "bh",
+      "act"
      ],
      "await": [
       "hansard"
      ],
-     "next": "Stage, vote and amendments to be added from the Hansard",
+     "next": "Vote and any amendments to be added from the Hansard",
      "bills": [
       "G6447"
      ],
@@ -929,6 +1024,20 @@
       {
        "t": "Parliament news, Trusts (Amendment) Bill",
        "u": "https://www.parliament.lk/en/home/parliament-news/view/5520"
+      },
+      {
+       "t": "Bill details: Trusts (Amendment)",
+       "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6447"
+      },
+      {
+       "t": "Acts listing",
+       "u": "https://www.parliament.lk/en/business-of-parliament/acts-listing"
+      }
+     ],
+     "figs": [
+      {
+       "v": "Act No. 28",
+       "l": "Act number, 2026"
       }
      ]
     },
@@ -1301,6 +1410,53 @@
    ]
   },
   {
+   "date": "2026-10-30",
+   "status": "record",
+   "chair": "",
+   "hours": "No sitting",
+   "headline": "Two drug-law Acts certified",
+   "summary": "",
+   "items": [
+    {
+     "track": "law",
+     "title": "Drug-law bills certified",
+     "status": "Law",
+     "bills": [
+      "G6437",
+      "G6439"
+     ],
+     "what": "The Speaker certified both Poisons, Opium and Dangerous Drugs (Amendment) bills passed on 22 October.",
+     "figs": [
+      {
+       "v": "2 Acts",
+       "l": "certified on 30 October"
+      }
+     ],
+     "points": [
+      "Act No. 26 of 2026: handling and destruction of seized drugs (Bill 79)",
+      "Act No. 27 of 2026: methamphetamine, manufacturing and bail (Bill 80)"
+     ],
+     "conf": [
+      "act"
+     ],
+     "src": [
+      {
+       "t": "Act No. 27 of 2026",
+       "u": "https://www.parliament.lk/uploads/acts/gbills/english/6439.pdf"
+      },
+      {
+       "t": "Act details: Act No. 26 of 2026",
+       "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6437"
+      },
+      {
+       "t": "Acts, Department of Government Printing",
+       "u": "https://documents.gov.lk/web/acts"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-23",
    "status": "record",
    "chair": "Speaker Jagath Wickramaratne",
@@ -1478,13 +1634,13 @@
      ],
      "what": "Bill 79 covers how seized drugs are handled and destroyed. Bill 80 covers methamphetamine, manufacturing and bail.",
      "conf": [
-      "bh"
-     ],
-     "await": [
-      "hansard",
+      "bh",
       "act"
      ],
-     "next": "Speaker's certificate",
+     "await": [
+      "hansard"
+     ],
+     "next": "Certified 30 Oct as Acts No. 26 and 27 of 2026",
      "src": [
       {
        "t": "Business of the House, 22 Oct",
@@ -2535,17 +2691,27 @@
     "d": "2026-11-09",
     "kind": "Extraordinary",
     "cat": "elect",
-    "t": "Election Commission notice",
-    "by": "Election Commission",
+    "t": "Mahara Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Mahara Pradeshiya Sabha",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208140%20%28E%29_1794215189.pdf"
+   },
+   {
+    "no": "2514/01",
+    "d": "2026-11-09",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Customs rates of exchange from 9 November",
+    "by": "Sri Lanka Customs",
+    "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 9 to 15 November 2026.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048523%20%28E%29_1794310793.pdf"
    },
    {
     "no": "2513/30",
     "d": "2026-11-04",
     "kind": "Extraordinary",
     "cat": "elect",
-    "t": "Filling of a vacancy in Parliament (section 66A(1)(b))",
-    "by": "Election Commission",
+    "t": "Akkaraipattu Municipal Council vacancy filled",
+    "by": "Returning Officer, Akkaraipattu Municipal Council",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208135%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy%2066A%281%29%20%28b%29_1794051016.pdf"
    },
    {
@@ -2562,8 +2728,8 @@
     "d": "2026-11-04",
     "kind": "Extraordinary",
     "cat": "elect",
-    "t": "Filling of a vacancy in Parliament",
-    "by": "Election Commission",
+    "t": "Damana Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Damana Pradeshiya Sabha",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208134%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy_1794050978.pdf"
    },
    {
@@ -2573,7 +2739,16 @@
     "cat": "appt",
     "t": "Sri Jayawardenapura Kotte Budget 2027 open to inspection",
     "by": "Sri Jayawardenapura Kotte Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1793785955.pdf"
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1794295613.pdf"
+   },
+   {
+    "no": "2513/05",
+    "d": "2026-11-02",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Karachchi Pradeshiya Sabha vacancy filled",
+    "by": "Returning Officer, Karachchi Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208130%20%28E%29_1793955116.pdf"
    },
    {
     "no": "2513/01",
@@ -2588,10 +2763,9 @@
   ]
  },
  "posts": {
-  "date": "2026-11-09",
-  "x": "",
-  "wa": "",
-  "note": "No sitting and no new significant notices today."
+  "date": "2026-11-11",
+  "x": "Three bills are now law: the Trusts (Amendment) Act No. 28 of 2026, certified 5 Nov, and two drug-law Acts, Nos. 26 and 27, certified 30 Oct. Trustees must register trusts; drug offences and bail rules change.",
+  "wa": "Three bills certified as law\n- Trusts (Amendment) Act No. 28 of 2026, passed and certified 5 Nov: trusts must register with the Registrar-General; fines up to Rs. 3m\n- Act No. 26 of 2026: seized drugs can be destroyed before trial ends, keeping a sample\n- Act No. 27 of 2026: methamphetamine joins the most serious drug offences; bail only from the Court of Appeal where 100 g or more is involved\nNext: the Appropriation Bill for 2027 is listed for second reading on Thursday 12 November at 1.30 pm."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
