@@ -8,9 +8,9 @@ Static site. No build step. Upload this folder as it is.
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
 - gazette.html: the Gazette feed (daily.json gzfeed), notices from last week on; 404.html
-- closingdate/: the government jobs site, closingdate.lk, deployed as a separate Netlify site from this repo (see closingdate/README.md).
+- Government jobs are a separate site, closingdate.lk, in its own repository (hkhan577615/closingdate.lk).
   Sabha Brief's old /jobs.html, /job/* and /apply.html addresses redirect there (netlify.toml).
-- sitemap.xml: Sabha Brief's four pages; job pages are in closingdate/sitemap.xml
+- sitemap.xml: Sabha Brief's four pages; job pages are in closingdate.lk's sitemap
 - post.html: unlisted page showing the day's draft X and WhatsApp channel posts (daily.json posts) with Copy buttons; nothing is posted automatically
 - daily.json, library.json: the data, replaced every night
 - site.css, site.js, favicon.svg, robots.txt
