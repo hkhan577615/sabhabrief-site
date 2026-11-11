@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:39:00+05:30",
+ "updated": "2026-11-11T21:55:00+05:30",
  "status": {
   "date": "2026-11-11",
   "sitting": false,
@@ -1410,6 +1410,50 @@
    ]
   },
   {
+   "date": "2026-11-02",
+   "status": "record",
+   "chair": "",
+   "hours": "No sitting",
+   "headline": "Levy on imported rice removed",
+   "summary": "",
+   "items": [
+    {
+     "track": "money",
+     "title": "Rice import levy removed, Gazette 2513/02",
+     "status": "In force",
+     "what": "The Finance Minister removed the special commodity levy on imported raw and parboiled rice from 3 November.",
+     "figs": [
+      {
+       "v": "3 Nov 2026",
+       "l": "levy removal takes effect"
+      },
+      {
+       "v": "2",
+       "l": "rice tariff codes no longer levied"
+      }
+     ],
+     "points": [
+      "Made under the Special Commodity Levy Act, No. 48 of 2007, section 2",
+      "Order signed by the Minister of Finance, Planning and Economic Development on 2 November",
+      "Codes covered: 1006.30.19 (raw rice) and 1006.30.29 (parboiled rice)"
+     ],
+     "conf": [
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Special Commodity Levy order, Gazette 2513/02",
+       "u": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
+      },
+      {
+       "t": "Acts, gazettes and circulars, Ministry of Finance",
+       "u": "https://www.treasury.gov.lk/acts-gazettes-circulars"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-30",
    "status": "record",
    "chair": "",
@@ -2683,6 +2727,10 @@
    {
     "t": "Gazette listing, Department of Government Printing",
     "u": "https://documents.gov.lk/web/gazettes"
+   },
+   {
+    "t": "Acts, gazettes and circulars, Ministry of Finance",
+    "u": "https://www.treasury.gov.lk/acts-gazettes-circulars"
    }
   ],
   "items": [
@@ -2704,6 +2752,15 @@
     "by": "Sri Lanka Customs",
     "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 9 to 15 November 2026.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048523%20%28E%29_1794310793.pdf"
+   },
+   {
+    "no": "2513/38",
+    "d": "2026-11-05",
+    "kind": "Extraordinary",
+    "cat": "land",
+    "t": "Title settled for Depanama land parcel",
+    "by": "Land Title Settlement Department",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048503%20E_1794397134.pdf"
    },
    {
     "no": "2513/30",
@@ -2733,10 +2790,30 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208134%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy_1794050978.pdf"
    },
    {
+    "no": "2513/26",
+    "d": "2026-11-04",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Norwood Pradeshiya Sabha vice chairman election meeting",
+    "by": "Commissioner of Local Government, Central Province",
+    "sum": "The meeting to elect a vice chairman for Norwood Pradeshiya Sabha is set for 16 November 2026 at 11 am.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48494%28E%29%28C%29%20%20%5BIV%20-%20B%5D_1794386863.pdf"
+   },
+   {
+    "no": "2513/12",
+    "d": "2026-11-03",
+    "kind": "Extraordinary",
+    "cat": "notice",
+    "t": "Kataragama Budget 2027 open to inspection",
+    "by": "Kataragama Pradeshiya Sabha",
+    "sum": "The draft 2027 budget can be inspected at the Sabha library from 4 to 12 November 2026.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG8132%28E%29-%20IV-B%20Kataragama%20PS_1794386975.pdf"
+   },
+   {
     "no": "2513/07",
     "d": "2026-11-02",
     "kind": "Extraordinary",
-    "cat": "appt",
+    "cat": "notice",
     "t": "Sri Jayawardenapura Kotte Budget 2027 open to inspection",
     "by": "Sri Jayawardenapura Kotte Municipal Council",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1794295613.pdf"
@@ -2749,6 +2826,16 @@
     "t": "Karachchi Pradeshiya Sabha vacancy filled",
     "by": "Returning Officer, Karachchi Pradeshiya Sabha",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208130%20%28E%29_1793955116.pdf"
+   },
+   {
+    "no": "2513/02",
+    "d": "2026-11-02",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Special commodity levy on imported rice removed",
+    "by": "Ministry of Finance, Planning and Economic Development",
+    "sum": "The special commodity levy on imported raw and parboiled rice is removed from 3 November 2026.",
+    "u": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
    },
    {
     "no": "2513/01",
@@ -2764,8 +2851,8 @@
  },
  "posts": {
   "date": "2026-11-11",
-  "x": "Three bills are now law: the Trusts (Amendment) Act No. 28 of 2026, certified 5 Nov, and two drug-law Acts, Nos. 26 and 27, certified 30 Oct. Trustees must register trusts; drug offences and bail rules change.",
-  "wa": "Three bills certified as law\n- Trusts (Amendment) Act No. 28 of 2026, passed and certified 5 Nov: trusts must register with the Registrar-General; fines up to Rs. 3m\n- Act No. 26 of 2026: seized drugs can be destroyed before trial ends, keeping a sample\n- Act No. 27 of 2026: methamphetamine joins the most serious drug offences; bail only from the Court of Appeal where 100 g or more is involved\nNext: the Appropriation Bill for 2027 is listed for second reading on Thursday 12 November at 1.30 pm."
+  "x": "The special commodity levy on imported raw and parboiled rice was removed from 3 November, by a Finance Minister order in Gazette 2513/02. It applies to rice importers.",
+  "wa": "Levy on imported rice removed\n- The Finance Minister removed the special commodity levy on imported raw and parboiled rice from 3 November 2026 (Gazette 2513/02)\n- Trusts (Amendment) Act No. 28 of 2026, certified 5 Nov: trusts must register with the Registrar-General\n- Acts No. 26 and 27 of 2026, certified 30 Oct, change how seized drugs are handled and how methamphetamine offences and bail are treated\nNext: the Appropriation Bill for 2027 is listed for second reading on Thursday 12 November at 1.30 pm."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
