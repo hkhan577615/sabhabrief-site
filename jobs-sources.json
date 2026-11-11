@@ -12,9 +12,9 @@
   {
    "name": "Ministry of Child Development and Women`s Affairs",
    "type": "Ministry",
-   "page": "https://www.childwomenmin.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.childwomenmin.gov.lk/vacancies",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Ministry of Culture and Art Affairs",
@@ -75,9 +75,9 @@
   {
    "name": "Ministry of Health",
    "type": "Ministry",
-   "page": "https://www.health.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.health.gov.lk/moh-pages/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Ministry of Higher Education",
@@ -152,9 +152,9 @@
   {
    "name": "Ministry of Land and Land Development",
    "type": "Ministry",
-   "page": "https://www.landmin.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://landmin.gov.lk/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Ministry of Livestock and Rural Community Development",
@@ -355,9 +355,9 @@
   {
    "name": "Board of Investment of Sri Lanka",
    "type": "Department",
-   "page": "https://investsrilanka.com/",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://investsrilanka.com/home/career/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Civil Security Department",
@@ -516,9 +516,9 @@
   {
    "name": "Department of Government Information",
    "type": "Department",
-   "page": "https://www.news.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.news.lk/contact/vacancy",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Department of Government Printing",
@@ -530,9 +530,9 @@
   {
    "name": "Department of Health Service",
    "type": "Department",
-   "page": "https://www.health.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.health.gov.lk/moh-pages/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Department of Hindu Religious and Cultural Affairs",
@@ -614,9 +614,9 @@
   {
    "name": "Department of National Botanic Gardens",
    "type": "Department",
-   "page": "https://www.botanicgardens.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://botanicgardens.gov.lk/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Department of National Budget",
@@ -649,9 +649,9 @@
   {
    "name": "Department of Police",
    "type": "Department",
-   "page": "https://www.police.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://police.lk/join-us/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Department of Posts",
@@ -901,9 +901,9 @@
   {
    "name": "Children’s Secretariat",
    "type": "Statutory body",
-   "page": "https://www.childwomenmin.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.childwomenmin.gov.lk/vacancies",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Civil Aviation Authority of Sri Lanka",
@@ -985,9 +985,9 @@
   {
    "name": "Disaster Management Center",
    "type": "Statutory body",
-   "page": "https://www.dmc.gov.lk/",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.dmc.gov.lk/index.php?option=com_content&view=article&id=66&Itemid=159&lang=en",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Emergency Relief Unit",
@@ -1258,9 +1258,9 @@
   {
    "name": "Mahapola Higher Education Scholarship Trust Fund",
    "type": "Statutory body",
-   "page": "https://www.mahapola.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=126&Itemid=235&lang=en",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Mahaweli Athority of Sri Lanka",
@@ -1321,9 +1321,9 @@
   {
    "name": "National Building Research Organisation (NBRO)",
    "type": "Statutory body",
-   "page": "https://www.nbro.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "National Chamber of Commerce of Sri Lanka",
@@ -1335,16 +1335,16 @@
   {
    "name": "National Dangerous Drugs Control Board",
    "type": "Statutory body",
-   "page": "https://www.nddcb.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.nddcb.gov.lk/careers.php",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "National Education Commission (NEC)",
    "type": "Statutory body",
-   "page": "https://www.nec.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://nec.gov.lk/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "National Engineering, Research and Development Center (NERD)",
@@ -1608,9 +1608,9 @@
   {
    "name": "Postgraduate Institute of Management",
    "type": "Statutory body",
-   "page": "https://www.pim.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://pim.sjp.ac.lk/news_vacancies",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Postgraduate Institute of Medicine-University of Colombo",
@@ -1629,9 +1629,9 @@
   {
    "name": "Postgraduate Institute of Science",
    "type": "Statutory body",
-   "page": "https://www.pgis.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.pgis.lk/index.php/en/vacancies",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Public Enterprise Reforms Commission (PERC)",
@@ -1692,9 +1692,9 @@
   {
    "name": "Road Development Authority",
    "type": "Statutory body",
-   "page": "https://www.rda.gov.lk/",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://rda.gov.lk/index.php?option=com_content&view=article&id=83&Itemid=141&lang=en",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Rubber Research Institute of Sri Lanka",
@@ -2070,9 +2070,9 @@
   {
    "name": "Youth Corps",
    "type": "Statutory body",
-   "page": "https://www.youthcorps.lk/",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://youthcorps.lk/downloads/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Airport and Aviation Services",
@@ -2511,9 +2511,9 @@
   {
    "name": "Uva Province",
    "type": "Provincial council",
-   "page": "https://www.up.gov.lk",
-   "status": "no careers page found",
-   "tier": 2
+   "page": "https://www.up.gov.lk/notices/vacancies/",
+   "status": "ok",
+   "tier": 1
   },
   {
    "name": "Western Province",
@@ -2818,7 +2818,9 @@
   "wpc.gov.lk",
   "wyb.ac.lk",
   "youthcorps.lk",
-  "youthskillsmin.gov.lk"
+  "youthskillsmin.gov.lk",
+  "nbri.gov.lk",
+  "pim.sjp.ac.lk"
  ],
  "checked": "2026-11-11"
 }
