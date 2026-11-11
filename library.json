@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-11",
  "bills": [
   {
    "id": "G6438",
@@ -93,8 +93,8 @@
      "Magistrates",
      "Suspects and their lawyers"
     ],
-    "when": "The bill sets no start date. It becomes law when the Speaker signs the certificate.",
-    "note": "Passed with amendments on 22 October 2026. Based on the bill as presented; the final Act text is awaited.",
+    "when": "Law from certification on 30 October 2026.",
+    "note": "Certified as Act No. 26 of 2026 after amendments at passage on 22 October. Based on the bill as presented; the Act text is awaited.",
     "src": [
      {
       "t": "Bill text",
@@ -103,6 +103,10 @@
      {
       "t": "Bill details",
       "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6437"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6437"
      }
     ]
    }
@@ -125,14 +129,15 @@
      },
      {
       "v": "100 g",
-      "l": "pure quantity that triggers the bail rule"
+      "l": "quantity that triggers the bail rule"
      }
     ],
     "changes": [
      "Methamphetamine joins heroin, cocaine, morphine and opium in the most serious drug offences (section 54A).",
      "New offence of manufacturing other dangerous drugs in Groups A to E, tried in the High Court without a jury.",
-     "Manufacturing methamphetamine on the high seas becomes an offence.",
+     "Offences under section 54AA now also cover methamphetamine.",
      "Where 100 g or more is involved and the offence carries death or life imprisonment, only the Court of Appeal can grant bail, in exceptional circumstances.",
+     "The 100 g test uses the pure quantity in the Government Analyst report, or the gross quantity where there is no report.",
      "Cannabis sativa and its preparations are listed as dangerous drugs."
     ],
     "who": [
@@ -140,12 +145,15 @@
      "High Court and Court of Appeal",
      "Government Analyst"
     ],
-    "when": "The bill sets no start date. It becomes law when the Speaker signs the certificate.",
-    "note": "Passed with amendments on 22 October 2026. Based on the bill as presented; the final Act text is awaited.",
+    "when": "Law from certification on 30 October 2026; the Act sets no other start date.",
     "src": [
      {
-      "t": "Bill text",
-      "u": "https://www.parliament.lk/uploads/bills/gbills/english/6439.pdf"
+      "t": "Act No. 27 of 2026",
+      "u": "https://www.parliament.lk/uploads/acts/gbills/english/6439.pdf"
+     },
+     {
+      "t": "Act details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6439"
      },
      {
       "t": "Bill details",
@@ -313,8 +321,63 @@
     {
      "t": "Bill details",
      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6447"
+    },
+    {
+     "t": "Act details",
+     "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6447"
     }
-   ]
+   ],
+   "impl": {
+    "sum": "Requires trusts to register with the Registrar-General, keep beneficiary records and share them with investigators, with penalties.",
+    "figs": [
+     {
+      "v": "Rs. 3m",
+      "l": "maximum fine for a trustee breach"
+     },
+     {
+      "v": "10 years",
+      "l": "maximum jail for a breach"
+     },
+     {
+      "v": "1 month",
+      "l": "to register a new trust"
+     },
+     {
+      "v": "6 months",
+      "l": "for existing trusts to register"
+     },
+     {
+      "v": "5 years",
+      "l": "life of a registration certificate"
+     }
+    ],
+    "changes": [
+     "New trusts must be registered with the Registrar-General within one month; foreign trusts within three months of operating here.",
+     "Existing trusts must register within six months of the new section taking effect.",
+     "Trustees must keep records on authors, trustees, beneficiaries and controllers for six years after involvement ends.",
+     "The Registrar-General must share trust information on request with bodies such as the Financial Intelligence Unit, Customs and Inland Revenue.",
+     "The public can inspect names and beneficial interests; more detail needs a Right to Information request.",
+     "The Registrar-General can impose penalties up to one third of the maximum fine, with appeal to the ministry Secretary."
+    ],
+    "who": [
+     "Trustees and trust service providers",
+     "Authors and beneficiaries of trusts",
+     "Registrar-General",
+     "Financial Intelligence Unit and investigators"
+    ],
+    "when": "Law from certification on 5 November 2026; existing trusts then have six months to register.",
+    "note": "Passed and certified on 5 November 2026 as Act No. 28. Based on the bill as presented; the Act text and any amendments are awaited.",
+    "src": [
+     {
+      "t": "Bill text",
+      "u": "https://www.parliament.lk/uploads/bills/gbills/english/6447.pdf"
+     },
+     {
+      "t": "Bill details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6447"
+     }
+    ]
+   }
   },
   {
    "id": "G6441",
@@ -3142,6 +3205,24 @@
    "short": "Anti-corruption",
    "d": "2026-10-19",
    "id": "G6431"
+  },
+  {
+   "tag": "26",
+   "short": "Seized drugs",
+   "d": "2026-10-30",
+   "id": "G6437"
+  },
+  {
+   "tag": "27",
+   "short": "Methamphetamine offences",
+   "d": "2026-10-30",
+   "id": "G6439"
+  },
+  {
+   "tag": "28",
+   "short": "Trusts registration",
+   "d": "2026-11-05",
+   "id": "G6447"
   },
   {
    "tag": "15",
