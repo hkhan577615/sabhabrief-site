@@ -1,5 +1,38 @@
 [build]
   publish = "."
+  # Changes only inside closingdate/ belong to the closingdate.lk site: do not redeploy Sabha Brief for them.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)closingdate'"
+
+# Government jobs moved to closingdate.lk. Forced, so the old addresses redirect even if a file reappears.
+[[redirects]]
+  from = "/jobs.html"
+  to = "https://closingdate.lk/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jobs"
+  to = "https://closingdate.lk/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/job/*"
+  to = "https://closingdate.lk/job/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apply.html"
+  to = "https://closingdate.lk/apply.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/closingdate/*"
+  to = "/404.html"
+  status = 404
+  force = true
 
 # The Record page is now part of the home page. Old links, including #dYYYY-MM-DD, still land on the right week.
 [[redirects]]

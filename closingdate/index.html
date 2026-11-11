@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Closing Date · Sri Lanka government jobs by closing date</title>
+<meta name="description" content="Every government vacancy in Sri Lanka's Gazette that is still open, sorted by closing date, with salary, age limit and how to apply, linked to the official notice.">
+<meta property="og:site_name" content="Closing Date">
+<meta property="og:title" content="Closing Date · Sri Lanka government jobs by closing date">
+<meta property="og:description" content="Every government vacancy in the Gazette that is still open, sorted by closing date, linked to the official notice.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://closingdate.lk/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Noto+Sans+Sinhala:wght@400;500&display=swap">
+<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="/jobs.css">
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="/"><span class="brand-w">Closing <em>Date</em></span></a>
+    <p class="tagline">Every open government job in Sri Lanka, sorted by the day applications close. An independent site, not a government website.</p>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="/" data-p="jobs">Open jobs</a>
+    <a href="/#trk-h" data-p="followed">Being followed</a>
+    <a href="/#emp" data-p="who"><span class="long">Who we check</span><span class="short">Sources</span></a>
+  </div>
+</nav>
+<main class="wrap" data-page="jobs">
+  <header class="ph">
+    <p class="kicker">Government jobs</p>
+    <h1>Government jobs, from notice to appointment</h1>
+    <p class="dek" id="dek">Every government vacancy still open, from the weekly Gazette and from the careers pages of universities, state banks and state enterprises. See what you can apply for, and follow each recruitment after it closes.</p>
+  </header>
+
+  <section aria-label="Open vacancies">
+    <details class="me" id="me">
+      <summary>What can I apply for? <small id="meS">Enter your details to hide posts you cannot apply for.</small></summary>
+      <form class="me-f" id="meF" autocomplete="off">
+        <label>Your age<input type="number" id="meAge" min="16" max="70" inputmode="numeric" placeholder="e.g. 27"></label>
+        <label>Highest qualification<select id="meEdu"><option value="">Not set</option><option value="ol">G.C.E. O/L</option><option value="al">G.C.E. A/L</option><option value="dip">Diploma or NVQ</option><option value="deg">Degree</option></select></label>
+        <label>Province you live in<select id="meProv"><option value="">Not set</option><option>Western</option><option>Central</option><option>Southern</option><option>Northern</option><option>Eastern</option><option>North Western</option><option>North Central</option><option>Uva</option><option>Sabaragamuwa</option></select></label>
+        <label>Already a public officer?<select id="meSrv"><option value="">Not set</option><option value="n">No</option><option value="y">Yes</option></select></label>
+        <p class="me-b"><button class="btn" type="button" id="meClear">Clear</button><span>Kept only on this device. A match means the stated age, education, province and service rules do not rule you out; the notice has the full requirements.</span></p>
+      </form>
+    </details>
+    <div class="bf">
+      <label class="bf-s"><span class="sr">Search jobs</span><input type="search" id="q" placeholder="Search, e.g. driver, nursing, Kandy, Grade III" autocomplete="off"></label>
+      <p class="bf-n" id="count" role="status"></p>
+    </div>
+    <div class="bf"><div class="chips" id="chips" role="group" aria-label="Show one type of job"></div></div>
+    <ul class="jl" id="list"><li class="empty">Loading vacancies.</li></ul>
+    <p class="cap" id="cap"></p>
+
+    <h2 class="sec-t" id="trk-h">Closed, still being followed</h2>
+    <p class="note">Recruitments whose closing date has passed. Each is kept here until its exam date, results or appointments are published, so you can see where it stands.</p>
+    <ul class="jl" id="closed"></ul>
+
+    <details class="pay">
+      <summary>What the salary codes mean</summary>
+      <dl>
+        <dt>PL</dt><dd>Primary level: drivers, office assistants, labourers and similar posts.</dd>
+        <dt>MN</dt><dd>Management assistants, non-technical: clerical and office posts.</dd>
+        <dt>MT</dt><dd>Management assistants, technical: technical officers, nurses, laboratory staff.</dd>
+        <dt>SL</dt><dd>Senior level: doctors, engineers, lawyers and executive officers.</dd>
+        <dt>RS</dt><dd>Regulatory services such as Excise.</dd>
+        <dt>U-</dt><dd>University scales; the letters after it follow the same pattern.</dd>
+      </dl>
+      <p class="note">A scale written as "Rs. 41,800 to Rs. 65,560" is the basic monthly salary from the first year to the top of the grade. Allowances are paid on top.</p>
+    </details>
+    <details class="empd" id="emp" hidden></details>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Closing <em>Date</em></span>
+      <p>An independent list of Sri Lankan government vacancies, built only from official notices: the Gazette and employers' own websites. Not a government website, and not affiliated with the Government of Sri Lanka or any employer listed. Check the official notice before you apply. No government job requires a payment to an agent.</p>
+      <p class="foot-c">In beta · From the makers of <a href="https://sabhabrief.lk" target="_blank" rel="noopener">Sabha Brief</a> <a class="x-l" href="https://x.com/sabhabrief" target="_blank" rel="noopener" aria-label="Sabha Brief on X" title="@sabhabrief"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://www.doenets.lk" target="_blank" rel="noopener">Online exam applications</a></li>
+        <li><a href="https://www.pubad.gov.lk" target="_blank" rel="noopener">Ministry of Public Administration</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="/site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+const PART={"I (IIA)":"Part I, Section II(A)","IV(A)":"Part IV(A), provincial councils","IV(B)":"Part IV(B), local government"};
+Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{employers:[],domains:[]}]),SB.load("forms.json").catch(()=>[{}])]).then(([[d],[src],[forms]])=>{
+  const doms=new Set(src.domains||[]);
+  const okHost=u=>{try{const x=new URL(u);const h=x.hostname.replace(/^www\./,"");return /^https?:$/.test(x.protocol)&&(SB.official(u)||doms.has(h)||[...doms].some(dm=>h.endsWith("."+dm)))}catch(e){return false}};
+  const emp=(src.employers||[]);
+  if(emp.length){
+    const ok=emp.filter(e=>e.status==="ok"),types=[...new Set(emp.map(e=>e.type))];
+    const li=e=>`<li><a href="${esc(e.page)}" target="_blank" rel="noopener">${esc(e.name)}</a>${e.status==="ok"?"":` <small>${esc(e.status==="blocked"||e.status==="unreachable"?"could not be read":e.status==="no careers page found"?"no vacancies page":e.status==="to review"?"not checked yet":e.status)}</small>`}</li>`;
+    $("emp").innerHTML=`<summary>Who we check: ${emp.length} government employers${src.checked?`, last on ${esc(SB.dm(src.checked))}`:""}</summary><p class="note">Besides the weekly Gazette, these employers' own websites are checked for vacancies: ${ok.length} could be read at the last check. Where a site could not be read or has no vacancies page, the link goes to the employer so you can look yourself. Missing an employer or a job? Tell us on <a href="https://x.com/sabhabrief" target="_blank" rel="noopener">X</a>.</p>${types.map(t=>{const l=emp.filter(e=>e.type===t);return `<h3 class="emp-t">${esc(t)} <small>${l.length}</small></h3><ul class="empl">${l.map(li).join("")}</ul>`;}).join("")}`;
+    $("emp").hidden=false;}
+  SB.fresh(d.updated);
+  const left=s=>SB.diff(SB.today,s);
+  const shut=(d.jobs||[]).filter(j=>j.close&&left(j.close)<0).sort((a,b)=>a.close<b.close?1:-1);
+  const all=(d.jobs||[]).filter(j=>j.close&&left(j.close)>=0).sort((a,b)=>a.close<b.close?-1:a.close>b.close?1:(b.n||0)-(a.n||0));
+  const cats=[...new Set(all.map(j=>j.cat))].sort();
+  let cat="All",q="";
+  $("chips").innerHTML=["All",...cats].map(c=>`<button type="button" class="fl" data-k="${esc(c)}" aria-pressed="${c===cat}">${esc(c)} <span>${c==="All"?all.length:all.filter(j=>j.cat===c).length}</span></button>`).join("");
+  const iss=(d.issues||[]);
+  if(iss.length)$("cap").textContent=`From the weekly Gazettes of ${SB.dmy(iss[0])} to ${SB.dmy(iss[iss.length-1])} (Part I Section II(A), and Parts IV(A) and IV(B)), and from employers' own careers pages listed below. Summaries are translated from the official text, usually the Sinhala edition, which is authoritative. A blank field means the notice does not state it plainly; check the notice.`;
+  /* What can I apply for? Only rules the notice states are applied; anything unstated is left for the reader to check. */
+  const RANK={ol:1,al:2,dip:3,deg:4};
+  let me={};
+  try{me=JSON.parse(localStorage.getItem("cdJobsMe")||"{}")||{}}catch(e){me={}}
+  const meOn=()=>!!(me.age||me.edu||me.prov||me.srv);
+  function fit(j){
+    if(!meOn())return null;
+    const age=+me.age||0;
+    if(age&&((j.amin&&age<j.amin)||(j.amax&&age>j.amax)))return {out:"age"};
+    if(me.prov&&j.prov&&j.prov!==me.prov)return {out:"province"};
+    if(me.srv==="n"&&j.basis==="Serving officers only")return {out:"service"};
+    if(me.edu&&j.edu&&j.edu!=="prof"&&RANK[me.edu]<RANK[j.edu])return {out:"education"};
+    const known=(!me.age||j.amin||j.amax)&&(!me.edu||(j.edu&&j.edu!=="prof"));
+    return {ok:!!known};
+  }
+  function timeline(j){
+    const st=[[j.g,j.part==="Employer"?"Posted by the employer":"Advertised"]].concat((j.ev||[]).map(e=>[e.d,e.l]),[[j.close,left(j.close)>=0?"Applications close":"Applications closed"]]).sort((a,b)=>a[0]<b[0]?-1:1);
+    const nx=j.next||(left(j.close)<0?"No exam date, result or interview list published yet":"");
+    return `<ol class="tl">${st.map(([dt,l])=>`<li class="${dt<=SB.today?"done":"todo"}"><time datetime="${esc(dt)}">${esc(SB.dmy(dt))}</time><span>${esc(l)}</span></li>`).join("")}${nx?`<li class="todo"><time>Next</time><span>${esc(nx)}</span></li>`:""}</ol>`;
+  }
+  function due(j){
+    const n=left(j.close);
+    if(n<0)return `<span class="dl shut">Closed</span>`;
+    if(n===0)return `<span class="dl now">Closes today</span>`;
+    if(n===1)return `<span class="dl now">Closes tomorrow</span>`;
+    if(n<=7)return `<span class="dl soon">${n} days left</span>`;
+    return `<span class="dl">${n} days left</span>`;
+  }
+  function row(j){
+    const f=fit(j),badge=f&&left(j.close)>=0?(f.ok?`<span class="fit">Matches your details</span>`:`<span class="fit chk">Check the requirements</span>`):"";
+    const short=j.pay?j.pay.split(" a month")[0]:"";
+    const rows=[["Posts",j.n?String(j.n):""],["Salary",j.pay],["Age limit",j.age],["Where",j.where],["Who can apply",j.who],["How to apply",j.how],["Basis",j.basis]].filter(r=>r[1]);
+    return `<li class="jb" id="j${esc(j.id)}"><details><summary>
+      <div class="jm">
+        <p class="jo">${esc(j.org)}${j.basis?` · <span class="tag">${esc(j.basis)}</span>`:""}</p>
+        <h2 class="jt">${esc(j.t)}</h2>
+        ${j.si?`<p class="js" lang="si">${esc(j.si)}</p>`:""}
+        <p class="jf">${j.n?`<span><b>${j.n}</b> ${j.n===1?"post":"posts"}</span>`:""}${short?`<span>${esc(short)}</span>`:""}${j.where&&j.where.length<40?`<span>${esc(j.where)}</span>`:""}</p>
+      </div>
+      <div class="jc">${due(j)}${badge}<small>${left(j.close)<0?"Closed":"Closes"} ${esc(SB.F(j.close,{weekday:"short",day:"numeric",month:"short"}))}</small></div>
+    </summary><div class="jx">
+      <dl>${rows.map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>
+      ${timeline(j)}
+      ${forms[j.id]&&left(j.close)>=0?`<p><a class="arrow" href="apply.html?j=${encodeURIComponent(j.id)}">Print the application form</a></p>`:""}
+      ${j.s?`<p><a class="arrow" href="job/${esc(j.s)}.html">This post on its own page, to share</a></p>`:""}
+      <p class="src">Official notice: ${j.part==="Employer"?(okHost(j.u)?`<a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.org)} website${j.g?`, posted ${esc(SB.dmy(j.g))}`:""}</a>`:""):(SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">Gazette of ${esc(SB.dmy(j.g))}, ${esc(PART[j.part]||j.part)}, page ${j.p} (${esc(j.lang||"Sinhala")})</a>`:"")}</p>
+    </div></details></li>`;
+  }
+  const hay=j=>[j.t,j.si,j.org,j.cat,j.where,j.who,j.how,j.basis].join(" ").toLowerCase();
+  function render(){
+    const w=q.toLowerCase().split(/\s+/).filter(Boolean);
+    const pool=all.filter(j=>(cat==="All"||j.cat===cat)&&w.every(x=>hay(j).includes(x)));
+    const list=pool.filter(j=>{const f=fit(j);return !f||!f.out;});
+    const hid=pool.length-list.length;
+    $("meS").textContent=meOn()?(hid?`${hid} ${hid===1?"post":"posts"} hidden that the stated rules rule you out of.`:"No posts are ruled out by your details."):"Enter your details to hide posts you cannot apply for.";
+    const posts=list.reduce((s,j)=>s+(j.n||0),0);
+    $("count").textContent=`${list.length} ${list.length===1?"vacancy notice":"vacancy notices"}${posts?`, at least ${posts.toLocaleString("en-GB")} ${posts===1?"post":"posts"}`:""}`;
+    $("list").innerHTML=list.map(row).join("")||`<li class="empty">No open vacancies match. Try another word or type, or clear your details above.</li>`;
+  }
+  SB.safe("list",()=>{
+    render();
+    $("closed").innerHTML=shut.map(row).join("")||`<li class="empty">None yet.</li>`;
+    const F={age:$("meAge"),edu:$("meEdu"),prov:$("meProv"),srv:$("meSrv")};
+    Object.keys(F).forEach(k=>{F[k].value=me[k]||"";});
+    if(meOn())$("me").open=true;
+    const save=()=>{Object.keys(F).forEach(k=>{me[k]=F[k].value;});try{localStorage.setItem("cdJobsMe",JSON.stringify(me))}catch(e){}render();};
+    $("meF").addEventListener("input",save);$("meF").addEventListener("submit",e=>e.preventDefault());
+    $("meClear").addEventListener("click",()=>{Object.keys(F).forEach(k=>{F[k].value="";});save();});
+    $("chips").addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;cat=b.dataset.k;document.querySelectorAll("#chips .fl").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.k===cat)));render();});
+    $("q").addEventListener("input",e=>{q=e.target.value;render();});
+    const h=(location.hash||"").slice(1);if(h){const el=document.getElementById(h);if(el){const dt=el.tagName==="DETAILS"?el:el.querySelector("details");if(dt)dt.open=true;el.scrollIntoView({block:"start"});}}
+  });
+}).catch(()=>SB.fail("list"));
+})();
+</script>
+</body>
+</html>

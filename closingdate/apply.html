@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Application form · Closing Date</title>
+<meta name="description" content="Print the application form for a government post in the layout the official notice requires.">
+<meta name="robots" content="noindex">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F4F6F5">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Noto+Sans+Sinhala:wght@400;500&display=swap">
+<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="/jobs.css">
+<style>
+/* Application form: a help panel on screen, then the form as A4 sheets. Only the sheets print. The sheets are paper: black on white in both themes. */
+.ap{display:grid;gap:14px;max-width:820px}
+.ap-box{border:1px solid var(--rule);border-radius:8px;background:var(--surface);padding:16px 18px;display:grid;gap:10px;font-size:15px}
+.ap-box h2{font:600 12px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.ap-box ul{padding-left:1.15em;display:grid;gap:6px}
+.ap-env{display:grid;grid-template-columns:150px minmax(0,1fr);gap:8px 16px}
+.ap-env dt{font-size:13.5px;color:var(--ink-3)}
+.ap-env dd{margin:0;font-family:"Noto Sans Sinhala","Iskoola Pota",var(--sans)}
+.ap-act{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.ap-print{padding:12px 20px;border-radius:999px;border:0;background:var(--ink);color:var(--paper);font:600 15px/1 var(--sans);cursor:pointer}
+.sheets{display:grid;gap:24px;margin-top:28px;overflow-x:auto}
+.sheet{background:#fff;color:#000;width:210mm;min-height:297mm;padding:12mm 15mm 10mm;box-shadow:0 1px 10px rgba(0,0,0,.18);font:400 10pt/1.4 "Noto Sans Sinhala","Iskoola Pota","Nirmala UI",sans-serif;display:flex;flex-direction:column;gap:1.3mm}
+.sheet .c{text-align:center;font-weight:600;font-size:11pt}
+.sheet .cn{text-align:center;font-size:9pt}
+.sheet .n{font-size:9pt}
+.sheet hr{border:0;border-top:1px solid #000;width:100%;margin:1mm 0}
+.sheet .h{font-weight:600;margin-top:1.5mm}
+.sheet .r{display:grid;grid-template-columns:17mm minmax(0,1fr);gap:0 2mm}
+.sheet .r>b{font-weight:400;white-space:pre}
+.sheet .f{display:grid;gap:0}
+.sheet .f small{font-size:8.5pt;line-height:1.2}
+.sheet .ln{border-bottom:1px dotted #000;height:6mm}
+.sheet .frow{display:flex;gap:3mm;align-items:flex-end}
+.sheet .frow .ln{flex:1}
+.sheet p{margin:0;text-align:justify}
+.sheet .dots{display:inline-block;border-bottom:1px dotted #000;min-width:55mm}
+.sheet table{border-collapse:collapse;width:100%;font-size:9.5pt}
+.sheet th,.sheet td{border:1px solid #000;padding:1mm 2mm;height:6.5mm;text-align:left;font-weight:400}
+.sheet th{font-weight:600}
+.sheet .s{display:flex;justify-content:space-between;gap:10mm;margin-top:8mm}
+.sheet .s span{min-width:60mm;text-align:center;border-top:1px dotted #000;padding-top:1mm}
+.sheet .s span:empty{border:0}
+.sheet.tight{gap:.7mm;font-size:9.5pt;padding-top:10mm}
+.sheet.tight .ln{height:5.2mm}
+.sheet.tight th,.sheet.tight td{height:5.6mm}
+@media (max-width:860px){.sheet{zoom:.44}}
+@media (min-width:861px) and (max-width:1100px){.sheet{zoom:.8}}
+@page{size:A4;margin:0}
+@media print{
+  body{background:#fff}
+  .mast,.bar,.foot,.ph,.ap,body::before{display:none!important}
+  .wrap{padding:0!important;max-width:none!important;display:block}
+  .sheets{display:block;margin:0;overflow:visible}
+  .sheet{box-shadow:none;zoom:1!important;page-break-after:always;break-after:page;min-height:0;height:297mm}
+  .sheet:last-child{page-break-after:auto;break-after:auto}
+}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="/"><span class="brand-w">Closing <em>Date</em></span></a>
+    <p class="tagline">Every open government job in Sri Lanka, sorted by the day applications close. An independent site, not a government website.</p>
+    <p class="fresh" id="updated" hidden></p>
+  </div>
+</header>
+<nav class="bar" aria-label="Sections">
+  <div class="bar-in nav">
+    <a href="/" data-p="jobs">Open jobs</a>
+    <a href="/#trk-h" data-p="followed">Being followed</a>
+    <a href="/#emp" data-p="who"><span class="long">Who we check</span><span class="short">Sources</span></a>
+  </div>
+</nav>
+<main class="wrap" data-page="jobs">
+  <header class="ph">
+    <p class="kicker"><a href="/">Government jobs</a> · Application form</p>
+    <h1 class="jp-h" id="t">Application form</h1>
+    <p class="dek" id="dek"></p>
+  </header>
+  <div class="ap" id="ap"><p class="empty">Loading the form.</p></div>
+  <div class="sheets" id="sheets"></div>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <span class="brand-w">Closing <em>Date</em></span>
+      <p>An independent list of Sri Lankan government vacancies, built only from official notices: the Gazette and employers' own websites. Not a government website, and not affiliated with the Government of Sri Lanka or any employer listed. Check the official notice before you apply. No government job requires a payment to an agent.</p>
+      <p class="foot-c">In beta · From the makers of <a href="https://sabhabrief.lk" target="_blank" rel="noopener">Sabha Brief</a> <a class="x-l" href="https://x.com/sabhabrief" target="_blank" rel="noopener" aria-label="Sabha Brief on X" title="@sabhabrief"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></p>
+    </div>
+    <div>
+      <h2>Official sources</h2>
+      <ul>
+        <li><a href="https://documents.gov.lk/web/gazettes" target="_blank" rel="noopener">The Gazette</a></li>
+        <li><a href="https://documents.gov.lk/web/extra_gazettes" target="_blank" rel="noopener">Gazette Extraordinary</a></li>
+        <li><a href="https://www.doenets.lk" target="_blank" rel="noopener">Online exam applications</a></li>
+        <li><a href="https://www.pubad.gov.lk" target="_blank" rel="noopener">Ministry of Public Administration</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="/site.js"></script>
+<script>
+(function(){
+const {$,esc}=SB;
+const id=new URLSearchParams(location.search).get("j")||"";
+SB.load("/jobs.json","/forms.json").then(([d,forms])=>{
+  const j=(d.jobs||[]).find(x=>x.id===id),f=forms[id];
+  if(!j||!f){$("ap").innerHTML=`<p class="empty">There is no prepared form for this post. <a href="/">Back to all jobs</a></p>`;return;}
+  document.title=`Application form: ${j.t} · Closing Date`;
+  $("t").textContent=j.t;
+  const open=SB.diff(SB.today,j.close)>=0;
+  $("dek").textContent=`${j.org}. ${open?"Closes":"Closed"} ${SB.dmy(j.close)}. The application form from the official notice, laid out for A4 paper and ready to print.`;
+  const notice=SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">the official notice</a>`:"the official notice";
+  const env=f.env||{};
+  $("ap").innerHTML=`
+    <div class="ap-act"><button class="ap-print" id="pr" type="button">Print the form</button><span class="note">${f.pages.length} ${f.pages.length===1?"page":"pages"}, A4, in ${esc(f.lang)}. Choose "Save as PDF" in the print window to keep a copy.</span></div>
+    <div class="ap-box"><h2>Before you fill it in</h2><ul>${(f.tips||[]).map(t=>`<li>${esc(t)}</li>`).join("")}<li>This form is copied from ${notice}, which is the authoritative text. Compare it with the notice before you post it.</li></ul></div>
+    ${env.to?`<div class="ap-box"><h2>The envelope</h2><dl class="ap-env"><dt>Send to</dt><dd lang="si">${esc(env.to)}</dd>${env.corner?`<dt>Top left corner</dt><dd lang="si">${esc(env.corner)}</dd>`:""}${env.by?`<dt>How</dt><dd>${esc(env.by)}</dd>`:""}<dt>To arrive by</dt><dd>${esc(SB.dmy(j.close))}</dd></dl>${env.cornerNote?`<p class="note">${esc(env.cornerNote)}</p>`:""}</div>`:""}
+    ${open?"":`<p class="note"><b>Applications for this post have closed.</b></p>`}`;
+  const dots=t=>esc(t).replace(/____/g,'<span class="dots"></span>');
+  const lines=n=>Array.from({length:n||1},()=>`<div class="ln"></div>`).join("");
+  const block=b=>{
+    const k=b[0];
+    if(k==="c"||k==="cn"||k==="n"||k==="h")return `<div class="${k}">${esc(b[1])}</div>`;
+    if(k==="hr")return `<hr>`;
+    if(k==="p")return `<p>${dots(b[1])}</p>`;
+    if(k==="l")return `<div class="r"><b>${esc(b[1])}</b><div>${esc(b[2])}</div></div>`;
+    if(k==="f")return `<div class="r"><b>${esc(b[1])}</b><div class="f">${(b[4]||1)===1&&!b[3]?`<div class="frow"><span>${esc(b[2])}</span><div class="ln"></div></div>`:`<div class="frow"><span>${esc(b[2])}</span><div class="ln"></div></div>${b[3]?`<small>${esc(b[3])}</small>`:""}${lines((b[4]||1)-1)}`}</div></div>`;
+    if(k==="t"){const pre=b[3]||[];const rows=Array.from({length:b[2]},(_,i)=>pre[i]||b[1].map(()=>""));return `<table><tr>${b[1].map(c=>`<th>${esc(c)}</th>`).join("")}</tr>${rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>`;}
+    if(k==="s")return `<div class="s"><span>${esc(b[1])}</span><span>${esc(b[2])}</span></div>`;
+    return "";
+  };
+  $("sheets").innerHTML=f.pages.map(p=>`<section class="sheet${f.tight?" tight":""}" lang="si">${p.map(block).join("")}</section>`).join("");
+  $("pr").addEventListener("click",()=>window.print());
+}).catch(()=>SB.fail("ap"));
+})();
+</script>
+</body>
+</html>
