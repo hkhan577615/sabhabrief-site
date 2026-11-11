@@ -104,7 +104,7 @@
 (function(){
 const {$,esc}=SB;
 const PART={"I (IIA)":"Part I, Section II(A)","IV(A)":"Part IV(A), provincial councils","IV(B)":"Part IV(B), local government"};
-Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{employers:[],domains:[]}])]).then(([[d],[src]])=>{
+Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{employers:[],domains:[]}]),SB.load("forms.json").catch(()=>[{}])]).then(([[d],[src],[forms]])=>{
   const doms=new Set(src.domains||[]);
   const okHost=u=>{try{const x=new URL(u);const h=x.hostname.replace(/^www\./,"");return /^https?:$/.test(x.protocol)&&(SB.official(u)||doms.has(h)||[...doms].some(dm=>h.endsWith("."+dm)))}catch(e){return false}};
   const emp=(src.employers||[]);
@@ -161,6 +161,7 @@ Promise.all([SB.load("jobs.json"),SB.load("jobs-sources.json").catch(()=>[{emplo
     </summary><div class="jx">
       <dl>${rows.map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>
       ${timeline(j)}
+      ${forms[j.id]&&left(j.close)>=0?`<p><a class="arrow" href="apply.html?j=${encodeURIComponent(j.id)}">Print the application form</a></p>`:""}
       ${j.s?`<p><a class="arrow" href="job/${esc(j.s)}.html">This post on its own page, to share</a></p>`:""}
       <p class="src">Official notice: ${j.part==="Employer"?(okHost(j.u)?`<a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.org)} website${j.g?`, posted ${esc(SB.dmy(j.g))}`:""}</a>`:""):(SB.official(j.u)?`<a href="${esc(j.u)}#page=${j.p}" target="_blank" rel="noopener">Gazette of ${esc(SB.dmy(j.g))}, ${esc(PART[j.part]||j.part)}, page ${j.p} (${esc(j.lang||"Sinhala")})</a>`:"")}</p>
     </div></details></li>`;

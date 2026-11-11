@@ -66,7 +66,7 @@ def job_ld(j):
     return json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
 
 
-def page(j, today, head_links, nav, foot):
+def page(j, today, head_links, nav, foot, forms):
     is_open = j["close"] >= today
     rows = [("Employer", j["org"]), ("Posts", j.get("n")), ("Salary", j.get("pay")), ("Age limit", j.get("age")),
             ("Minimum education", EDU.get(j.get("edu", ""))), ("Where", j.get("where")),
@@ -107,6 +107,7 @@ def page(j, today, head_links, nav, foot):
     <div>
       <h2 class="blk-h">The post</h2>
       <dl class="jp-dl">{dl}</dl>
+      {f'<p><a class="arrow" href="/apply.html?j={j["id"]}">Print the application form</a></p>' if is_open and j["id"] in forms else ""}
       <p class="src">Official notice: {notice_link(j)}</p>
       <p class="cap">Summarised from the official notice, which is the authoritative text. A field that is missing here is not stated plainly in the notice. Check the notice before you apply. No government job requires a payment to an agent.</p>
     </div>
@@ -131,6 +132,10 @@ def main():
         j.setdefault("s", slug(j))
     json.dump(data, open(os.path.join(ROOT, "jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
+    try:
+        forms = json.load(open(os.path.join(ROOT, "forms.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        forms = {}
     src = open(os.path.join(ROOT, "jobs.html"), encoding="utf-8").read()
     absolute = lambda s: re.sub(r'(href|src)="(?!https?:|/|#|mailto:)([^"]+)"', r'\1="/\2"', s)
     head_links = absolute("\n".join(re.findall(r'<link rel="(?:icon|preconnect|stylesheet)"[^>]*>', src)))
@@ -143,7 +148,7 @@ def main():
     for j in data["jobs"]:
         name = j["s"] + ".html"
         keep.add(name)
-        open(os.path.join(out, name), "w", encoding="utf-8").write(page(j, today, head_links, nav, foot))
+        open(os.path.join(out, name), "w", encoding="utf-8").write(page(j, today, head_links, nav, foot, forms))
     for f in os.listdir(out):
         if f.endswith(".html") and f not in keep:
             os.remove(os.path.join(out, f))
