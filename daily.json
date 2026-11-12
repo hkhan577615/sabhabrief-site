@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-11T07:39:00+05:30",
+ "updated": "2026-11-12T07:55:00+05:30",
  "status": {
-  "date": "2026-11-11",
-  "sitting": false,
-  "text": "No sitting today. Parliament sits on Thursday 12 November at 1.30 pm for the Appropriation Bill, the 2027 Budget."
+  "date": "2026-11-12",
+  "sitting": true,
+  "text": "Sitting today from 1.30 pm: the 2027 Budget Speech on the Appropriation Bill."
  },
  "brief": {
   "day": {
@@ -122,7 +122,7 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-11-09",
+   "latest": "2026-11-10",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -136,7 +136,7 @@
    "k": "hansard",
    "name": "Hansard",
    "gives": "Votes, amounts and full answers",
-   "latest": "2026-10-23",
+   "latest": "2026-11-03",
    "u": "https://www.parliament.lk/en/business-of-parliament/hansards"
   }
  ],
@@ -150,31 +150,51 @@
    "date": "2026-11-12",
    "label": "Budget Speech",
    "track": "money",
-   "note": "The Finance Minister presents the 2027 Budget to Parliament.",
-   "bill": "G6443"
+   "note": "The Finance Minister presents the 2027 Budget at 1.30 pm.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
    "date": "2026-11-13",
    "end": "2026-11-20",
    "label": "Budget debate, second reading",
    "track": "money",
-   "note": "Second reading debate on the Appropriation Bill, the Budget.",
-   "bill": "G6443"
+   "note": "Seven days of debate on the Appropriation Bill, the 2027 Budget.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+  },
+  {
+   "date": "2026-11-17",
+   "label": "Civil Procedure bill, second reading listed",
+   "track": "law",
+   "note": "Second reading date set when the bill was presented on 3 November.",
+   "bill": "GP-083-2026",
+   "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
+  },
+  {
+   "date": "2026-11-20",
+   "label": "Budget second reading vote, 6 pm",
+   "track": "money",
+   "note": "Vote on the second reading of the Appropriation Bill ends the first debate stage.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
    "date": "2026-11-21",
    "end": "2026-12-14",
    "label": "Committee stage, ministry by ministry",
    "track": "money",
-   "note": "Committee stage examines each ministry's allocation.",
-   "bill": "G6443"
+   "note": "Nineteen days, including four Saturdays, examining each ministry's allocation.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
    "date": "2026-12-14",
    "label": "Final Budget vote, 6 pm",
    "track": "money",
-   "note": "Final vote on the Appropriation Bill.",
-   "bill": "G6443"
+   "note": "Third reading vote on the Appropriation Bill at 6 pm.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
    "date": "2026-12-21",
@@ -207,6 +227,10 @@
   {
    "t": "Business of the House, 3 Nov",
    "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+  },
+  {
+   "t": "Parliament news, 2027 Budget timetable",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   }
  ],
  "pipeline": [
@@ -231,7 +255,7 @@
    "st": 2,
    "label": "Supreme Court petitions",
    "chg": "2026-11-03",
-   "dt": "Published 6 Oct · 1st reading 20 Oct · petitions announced 3 Nov · court determination next"
+   "dt": "Published 6 Oct · 1st reading 20 Oct · 20 petitions announced 3 Nov · court determination next"
   },
   {
    "id": "G6444",
@@ -263,10 +287,10 @@
   },
   {
    "id": "GP-083-2026",
-   "st": 0,
-   "label": "Published",
-   "chg": "2026-10-16",
-   "dt": "Published 16 Oct"
+   "st": 1,
+   "label": "1st reading",
+   "chg": "2026-11-03",
+   "dt": "Published 16 Oct · 1st reading 3 Nov · 2nd reading listed 17 Nov"
   },
   {
    "id": "GP-079-2026",
@@ -274,6 +298,13 @@
    "label": "Published",
    "chg": "2026-10-13",
    "dt": "Published 13 Oct"
+  },
+  {
+   "id": "GP-089-2026",
+   "st": 0,
+   "label": "Published",
+   "chg": "2026-11-10",
+   "dt": "Published 10 Nov · first reading next"
   },
   {
    "id": "G6447",
@@ -796,6 +827,68 @@
  ],
  "days": [
   {
+   "date": "2026-11-20",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget second reading vote",
+   "summary": "The second reading debate on the 2027 Budget ends with a vote at 6 pm.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading vote",
+     "status": "Scheduled",
+     "what": "Final day of the second reading debate; the House votes at 6 pm.",
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget debate begins",
+   "summary": "First day of the second reading debate on the 2027 Budget, from 11 am to 6 pm.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Scheduled",
+     "what": "Debate on the 2027 Budget runs from 11 am to 6 pm.",
+     "bills": [
+      "G6443"
+     ],
+     "points": [
+      "9.30 am: business under Standing Orders 22(1) to 22(6)",
+      "10 am: five oral questions",
+      "10.30 am: one question under Standing Order 27(2)",
+      "6 pm: adjournment motions"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-12",
    "status": "agenda",
    "chair": "",
@@ -1263,34 +1356,41 @@
     {
      "track": "law",
      "title": "Civil Procedure Code (Amendment) Bill",
-     "status": "Presented",
-     "what": "Bill to amend the Civil Procedure Code presented by the Chief Government Whip.",
+     "status": "First reading",
+     "what": "Presented for the Justice Minister and referred to a Sectoral Oversight Committee.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Bill text and number to be added when Parliament lists it",
+     "next": "Second reading listed for 17 November",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
       }
+     ],
+     "bills": [
+      "GP-083-2026"
+     ],
+     "points": [
+      "Presented by the Chief Government Whip",
+      "Referred to the Sectoral Oversight Committee on Governance, Justice and Civil Protection"
      ]
     },
     {
      "track": "law",
      "title": "Organised Crimes Bill: court petitions",
      "status": "In the Supreme Court",
-     "what": "The Speaker announced copies of petitions filed at the Supreme Court against the bill.",
+     "what": "The Deputy Speaker announced 20 petitions filed at the Supreme Court against the bill.",
      "bills": [
       "G6445"
      ],
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
      "next": "Supreme Court determination to be announced to the House",
@@ -1298,6 +1398,16 @@
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
+      }
+     ],
+     "figs": [
+      {
+       "v": "20",
+       "l": "Supreme Court petitions filed"
       }
      ]
     },
@@ -1307,35 +1417,77 @@
      "status": "Approved",
      "what": "The House approved a resolution for a select committee on the 1983 Black July incident, its impact and relief.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Members and timetable to be added from the Hansard",
+     "next": "Committee members to be named",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
       }
+     ],
+     "points": [
+      "Moved by Thanura Dissanayake, MP",
+      "Seconded by Bhagya Sri Herath, MP"
      ]
     },
     {
      "track": "money",
      "title": "Supplementary Estimates No. 07 and 08",
      "status": "Presented",
-     "what": "Two supplementary estimates for 2026 were presented. No amounts appear in the daily record.",
+     "what": "Two supplementary estimates for 2026 were presented and referred to the Committee on Public Finance.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Estimate No. 07 is due for approval on 4 November",
+     "next": "Amounts for No. 07 to be added from the 4 November Hansard",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
+      },
+      {
+       "t": "Parliament news, Supplementary Estimate No. 8",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+      }
+     ],
+     "figs": [
+      {
+       "v": "Rs. 4.26bn",
+       "l": "No. 08 extra spending sought"
+      }
+     ],
+     "points": [
+      "No. 08 is for the Sri Lanka Air Force",
+      "No. 07 approved 4 Nov; No. 08 approved 5 Nov"
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Head 240 allocations report, September",
+     "status": "Tabled",
+     "what": "Report on allocations made from the Department of National Budget head, 1 to 30 September 2026.",
+     "points": [
+      "Laid under section 6(1) of Appropriation Act No. 23 of 2025",
+      "Expenditure Head 240, development activities programme"
+     ],
+     "conf": [
+      "hansard"
+     ],
+     "next": "Amounts to be added when published in English",
+     "src": [
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
       }
      ]
     },
@@ -1343,19 +1495,24 @@
      "track": "money",
      "title": "Import regulations, Gazette 2508/27",
      "status": "Tabled",
-     "what": "Finance Minister's regulations under the Imports and Exports (Control) Act laid before the House.",
+     "what": "Finance Minister regulations of 1 October laid before the House and referred to the Committee on Public Finance.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Motion to approve is due on 4 November",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
       }
+     ],
+     "points": [
+      "Made under the Imports and Exports (Control) Act No. 1 of 1969",
+      "Motion to approve due 4 November"
      ]
     },
     {
@@ -1377,18 +1534,19 @@
      "track": "record",
      "title": "Public Security Ordinance order",
      "status": "Reported",
-     "what": "A message from the President on an order under the Public Security Ordinance was read.",
+     "what": "A message from the President on a proclamation under the Public Security Ordinance was read.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Terms of the order to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      },
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
       }
      ]
     },
@@ -1404,6 +1562,65 @@
       {
        "t": "Business of the House, 3 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Adjournment motion: relief for exporters",
+     "status": "Debated",
+     "what": "Adjournment debate on financial relief for exporters facing global challenges.",
+     "conf": [
+      "hansard"
+     ],
+     "src": [
+      {
+       "t": "Hansard, 3 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24567_english_2026-11-03.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "status": "record",
+   "chair": "",
+   "hours": "No sitting",
+   "headline": "Levy on imported rice removed",
+   "summary": "",
+   "items": [
+    {
+     "track": "money",
+     "title": "Rice import levy removed, Gazette 2513/02",
+     "status": "In force",
+     "what": "The Finance Minister removed the special commodity levy on imported raw and parboiled rice from 3 November.",
+     "figs": [
+      {
+       "v": "3 Nov 2026",
+       "l": "levy removal takes effect"
+      },
+      {
+       "v": "2",
+       "l": "rice tariff codes no longer levied"
+      }
+     ],
+     "points": [
+      "Made under the Special Commodity Levy Act, No. 48 of 2007, section 2",
+      "Order signed by the Minister of Finance, Planning and Economic Development on 2 November",
+      "Codes covered: 1006.30.19 (raw rice) and 1006.30.29 (parboiled rice)"
+     ],
+     "conf": [
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Special Commodity Levy order, Gazette 2513/02",
+       "u": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
+      },
+      {
+       "t": "Acts, gazettes and circulars, Ministry of Finance",
+       "u": "https://www.treasury.gov.lk/acts-gazettes-circulars"
       }
      ]
     }
@@ -2683,6 +2900,10 @@
    {
     "t": "Gazette listing, Department of Government Printing",
     "u": "https://documents.gov.lk/web/gazettes"
+   },
+   {
+    "t": "Acts, gazettes and circulars, Ministry of Finance",
+    "u": "https://www.treasury.gov.lk/acts-gazettes-circulars"
    }
   ],
   "items": [
@@ -2704,6 +2925,15 @@
     "by": "Sri Lanka Customs",
     "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 9 to 15 November 2026.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048523%20%28E%29_1794310793.pdf"
+   },
+   {
+    "no": "2513/38",
+    "d": "2026-11-05",
+    "kind": "Extraordinary",
+    "cat": "land",
+    "t": "Title settled for Depanama land parcel",
+    "by": "Land Title Settlement Department",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048503%20E_1794397134.pdf"
    },
    {
     "no": "2513/30",
@@ -2733,10 +2963,30 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208134%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy_1794050978.pdf"
    },
    {
+    "no": "2513/26",
+    "d": "2026-11-04",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Norwood Pradeshiya Sabha vice chairman election meeting",
+    "by": "Commissioner of Local Government, Central Province",
+    "sum": "The meeting to elect a vice chairman for Norwood Pradeshiya Sabha is set for 16 November 2026 at 11 am.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48494%28E%29%28C%29%20%20%5BIV%20-%20B%5D_1794386863.pdf"
+   },
+   {
+    "no": "2513/12",
+    "d": "2026-11-03",
+    "kind": "Extraordinary",
+    "cat": "notice",
+    "t": "Kataragama Budget 2027 open to inspection",
+    "by": "Kataragama Pradeshiya Sabha",
+    "sum": "The draft 2027 budget can be inspected at the Sabha library from 4 to 12 November 2026.",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG8132%28E%29-%20IV-B%20Kataragama%20PS_1794386975.pdf"
+   },
+   {
     "no": "2513/07",
     "d": "2026-11-02",
     "kind": "Extraordinary",
-    "cat": "appt",
+    "cat": "notice",
     "t": "Sri Jayawardenapura Kotte Budget 2027 open to inspection",
     "by": "Sri Jayawardenapura Kotte Municipal Council",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1794295613.pdf"
@@ -2751,6 +3001,16 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208130%20%28E%29_1793955116.pdf"
    },
    {
+    "no": "2513/02",
+    "d": "2026-11-02",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Special commodity levy on imported rice removed",
+    "by": "Ministry of Finance, Planning and Economic Development",
+    "sum": "The special commodity levy on imported raw and parboiled rice is removed from 3 November 2026.",
+    "u": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
+   },
+   {
     "no": "2513/01",
     "d": "2026-11-02",
     "kind": "Extraordinary",
@@ -2763,9 +3023,9 @@
   ]
  },
  "posts": {
-  "date": "2026-11-11",
-  "x": "Three bills are now law: the Trusts (Amendment) Act No. 28 of 2026, certified 5 Nov, and two drug-law Acts, Nos. 26 and 27, certified 30 Oct. Trustees must register trusts; drug offences and bail rules change.",
-  "wa": "Three bills certified as law\n- Trusts (Amendment) Act No. 28 of 2026, passed and certified 5 Nov: trusts must register with the Registrar-General; fines up to Rs. 3m\n- Act No. 26 of 2026: seized drugs can be destroyed before trial ends, keeping a sample\n- Act No. 27 of 2026: methamphetamine joins the most serious drug offences; bail only from the Court of Appeal where 100 g or more is involved\nNext: the Appropriation Bill for 2027 is listed for second reading on Thursday 12 November at 1.30 pm."
+  "date": "2026-11-12",
+  "x": "The 2027 Budget Speech is today at 1.30 pm. A Public Private Partnership Bill, published 10 November, would set up a national agency for such projects. The Budget's second reading vote is set for 6 pm on 20 November.",
+  "wa": "2027 Budget presented today; PPP bill published\n- Parliament sits at 1.30 pm today for the 2027 Budget Speech on the Appropriation Bill\n- Second reading debate runs 13 to 20 November; committee stage 21 November to 14 December\n- A Public Private Partnership Bill, published 10 November, would set up a National Agency for Public Private Partnerships\n- The Civil Procedure Code (Amendment) Bill had its first reading on 3 November and was referred to a Sectoral Oversight Committee\nNext: second reading vote on the Budget at 6 pm on 20 November; final vote at 6 pm on 14 December."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
