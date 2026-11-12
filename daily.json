@@ -1,110 +1,110 @@
 {
- "updated": "2026-11-12T07:55:00+05:30",
+ "updated": "2026-11-12T21:55:00+05:30",
  "status": {
   "date": "2026-11-12",
   "sitting": true,
-  "text": "Sitting today from 1.30 pm: the 2027 Budget Speech on the Appropriation Bill."
+  "text": "The 2027 Budget was presented today. The second reading debate resumes on Friday 13 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-06",
-   "headline": "Five Members' motions passed",
+   "date": "2026-11-12",
+   "headline": "2027 Budget presented to Parliament",
    "stories": [
     {
-     "track": "record",
-     "date": "2026-11-06",
-     "title": "Five motions passed",
-     "v": "5",
-     "l": "private Members' motions passed",
-     "line": "Rail, trees, education, tourism and water hyacinth.",
+     "track": "money",
+     "date": "2026-11-12",
+     "title": "2027 Budget presented",
+     "v": "26 days",
+     "l": "Budget debate, to 14 December",
+     "line": "Budget Speech delivered; second reading vote at 6 pm on 20 November.",
      "src": {
-      "t": "Business of the House, 6 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      "t": "Business of the House, 12 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
      },
      "refs": [
-      "Five private Members' motions passed"
-     ]
-    },
-    {
-     "track": "oversight",
-     "date": "2026-11-06",
-     "title": "Auditor-General reports tabled",
-     "v": "2025",
-     "l": "annual report tabled",
-     "line": "Installments for 2019 and 2022 to 2025 also tabled.",
-     "src": {
-      "t": "Business of the House, 6 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
-     },
-     "refs": [
-      "Auditor-General reports tabled"
+      "Appropriation Bill 2027: second reading"
      ]
     },
     {
      "track": "law",
-     "date": "2026-11-06",
-     "title": "Bill certificate endorsed",
-     "v": "1 bill",
-     "l": "certificate under Article 79",
-     "line": "The bill's name awaits the Hansard.",
+     "date": "2026-11-12",
+     "title": "Court rules on three bills",
+     "v": "3",
+     "l": "bills with court determinations",
+     "line": "Cricket, counter-terrorism and immigration bills need amendments or a special majority.",
      "src": {
-      "t": "Business of the House, 6 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5527"
+      "t": "Parliament news, Speaker's announcements 12 Nov",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5539"
      },
      "refs": [
-      "Bill certificate endorsed"
+      "Supreme Court rulings on three bills"
+     ]
+    },
+    {
+     "track": "record",
+     "date": "2026-11-12",
+     "title": "Budget papers laid",
+     "v": "8",
+     "l": "fiscal papers presented",
+     "line": "Debt strategy, tax expenditure and draft 2027 estimates among them.",
+     "src": {
+      "t": "Business of the House, 12 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+     },
+     "refs": [
+      "Budget papers presented"
      ]
     }
    ]
   },
   "week": {
-   "from": "2026-11-03",
-   "to": "2026-11-06",
-   "headline": "Trusts Act passed; Air Force estimate approved",
+   "from": "2026-11-12",
+   "to": "2026-11-12",
+   "headline": "2027 Budget presented to Parliament",
    "stories": [
     {
-     "track": "law",
-     "date": "2026-11-05",
-     "title": "Trusts bill becomes law",
-     "v": "Act No. 28",
-     "l": "Trusts (Amendment) Act, 2026",
-     "line": "Passed and certified on 5 November; trusts must register.",
-     "src": {
-      "t": "Bill details: Trusts (Amendment)",
-      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6447"
-     },
-     "refs": [
-      "Trusts (Amendment) Bill"
-     ]
-    },
-    {
      "track": "money",
-     "date": "2026-11-05",
-     "title": "Air Force estimate approved",
-     "v": "Rs. 4.26bn",
-     "l": "extra spending sought, UAV system",
-     "line": "The House approved the Air Force supplementary estimate.",
+     "date": "2026-11-12",
+     "title": "2027 Budget presented",
+     "v": "26 days",
+     "l": "Budget debate, to 14 December",
+     "line": "Budget Speech delivered; second reading vote at 6 pm on 20 November.",
      "src": {
-      "t": "Parliament news, Supplementary Estimate No. 8",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+      "t": "Business of the House, 12 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
      },
      "refs": [
-      "Supplementary Estimate No. 08 (Air Force)"
+      "Appropriation Bill 2027: second reading"
      ]
     },
     {
-     "track": "oversight",
-     "date": "2026-11-03",
-     "title": "Black July select committee",
-     "v": "Approved",
-     "l": "House resolution on 1983 incident",
-     "line": "A select committee will study the incident, its impact and relief.",
+     "track": "law",
+     "date": "2026-11-12",
+     "title": "Court rules on three bills",
+     "v": "3",
+     "l": "bills with court determinations",
+     "line": "Cricket, counter-terrorism and immigration bills need amendments or a special majority.",
      "src": {
-      "t": "Business of the House, 3 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5513"
+      "t": "Parliament news, Speaker's announcements 12 Nov",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5539"
      },
      "refs": [
-      "Black July select committee"
+      "Supreme Court rulings on three bills"
+     ]
+    },
+    {
+     "track": "record",
+     "date": "2026-11-12",
+     "title": "Budget papers laid",
+     "v": "8",
+     "l": "fiscal papers presented",
+     "line": "Debt strategy, tax expenditure and draft 2027 estimates among them.",
+     "src": {
+      "t": "Business of the House, 12 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+     },
+     "refs": [
+      "Budget papers presented"
      ]
     }
    ]
@@ -115,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-06",
+   "latest": "2026-11-12",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -142,17 +142,9 @@
  ],
  "keyDates": [
   {
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "label": "Parliament sits again",
    "track": "record"
-  },
-  {
-   "date": "2026-11-12",
-   "label": "Budget Speech",
-   "track": "money",
-   "note": "The Finance Minister presents the 2027 Budget at 1.30 pm.",
-   "bill": "G6443",
-   "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
    "date": "2026-11-13",
@@ -162,6 +154,14 @@
    "note": "Seven days of debate on the Appropriation Bill, the 2027 Budget.",
    "bill": "G6443",
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+  },
+  {
+   "date": "2026-11-16",
+   "label": "Budget amendments due, 3 pm",
+   "track": "money",
+   "note": "Deadline for Members to hand in committee stage amendments to the 2027 Budget.",
+   "bill": "G6443",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
   },
   {
    "date": "2026-11-17",
@@ -231,6 +231,10 @@
   {
    "t": "Parliament news, 2027 Budget timetable",
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+  },
+  {
+   "t": "Parliament news, Budget presented",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5541"
   }
  ],
  "pipeline": [
@@ -245,9 +249,9 @@
   {
    "id": "G6443",
    "st": 1,
-   "label": "Budget process",
-   "chg": "2026-10-07",
-   "dt": "1st reading 7 Oct · Budget Speech 12 Nov · final vote 14 Dec",
+   "label": "Second reading debate",
+   "chg": "2026-11-12",
+   "dt": "1st reading 7 Oct · Budget Speech 12 Nov · 2nd reading vote 20 Nov · final vote 14 Dec",
    "watch": true
   },
   {
@@ -267,23 +271,23 @@
   {
    "id": "G6441",
    "st": 2,
-   "label": "Supreme Court petitions",
-   "chg": "2026-10-21",
-   "dt": "Presented 6 Oct · petitions announced 20 and 21 Oct"
+   "label": "Court determination received",
+   "chg": "2026-11-12",
+   "dt": "Presented 6 Oct · petitions 20 and 21 Oct · determination announced 12 Nov · second reading next"
   },
   {
    "id": "G6440",
    "st": 2,
-   "label": "Supreme Court petitions",
-   "chg": "2026-10-23",
-   "dt": "Published 6 Oct · petitions announced 7 to 23 Oct"
+   "label": "Court determination received",
+   "chg": "2026-11-12",
+   "dt": "Published 6 Oct · petitions 7 to 23 Oct · determination announced 12 Nov · second reading next"
   },
   {
    "id": "G6442",
    "st": 2,
-   "label": "Supreme Court petition",
-   "chg": "2026-10-21",
-   "dt": "1st reading 7 Oct · petition announced 21 Oct"
+   "label": "Court determination received",
+   "chg": "2026-11-12",
+   "dt": "1st reading 7 Oct · petition 21 Oct · determination announced 12 Nov · second reading next"
   },
   {
    "id": "GP-083-2026",
@@ -890,93 +894,134 @@
   },
   {
    "date": "2026-11-12",
-   "status": "agenda",
-   "chair": "",
-   "hours": "",
-   "headline": "Budget Speech: Appropriation Bill",
-   "summary": "The Order Paper lists the Appropriation Bill for second reading at 1.30 pm, ahead of other bills and annual reports.",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "1.30 pm to 6.31 pm",
+   "headline": "2027 Budget presented to Parliament",
+   "summary": "The President, as Finance Minister, delivered the 2027 Budget Speech. The Speaker announced court rulings on three bills. Debate resumes 13 November.",
    "items": [
     {
      "track": "money",
      "title": "Appropriation Bill 2027: second reading",
-     "status": "Scheduled",
-     "what": "First item on the Order Paper; the Finance Minister presents the 2027 Budget.",
+     "status": "Budget Speech delivered",
+     "what": "The President, as Finance Minister, moved the second reading and delivered the Budget Speech from 1.40 pm.",
+     "figs": [
+      {
+       "v": "Rs. 4,992.8bn",
+       "l": "total voted spending in the bill"
+      },
+      {
+       "v": "26 days",
+       "l": "Budget debate, 13 Nov to 14 Dec"
+      },
+      {
+       "v": "7 days",
+       "l": "second reading debate"
+      }
+     ],
+     "points": [
+      "Amendments for the committee stage due by 3 pm on Monday 16 November",
+      "Second reading vote at 6 pm on 20 November",
+      "Committee stage 21 November to 14 December, including four Saturdays",
+      "Third reading vote at 6 pm on 14 December"
+     ],
      "bills": [
       "G6443"
      ],
      "conf": [
       "bh"
      ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Debate resumes at 9.30 am on 13 November; Budget proposals to be added from the Hansard.",
      "src": [
       {
-       "t": "Order Paper, 12 Nov",
-       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+       "t": "Business of the House, 12 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+      },
+      {
+       "t": "Parliament news, Budget presented",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5541"
       }
      ]
     },
     {
      "track": "law",
-     "title": "Bills listed for second reading",
-     "status": "Scheduled",
-     "what": "Bills listed on the Order Paper after the Appropriation Bill; they may not be reached.",
-     "bills": [
-      "G6438",
-      "G6441",
-      "G6440",
-      "G6445",
-      "G6444",
-      "G6442"
-     ],
-     "points": [
-      "Elimination of Rabies and Registration of Dogs (adjourned debate)",
-      "Sri Lanka Cricket",
-      "Protection of the State from Terrorism",
-      "Prevention of Organised Crimes",
-      "Prevention of Foreign Terrorist Fighters",
-      "Immigration",
-      "Chartered Institute of Media Professionals of Sri Lanka"
-     ],
+     "title": "Supreme Court rulings on three bills",
+     "status": "Announced",
+     "what": "The Speaker announced the Supreme Court's rulings; each bill needs amendments or a special majority.",
      "figs": [
       {
-       "v": "7",
-       "l": "government bills listed after the Budget"
+       "v": "3",
+       "l": "bills with court determinations announced"
       }
+     ],
+     "points": [
+      "Sri Lanka Cricket: clauses 29 and 7(1) need a special majority unless the Court's amendments are made",
+      "Protection of the State from Terrorism: simple majority after amending clauses 26(2), 59(5)(b), 60(7) and 66(1)",
+      "Immigration: clauses 43(3), 45, 65 and 169 need amending, or a special majority"
+     ],
+     "bills": [
+      "G6441",
+      "G6440",
+      "G6442"
      ],
      "conf": [
       "bh"
      ],
+     "next": "The bills can go to second reading with the amendments made at committee stage.",
      "src": [
       {
-       "t": "Order Paper, 12 Nov",
-       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+       "t": "Business of the House, 12 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+      },
+      {
+       "t": "Parliament news, Speaker's announcements 12 Nov",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5539"
+      },
+      {
+       "t": "Determination: Sri Lanka Cricket",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/scdet/6441.pdf"
+      },
+      {
+       "t": "Determination: Protection of the State from Terrorism",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/scdet/6440.pdf"
+      },
+      {
+       "t": "Determination: Immigration",
+       "u": "https://www.parliament.lk/uploads/bills/gbills/scdet/6442.pdf"
       }
      ]
     },
     {
-     "track": "oversight",
-     "title": "Justice sector annual reports for approval",
-     "status": "Scheduled",
-     "what": "Annual reports with Auditor-General observations, already considered by a Sectoral Oversight Committee.",
+     "track": "record",
+     "title": "Budget papers presented",
+     "status": "Presented",
+     "what": "Eight fiscal papers were laid with the Budget, including the draft 2027 estimates.",
      "figs": [
       {
-       "v": "11",
-       "l": "annual reports listed for approval"
+       "v": "8",
+       "l": "Budget papers presented"
       }
      ],
      "points": [
-      "Superior Courts Complex Board of Management (2022)",
-      "National Authority for the Protection of Victims of Crime and Witnesses (2022, 2023)",
-      "Legal Aid Commission (2022, 2023)",
-      "Official Languages Commission (2020 to 2023)",
-      "National Institute of Language Education and Training (2022, 2023)"
+      "Budget, Economic and Fiscal Position Report 2027",
+      "Major Public Investment Projects 2027-2029",
+      "National Budget 2027: Citizens Budget",
+      "Medium Term Debt Management Strategy 2027-2031 and Annual Borrowing Plan 2027",
+      "Tax Expenditure Statement 2025/2026",
+      "Cadre Information of Public Sector 2026",
+      "Mid-Year Fiscal Position Report 2026",
+      "Draft Budget Estimates for 2027"
      ],
      "conf": [
       "bh"
      ],
      "src": [
       {
-       "t": "Order Paper, 12 Nov",
-       "u": "https://www.parliament.lk/uploads/businessdocs/english/24553_english_2026-11-12.pdf"
+       "t": "Business of the House, 12 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
       }
      ]
     }
@@ -3024,8 +3069,8 @@
  },
  "posts": {
   "date": "2026-11-12",
-  "x": "The 2027 Budget Speech is today at 1.30 pm. A Public Private Partnership Bill, published 10 November, would set up a national agency for such projects. The Budget's second reading vote is set for 6 pm on 20 November.",
-  "wa": "2027 Budget presented today; PPP bill published\n- Parliament sits at 1.30 pm today for the 2027 Budget Speech on the Appropriation Bill\n- Second reading debate runs 13 to 20 November; committee stage 21 November to 14 December\n- A Public Private Partnership Bill, published 10 November, would set up a National Agency for Public Private Partnerships\n- The Civil Procedure Code (Amendment) Bill had its first reading on 3 November and was referred to a Sectoral Oversight Committee\nNext: second reading vote on the Budget at 6 pm on 20 November; final vote at 6 pm on 14 December."
+  "x": "The 2027 Budget was presented in Parliament today. The bill as presented authorises Rs. 4,992.8bn of spending. Debate runs to 20 November, when the second reading vote is due at 6 pm. The Supreme Court also ruled on three bills.",
+  "wa": "2027 Budget presented in Parliament\n- The President, as Finance Minister, delivered the Budget Speech; the Appropriation Bill as presented authorises Rs. 4,992.8bn of spending in 2027\n- Eight fiscal papers were laid, including the debt strategy and the draft 2027 estimates\n- The Supreme Court found the Sri Lanka Cricket, Protection of the State from Terrorism and Immigration bills need amendments or a special majority\n- Committee stage amendments to the Budget are due by 3 pm on 16 November\nNext: debate resumes 13 November; second reading vote at 6 pm on 20 November, final vote at 6 pm on 14 December."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
