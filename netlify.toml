@@ -1,6 +1,31 @@
 [build]
   publish = "."
 
+# Government jobs moved to closingdate.lk. Forced, so the old addresses redirect even if a file reappears.
+[[redirects]]
+  from = "/jobs.html"
+  to = "https://closingdate.lk/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jobs"
+  to = "https://closingdate.lk/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/job/*"
+  to = "https://closingdate.lk/job/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/apply.html"
+  to = "https://closingdate.lk/apply.html"
+  status = 301
+  force = true
+
 # The Record page is now part of the home page. Old links, including #dYYYY-MM-DD, still land on the right week.
 [[redirects]]
   from = "/record.html"

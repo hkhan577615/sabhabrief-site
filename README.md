@@ -8,9 +8,9 @@ Static site. No build step. Upload this folder as it is.
   each opening to its figures, next step, what a bill changes and its sources. Older weeks are linked
   at the bottom. Links to the retired record.html are redirected here by netlify.toml.
 - gazette.html: the Gazette feed (daily.json gzfeed), notices from last week on; 404.html
-- jobs.html, jobs.css: government vacancies (jobs.json) from the Gazette and employers' careers pages (jobs-sources.json): open posts by closing date, a "What can I apply for?" match, and closed recruitments still being followed
-- apply.html, forms.json: the printable application form for a post, copied from the specimen in its official notice and laid out on A4 as the notice requires (forms.json is keyed by job id; see the block types in apply.html)
-- job/: one page per vacancy, and sitemap.xml, both written by scripts/build_jobs.py from jobs.json (run by the twice-weekly jobs task; never edit by hand)
+- Government jobs are a separate site, closingdate.lk, in its own repository (hkhan577615/closingdate.lk).
+  Sabha Brief's old /jobs.html, /job/* and /apply.html addresses redirect there (netlify.toml).
+- sitemap.xml: Sabha Brief's four pages; job pages are in closingdate.lk's sitemap
 - post.html: unlisted page showing the day's draft X and WhatsApp channel posts (daily.json posts) with Copy buttons; nothing is posted automatically
 - daily.json, library.json: the data, replaced every night
 - site.css, site.js, favicon.svg, robots.txt
