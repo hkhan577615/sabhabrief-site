@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "bills": [
   {
    "id": "G6438",
@@ -3134,6 +3134,22 @@
     {
      "t": "Bill text",
      "u": "https://www.parliament.lk/uploads/bills/gbills/english/6426.pdf"
+    }
+   ]
+  },
+  {
+   "id": "GP-089-2026",
+   "t": "Public Private Partnership",
+   "a": "Finance",
+   "about": "Sets up a National Agency for Public Private Partnerships and rules for selecting and managing such projects.",
+   "src": [
+    {
+     "t": "Government Printer: bills",
+     "u": "https://documents.gov.lk/web/bills"
+    },
+    {
+     "t": "Bill as published, 10 Nov 2026",
+     "u": "https://documents.gov.lk/api/content-file-proxy?file=/bill-content/PL%2016001-PUBLIC%20PRIVATE%20PARTNERSHIPS%20-%20%5BE%5D%20GAZ%20SUP_1794333276.pdf"
     }
    ]
   }
