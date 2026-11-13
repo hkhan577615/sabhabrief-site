@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-12T21:55:00+05:30",
+ "updated": "2026-11-13T07:55:00+05:30",
  "status": {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sitting": true,
-  "text": "The 2027 Budget was presented today. The second reading debate resumes on Friday 13 November at 9.30 am."
+  "text": "Sitting today from 9.30 am: Budget second reading debate, 11 am to 6 pm."
  },
  "brief": {
   "day": {
@@ -41,18 +41,18 @@
      ]
     },
     {
-     "track": "record",
+     "track": "money",
      "date": "2026-11-12",
-     "title": "Budget papers laid",
-     "v": "8",
-     "l": "fiscal papers presented",
-     "line": "Debt strategy, tax expenditure and draft 2027 estimates among them.",
+     "title": "Food import levies reset",
+     "v": "Rs. 60/kg",
+     "l": "levy on imported sugar",
+     "line": "New levies on sugar, chillies, sprats and Maldive fish apply from 13 November.",
      "src": {
-      "t": "Business of the House, 12 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+      "t": "Special Commodity Levy order, Gazette 2514/31",
+      "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
      },
      "refs": [
-      "Budget papers presented"
+      "Food import levies reset, Gazette 2514/31"
      ]
     }
    ]
@@ -93,18 +93,18 @@
      ]
     },
     {
-     "track": "record",
+     "track": "money",
      "date": "2026-11-12",
-     "title": "Budget papers laid",
-     "v": "8",
-     "l": "fiscal papers presented",
-     "line": "Debt strategy, tax expenditure and draft 2027 estimates among them.",
+     "title": "Food import levies reset",
+     "v": "Rs. 60/kg",
+     "l": "levy on imported sugar",
+     "line": "New levies on sugar, chillies, sprats and Maldive fish apply from 13 November.",
      "src": {
-      "t": "Business of the House, 12 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+      "t": "Special Commodity Levy order, Gazette 2514/31",
+      "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
      },
      "refs": [
-      "Budget papers presented"
+      "Food import levies reset, Gazette 2514/31"
      ]
     }
    ]
@@ -122,7 +122,7 @@
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-11-10",
+   "latest": "2026-11-12",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -898,7 +898,7 @@
    "chair": "Speaker Dr. Jagath Wickramaratne",
    "hours": "1.30 pm to 6.31 pm",
    "headline": "2027 Budget presented to Parliament",
-   "summary": "The President, as Finance Minister, delivered the 2027 Budget Speech. The Speaker announced court rulings on three bills. Debate resumes 13 November.",
+   "summary": "The President, as Finance Minister, delivered the 2027 Budget Speech. New food import levies were gazetted. Debate resumes 13 November.",
    "items": [
     {
      "track": "money",
@@ -943,6 +943,53 @@
       {
        "t": "Parliament news, Budget presented",
        "u": "https://www.parliament.lk/en/home/parliament-news/view/5541"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Food import levies reset, Gazette 2514/31",
+     "status": "In force 13 Nov",
+     "what": "The Finance Minister set new special commodity levies on imported sprats, Maldive fish, chillies and sugar.",
+     "figs": [
+      {
+       "v": "Rs. 60/kg",
+       "l": "levy on imported sugar"
+      },
+      {
+       "v": "Rs. 75/kg",
+       "l": "levy on crushed or ground chillies"
+      },
+      {
+       "v": "Rs. 50/kg",
+       "l": "levy on whole dried chillies"
+      },
+      {
+       "v": "Rs. 10/kg",
+       "l": "levy on sprats and Maldive fish"
+      },
+      {
+       "v": "31 Dec 2027",
+       "l": "order valid until"
+      }
+     ],
+     "points": [
+      "Made under the Special Commodity Levy Act, No. 48 of 2007, section 2",
+      "Order signed by the Minister of Finance, Planning and Economic Development on 12 November",
+      "Valid from 13 November 2026 to 31 December 2027",
+      "Replaces the levy order of 31 December 2025 on the same goods"
+     ],
+     "conf": [
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Special Commodity Levy order, Gazette 2514/31",
+       "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
+      },
+      {
+       "t": "Acts, gazettes and circulars, Ministry of Finance",
+       "u": "https://www.treasury.gov.lk/acts-gazettes-circulars"
       }
      ]
     },
@@ -2953,6 +3000,16 @@
   ],
   "items": [
    {
+    "no": "2514/31",
+    "d": "2026-11-12",
+    "kind": "Extraordinary",
+    "cat": "tax",
+    "t": "Import levies on sugar, chillies and fish",
+    "by": "Ministry of Finance, Planning and Economic Development",
+    "sum": "New special commodity levies on sugar, chillies, sprats and Maldive fish apply from 13 November 2026 to 31 December 2027.",
+    "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
+   },
+   {
     "no": "2514/02",
     "d": "2026-11-09",
     "kind": "Extraordinary",
@@ -3068,9 +3125,9 @@
   ]
  },
  "posts": {
-  "date": "2026-11-12",
-  "x": "The 2027 Budget was presented in Parliament today. The bill as presented authorises Rs. 4,992.8bn of spending. Debate runs to 20 November, when the second reading vote is due at 6 pm. The Supreme Court also ruled on three bills.",
-  "wa": "2027 Budget presented in Parliament\n- The President, as Finance Minister, delivered the Budget Speech; the Appropriation Bill as presented authorises Rs. 4,992.8bn of spending in 2027\n- Eight fiscal papers were laid, including the debt strategy and the draft 2027 estimates\n- The Supreme Court found the Sri Lanka Cricket, Protection of the State from Terrorism and Immigration bills need amendments or a special majority\n- Committee stage amendments to the Budget are due by 3 pm on 16 November\nNext: debate resumes 13 November; second reading vote at 6 pm on 20 November, final vote at 6 pm on 14 December."
+  "date": "2026-11-13",
+  "x": "New import levies apply from today: Rs. 60 a kg on sugar, Rs. 50 to 75 a kg on chillies and Rs. 10 a kg on sprats and Maldive fish, under a Finance Ministry order valid to 31 December 2027. Importers and food buyers are affected.",
+  "wa": "New import levies on sugar, chillies and dried fish\n- The Finance Minister gazetted new special commodity levies on 12 November (Gazette 2514/31), in force from 13 November 2026 to 31 December 2027\n- Sugar: Rs. 60 a kg\n- Chillies: Rs. 50 a kg whole dried, Rs. 75 a kg crushed or ground\n- Sprats and Maldive fish: Rs. 10 a kg; the order replaces the levy order of 31 December 2025\nNext: Parliament resumes the 2027 Budget debate today at 9.30 am; the second reading vote is at 6 pm on 20 November."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
