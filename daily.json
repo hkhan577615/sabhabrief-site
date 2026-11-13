@@ -1,66 +1,66 @@
 {
- "updated": "2026-11-13T07:55:00+05:30",
+ "updated": "2026-11-13T21:55:00+05:30",
  "status": {
   "date": "2026-11-13",
   "sitting": true,
-  "text": "Sitting today from 9.30 am: Budget second reading debate, 11 am to 6 pm."
+  "text": "Budget debate began today. Parliament sits again on Saturday 14 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-12",
-   "headline": "2027 Budget presented to Parliament",
+   "date": "2026-11-13",
+   "headline": "Budget debate begins in Parliament",
    "stories": [
     {
-     "track": "money",
-     "date": "2026-11-12",
-     "title": "2027 Budget presented",
-     "v": "26 days",
-     "l": "Budget debate, to 14 December",
-     "line": "Budget Speech delivered; second reading vote at 6 pm on 20 November.",
-     "src": {
-      "t": "Business of the House, 12 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
-     },
-     "refs": [
-      "Appropriation Bill 2027: second reading"
-     ]
-    },
-    {
      "track": "law",
-     "date": "2026-11-12",
-     "title": "Court rules on three bills",
-     "v": "3",
-     "l": "bills with court determinations",
-     "line": "Cricket, counter-terrorism and immigration bills need amendments or a special majority.",
+     "date": "2026-11-13",
+     "title": "Terrorist fighters bill cleared",
+     "v": "Approved",
+     "l": "by oversight committee",
+     "line": "Committee approved the bill; one member opposed. Second reading comes next.",
      "src": {
-      "t": "Parliament news, Speaker's announcements 12 Nov",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5539"
+      "t": "Parliament news, committee approves bill",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5543"
      },
      "refs": [
-      "Supreme Court rulings on three bills"
+      "Foreign terrorist fighters bill cleared by committee"
      ]
     },
     {
      "track": "money",
-     "date": "2026-11-12",
-     "title": "Food import levies reset",
-     "v": "Rs. 60/kg",
-     "l": "levy on imported sugar",
-     "line": "New levies on sugar, chillies, sprats and Maldive fish apply from 13 November.",
+     "date": "2026-11-13",
+     "title": "Budget debate begins",
+     "v": "1 of 7",
+     "l": "second reading debate days held",
+     "line": "Debate continues Saturday; second reading vote on 20 November.",
      "src": {
-      "t": "Special Commodity Levy order, Gazette 2514/31",
-      "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
+      "t": "Business of the House, 13 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
      },
      "refs": [
-      "Food import levies reset, Gazette 2514/31"
+      "Appropriation Bill 2027: second reading debate"
+     ]
+    },
+    {
+     "track": "oversight",
+     "date": "2026-11-13",
+     "title": "Audit reports presented",
+     "v": "38",
+     "l": "audit report parts presented",
+     "line": "Further Auditor General reports for 2023 to 2025 were laid.",
+     "src": {
+      "t": "Business of the House, 13 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+     },
+     "refs": [
+      "Auditor General reports presented"
      ]
     }
    ]
   },
   "week": {
    "from": "2026-11-12",
-   "to": "2026-11-12",
-   "headline": "2027 Budget presented to Parliament",
+   "to": "2026-11-13",
+   "headline": "2027 Budget presented; debate under way",
    "stories": [
     {
      "track": "money",
@@ -115,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-12",
+   "latest": "2026-11-13",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -136,16 +136,11 @@
    "k": "hansard",
    "name": "Hansard",
    "gives": "Votes, amounts and full answers",
-   "latest": "2026-11-03",
+   "latest": "2026-11-04",
    "u": "https://www.parliament.lk/en/business-of-parliament/hansards"
   }
  ],
  "keyDates": [
-  {
-   "date": "2026-11-13",
-   "label": "Parliament sits again",
-   "track": "record"
-  },
   {
    "date": "2026-11-13",
    "end": "2026-11-20",
@@ -154,6 +149,11 @@
    "note": "Seven days of debate on the Appropriation Bill, the 2027 Budget.",
    "bill": "G6443",
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+  },
+  {
+   "date": "2026-11-14",
+   "label": "Parliament sits again",
+   "track": "record"
   },
   {
    "date": "2026-11-16",
@@ -235,6 +235,10 @@
   {
    "t": "Parliament news, Budget presented",
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5541"
+  },
+  {
+   "t": "Business of the House, 13 Nov",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
   }
  ],
  "pipeline": [
@@ -263,10 +267,10 @@
   },
   {
    "id": "G6444",
-   "st": 1,
-   "label": "1st reading",
-   "chg": "2026-10-20",
-   "dt": "Published 30 Sep · 1st reading 20 Oct"
+   "st": 2,
+   "label": "Committee approved",
+   "chg": "2026-11-13",
+   "dt": "Published 30 Sep · 1st reading 20 Oct · committee approval reported 13 Nov · second reading next"
   },
   {
    "id": "G6441",
@@ -736,6 +740,17 @@
  ],
  "gazettes": [
   {
+   "no": "2510/14",
+   "g": "2026-10-12",
+   "tabled": "2026-11-13",
+   "type": "Foreign Affairs",
+   "t": "Asset-freeze rules for designated persons",
+   "under": {
+    "t": "United Nations Act, No. 45 of 1968, section 2"
+   },
+   "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208066%20E%29_1792476958.pdf"
+  },
+  {
    "no": "2508/27",
    "g": "2026-10-01",
    "tabled": "2026-11-03",
@@ -827,6 +842,10 @@
   {
    "t": "Hansard, 8 Oct",
    "u": "https://www.parliament.lk/uploads/businessdocs/english/24467_english_2026-10-08.pdf"
+  },
+  {
+   "t": "Business of the House, 13 Nov",
+   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
   }
  ],
  "days": [
@@ -859,34 +878,172 @@
    ]
   },
   {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "status": "agenda",
    "chair": "",
    "hours": "",
-   "headline": "Budget debate begins",
-   "summary": "First day of the second reading debate on the 2027 Budget, from 11 am to 6 pm.",
+   "headline": "Budget debate, second day",
+   "summary": "Saturday sitting: second allotted day of the 2027 Budget debate.",
    "items": [
     {
      "track": "money",
      "title": "Appropriation Bill 2027: second reading debate",
      "status": "Scheduled",
-     "what": "Debate on the 2027 Budget runs from 11 am to 6 pm.",
+     "what": "Second allotted day of the second reading debate, from 9.30 am.",
      "bills": [
       "G6443"
-     ],
-     "points": [
-      "9.30 am: business under Standing Orders 22(1) to 22(6)",
-      "10 am: five oral questions",
-      "10.30 am: one question under Standing Order 27(2)",
-      "6 pm: adjournment motions"
      ],
      "conf": [
       "bh"
      ],
      "src": [
       {
-       "t": "Parliament news, 2027 Budget timetable",
-       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+       "t": "Order Paper, 14 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24587_english_2026-11-14.pdf"
+      },
+      {
+       "t": "Business of the House, 13 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "9.30 am to 6.40 pm",
+   "headline": "Budget debate begins; estimate presented",
+   "summary": "First day of the 2027 Budget debate. Supplementary Estimate No. 09 and an asset-freeze order were laid. A committee cleared the foreign terrorist fighters bill.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Debate continues",
+     "what": "First of seven allotted days of debate; adjourned at 6.40 pm.",
+     "figs": [
+      {
+       "v": "1 of 7",
+       "l": "second reading debate days held"
+      }
+     ],
+     "points": [
+      "Debate resumes at 9.30 am on Saturday 14 November",
+      "Second reading vote at 6 pm on 20 November"
+     ],
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Debate continues 14 November; speeches and figures to be added from the Hansard.",
+     "src": [
+      {
+       "t": "Business of the House, 13 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Foreign terrorist fighters bill cleared by committee",
+     "status": "Committee approved",
+     "what": "The Sectoral Oversight Committee on Economic Development and International Relations approved the bill; one member opposed.",
+     "points": [
+      "Gives effect to UN Security Council Resolution 2178 of 2014",
+      "Presented for first reading on 20 October by the Minister of Foreign Affairs, Foreign Employment and Tourism",
+      "Offences cover acts in or outside Sri Lanka, by citizens or foreign nationals"
+     ],
+     "bills": [
+      "G6444"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "next": "The bill can be listed for its second reading.",
+     "src": [
+      {
+       "t": "Parliament news, committee approves bill",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5543"
+      }
+     ]
+    },
+    {
+     "track": "money",
+     "title": "Supplementary Estimate No. 09 of 2026",
+     "status": "Presented",
+     "what": "Presented to the House; the body it is for and the amount are not yet in an official source.",
+     "points": [
+      "Presented 13 November 2026"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Body, expenditure head and amount to be added from the Order Paper or Hansard.",
+     "src": [
+      {
+       "t": "Business of the House, 13 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      }
+     ]
+    },
+    {
+     "track": "law",
+     "title": "Asset-freeze rules tabled, Gazette 2510/14",
+     "status": "Tabled",
+     "what": "Amended rules on freezing funds and assets of persons and groups designated under the United Nations Act.",
+     "points": [
+      "Made by the Minister of Foreign Affairs, Foreign Employment and Tourism under the United Nations Act, No. 45 of 1968, section 2",
+      "Signed 9 October; published 12 October 2026",
+      "Amends the United Nations Regulations No. 1 of 2012",
+      "No advance notice of a freeze may be given; the Competent Authority notifies after the freeze"
+     ],
+     "conf": [
+      "bh",
+      "gazette"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 13 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      },
+      {
+       "t": "United Nations Act regulations, Gazette 2510/14",
+       "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208066%20E%29_1792476958.pdf"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor General reports presented",
+     "status": "Presented",
+     "what": "The Speaker presented further parts of the Auditor General's reports for 2023, 2024 and 2025.",
+     "figs": [
+      {
+       "v": "38",
+       "l": "audit report parts presented"
+      }
+     ],
+     "points": [
+      "Presented under Article 154(6) of the Constitution",
+      "Report on steps taken on Public Accounts Committee findings on the Ministry of Education, Higher Education and Vocational Education",
+      "Arthur C Clarke Institute for Modern Technologies annual report 2023"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 13 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
       }
      ]
     }
@@ -1326,11 +1483,9 @@
      "track": "money",
      "title": "Supplementary Estimate No. 07 of 2026",
      "status": "Approved",
-     "what": "The House approved supplementary sums under Head 119 and Head 102 (Programme 01 each).",
+     "what": "Extra spending for the Minister of Energy (Head 119) and the Finance Minister (Head 102).",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
      "next": "Ministry names, amounts and vote to be added from the Hansard",
@@ -1338,25 +1493,50 @@
       {
        "t": "Business of the House, 4 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      },
+      {
+       "t": "Hansard, 4 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24586_english_2026-11-04.pdf"
       }
+     ],
+     "figs": [
+      {
+       "v": "Rs. 47bn",
+       "l": "extra spending approved"
+      },
+      {
+       "v": "Rs. 41bn",
+       "l": "fuel price subsidy, Head 119"
+      },
+      {
+       "v": "Rs. 6bn",
+       "l": "Aswesuma additional allowance, Head 102"
+      }
+     ],
+     "points": [
+      "Presented 3 November 2026",
+      "Approved 4 November 2026 without a division",
+      "Recurrent spending under Programme 01 of each head",
+      "Moved by the Minister of Ports and Civil Aviation and Minister of Energy"
      ]
     },
     {
      "track": "money",
      "title": "Import regulations, Gazette 2508/27",
      "status": "Approved",
-     "what": "The House approved regulations under the Imports and Exports (Control) Act.",
+     "what": "The House approved regulations under the Imports and Exports (Control) Act without a division.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Vote count to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 4 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      },
+      {
+       "t": "Hansard, 4 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24586_english_2026-11-04.pdf"
       }
      ]
     },
@@ -1369,9 +1549,7 @@
       "G6445"
      ],
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
      "next": "Supreme Court determination to be announced to the House",
@@ -1379,6 +1557,10 @@
       {
        "t": "Business of the House, 4 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      },
+      {
+       "t": "Hansard, 4 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24586_english_2026-11-04.pdf"
       }
      ]
     },
@@ -1386,18 +1568,19 @@
      "track": "oversight",
      "title": "Public Finance Committee report",
      "status": "Presented",
-     "what": "The Committee on Public Finance report was presented by its Chair, Dr. Harsha de Silva.",
+     "what": "Committee report on Supplementary Estimate No. 07 and the import regulations, Gazette 2508/27, presented by its Chair.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Contents to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 4 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      },
+      {
+       "t": "Hansard, 4 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24586_english_2026-11-04.pdf"
       }
      ]
     },
@@ -1420,18 +1603,19 @@
      "track": "record",
      "title": "Answer on protecting wild elephants",
      "status": "Question",
-     "what": "The Leader of the Opposition's question on wild elephant protection was taken under Standing Order 27(2).",
+     "what": "Question by the Leader of the Opposition on a new national action plan for human-elephant conflict.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Answer to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 4 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5518"
+      },
+      {
+       "t": "Hansard, 4 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24586_english_2026-11-04.pdf"
       }
      ]
     }
@@ -1537,7 +1721,7 @@
       "bh",
       "hansard"
      ],
-     "next": "Amounts for No. 07 to be added from the 4 November Hansard",
+     "next": "No. 07 approved 4 November; No. 08 approved 5 November.",
      "src": [
       {
        "t": "Business of the House, 3 Nov",
@@ -1553,6 +1737,10 @@
       }
      ],
      "figs": [
+      {
+       "v": "Rs. 47bn",
+       "l": "No. 07 extra spending sought"
+      },
       {
        "v": "Rs. 4.26bn",
        "l": "No. 08 extra spending sought"
@@ -3126,8 +3314,8 @@
  },
  "posts": {
   "date": "2026-11-13",
-  "x": "New import levies apply from today: Rs. 60 a kg on sugar, Rs. 50 to 75 a kg on chillies and Rs. 10 a kg on sprats and Maldive fish, under a Finance Ministry order valid to 31 December 2027. Importers and food buyers are affected.",
-  "wa": "New import levies on sugar, chillies and dried fish\n- The Finance Minister gazetted new special commodity levies on 12 November (Gazette 2514/31), in force from 13 November 2026 to 31 December 2027\n- Sugar: Rs. 60 a kg\n- Chillies: Rs. 50 a kg whole dried, Rs. 75 a kg crushed or ground\n- Sprats and Maldive fish: Rs. 10 a kg; the order replaces the levy order of 31 December 2025\nNext: Parliament resumes the 2027 Budget debate today at 9.30 am; the second reading vote is at 6 pm on 20 November."
+  "x": "Parliament held the first of seven days of debate on the 2027 Budget; the second reading vote is due on 20 November. A committee approved the Prevention of Foreign Terrorist Fighters Bill, which now awaits its second reading.",
+  "wa": "Parliament, 13 November: Budget debate begins\n- First of seven days of second reading debate on the 2027 Budget (Appropriation Bill)\n- The Sectoral Oversight Committee on Economic Development and International Relations approved the Prevention of Foreign Terrorist Fighters Bill; one member opposed\n- Supplementary Estimate No. 09 of 2026 was presented; its amount is not yet published\n- Amended UN Act rules on freezing assets of designated persons (Gazette 2510/14) and 38 parts of Auditor General reports were laid\nNext: debate continues Saturday 14 November at 9.30 am; second reading vote at 6 pm on 20 November."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
