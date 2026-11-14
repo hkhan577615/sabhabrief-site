@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-13T21:55:00+05:30",
+ "updated": "2026-11-14T07:50:00+05:30",
  "status": {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "sitting": true,
-  "text": "Budget debate began today. Parliament sits again on Saturday 14 November at 9.30 am."
+  "text": "Sitting today from 9.30 am: second day of debate on the 2027 Budget."
  },
  "brief": {
   "day": {
@@ -3313,9 +3313,10 @@
   ]
  },
  "posts": {
-  "date": "2026-11-13",
-  "x": "Parliament held the first of seven days of debate on the 2027 Budget; the second reading vote is due on 20 November. A committee approved the Prevention of Foreign Terrorist Fighters Bill, which now awaits its second reading.",
-  "wa": "Parliament, 13 November: Budget debate begins\n- First of seven days of second reading debate on the 2027 Budget (Appropriation Bill)\n- The Sectoral Oversight Committee on Economic Development and International Relations approved the Prevention of Foreign Terrorist Fighters Bill; one member opposed\n- Supplementary Estimate No. 09 of 2026 was presented; its amount is not yet published\n- Amended UN Act rules on freezing assets of designated persons (Gazette 2510/14) and 38 parts of Auditor General reports were laid\nNext: debate continues Saturday 14 November at 9.30 am; second reading vote at 6 pm on 20 November."
+  "date": "2026-11-14",
+  "x": "",
+  "wa": "",
+  "note": "No new record or notices since last night; Saturday sitting not yet recorded."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
