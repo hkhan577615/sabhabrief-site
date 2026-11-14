@@ -1,40 +1,25 @@
 {
- "updated": "2026-11-14T07:50:00+05:30",
+ "updated": "2026-11-14T21:55:00+05:30",
  "status": {
   "date": "2026-11-14",
   "sitting": true,
-  "text": "Sitting today from 9.30 am: second day of debate on the 2027 Budget."
+  "text": "Budget debate continued today; Parliament next sits on Monday 16 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-13",
-   "headline": "Budget debate begins in Parliament",
+   "date": "2026-11-14",
+   "headline": "Budget debate enters second day",
    "stories": [
     {
-     "track": "law",
-     "date": "2026-11-13",
-     "title": "Terrorist fighters bill cleared",
-     "v": "Approved",
-     "l": "by oversight committee",
-     "line": "Committee approved the bill; one member opposed. Second reading comes next.",
-     "src": {
-      "t": "Parliament news, committee approves bill",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5543"
-     },
-     "refs": [
-      "Foreign terrorist fighters bill cleared by committee"
-     ]
-    },
-    {
      "track": "money",
-     "date": "2026-11-13",
-     "title": "Budget debate begins",
-     "v": "1 of 7",
+     "date": "2026-11-14",
+     "title": "Budget debate, day two",
+     "v": "2 of 7",
      "l": "second reading debate days held",
-     "line": "Debate continues Saturday; second reading vote on 20 November.",
+     "line": "Debate resumes Monday 16 November; second reading vote at 6 pm on 20 November.",
      "src": {
-      "t": "Business of the House, 13 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      "t": "Business of the House, 14 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5547"
      },
      "refs": [
       "Appropriation Bill 2027: second reading debate"
@@ -42,24 +27,39 @@
     },
     {
      "track": "oversight",
-     "date": "2026-11-13",
-     "title": "Audit reports presented",
-     "v": "38",
-     "l": "audit report parts presented",
-     "line": "Further Auditor General reports for 2023 to 2025 were laid.",
+     "date": "2026-11-14",
+     "title": "Airline recovery plan ordered",
+     "v": "30 Nov",
+     "l": "deadline for SriLankan Airlines report",
+     "line": "Oversight committee wants a cost-recovery plan for SriLankan Airlines.",
      "src": {
-      "t": "Business of the House, 13 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+      "t": "Parliament news, SriLankan Airlines five-year plan",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5548"
      },
      "refs": [
-      "Auditor General reports presented"
+      "SriLankan Airlines recovery plan due 30 November"
+     ]
+    },
+    {
+     "track": "record",
+     "date": "2026-11-14",
+     "title": "Elephant deaths on railways",
+     "v": "81",
+     "l": "elephants hit by trains since 2020",
+     "line": "Written answer listed track, habitat and camera measures to cut deaths.",
+     "src": {
+      "t": "Parliament news, elephant deaths on railways",
+      "u": "https://www.parliament.lk/en/home/parliament-news/view/5545"
+     },
+     "refs": [
+      "81 elephants killed by trains since 2020"
      ]
     }
    ]
   },
   "week": {
    "from": "2026-11-12",
-   "to": "2026-11-13",
+   "to": "2026-11-14",
    "headline": "2027 Budget presented; debate under way",
    "stories": [
     {
@@ -115,14 +115,14 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-13",
+   "latest": "2026-11-14",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
    "k": "gazette",
    "name": "Gazette",
    "gives": "Bills, orders and regulations as published",
-   "latest": "2026-11-12",
+   "latest": "2026-11-13",
    "u": "https://documents.gov.lk/web/extra_gazettes"
   },
   {
@@ -151,17 +151,17 @@
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
-   "date": "2026-11-14",
-   "label": "Parliament sits again",
-   "track": "record"
-  },
-  {
    "date": "2026-11-16",
    "label": "Budget amendments due, 3 pm",
    "track": "money",
    "note": "Deadline for Members to hand in committee stage amendments to the 2027 Budget.",
    "bill": "G6443",
    "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+  },
+  {
+   "date": "2026-11-16",
+   "label": "Parliament sits again",
+   "track": "record"
   },
   {
    "date": "2026-11-17",
@@ -187,6 +187,13 @@
    "note": "Nineteen days, including four Saturdays, examining each ministry's allocation.",
    "bill": "G6443",
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+  },
+  {
+   "date": "2026-11-30",
+   "label": "SriLankan Airlines report due",
+   "track": "oversight",
+   "note": "Oversight committee asked for a plan to bring the airline to cost recovery within two to three years.",
+   "u": "https://www.parliament.lk/en/home/parliament-news/view/5548"
   },
   {
    "date": "2026-12-14",
@@ -878,18 +885,18 @@
    ]
   },
   {
-   "date": "2026-11-14",
+   "date": "2026-11-19",
    "status": "agenda",
    "chair": "",
    "hours": "",
-   "headline": "Budget debate, second day",
-   "summary": "Saturday sitting: second allotted day of the 2027 Budget debate.",
+   "headline": "Budget debate, sixth day",
+   "summary": "Sixth allotted day of the 2027 Budget debate.",
    "items": [
     {
      "track": "money",
      "title": "Appropriation Bill 2027: second reading debate",
      "status": "Scheduled",
-     "what": "Second allotted day of the second reading debate, from 9.30 am.",
+     "what": "Sixth allotted day of the second reading debate, from 9.30 am.",
      "bills": [
       "G6443"
      ],
@@ -898,12 +905,208 @@
      ],
      "src": [
       {
-       "t": "Order Paper, 14 Nov",
-       "u": "https://www.parliament.lk/uploads/businessdocs/english/24587_english_2026-11-14.pdf"
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget debate, fifth day",
+   "summary": "Fifth allotted day of the 2027 Budget debate.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Scheduled",
+     "what": "Fifth allotted day of the second reading debate, from 9.30 am.",
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget debate, fourth day",
+   "summary": "Fourth allotted day of the 2027 Budget debate.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Scheduled",
+     "what": "Fourth allotted day of the second reading debate, from 9.30 am.",
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "status": "agenda",
+   "chair": "",
+   "hours": "",
+   "headline": "Budget debate, third day",
+   "summary": "Third allotted day of the 2027 Budget debate.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Scheduled",
+     "what": "Third allotted day of the second reading debate, from 9.30 am.",
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, 2027 Budget timetable",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
       },
       {
-       "t": "Business of the House, 13 Nov",
-       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5544"
+       "t": "Business of the House, 14 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5547"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "9.30 am to 6.41 pm",
+   "headline": "Budget debate, second day",
+   "summary": "Saturday sitting on the 2027 Budget. A committee asked SriLankan Airlines for a cost-recovery plan; a written answer gave elephant deaths on railways.",
+   "items": [
+    {
+     "track": "money",
+     "title": "Appropriation Bill 2027: second reading debate",
+     "status": "Debate continues",
+     "what": "Second of seven allotted days of debate; adjourned at 6.41 pm.",
+     "figs": [
+      {
+       "v": "2 of 7",
+       "l": "second reading debate days held"
+      }
+     ],
+     "points": [
+      "Debate resumes at 9.30 am on Monday 16 November",
+      "Second reading vote at 6 pm on 20 November"
+     ],
+     "bills": [
+      "G6443"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Debate continues 16 November; speeches and figures to be added from the Hansard.",
+     "src": [
+      {
+       "t": "Business of the House, 14 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5547"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "SriLankan Airlines recovery plan due 30 November",
+     "status": "Report ordered",
+     "what": "The Sectoral Oversight Committee on Infrastructure and Strategic Development asked for a cost-recovery plan within two to three years.",
+     "figs": [
+      {
+       "v": "23",
+       "l": "aircraft in the current fleet"
+      },
+      {
+       "v": "29",
+       "l": "fleet target by 2029"
+      },
+      {
+       "v": "3",
+       "l": "aircraft expected by June"
+      }
+     ],
+     "points": [
+      "Report due to Parliament and the Ministry before 30 November",
+      "Treasury has taken over bank loans and bond-related debt",
+      "Aircraft procurement guidelines are to be gazetted",
+      "Restructuring options: new investors, a public-private partnership, or State ownership at cost recovery"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "next": "The committee expects the report before 30 November.",
+     "src": [
+      {
+       "t": "Parliament news, SriLankan Airlines five-year plan",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5548"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "81 elephants killed by trains since 2020",
+     "status": "Answer tabled",
+     "what": "The Minister of Environment's written answer listed steps to cut elephant deaths on railway lines.",
+     "figs": [
+      {
+       "v": "81",
+       "l": "elephants hit by trains since 2020"
+      },
+      {
+       "v": "Rs. 25.4m",
+       "l": "two tanks as elephant water sources"
+      },
+      {
+       "v": "800",
+       "l": "concrete blocks laid between sleepers"
+      }
+     ],
+     "points": [
+      "Period covered: 2020 to 12 October 2026",
+      "27 km of track near Gal Oya Junction identified as a crossing area",
+      "CCTV at Kasikote between Gal Oya and Minneriya; thermal camera pilot on trains"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, elephant deaths on railways",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5545"
       }
      ]
     }
@@ -3188,6 +3391,15 @@
   ],
   "items": [
    {
+    "no": "2514/44",
+    "d": "2026-11-13",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Mahara Pradeshiya Sabha chairman vacancy filled",
+    "by": "Returning Officer, Mahara Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208156%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy%2066A%281%29%20%28b%29_1794654667.pdf"
+   },
+   {
     "no": "2514/31",
     "d": "2026-11-12",
     "kind": "Extraordinary",
@@ -3196,6 +3408,15 @@
     "by": "Ministry of Finance, Planning and Economic Development",
     "sum": "New special commodity levies on sugar, chillies, sprats and Maldive fish apply from 13 November 2026 to 31 December 2027.",
     "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
+   },
+   {
+    "no": "2514/28",
+    "d": "2026-11-11",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Thawalama Pradeshiya Sabha member's seat vacated",
+    "by": "Returning Officer, Thawalama Pradeshiya Sabha",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208146%20%28E%29_1794654620.pdf"
    },
    {
     "no": "2514/02",
@@ -3217,6 +3438,15 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048523%20%28E%29_1794310793.pdf"
    },
    {
+    "no": "2513/42",
+    "d": "2026-11-06",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Karainagar Pradeshiya Sabha vice chairman elected",
+    "by": "Commissioner of Local Government, Northern Province",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208141%20%28E%29_1794643140.pdf"
+   },
+   {
     "no": "2513/38",
     "d": "2026-11-05",
     "kind": "Extraordinary",
@@ -3224,6 +3454,34 @@
     "t": "Title settled for Depanama land parcel",
     "by": "Land Title Settlement Department",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048503%20E_1794397134.pdf"
+   },
+   {
+    "no": "2513/36",
+    "d": "2026-11-05",
+    "kind": "Extraordinary",
+    "cat": "appt",
+    "t": "Ward demarcation committee for Kalmunai, Sainthamaruthu",
+    "by": "Ministry of Public Administration, Provincial Councils and Local Government",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048501%20%28E%29_1794645909.pdf"
+   },
+   {
+    "no": "2513/34",
+    "d": "2026-11-05",
+    "kind": "Extraordinary",
+    "cat": "land",
+    "t": "Kirulapone land lots to be acquired",
+    "by": "Ministry of Agriculture, Livestock, Lands and Irrigation",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48499%28E%29%20%20%5BSec.%205%5D_1794631732.pdf"
+   },
+   {
+    "no": "2513/31",
+    "d": "2026-11-05",
+    "kind": "Extraordinary",
+    "cat": "rules",
+    "t": "CINEC Campus marine engineering degree recognised",
+    "by": "Ministry of Education, Higher Education and Vocational Education",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208136%20%20%28E%29_1794643092.pdf",
+    "sum": "Entry needs three A/L science passes and an O/L English credit; first intake within one year."
    },
    {
     "no": "2513/30",
@@ -3261,6 +3519,24 @@
     "by": "Commissioner of Local Government, Central Province",
     "sum": "The meeting to elect a vice chairman for Norwood Pradeshiya Sabha is set for 16 November 2026 at 11 am.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48494%28E%29%28C%29%20%20%5BIV%20-%20B%5D_1794386863.pdf"
+   },
+   {
+    "no": "2513/25",
+    "d": "2026-11-04",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Karainagar Pradeshiya Sabha chairman election meeting",
+    "by": "Commissioner of Local Government, Northern Province",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208137%20%28E%29_1794643116.pdf"
+   },
+   {
+    "no": "2513/18",
+    "d": "2026-11-03",
+    "kind": "Extraordinary",
+    "cat": "work",
+    "t": "Brick and tile wages board members appointed",
+    "by": "Ministry of Labour",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48493%20%20%28E%29%20%5BI%20-%20I%5D%20%20%20-%20%20%5BIndustrial%20Disputes%5D_1794631633.pdf"
    },
    {
     "no": "2513/12",
@@ -3314,9 +3590,8 @@
  },
  "posts": {
   "date": "2026-11-14",
-  "x": "",
-  "wa": "",
-  "note": "No new record or notices since last night; Saturday sitting not yet recorded."
+  "x": "Parliament held day two of seven on the 2027 Budget debate on Saturday; the second reading vote is at 6 pm on 20 November. A written answer tabled showed 81 elephants killed by trains since 2020.",
+  "wa": "2027 Budget debate: day two held\n- Saturday sitting held the second of seven days of second reading debate on the Appropriation Bill\n- An oversight committee asked for a SriLankan Airlines cost-recovery plan by 30 November; the fleet is 23 aircraft, with 29 targeted by 2029\n- A written answer tabled showed 81 elephants killed by trains from 2020 to 12 October 2026\nNext: debate resumes Monday 16 November at 9.30 am; second reading vote at 6 pm on 20 November."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
