@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T21:55:00+05:30",
+ "updated": "2026-11-15T21:55:00+05:30",
  "status": {
-  "date": "2026-11-14",
-  "sitting": true,
-  "text": "Budget debate continued today; Parliament next sits on Monday 16 November at 9.30 am."
+  "date": "2026-11-15",
+  "sitting": false,
+  "text": "No sitting today. Parliament next sits on Monday 16 November at 9.30 am for day three of the Budget debate."
  },
  "brief": {
   "day": {
@@ -342,7 +342,7 @@
    "st": 4,
    "label": "Act No. 26 of 2026",
    "chg": "2026-10-30",
-   "dt": "Presented 8 Sep · passed 22 Oct · certified 30 Oct · Act No. 26 of 2026",
+   "dt": "Presented 8 Sep · passed 22 Oct · certified 30 Oct · Act No. 26 printed",
    "watch": false
   },
   {
@@ -2145,6 +2145,10 @@
        "u": "https://www.parliament.lk/uploads/acts/gbills/english/6439.pdf"
       },
       {
+       "t": "Act No. 26 of 2026",
+       "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/Act26E_1794543964.pdf"
+      },
+      {
        "t": "Act details: Act No. 26 of 2026",
        "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6437"
       },
@@ -3589,9 +3593,10 @@
   ]
  },
  "posts": {
-  "date": "2026-11-14",
-  "x": "Parliament held day two of seven on the 2027 Budget debate on Saturday; the second reading vote is at 6 pm on 20 November. A written answer tabled showed 81 elephants killed by trains since 2020.",
-  "wa": "2027 Budget debate: day two held\n- Saturday sitting held the second of seven days of second reading debate on the Appropriation Bill\n- An oversight committee asked for a SriLankan Airlines cost-recovery plan by 30 November; the fleet is 23 aircraft, with 29 targeted by 2029\n- A written answer tabled showed 81 elephants killed by trains from 2020 to 12 October 2026\nNext: debate resumes Monday 16 November at 9.30 am; second reading vote at 6 pm on 20 November."
+  "date": "2026-11-15",
+  "x": "",
+  "wa": "",
+  "note": "No sitting and no new notices today."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-15",
  "bills": [
   {
    "id": "G6438",
@@ -65,7 +65,7 @@
    "a": "Justice",
    "about": "How seized drugs are recorded, tested and destroyed.",
    "impl": {
-    "sum": "Lets seized drugs be destroyed before a trial ends, keeping a sample, and sets deadlines for laboratory reports.",
+    "sum": "Requires seized drugs to be photographed and destroyed on a Magistrate's order before trial ends, with deadlines for laboratory reports.",
     "figs": [
      {
       "v": "2 months",
@@ -73,7 +73,7 @@
      },
      {
       "v": "15 days",
-      "l": "maximum wait for a destruction hearing"
+      "l": "maximum wait for the destruction order"
      },
      {
       "v": "2 weeks",
@@ -81,11 +81,12 @@
      }
     ],
     "changes": [
-     "Investigators must photograph, and where possible video, seized drugs and report the quantity to the Magistrate.",
-     "Seized drugs are destroyed on a Magistrate's order; for cannabis, only a sample goes to the Government Analyst.",
-     "A Magistrate's destruction order is final and cannot be challenged in any court.",
-     "Retained samples are destroyed when the trial ends.",
-     "Police, customs and excise officers all count as investigators."
+     "Investigators must at once photograph, and where possible video, seized drugs and report the quantity to the Magistrate.",
+     "Seizures go to the Government Analyst only where a High Court indictment under section 54A or 54AA is expected, or a Magistrate orders it.",
+     "For cannabis, only a sample goes to the Government Analyst; the rest is destroyed on a Magistrate's order.",
+     "In other cases the investigator destroys the drugs on a Magistrate's order and reports back.",
+     "After the Analyst's report, the Magistrate orders destruction, keeping a sample where the suspect has raised an issue; the order cannot be challenged in any court.",
+     "Retained samples are destroyed when the trial ends; police, customs and excise officers all count as investigators."
     ],
     "who": [
      "Police, customs and excise officers",
@@ -93,20 +94,19 @@
      "Magistrates",
      "Suspects and their lawyers"
     ],
-    "when": "Law from certification on 30 October 2026.",
-    "note": "Certified as Act No. 26 of 2026 after amendments at passage on 22 October. Based on the bill as presented; the Act text is awaited.",
+    "when": "Law from certification on 30 October 2026; the Act sets no other start date.",
     "src": [
      {
-      "t": "Bill text",
-      "u": "https://www.parliament.lk/uploads/bills/gbills/english/6437.pdf"
-     },
-     {
-      "t": "Bill details",
-      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6437"
+      "t": "Act No. 26 of 2026",
+      "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/Act26E_1794543964.pdf"
      },
      {
       "t": "Act details",
       "u": "https://www.parliament.lk/en/business-of-parliament/act-details/G6437"
+     },
+     {
+      "t": "Bill details",
+      "u": "https://www.parliament.lk/en/business-of-parliament/bill-details/G6437"
      }
     ]
    }
