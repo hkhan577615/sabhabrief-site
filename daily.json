@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T21:55:00+05:30",
+ "updated": "2026-11-16T07:50:00+05:30",
  "status": {
-  "date": "2026-11-15",
-  "sitting": false,
-  "text": "No sitting today. Parliament next sits on Monday 16 November at 9.30 am for day three of the Budget debate."
+  "date": "2026-11-16",
+  "sitting": true,
+  "text": "Sitting today from 9.30 am: day three of the Budget debate. Committee stage amendments are due by 3 pm."
  },
  "brief": {
   "day": {
@@ -3378,7 +3378,7 @@
  ],
  "billsSince": "2024-11-21",
  "gzfeed": {
-  "from": "2026-11-02",
+  "from": "2026-11-09",
   "src": [
    {
     "t": "Gazette Extraordinary listing, Department of Government Printing",
@@ -3440,163 +3440,14 @@
     "by": "Sri Lanka Customs",
     "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 9 to 15 November 2026.",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048523%20%28E%29_1794310793.pdf"
-   },
-   {
-    "no": "2513/42",
-    "d": "2026-11-06",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Karainagar Pradeshiya Sabha vice chairman elected",
-    "by": "Commissioner of Local Government, Northern Province",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208141%20%28E%29_1794643140.pdf"
-   },
-   {
-    "no": "2513/38",
-    "d": "2026-11-05",
-    "kind": "Extraordinary",
-    "cat": "land",
-    "t": "Title settled for Depanama land parcel",
-    "by": "Land Title Settlement Department",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048503%20E_1794397134.pdf"
-   },
-   {
-    "no": "2513/36",
-    "d": "2026-11-05",
-    "kind": "Extraordinary",
-    "cat": "appt",
-    "t": "Ward demarcation committee for Kalmunai, Sainthamaruthu",
-    "by": "Ministry of Public Administration, Provincial Councils and Local Government",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048501%20%28E%29_1794645909.pdf"
-   },
-   {
-    "no": "2513/34",
-    "d": "2026-11-05",
-    "kind": "Extraordinary",
-    "cat": "land",
-    "t": "Kirulapone land lots to be acquired",
-    "by": "Ministry of Agriculture, Livestock, Lands and Irrigation",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48499%28E%29%20%20%5BSec.%205%5D_1794631732.pdf"
-   },
-   {
-    "no": "2513/31",
-    "d": "2026-11-05",
-    "kind": "Extraordinary",
-    "cat": "rules",
-    "t": "CINEC Campus marine engineering degree recognised",
-    "by": "Ministry of Education, Higher Education and Vocational Education",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208136%20%20%28E%29_1794643092.pdf",
-    "sum": "Entry needs three A/L science passes and an O/L English credit; first intake within one year."
-   },
-   {
-    "no": "2513/30",
-    "d": "2026-11-04",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Akkaraipattu Municipal Council vacancy filled",
-    "by": "Returning Officer, Akkaraipattu Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208135%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy%2066A%281%29%20%28b%29_1794051016.pdf"
-   },
-   {
-    "no": "2513/29",
-    "d": "2026-11-04",
-    "kind": "Extraordinary",
-    "cat": "rules",
-    "t": "National Single Window for Trade electronic transaction regulation",
-    "by": "Ministry of Digital Economy",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048495%20%28E%29_1793867806.pdf"
-   },
-   {
-    "no": "2513/28",
-    "d": "2026-11-04",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Damana Pradeshiya Sabha vacancy filled",
-    "by": "Returning Officer, Damana Pradeshiya Sabha",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208134%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy_1794050978.pdf"
-   },
-   {
-    "no": "2513/26",
-    "d": "2026-11-04",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Norwood Pradeshiya Sabha vice chairman election meeting",
-    "by": "Commissioner of Local Government, Central Province",
-    "sum": "The meeting to elect a vice chairman for Norwood Pradeshiya Sabha is set for 16 November 2026 at 11 am.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48494%28E%29%28C%29%20%20%5BIV%20-%20B%5D_1794386863.pdf"
-   },
-   {
-    "no": "2513/25",
-    "d": "2026-11-04",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Karainagar Pradeshiya Sabha chairman election meeting",
-    "by": "Commissioner of Local Government, Northern Province",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208137%20%28E%29_1794643116.pdf"
-   },
-   {
-    "no": "2513/18",
-    "d": "2026-11-03",
-    "kind": "Extraordinary",
-    "cat": "work",
-    "t": "Brick and tile wages board members appointed",
-    "by": "Ministry of Labour",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G48493%20%20%28E%29%20%5BI%20-%20I%5D%20%20%20-%20%20%5BIndustrial%20Disputes%5D_1794631633.pdf"
-   },
-   {
-    "no": "2513/12",
-    "d": "2026-11-03",
-    "kind": "Extraordinary",
-    "cat": "notice",
-    "t": "Kataragama Budget 2027 open to inspection",
-    "by": "Kataragama Pradeshiya Sabha",
-    "sum": "The draft 2027 budget can be inspected at the Sabha library from 4 to 12 November 2026.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG8132%28E%29-%20IV-B%20Kataragama%20PS_1794386975.pdf"
-   },
-   {
-    "no": "2513/07",
-    "d": "2026-11-02",
-    "kind": "Extraordinary",
-    "cat": "notice",
-    "t": "Sri Jayawardenapura Kotte Budget 2027 open to inspection",
-    "by": "Sri Jayawardenapura Kotte Municipal Council",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208075%20J%20Pura%20%28E%29_1794295613.pdf"
-   },
-   {
-    "no": "2513/05",
-    "d": "2026-11-02",
-    "kind": "Extraordinary",
-    "cat": "elect",
-    "t": "Karachchi Pradeshiya Sabha vacancy filled",
-    "by": "Returning Officer, Karachchi Pradeshiya Sabha",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208130%20%28E%29_1793955116.pdf"
-   },
-   {
-    "no": "2513/02",
-    "d": "2026-11-02",
-    "kind": "Extraordinary",
-    "cat": "tax",
-    "t": "Special commodity levy on imported rice removed",
-    "by": "Ministry of Finance, Planning and Economic Development",
-    "sum": "The special commodity levy on imported raw and parboiled rice is removed from 3 November 2026.",
-    "u": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
-   },
-   {
-    "no": "2513/01",
-    "d": "2026-11-02",
-    "kind": "Extraordinary",
-    "cat": "tax",
-    "t": "Customs rates of exchange from 2 November",
-    "by": "Sri Lanka Customs",
-    "sum": "Customs duties and charges are paid at the exchange rates in the schedule, from 2 to 8 November 2026.",
-    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/G%2048483%20%28E%29_1793697508.pdf"
    }
   ]
  },
  "posts": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "x": "",
   "wa": "",
-  "note": "No sitting and no new notices today."
+  "note": "No new record or notices since yesterday; Parliament sits today."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
@@ -3608,6 +3459,7 @@
   "2468/08": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2468-08_E_1784567756.pdf",
   "2501/88": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207908%20%28E%29_1789381225.pdf",
   "2502/21": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%207919%20I-I%20%20Custom%20%28E%29_1791353826.pdf",
-  "2508/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208048%20E%29_1791971160.pdf"
+  "2508/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208048%20E%29_1791971160.pdf",
+  "2513/02": "https://www.treasury.gov.lk/api/file/99a97bcc-d9f6-4bb7-9412-4dbd18fa8133"
  }
 }
