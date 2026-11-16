@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "bills": [
   {
    "id": "G6438",
@@ -355,9 +355,9 @@
      "New trusts must be registered with the Registrar-General within one month; foreign trusts within three months of operating here.",
      "Existing trusts must register within six months of the new section taking effect.",
      "Trustees must keep records on authors, trustees, beneficiaries and controllers for six years after involvement ends.",
+     "Changes to registered trust information must be sent to the Registrar-General within 14 working days.",
      "The Registrar-General must share trust information on request with bodies such as the Financial Intelligence Unit, Customs and Inland Revenue.",
-     "The public can inspect names and beneficial interests; more detail needs a Right to Information request.",
-     "The Registrar-General can impose penalties up to one third of the maximum fine, with appeal to the ministry Secretary."
+     "The public can inspect names and beneficial interests; more detail needs a Right to Information request."
     ],
     "who": [
      "Trustees and trust service providers",
@@ -365,9 +365,13 @@
      "Registrar-General",
      "Financial Intelligence Unit and investigators"
     ],
-    "when": "Law from certification on 5 November 2026; existing trusts then have six months to register.",
-    "note": "Passed and certified on 5 November 2026 as Act No. 28. Based on the bill as presented; the Act text and any amendments are awaited.",
+    "when": "Law from certification on 5 November 2026; existing trusts have six months from the new section's start to register.",
+    "note": "Written from the Act as certified. The bill passed without amendment on 5 November 2026.",
     "src": [
+     {
+      "t": "Trusts (Amendment) Act, No. 28 of 2026",
+      "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/PL%20-15997%20%28E%29%20Act_1794828120.pdf"
+     },
      {
       "t": "Bill text",
       "u": "https://www.parliament.lk/uploads/bills/gbills/english/6447.pdf"

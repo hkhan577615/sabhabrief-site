@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-16T07:50:00+05:30",
+ "updated": "2026-11-16T21:55:00+05:30",
  "status": {
   "date": "2026-11-16",
   "sitting": true,
-  "text": "Sitting today from 9.30 am: day three of the Budget debate. Committee stage amendments are due by 3 pm."
+  "text": "Parliament sat today for day three of the Budget debate. It sits again on Tuesday 17 November at 9.30 am."
  },
  "brief": {
   "day": {
-   "date": "2026-11-14",
-   "headline": "Budget debate enters second day",
+   "date": "2026-11-16",
+   "headline": "Budget debate reaches third day",
    "stories": [
     {
      "track": "money",
-     "date": "2026-11-14",
-     "title": "Budget debate, day two",
-     "v": "2 of 7",
+     "date": "2026-11-16",
+     "title": "Budget debate, day three",
+     "v": "3 of 7",
      "l": "second reading debate days held",
-     "line": "Debate resumes Monday 16 November; second reading vote at 6 pm on 20 November.",
+     "line": "Debate resumes Tuesday 17 November; second reading vote at 6 pm on 20 November.",
      "src": {
-      "t": "Business of the House, 14 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5547"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
       "Appropriation Bill 2027: second reading debate"
@@ -27,84 +27,84 @@
     },
     {
      "track": "oversight",
-     "date": "2026-11-14",
-     "title": "Airline recovery plan ordered",
-     "v": "30 Nov",
-     "l": "deadline for SriLankan Airlines report",
-     "line": "Oversight committee wants a cost-recovery plan for SriLankan Airlines.",
+     "date": "2026-11-16",
+     "title": "Two committee reports presented",
+     "v": "2",
+     "l": "committee reports presented",
+     "line": "Public accounts and public enterprises committees reported to the House.",
      "src": {
-      "t": "Parliament news, SriLankan Airlines five-year plan",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5548"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
-      "SriLankan Airlines recovery plan due 30 November"
+      "Public accounts and enterprises committee reports"
      ]
     },
     {
-     "track": "record",
-     "date": "2026-11-14",
-     "title": "Elephant deaths on railways",
-     "v": "81",
-     "l": "elephants hit by trains since 2020",
-     "line": "Written answer listed track, habitat and camera measures to cut deaths.",
+     "track": "oversight",
+     "date": "2026-11-16",
+     "title": "Auditor General's 2025 report",
+     "v": "5",
+     "l": "report parts presented",
+     "line": "The Speaker presented five more parts of the 2025 audit report.",
      "src": {
-      "t": "Parliament news, elephant deaths on railways",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5545"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
-      "81 elephants killed by trains since 2020"
+      "Auditor General's 2025 report: five parts"
      ]
     }
    ]
   },
   "week": {
-   "from": "2026-11-12",
-   "to": "2026-11-14",
-   "headline": "2027 Budget presented; debate under way",
+   "from": "2026-11-16",
+   "to": "2026-11-16",
+   "headline": "Budget debate continues; committees report",
    "stories": [
     {
      "track": "money",
-     "date": "2026-11-12",
-     "title": "2027 Budget presented",
-     "v": "26 days",
-     "l": "Budget debate, to 14 December",
-     "line": "Budget Speech delivered; second reading vote at 6 pm on 20 November.",
+     "date": "2026-11-16",
+     "title": "Budget debate, day three",
+     "v": "3 of 7",
+     "l": "second reading debate days held",
+     "line": "Debate resumes Tuesday 17 November; second reading vote at 6 pm on 20 November.",
      "src": {
-      "t": "Business of the House, 12 Nov",
-      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
-      "Appropriation Bill 2027: second reading"
+      "Appropriation Bill 2027: second reading debate"
      ]
     },
     {
-     "track": "law",
-     "date": "2026-11-12",
-     "title": "Court rules on three bills",
-     "v": "3",
-     "l": "bills with court determinations",
-     "line": "Cricket, counter-terrorism and immigration bills need amendments or a special majority.",
+     "track": "oversight",
+     "date": "2026-11-16",
+     "title": "Two committee reports presented",
+     "v": "2",
+     "l": "committee reports presented",
+     "line": "Public accounts and public enterprises committees reported to the House.",
      "src": {
-      "t": "Parliament news, Speaker's announcements 12 Nov",
-      "u": "https://www.parliament.lk/en/home/parliament-news/view/5539"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
-      "Supreme Court rulings on three bills"
+      "Public accounts and enterprises committee reports"
      ]
     },
     {
-     "track": "money",
-     "date": "2026-11-12",
-     "title": "Food import levies reset",
-     "v": "Rs. 60/kg",
-     "l": "levy on imported sugar",
-     "line": "New levies on sugar, chillies, sprats and Maldive fish apply from 13 November.",
+     "track": "oversight",
+     "date": "2026-11-16",
+     "title": "Auditor General's 2025 report",
+     "v": "5",
+     "l": "report parts presented",
+     "line": "The Speaker presented five more parts of the 2025 audit report.",
      "src": {
-      "t": "Special Commodity Levy order, Gazette 2514/31",
-      "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
+      "t": "Business of the House, 16 Nov",
+      "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
      },
      "refs": [
-      "Food import levies reset, Gazette 2514/31"
+      "Auditor General's 2025 report: five parts"
      ]
     }
    ]
@@ -115,7 +115,7 @@
    "k": "bh",
    "name": "Daily record",
    "gives": "Business of the House and Parliament news: what was decided",
-   "latest": "2026-11-14",
+   "latest": "2026-11-16",
    "u": "https://www.parliament.lk/en/home/business-of-the-house"
   },
   {
@@ -136,7 +136,7 @@
    "k": "hansard",
    "name": "Hansard",
    "gives": "Votes, amounts and full answers",
-   "latest": "2026-11-04",
+   "latest": "2026-11-05",
    "u": "https://www.parliament.lk/en/business-of-parliament/hansards"
   }
  ],
@@ -151,15 +151,7 @@
    "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
   },
   {
-   "date": "2026-11-16",
-   "label": "Budget amendments due, 3 pm",
-   "track": "money",
-   "note": "Deadline for Members to hand in committee stage amendments to the 2027 Budget.",
-   "bill": "G6443",
-   "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5538"
-  },
-  {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "label": "Parliament sits again",
    "track": "record"
   },
@@ -326,7 +318,7 @@
    "st": 4,
    "label": "Act No. 28 of 2026",
    "chg": "2026-11-05",
-   "dt": "Published 14 Oct · 1st reading 21 Oct · passed and certified 5 Nov · Act text awaited",
+   "dt": "Published 14 Oct · 1st reading 21 Oct · passed and certified 5 Nov · Act No. 28 printed",
    "watch": false
   },
   {
@@ -963,6 +955,14 @@
       {
        "t": "Parliament news, 2027 Budget timetable",
        "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
+      },
+      {
+       "t": "Business of the House, 16 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
+      },
+      {
+       "t": "Order Paper, 17 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24614_english_2026-11-17.pdf"
       }
      ]
     }
@@ -970,31 +970,119 @@
   },
   {
    "date": "2026-11-16",
-   "status": "agenda",
-   "chair": "",
-   "hours": "",
+   "status": "record",
+   "chair": "Speaker Dr. Jagath Wickramaratne",
+   "hours": "9.30 am to 6.42 pm",
    "headline": "Budget debate, third day",
-   "summary": "Third allotted day of the 2027 Budget debate.",
+   "summary": "Third day of the 2027 Budget debate. The public accounts and public enterprises committees presented reports, and five parts of the Auditor General's 2025 report were tabled.",
    "items": [
     {
      "track": "money",
      "title": "Appropriation Bill 2027: second reading debate",
-     "status": "Scheduled",
-     "what": "Third allotted day of the second reading debate, from 9.30 am.",
+     "status": "Debate continues",
+     "what": "Third of seven allotted days of debate; adjourned at 6.42 pm.",
+     "figs": [
+      {
+       "v": "3 of 7",
+       "l": "second reading debate days held"
+      }
+     ],
+     "points": [
+      "Debate resumes at 9.30 am on Tuesday 17 November",
+      "Second reading vote at 6 pm on 20 November"
+     ],
      "bills": [
       "G6443"
      ],
      "conf": [
       "bh"
      ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Debate continues 17 November; speeches and figures to be added from the Hansard.",
      "src": [
       {
-       "t": "Parliament news, 2027 Budget timetable",
-       "u": "https://www.parliament.lk/en/home/parliament-news/view/5532"
-      },
+       "t": "Business of the House, 16 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Public accounts and enterprises committee reports",
+     "status": "Presented",
+     "what": "The Committee on Public Accounts and the Committee on Public Enterprises each presented a report.",
+     "figs": [
       {
-       "t": "Business of the House, 14 Nov",
-       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5547"
+       "v": "2",
+       "l": "committee reports presented"
+      }
+     ],
+     "points": [
+      "Tenth Report of the Committee on Public Accounts, presented by its Chair, Kabir Hashim",
+      "Eighteenth Report of the Committee on Public Enterprises, presented by its Chair, Dr. Nishantha Samaraweera",
+      "Also tabled: steps taken on a Public Accounts report about the Ministry of Defence and its institutions"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "next": "Findings to be added when Parliament publishes the reports.",
+     "src": [
+      {
+       "t": "Business of the House, 16 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
+      }
+     ]
+    },
+    {
+     "track": "oversight",
+     "title": "Auditor General's 2025 report: five parts",
+     "status": "Presented",
+     "what": "The Speaker presented five more parts of the Auditor General's report for the 2025 financial year.",
+     "figs": [
+      {
+       "v": "5",
+       "l": "report parts presented"
+      }
+     ],
+     "points": [
+      "Second Instalment, Parts 23 and 24",
+      "Third Instalment, Part 15",
+      "Ninth Instalment, Parts 18 and 19",
+      "Annual reports tabled: Distance Learning Centre Ltd (2023) and Petroleum Development Authority (2024)"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Business of the House, 16 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "Raised: cybersecurity, land release in North and East",
+     "status": "Questions",
+     "what": "A question on cybersecurity was answered and an adjournment motion on land release was moved.",
+     "points": [
+      "The Deputy Minister of Digital Economy answered a question on cybersecurity and protection of public funds, banks and critical infrastructure",
+      "Adjournment motion on releasing people's lands in the Northern and Eastern Provinces, moved by Thurairasa Ravikaran",
+      "Six petitions referred to the Committee on Public Petitions"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "await": [
+      "hansard"
+     ],
+     "next": "Answers to be added from the Hansard.",
+     "src": [
+      {
+       "t": "Business of the House, 16 Nov",
+       "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5552"
       }
      ]
     }
@@ -1006,7 +1094,7 @@
    "chair": "Speaker Dr. Jagath Wickramaratne",
    "hours": "9.30 am to 6.41 pm",
    "headline": "Budget debate, second day",
-   "summary": "Saturday sitting on the 2027 Budget. A committee asked SriLankan Airlines for a cost-recovery plan; a written answer gave elephant deaths on railways.",
+   "summary": "Saturday sitting on the 2027 Budget. A committee asked SriLankan Airlines for a cost-recovery plan; answers gave figures on elephant deaths, volunteer teachers and rehabilitation.",
    "items": [
     {
      "track": "money",
@@ -1032,7 +1120,7 @@
      "await": [
       "hansard"
      ],
-     "next": "Debate continues 16 November; speeches and figures to be added from the Hansard.",
+     "next": "Debate continued on 16 November; speeches and figures to be added from the Hansard.",
      "src": [
       {
        "t": "Business of the House, 14 Nov",
@@ -1107,6 +1195,70 @@
       {
        "t": "Parliament news, elephant deaths on railways",
        "u": "https://www.parliament.lk/en/home/parliament-news/view/5545"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "4,700 volunteer teachers to become Teacher Assistants",
+     "status": "Answer",
+     "what": "The Deputy Minister of Education and Higher Education said Cabinet approved appointing serving volunteer teachers as Teacher Assistants.",
+     "figs": [
+      {
+       "v": "4,700",
+       "l": "volunteer teachers approved for appointment"
+      },
+      {
+       "v": "462",
+       "l": "of them, Northern and Eastern Provinces"
+      }
+     ],
+     "points": [
+      "Given in reply to an oral question",
+      "Covers volunteer teachers already serving in schools across the provinces",
+      "No further volunteer teachers will be taken into the teaching service, the Deputy Minister said"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, volunteer teachers",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5549"
+      },
+      {
+       "t": "Order Paper, 14 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24587_english_2026-11-14.pdf"
+      }
+     ]
+    },
+    {
+     "track": "record",
+     "title": "12,196 people rehabilitated in North and East",
+     "status": "Answer",
+     "what": "The Minister of Public Security and Parliamentary Affairs gave the number rehabilitated and reintegrated after arrest or surrender.",
+     "figs": [
+      {
+       "v": "12,196",
+       "l": "people rehabilitated and reintegrated"
+      }
+     ],
+     "points": [
+      "Covers people arrested or who surrendered during and after the conflict in the Northern and Eastern Provinces",
+      "Programmes listed: counselling, basic education, language and vocational training",
+      "A tabled report lists livelihood aid including loans, houses and equipment"
+     ],
+     "conf": [
+      "bh"
+     ],
+     "src": [
+      {
+       "t": "Parliament news, rehabilitation figures",
+       "u": "https://www.parliament.lk/en/home/parliament-news/view/5550"
+      },
+      {
+       "t": "Order Paper, 14 Nov",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24587_english_2026-11-14.pdf"
       }
      ]
     }
@@ -1543,21 +1695,18 @@
    "chair": "Speaker Dr. Jagath Wickramaratne",
    "hours": "to 5.58 pm",
    "headline": "Trusts bill passed; Air Force estimate approved",
-   "summary": "The House approved the Trusts (Amendment) Bill and the Air Force supplementary estimate of Rs. 4.26bn. It next sits on 6 November.",
+   "summary": "The House passed the Trusts (Amendment) Bill without amendment and approved the Air Force supplementary estimate of Rs. 4.26bn, both without a division.",
    "items": [
     {
      "track": "law",
      "title": "Trusts (Amendment) Bill",
      "status": "Passed, certified",
-     "what": "Read a second and third time and certified by the Speaker the same day, as Act No. 28 of 2026.",
+     "what": "Read a second and third time without amendment and certified the same day, as Act No. 28 of 2026.",
      "conf": [
       "bh",
-      "act"
-     ],
-     "await": [
+      "act",
       "hansard"
      ],
-     "next": "Vote and any amendments to be added from the Hansard",
      "bills": [
       "G6447"
      ],
@@ -1577,6 +1726,14 @@
       {
        "t": "Acts listing",
        "u": "https://www.parliament.lk/en/business-of-parliament/acts-listing"
+      },
+      {
+       "t": "Hansard, 5 Nov 2026",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24613_english_2026-11-05.pdf"
+      },
+      {
+       "t": "Trusts (Amendment) Act, No. 28 of 2026",
+       "u": "https://documents.gov.lk/api/content-file-proxy?file=/act-content/PL%20-15997%20%28E%29%20Act_1794828120.pdf"
       }
      ],
      "figs": [
@@ -1584,6 +1741,11 @@
        "v": "Act No. 28",
        "l": "Act number, 2026"
       }
+     ],
+     "points": [
+      "Passed without a division",
+      "Clauses 1 to 10 agreed in committee; bill reported without amendment",
+      "Act text printed by the Government Printer"
      ]
     },
     {
@@ -1594,20 +1756,24 @@
      "figs": [
       {
        "v": "Rs. 4.26bn",
-       "l": "extra spending sought"
+       "l": "extra spending approved"
+      },
+      {
+       "v": "4",
+       "l": "unmanned aircraft to be bought"
       }
      ],
      "points": [
-      "Debate and approval set for 5 Nov",
-      "Record lists Head 224, Programme 01"
+      "Presented 3 Nov; debated and approved 5 Nov",
+      "Approved without a division",
+      "Head 224, Programme 01",
+      "The House was told two aircraft can fly up to 14 hours and two up to 20 hours",
+      "The House was told the cost is met from suspended helicopter maintenance funds"
      ],
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Vote count to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 5 Nov",
@@ -1616,6 +1782,10 @@
       {
        "t": "Parliament news, Supplementary Estimate No. 8",
        "u": "https://www.parliament.lk/en/home/parliament-news/view/5519"
+      },
+      {
+       "t": "Hansard, 5 Nov 2026",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24613_english_2026-11-05.pdf"
       }
      ]
     },
@@ -1623,18 +1793,19 @@
      "track": "oversight",
      "title": "Committee reports presented",
      "status": "Presented",
-     "what": "Reports of the Public Finance Committee and the Governance, Justice and Civil Protection oversight committee were presented.",
+     "what": "The Public Finance Committee reported on the Air Force supplementary sum; an oversight committee on governance and justice also reported.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Contents to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 5 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      },
+      {
+       "t": "Hansard, 5 Nov 2026",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24613_english_2026-11-05.pdf"
       }
      ]
     },
@@ -1659,17 +1830,36 @@
      "status": "Recorded",
      "what": "Ten petitions went to the Public Petitions Committee; ministers answered questions on the Mannar-Rameswaram ferry and exports.",
      "conf": [
-      "bh"
-     ],
-     "await": [
+      "bh",
       "hansard"
      ],
-     "next": "Answers to be added from the Hansard",
      "src": [
       {
        "t": "Business of the House, 5 Nov",
        "u": "https://www.parliament.lk/en/home/business-of-the-house/view/5522"
+      },
+      {
+       "t": "Hansard, 5 Nov 2026",
+       "u": "https://www.parliament.lk/uploads/businessdocs/english/24613_english_2026-11-05.pdf"
       }
+     ],
+     "figs": [
+      {
+       "v": "US$ 16.0bn",
+       "l": "exports, January to September 2026"
+      },
+      {
+       "v": "US$ 10.75bn",
+       "l": "of which goods"
+      },
+      {
+       "v": "US$ 5.26bn",
+       "l": "of which services"
+      }
+     ],
+     "points": [
+      "Export figures given in a statement by the Deputy Minister of Finance and Planning",
+      "Investment approvals inside export zones are promised within 14 days"
      ]
     }
    ]
@@ -3404,6 +3594,24 @@
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208156%20%28E%29%20%20IV%20%28B%29%20Filling%20of%20a%20Vacancy%2066A%281%29%20%28b%29_1794654667.pdf"
    },
    {
+    "no": "2514/33",
+    "d": "2026-11-12",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Walapane Pradeshiya Sabha vacancy filled",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208151%20%28E%29_1794817738.pdf"
+   },
+   {
+    "no": "2514/32",
+    "d": "2026-11-12",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Bope Poddala Pradeshiya Sabha vacancy filled",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208150%20%28E%29_1794817681.pdf"
+   },
+   {
     "no": "2514/31",
     "d": "2026-11-12",
     "kind": "Extraordinary",
@@ -3414,6 +3622,24 @@
     "u": "https://www.treasury.gov.lk/api/file/717dd36e-752f-4aeb-af87-e4bd49ef67d7"
    },
    {
+    "no": "2514/30",
+    "d": "2026-11-11",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Walapane Pradeshiya Sabha vacancy filled",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208149%20%28E%29_1794817633.pdf"
+   },
+   {
+    "no": "2514/29",
+    "d": "2026-11-11",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Thawalama Pradeshiya Sabha member's seat vacated",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208147%20%28E%29_1794828014.pdf"
+   },
+   {
     "no": "2514/28",
     "d": "2026-11-11",
     "kind": "Extraordinary",
@@ -3421,6 +3647,15 @@
     "t": "Thawalama Pradeshiya Sabha member's seat vacated",
     "by": "Returning Officer, Thawalama Pradeshiya Sabha",
     "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208146%20%28E%29_1794654620.pdf"
+   },
+   {
+    "no": "2514/26",
+    "d": "2026-11-11",
+    "kind": "Extraordinary",
+    "cat": "elect",
+    "t": "Manmunai South West Pradeshiya Sabha vacancy filled",
+    "by": "Election Commission",
+    "u": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/PG%208143%20%28E%29_1794817590.pdf"
    },
    {
     "no": "2514/02",
@@ -3445,9 +3680,8 @@
  },
  "posts": {
   "date": "2026-11-16",
-  "x": "",
-  "wa": "",
-  "note": "No new record or notices since yesterday; Parliament sits today."
+  "x": "Parliament held day three of seven in the 2027 Budget second reading debate on 16 November. The vote is at 6 pm on 20 November. The public accounts and public enterprises committees each presented a report.",
+  "wa": "Budget debate: day three of seven\n- Parliament sat from 9.30 am to 6.42 pm on 16 November for the 2027 Budget second reading debate.\n- The Committee on Public Accounts presented its tenth report and the Committee on Public Enterprises its eighteenth.\n- Five more parts of the Auditor General's 2025 report were presented.\n- The Trusts (Amendment) Act, No. 28 of 2026, is now printed; trusts must register with the Registrar-General.\nNext: the debate resumes at 9.30 am on 17 November. The second reading vote is at 6 pm on 20 November."
  },
  "gzlinks": {
   "2384/27": "https://documents.gov.lk/api/content-file-proxy?file=/extra-gazette-content/2384-27_E_1784565914.pdf",
