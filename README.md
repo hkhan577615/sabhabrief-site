@@ -11,7 +11,7 @@ Static site. No build step. Upload this folder as it is.
 - Government jobs are a separate site, closingdate.lk, in its own repository (hkhan577615/closingdate.lk).
   Sabha Brief's old /jobs.html, /job/* and /apply.html addresses redirect there (netlify.toml).
 - sitemap.xml: Sabha Brief's four pages; job pages are in closingdate.lk's sitemap
-- post.html: unlisted page showing the day's draft X and WhatsApp channel posts (daily.json posts) with Copy buttons; nothing is posted automatically
+- post.html: unlisted page showing the day's draft X and WhatsApp channel posts (daily.json posts) with Copy buttons; X and WhatsApp are not posted automatically (Telegram is, see below)
 - daily.json, library.json: the data, replaced every night
 - site.css, site.js, favicon.svg, robots.txt
 - netlify.toml: tells Netlify to serve the JSON files fresh
@@ -32,3 +32,26 @@ package.json holds its one dependency (unpdf, to read PDFs); Netlify installs it
 ## Acts index
 statutes.json is the reference index of Acts and Ordinances (with summaries of key business Acts).
 It is built from official listings by a separate task and is not touched by the nightly update.
+
+
+## Telegram channel (daily message)
+netlify/functions/telegram-daily.mjs is a Netlify scheduled function. Every day at 7.30 am Sri Lanka time
+(02:00 UTC, set in its `config.schedule`) it reads the live daily.json, library.json and statutes.json and
+posts one message to the Telegram channel. The message is built in netlify/lib/telegram.mjs:
+- Last night's update is fresh (posts.date is today or yesterday): that update, from posts.tg if the nightly
+  task writes one, otherwise posts.wa, otherwise brief.day. Same format: a title line, "- " bullets, "Next:".
+- Sunday: the week in review (brief.week), with a nudge to forward it.
+- Parliament sits today but the update is not in: today's agenda (days) and what is coming up (keyDates).
+- Otherwise a rotating feature: a bill explained (library.json, watched bills first), the week's Gazette
+  notices (gzfeed), a key Act in plain words (statutes.json) with the document checker, or a term in plain words.
+Each message has buttons back to the right page, tagged utm_source=telegram&utm_content=<kind>.
+
+Setup, once:
+1. In Telegram, create a bot with @BotFather and copy its token. Add the bot to the channel as an admin
+   allowed to post messages.
+2. In Netlify, Site configuration > Environment variables, add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID
+   (the channel's @username, or its numeric id starting -100 for a private channel). Redeploy.
+3. Optional: TELEGRAM_DRY_RUN=1 logs the message in the function log instead of sending it.
+
+Preview locally: `node scripts/telegram.mjs` (today), `--date 2026-11-22`, `--all 14` (two weeks of rotation).
+Send one now: `TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... node scripts/telegram.mjs --send`.
